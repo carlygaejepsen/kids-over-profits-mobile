@@ -1,0 +1,310 @@
+{
+    "api_version": 1,
+    "id": 2,
+    "name": "Ascent Companies",
+    "full_name": "Ascent Companies",
+    "url": "https://example.test/operator/ascent-companies/",
+    "aka": [],
+    "current_name": "",
+    "status": "Active",
+    "facts": [
+        {
+            "label": "Headquarters",
+            "value": "Enterprise, UT"
+        },
+        {
+            "label": "Operating",
+            "value": "1993-Present"
+        }
+    ],
+    "parents": [],
+    "subsidiaries": [],
+    "facilities": [
+        {
+            "id": 10335,
+            "name": "Discovery Ranch",
+            "place": "Mapleton, Utah",
+            "status": "Open",
+            "years": "2005-present",
+            "url": "https://example.test/discovery-ranch/",
+            "has_page": true,
+            "start_year": 2005,
+            "end_year": 0,
+            "own_years": false
+        },
+        {
+            "id": 10334,
+            "name": "Discovery Ranch South",
+            "place": "Cedar City, Utah",
+            "status": "Open",
+            "years": "2013-present",
+            "url": "https://example.test/facility/discovery-ranch-south-ut/",
+            "has_page": true,
+            "start_year": 2013,
+            "end_year": 0,
+            "own_years": false
+        },
+        {
+            "id": 10337,
+            "name": "OASIS Ascent",
+            "place": "Millcreek, Utah",
+            "status": "Open",
+            "years": "2021-present",
+            "url": "https://example.test/facility/oasis-ascent-ut/",
+            "has_page": true,
+            "start_year": 2021,
+            "end_year": 0,
+            "own_years": false
+        },
+        {
+            "id": 10336,
+            "name": "Oxbow Academy",
+            "place": "Mt. Pleasant, Utah",
+            "status": "Open",
+            "years": "2006-present",
+            "url": "https://example.test/facility/oxbow-academy-ut/",
+            "has_page": true,
+            "start_year": 2006,
+            "end_year": 0,
+            "own_years": false
+        },
+        {
+            "id": 10338,
+            "name": "RedCliff Ascent",
+            "place": "Enterprise, Utah",
+            "status": "Open",
+            "years": "1993-present",
+            "url": "https://example.test/facility/redcliff-ascent-ut/",
+            "has_page": true,
+            "start_year": 1993,
+            "end_year": 0,
+            "own_years": false
+        },
+        {
+            "id": 10339,
+            "name": "ThreePeaks Ascent",
+            "place": "Enterprise, Utah",
+            "status": "Open",
+            "years": "2023-present",
+            "url": "https://example.test/facility/threepeaks-ascent-ut/",
+            "has_page": true,
+            "start_year": 2023,
+            "end_year": 0,
+            "own_years": false
+        },
+        {
+            "id": 10333,
+            "name": "Discovery Academy",
+            "place": "Provo, Utah",
+            "status": "Closed",
+            "years": "1989-2022",
+            "url": "https://example.test/facility/discovery-academy-ut/",
+            "has_page": true,
+            "start_year": 1989,
+            "end_year": 2022,
+            "own_years": false
+        }
+    ],
+    "program_tree": [
+        {
+            "id": 10335,
+            "name": "Discovery Ranch",
+            "place": "Mapleton, Utah",
+            "status": "Open",
+            "years": "2005-present",
+            "url": "https://example.test/discovery-ranch/",
+            "has_page": true,
+            "start_year": 2005,
+            "end_year": 0,
+            "own_years": false,
+            "homes": []
+        },
+        {
+            "id": 10334,
+            "name": "Discovery Ranch South",
+            "place": "Cedar City, Utah",
+            "status": "Open",
+            "years": "2013-present",
+            "url": "https://example.test/facility/discovery-ranch-south-ut/",
+            "has_page": true,
+            "start_year": 2013,
+            "end_year": 0,
+            "own_years": false,
+            "homes": []
+        },
+        {
+            "id": 10337,
+            "name": "OASIS Ascent",
+            "place": "Millcreek, Utah",
+            "status": "Open",
+            "years": "2021-present",
+            "url": "https://example.test/facility/oasis-ascent-ut/",
+            "has_page": true,
+            "start_year": 2021,
+            "end_year": 0,
+            "own_years": false,
+            "homes": []
+        },
+        {
+            "id": 10336,
+            "name": "Oxbow Academy",
+            "place": "Mt. Pleasant, Utah",
+            "status": "Open",
+            "years": "2006-present",
+            "url": "https://example.test/facility/oxbow-academy-ut/",
+            "has_page": true,
+            "start_year": 2006,
+            "end_year": 0,
+            "own_years": false,
+            "homes": []
+        },
+        {
+            "id": 10338,
+            "name": "RedCliff Ascent",
+            "place": "Enterprise, Utah",
+            "status": "Open",
+            "years": "1993-present",
+            "url": "https://example.test/facility/redcliff-ascent-ut/",
+            "has_page": true,
+            "start_year": 1993,
+            "end_year": 0,
+            "own_years": false,
+            "homes": []
+        },
+        {
+            "id": 10339,
+            "name": "ThreePeaks Ascent",
+            "place": "Enterprise, Utah",
+            "status": "Open",
+            "years": "2023-present",
+            "url": "https://example.test/facility/threepeaks-ascent-ut/",
+            "has_page": true,
+            "start_year": 2023,
+            "end_year": 0,
+            "own_years": false,
+            "homes": []
+        },
+        {
+            "id": 10333,
+            "name": "Discovery Academy",
+            "place": "Provo, Utah",
+            "status": "Closed",
+            "years": "1989-2022",
+            "url": "https://example.test/facility/discovery-academy-ut/",
+            "has_page": true,
+            "start_year": 1989,
+            "end_year": 2022,
+            "own_years": false,
+            "homes": []
+        }
+    ],
+    "open_count": 6,
+    "place_count": 1,
+    "lawsuits": [
+        {
+            "case_name": "Liparote v. Discovery Ranch, Inc. et al.",
+            "case_number": "2:26-cv-00503-JNP-DBP",
+            "court": "United States District Court for the District of Utah, Central Division",
+            "year": "2026",
+            "status": "Unknown",
+            "outcome": "",
+            "summary": "Plaintiff Landen Giovanni Liparote alleges that during a three‑month placement at Discovery Ranch for Boys in Utah, he experienced repeated sexual assaults, forced unpaid labor, food deprivation, and other mistreatment. The defendants, including the facility operators and a therapist, are accused of negligence, fraud, and violations of federal trafficking statutes. The complaint seeks compensation for psychological injury and other damages resulting from the alleged conduct.",
+            "by_name": false,
+            "facility_ids": [
+                10335
+            ]
+        },
+        {
+            "case_name": "Frederic Yeomans IV v. Discovery Ranch, Inc.",
+            "case_number": "",
+            "court": "Fourth Judicial District Court, Utah County, Spanish Fork Division",
+            "year": "2017",
+            "status": "Unknown",
+            "outcome": "",
+            "summary": "Frederic Yeomans IV, an Arizona resident, filed a complaint against Discovery Ranch, Inc., a Utah residential treatment facility. The plaintiff alleges that the facility failed to adequately screen and supervise another resident, resulting in repeated sexual assault of the plaintiff while enrolled. The complaint asserts claims of negligence, negligent infliction of emotional distress, medical negligence, and sexual abuse. The plaintiff seeks relief for physical and psychological harm.",
+            "by_name": false,
+            "facility_ids": [
+                10335
+            ]
+        },
+        {
+            "case_name": "Silvers v. Discovery Ranch Academy, et al.",
+            "case_number": "",
+            "court": "",
+            "year": "",
+            "status": "Filed",
+            "outcome": "",
+            "summary": "The parents of 17-year-old Biruk Silvers sued Discovery Ranch Academy in Utah, alleging staff negligence led to their son's death in November 2024. Biruk had shared suicidal thoughts with his psychiatrist and disclosed dangerous oxygen-deprivation behavior to a therapist, yet staff allowed him to be alone and failed to restrict access to harmful items, including a belt. A state investigation found Discovery Ranch violated its own suicide prevention policies, failed to create a care plan, and did not provide adequate supervision; the facility was fined but remains licensed. The suit also names the University of Utah (employer of Biruk's psychiatrist) and Pilcrow Advisors, the educational consultant that recommended the program. Reported by Jessica Schreifels.",
+            "by_name": false,
+            "facility_ids": [
+                10335
+            ]
+        }
+    ],
+    "memorials": [
+        {
+            "name": "Biruk Silvers",
+            "age": "17",
+            "program": "Discovery Ranch",
+            "date_label": "November 5, 2024",
+            "cause": "Died by suicide",
+            "kop_url": "https://kidsoverprofits.org/document-library-discovery-ranch/",
+            "facility_id": 10335
+        }
+    ],
+    "websites": [],
+    "notes": [],
+    "timeline": [],
+    "people": {
+        "leaders": [],
+        "others": []
+    },
+    "summary": "Ascent Companies is a parent company based in Enterprise, UT. Kids Over Profits has records of 7 programs it has run in Utah, 6 of them open.",
+    "index_url": "https://example.test/operator/",
+    "network_url": "https://example.test/network-map/#open=ascent-companies",
+    "updated_label": "October 2, 2026",
+    "news": [
+        {
+            "id": 111,
+            "title": "AP investigation: Adopted kids confined in private for-profit facilities",
+            "outlet": "AP News",
+            "date": "2026-04-28",
+            "date_label": "Apr 28, 2026",
+            "url": "https://apnews.com/article/adopted-children-boarding-schools-treatment-investigation-e5d8dab2e4db1f2f4c5abbfaf0d97c52?utm_source=reddit&utm_medium=share",
+            "type": "expose",
+            "summary": "This Associated Press investigation uncovers a \"shadow orphanage system\" where adopted children are disproportionately placed in for-profit residential treatment facilities. These institutions often market themselves to families by misusing the diagnosis of Reactive Attachment Disorder to justify expensive and unregulated \"tough-love\" programs.\n\nRather than finding support, many children experience systemic abuse, isolation, and neglect in environments focused on profit margins. The report emphasizes that these institutional settings often cause more harm than healing, failing the vulnerable children they were meant to protect.",
+            "image": null,
+            "about": "facility"
+        },
+        {
+            "id": 439,
+            "title": "Parents say Discovery Ranch Academy’s negligence led to their son’s death in new lawsuit",
+            "outlet": "Salt Lake Tribune",
+            "date": "2025-05-17",
+            "date_label": "May 17, 2025",
+            "url": "https://www.sltrib.com/news/health/2025/05/17/parents-sue-utahs-discovery-ranch/",
+            "type": "lawsuit",
+            "summary": "The parents of 17-year-old Biruk Silvers have filed a lawsuit against Discovery Ranch Academy in Utah, alleging that negligence by staff led to their son’s death in November 2024. Biruk had shared suicidal thoughts with his psychiatrist and disclosed to a therapist that he had engaged in a dangerous behavior involving oxygen deprivation. Despite these warnings, staff allowed him to be alone and failed to restrict access to potentially harmful items, including a belt.\n\nA state investigation found that Discovery Ranch violated its own suicide prevention policies, failed to create a care plan, and did not provide adequate supervision. The facility was fined but remains licensed.\n\nThe lawsuit also names the University of Utah, which employs Biruk’s psychiatrist, and Pilcrow Advisors, the educational consulting company that recommended the program. The family says they raised concerns about Biruk’s well-being in the days before his death but were told not to withdraw him from the program.",
+            "image": null,
+            "about": "facility"
+        },
+        {
+            "id": 429,
+            "title": "Their kids died in Utah teen treatment programs. Now, these parents are asking Utah lawmakers to beef up oversight.",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2025-02-21",
+            "date_label": "Feb 21, 2025",
+            "url": "https://www.sltrib.com/news/health/2025/02/21/troubled-teen-industry-utah/",
+            "type": "expose",
+            "summary": "Parents of teens who died in Utah treatment facilities spoke to lawmakers in support of SB297, a bill to strengthen oversight of the troubled teen industry. Dean Goodridge described how his daughter Taylor died at Diamond Ranch Academy after staff failed to get her medical help for a treatable infection. Katy Silvers said her son Biruk died by suicide at Discovery Ranch after telling his therapist he had a detailed plan. The program never informed his family. Both parents said their children could have been saved if someone had acted.\n\nSB297 would fund an independent ombudsman to investigate complaints and create an advisory board to review whether facilities are admitting youth they are equipped to serve. Primary Children’s Hospital reported treating 169 out-of-state children from Utah programs in 2024, leading to a shortage of beds for local kids. The average stay for those out-of-state youth was 30 percent longer. One child lived in the hospital for five months, blocking care for 22 Utah patients. Although some families defended the programs, the Senate Judiciary Committee voted unanimously to move the bill forward.",
+            "image": null,
+            "about": "facility"
+        }
+    ],
+    "history": null,
+    "documents": {
+        "folder_id": 2345,
+        "program_total": 66,
+        "url": "https://example.test/operator/ascent-companies/#documents"
+    }
+}

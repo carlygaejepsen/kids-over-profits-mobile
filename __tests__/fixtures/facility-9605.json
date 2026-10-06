@@ -1,0 +1,525 @@
+{
+    "api_version": 1,
+    "id": 9605,
+    "slug": "canyon-state-academy-az",
+    "url": "https://example.test/facility/canyon-state-academy-az/",
+    "name": "Canyon State Academy",
+    "unique_name": "Canyon State Academy",
+    "current_name": "",
+    "formerly": [
+        "Arizona Boys Ranch"
+    ],
+    "aka": [],
+    "status": "Open",
+    "end_year": "",
+    "place": "Queen Creek, Arizona",
+    "city": "Queen Creek",
+    "state_code": "AZ",
+    "state_name": "Arizona",
+    "country": "United States",
+    "hub_name": "Arizona",
+    "hub_url": "",
+    "operator": {
+        "name": "Rite of Passage, Inc.",
+        "url": "https://example.test/operator/rite-of-passage-inc/"
+    },
+    "siblings": [
+        {
+            "name": "Daytona Juvenile Residential Facility",
+            "place": "Daytona Beach, Florida",
+            "status": "Transferred",
+            "url": "https://example.test/facility/daytona-juvenile-residential-facility-fl/"
+        },
+        {
+            "name": "Falcon Ridge Ranch",
+            "place": "Virgin, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/falcon-ridge-ranch-ut/"
+        },
+        {
+            "name": "Gulf Coast Trades Center",
+            "place": "New Waverly, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/gulf-coast-trades-center-tx/"
+        },
+        {
+            "name": "JoAnn Bridges Academy",
+            "place": "Greenville, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/joann-bridges-academy-fl/"
+        },
+        {
+            "name": "Lake Granbury Youth Services",
+            "place": "Granbury, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/lake-granbury-youth-services-tx/"
+        },
+        {
+            "name": "Lava Heights Academy",
+            "place": "Toquerville, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/lava-heights-academy-ut/"
+        },
+        {
+            "name": "Monarch Academy for Girls",
+            "place": "Denison, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/monarch-academy-for-girls-tx/"
+        },
+        {
+            "name": "Mt. Lassen Treatment Center",
+            "place": "San Andreas, California",
+            "status": "Open",
+            "url": "https://example.test/facility/mt-lassen-treatment-center-ca/"
+        },
+        {
+            "name": "Norris Academy",
+            "place": "Andersonville, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/norris-academy-tn/"
+        },
+        {
+            "name": "Oak Grove Academy",
+            "place": "Jasper, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/oak-grove-academy-fl/"
+        },
+        {
+            "name": "Palm Beach Youth Academy",
+            "place": "West Palm Beach, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/palm-beach-youth-academy-fl/"
+        },
+        {
+            "name": "Pearl Haven",
+            "place": "O’ahu, Hawaii",
+            "status": "Open",
+            "url": "https://example.test/facility/pearl-haven-hi/"
+        },
+        {
+            "name": "ROP ATCS Sierra Ridge Treatment Center",
+            "place": "San Andreas, California",
+            "status": "Closed",
+            "url": "https://example.test/facility/rop-atcs-sierra-ridge-treatment-center-ca/"
+        },
+        {
+            "name": "Sierra Sage Treatment Center",
+            "place": "Minden, Nevada",
+            "status": "Open",
+            "url": "https://example.test/facility/sierra-sage-treatment-center-nv/"
+        },
+        {
+            "name": "Silver State Academy",
+            "place": "Yerington, Nevada",
+            "status": "Closed",
+            "url": "https://example.test/facility/silver-state-academy-nv/"
+        },
+        {
+            "name": "The Oaks",
+            "place": "Brownwood, Texas",
+            "status": "Unknown",
+            "url": "https://example.test/facility/the-oaks-tx/"
+        },
+        {
+            "name": "Uta Halee Academy",
+            "place": "Omaha, Nebraska",
+            "status": "Open",
+            "url": "https://example.test/facility/uta-halee-academy-ne/"
+        },
+        {
+            "name": "Walton Academy for Growth and Change",
+            "place": "DeFuniak Springs, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/walton-academy-for-growth-and-change-fl/"
+        },
+        {
+            "name": "Yosemite Treatment Center",
+            "place": "San Andreas, California",
+            "status": "Open",
+            "url": "https://example.test/facility/yosemite-treatment-center-ca/"
+        }
+    ],
+    "program_homes": null,
+    "home_of": null,
+    "addresses": [
+        "20061 S Rittenhouse Rd, Queen Creek, AZ 85142"
+    ],
+    "former_locations": [],
+    "operated": "2000 to present",
+    "summary": "Canyon State Academy is a program in Queen Creek, Arizona, operated by Rite of Passage, Inc. It has operated since 2000.",
+    "facts": [
+        {
+            "label": "Operated",
+            "value": "2000 to present"
+        },
+        {
+            "label": "Operator",
+            "value": "Rite of Passage, Inc."
+        }
+    ],
+    "fact_sources": [],
+    "practices": [],
+    "incidents": [],
+    "staff": {
+        "administrator": [
+            {
+                "text": "Brian Heath (Director)",
+                "source": "Network map",
+                "cite": "Kids Over Profits network map",
+                "url": "https://example.test/network-map/#open=brian-heath",
+                "name": "Brian Heath",
+                "role": "Director",
+                "career": [
+                    {
+                        "role": "exec director",
+                        "place": "Rite of Passage, Inc",
+                        "years": "",
+                        "url": "https://example.test/operator/rite-of-passage-inc/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "James Bednark (President)",
+                "source": "Network map",
+                "cite": "Kids Over Profits network map",
+                "url": "https://example.test/network-map/#open=james-bednark",
+                "name": "James Bednark",
+                "role": "President",
+                "career": [
+                    {
+                        "role": "president",
+                        "place": "Rite of Passage, Inc",
+                        "years": "",
+                        "url": "https://example.test/operator/rite-of-passage-inc/"
+                    }
+                ],
+                "from_map": true
+            }
+        ]
+    },
+    "notes": [],
+    "field_notes": [],
+    "testimony": [],
+    "forum": [],
+    "videos": [
+        {
+            "provider": "youtube",
+            "id": "DGjk9j9509o",
+            "title": "The Story of Nicholas Contreraz (1982-1998)",
+            "url": "https://youtu.be/DGjk9j9509o",
+            "source": "r/troubledteens wiki: page \"Canyon State Academy\" (as of 2025-12-18)",
+            "thumb": "https://i.ytimg.com/vi/DGjk9j9509o/hqdefault.jpg"
+        },
+        {
+            "provider": "youtube",
+            "id": "YoWy06xCTGQ",
+            "title": "Student dead, two hospitalized amid possible overdose at Canyon State Academy (2022-10-04)",
+            "url": "https://www.youtube.com/watch?v=YoWy06xCTGQ",
+            "source": "SCIAD NET, the WWASP Survivor Truth archive",
+            "thumb": "https://i.ytimg.com/vi/YoWy06xCTGQ/hqdefault.jpg"
+        },
+        {
+            "provider": "youtube",
+            "id": "yTs0om8kRRc",
+            "title": "Police records: Assaults on students at Arizona school (2023-07-19)",
+            "url": "https://youtu.be/yTs0om8kRRc",
+            "source": "SCIAD NET, the WWASP Survivor Truth archive",
+            "thumb": "https://i.ytimg.com/vi/yTs0om8kRRc/hqdefault.jpg"
+        }
+    ],
+    "profile_links": [
+        {
+            "url": "https://web.archive.org/web/http://www.canyonstateacademy.com/csa/site/default.asp",
+            "label": "canyonstateacademy.com (archived copy)",
+            "live_url": "http://www.canyonstateacademy.com/csa/site/default.asp",
+            "go_url": "https://example.test/go/?u=http%3A%2F%2Fwww.canyonstateacademy.com%2Fcsa%2Fsite%2Fdefault.asp"
+        },
+        {
+            "url": "https://web.archive.org/web/http://nospank.net/n-b38.htm",
+            "label": "nospank.net (archived copy)",
+            "live_url": "http://nospank.net/n-b38.htm",
+            "go_url": "https://example.test/go/?u=http%3A%2F%2Fnospank.net%2Fn-b38.htm"
+        },
+        {
+            "url": "https://web.archive.org/web/http://www.heal-online.org/abrcsaroppolicecalls.pdf",
+            "label": "heal-online.org (archived copy)",
+            "live_url": "http://www.heal-online.org/abrcsaroppolicecalls.pdf",
+            "go_url": "https://example.test/go/?u=http%3A%2F%2Fwww.heal-online.org%2Fabrcsaroppolicecalls.pdf"
+        },
+        {
+            "url": "https://web.archive.org/web/http://www.heal-online.org/canyon.htm",
+            "label": "heal-online.org (archived copy)",
+            "live_url": "http://www.heal-online.org/canyon.htm",
+            "go_url": "https://example.test/go/?u=http%3A%2F%2Fwww.heal-online.org%2Fcanyon.htm"
+        },
+        {
+            "url": "https://web.archive.org/web/http://www.nospank.net/n-d14.htm",
+            "label": "nospank.net (archived copy)",
+            "live_url": "http://www.nospank.net/n-d14.htm",
+            "go_url": "https://example.test/go/?u=http%3A%2F%2Fwww.nospank.net%2Fn-d14.htm"
+        },
+        {
+            "url": "https://web.archive.org/web/https://nospank.net/n-b39.htm",
+            "label": "nospank.net (archived copy)",
+            "live_url": "https://nospank.net/n-b39.htm",
+            "go_url": "https://example.test/go/?u=https%3A%2F%2Fnospank.net%2Fn-b39.htm"
+        },
+        {
+            "url": "https://web.archive.org/web/https://tucson.com/news/11-students-arrested-after-queen-creek-brawl/article_c3364280-3ada-55c0-a543-e99935b5910b.html",
+            "label": "tucson.com (archived copy)",
+            "live_url": "https://tucson.com/news/11-students-arrested-after-queen-creek-brawl/article_c3364280-3ada-55c0-a543-e99935b5910b.html",
+            "go_url": "https://example.test/go/?u=https%3A%2F%2Ftucson.com%2Fnews%2F11-students-arrested-after-queen-creek-brawl%2Farticle_c3364280-3ada-55c0-a543-e99935b5910b.html"
+        }
+    ],
+    "resources": [],
+    "resource_links": [
+        {
+            "kind": "government",
+            "label": "Government records",
+            "links": [
+                {
+                    "url": "https://medlineplus.gov/ency/article/000123.htm",
+                    "label": "empyema",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                },
+                {
+                    "url": "https://web.archive.org/web/20210914010336/http://nospank.net/cpsir.htm",
+                    "label": "CPS Report re: Nicholaus Contraraz, 3/6/98 (1998-03-06)",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": {
+                        "label": "SCIAD NET",
+                        "url": "https://web.archive.org/web/20221007171605/https://www.sciad.net/"
+                    }
+                }
+            ],
+            "credits": [
+                {
+                    "label": "SCIAD NET",
+                    "url": "https://web.archive.org/web/20221007171605/https://www.sciad.net/",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "kind": "social",
+            "label": "Survivor posts and discussion",
+            "links": [
+                {
+                    "url": "https://youtu.be/DGjk9j9509o",
+                    "label": "The Story of Nicholas Contreraz (1982-1998)",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                }
+            ],
+            "credits": []
+        },
+        {
+            "kind": "reference",
+            "label": "Reference and research",
+            "links": [
+                {
+                    "url": "https://en.wikipedia.org/wiki/Canyon_State_Academy",
+                    "label": "Canyon State Academy Wikipedia Page",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                },
+                {
+                    "url": "https://en.wikipedia.org/wiki/Nicholaus_Contreraz",
+                    "label": "Nicholaus Contreraz Wikipedia Page",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                },
+                {
+                    "url": "https://www.yelp.com/biz/canyon-state-academy-queen-creek",
+                    "label": "Michelle (Yelp)",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                },
+                {
+                    "url": "https://www.yelp.com/not_recommended_reviews/canyon-state-academy-queen-creek",
+                    "label": "Diane (Yelp)",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                },
+                {
+                    "url": "https://archive.md/LWtnz",
+                    "label": "665. Canyon State Academy",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": {
+                        "label": "SCIAD NET",
+                        "url": "https://web.archive.org/web/20221007171605/https://www.sciad.net/"
+                    }
+                },
+                {
+                    "url": "https://www.reddit.com/r/troubledteens/wiki/index/canyonstate",
+                    "label": "Canyon State Academy (1948-present) Queen Creek, AZ - Reddit Wiki Page",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": {
+                        "label": "SCIAD NET",
+                        "url": "https://web.archive.org/web/20221007171605/https://www.sciad.net/"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=YoWy06xCTGQ",
+                    "label": "Student dead, two hospitalized amid possible overdose at Canyon State Academy (2022-10-04)",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": {
+                        "label": "SCIAD NET",
+                        "url": "https://web.archive.org/web/20221007171605/https://www.sciad.net/"
+                    }
+                },
+                {
+                    "url": "https://youtu.be/yTs0om8kRRc",
+                    "label": "Police records: Assaults on students at Arizona school (2023-07-19)",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": {
+                        "label": "SCIAD NET",
+                        "url": "https://web.archive.org/web/20221007171605/https://www.sciad.net/"
+                    }
+                }
+            ],
+            "credits": [
+                {
+                    "label": "SCIAD NET",
+                    "url": "https://web.archive.org/web/20221007171605/https://www.sciad.net/",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "kind": "other",
+            "label": "Other links",
+            "links": [
+                {
+                    "url": "https://web.archive.org/web/https://ackert.fortunecity.ws/0531ranch.htm",
+                    "label": "Arizona Republic (archived copy)",
+                    "live_url": "https://ackert.fortunecity.ws/0531ranch.htm",
+                    "go_url": "https://example.test/go/?u=https%3A%2F%2Fackert.fortunecity.ws%2F0531ranch.htm",
+                    "credit": null
+                },
+                {
+                    "url": "https://web.archive.org/web/http://november.org/stayinfo/breaking07/CampHorrors.html",
+                    "label": "Parents Tell Of Horrors At Youth Boot Camps (archived copy)",
+                    "live_url": "http://november.org/stayinfo/breaking07/CampHorrors.html",
+                    "go_url": "https://example.test/go/?u=http%3A%2F%2Fnovember.org%2Fstayinfo%2Fbreaking07%2FCampHorrors.html",
+                    "credit": null
+                },
+                {
+                    "url": "https://web.archive.org/web/http://secretprisonsforteens.dk/wiki/index.php?title=Canyon_State_Academy",
+                    "label": "Secret Prisons for Teens - Canyon State Academy (archived copy)",
+                    "live_url": "http://secretprisonsforteens.dk/wiki/index.php?title=Canyon_State_Academy",
+                    "go_url": "https://example.test/go/?u=http%3A%2F%2Fsecretprisonsforteens.dk%2Fwiki%2Findex.php%3Ftitle%3DCanyon_State_Academy",
+                    "credit": null
+                },
+                {
+                    "url": "https://web.archive.org/web/https://canyonstateacademy.com/",
+                    "label": "Canyon State Academy Website Homepage (archived copy)",
+                    "live_url": "https://canyonstateacademy.com/",
+                    "go_url": "https://example.test/go/?u=https%3A%2F%2Fcanyonstateacademy.com%2F",
+                    "credit": null
+                },
+                {
+                    "url": "https://web.archive.org/web/https://imgur.com/a/ADj416h",
+                    "label": "image (archived copy)",
+                    "live_url": "https://imgur.com/a/ADj416h",
+                    "go_url": "https://example.test/go/?u=https%3A%2F%2Fimgur.com%2Fa%2FADj416h",
+                    "credit": null
+                },
+                {
+                    "url": "https://web.archive.org/web/https://imgur.com/a/vGysEfz",
+                    "label": "image (archived copy)",
+                    "live_url": "https://imgur.com/a/vGysEfz",
+                    "go_url": "https://example.test/go/?u=https%3A%2F%2Fimgur.com%2Fa%2FvGysEfz",
+                    "credit": null
+                },
+                {
+                    "url": "https://web.archive.org/web/20100429094150/http://www.angelizdsplace.com/child77.htm",
+                    "label": "Website Created in Memorial of Nichoulas Contreraz",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                }
+            ],
+            "credits": []
+        }
+    ],
+    "lawsuits": [],
+    "memorials": [
+        {
+            "id": 163,
+            "name": "Nicholaus Contreras",
+            "age": "16",
+            "program": "Arizona Boys Ranch",
+            "date": "1998-03-02",
+            "date_label": "March 2, 1998",
+            "cause": "Restraint",
+            "category": "restraint",
+            "source_name": "Arizona Daily Sun",
+            "source_url": "https://azdailysun.com/article_213ca401-d535-5db5-9429-db3cae68afec.html",
+            "kop_url": ""
+        },
+        {
+            "id": 187,
+            "name": "Lorenzo Johnson",
+            "age": "17",
+            "program": "Arizona Boys Ranch",
+            "date": "1994-06-27",
+            "date_label": "June 27, 1994",
+            "cause": "Drowned during escape attempt",
+            "category": "escape_attempt",
+            "source_name": "Arizona Republic",
+            "source_url": "https://ackert.fortunecity.ws/0531ranch.htm",
+            "kop_url": ""
+        }
+    ],
+    "eras": null,
+    "wiki": [
+        {
+            "id": 226,
+            "title": "Canyon State Academy",
+            "place": "Queen Creek, AZ",
+            "organization": "",
+            "type": "If you attended the Arizona Boys Ranch/Canyon State Academy and would like to contribute information to help complete this page, please contact [u/Signal-Strain9810](/u/Signal-Strain9810) .",
+            "years": "1948-present"
+        }
+    ],
+    "updated_at": "2026-10-04 15:21:47",
+    "updated_label": "October 4, 2026",
+    "news_url": "https://example.test/news/",
+    "lawsuits_url": "https://example.test/lawsuits/",
+    "memorial_url": "https://example.test/memorial/",
+    "wiki_url": "https://example.test/wiki-feed/?search=Canyon%20State%20Academy",
+    "submit_url": "https://example.test/tti-data-submission/?find=Canyon%20State%20Academy",
+    "news": [
+        {
+            "id": 481,
+            "title": "Queen Creek police investigating alleged assault at Desert Lily Academy",
+            "outlet": "Queen Creek Independent",
+            "date": "2025-09-16",
+            "date_label": "Sep 16, 2025",
+            "url": "https://www.yourvalley.net/queen-creek-independent/stories/queen-creek-police-investigating-alleged-assault-at-residential-school,615952",
+            "type": "arrest",
+            "summary": "Christopher Allen, a 48-year-old staff member at Desert Lily Academy in Queen Creek, Arizona, was arrested on September 4, 2025, and charged with two counts of sexual conduct with a minor following a reported sexual assault involving a juvenile resident. Police report responding to over 2,000 calls at this facility and its companion boys' school, Canyon State Academy, over the past three years, including reports of various incidents and mental health crises.",
+            "image": null,
+            "link_type": "mentioned"
+        }
+    ],
+    "inspections": null,
+    "documents": {
+        "folder_id": 0,
+        "url": ""
+    }
+}

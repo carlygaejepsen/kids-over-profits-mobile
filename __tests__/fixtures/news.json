@@ -1,0 +1,1063 @@
+{
+    "items": [
+        {
+            "id": 921,
+            "title": "Michigan Bill to Ban Restraints on Youth Transport Advances to Governor",
+            "outlet": "Hoodline",
+            "date": "2026-10-03",
+            "date_label": "Oct 3, 2026",
+            "url": "https://hoodline.com/2026/10/michigan-bill-banning-teen-transport-shackles-heads-to-whitmer-after-paris-hilton-testimony/",
+            "type": "event",
+            "summary": "A Michigan bill that would prohibit the use of handcuffs, blindfolds, hoods, chains, and straitjackets on children during transport to residential treatment programs has been sent to Governor Whitmer for signature. The legislation follows testimony from survivors, including Paris Hilton and Kyra Frankowski, who described being restrained during transport. The bill also limits nighttime pickups and restricts certain physical restraints to situations where no other means can prevent imminent serious harm.",
+            "content_warnings": [
+                "Physical Restraint"
+            ],
+            "image": null,
+            "facilities": [],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 919,
+            "title": "Layoffs, Closures Planned at Newport Healthcare, Clarvida, Comprehensive Life Resources",
+            "outlet": "Behavioral Health Business",
+            "date": "2026-10-02",
+            "date_label": "Oct 2, 2026",
+            "url": "https://bhbusiness.com/2026/10/02/layoffs-closures-planned-at-newport-healthcare-clarvida-comprehensive-life-resources/",
+            "type": "closure",
+            "summary": "Comprehensive Life Resources, Clarvida, and Newport Healthcare announced the closure of several youth behavioral health locations and staff reductions affecting 227 employees. The closures are attributed to financial losses, high staff turnover, and shifting demand toward community‑based care.",
+            "content_warnings": [],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 12987,
+                    "name": "Newport Academy – St. Cloud",
+                    "slug": "newport-academy-st-cloud-mn",
+                    "url": "https://example.test/facility/newport-academy-st-cloud-mn/"
+                },
+                {
+                    "id": 12958,
+                    "name": "Pearl Youth Residence",
+                    "slug": "pearl-youth-residence-wa",
+                    "url": "https://example.test/facility/pearl-youth-residence-wa/"
+                },
+                {
+                    "id": 100387,
+                    "name": "Project RENEW",
+                    "slug": "project-renew-ca",
+                    "url": "https://example.test/facility/project-renew-ca/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 917,
+            "title": "TJJD issues persist at Evins Regional Juvenile Center, report says",
+            "outlet": "MyRGV.com",
+            "date": "2026-10-02",
+            "date_label": "Oct 2, 2026",
+            "url": "https://myrgv.com/local-news/2026/10/02/tjjd-issues-persist-at-evins-regional-juvenile-center-report-says/",
+            "type": "expose",
+            "summary": "A report by Texas Appleseed indicates that unconstitutional conditions identified by the U.S. Department of Justice in 2024 continue to exist at Evins Regional Juvenile Center. The findings highlight ongoing issues with staff misconduct, sexual misconduct, inadequate mental health care, and discrimination against youth with disabilities. The report also notes high staff turnover and insufficient staffing, contributing to safety concerns for the juveniles in custody.",
+            "content_warnings": [
+                "Child Sexual Abuse",
+                "Sexual Misconduct",
+                "Staff Misconduct",
+                "Safety Violations"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 10732,
+                    "name": "Evins Regional Juvenile Center",
+                    "slug": "evins-regional-juvenile-center-tx",
+                    "url": "https://example.test/facility/evins-regional-juvenile-center-tx/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 915,
+            "title": "Conversion Therapy Survivors Still Grappling with Trauma",
+            "outlet": "7AD",
+            "date": "2026-10-02",
+            "date_label": "Oct 2, 2026",
+            "url": "https://www.7ad.com.au/local-news/conversion-therapy-survivors-still-grappling-with-trauma/",
+            "type": "event",
+            "summary": "Survivors Glen Worrell and Bronwyn Larkins described decades of trauma resulting from participation in conversion therapy programs, including an exorcism conducted in a private home. Their testimonies are being cited as Tasmanian parliament debates a bill to prohibit conversion therapy practices.",
+            "content_warnings": [
+                "Conversion Therapy",
+                "Spiritual Abuse",
+                "Homophobia"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 100383,
+                    "name": "private home in South Hobart, Tasmania",
+                    "slug": "private-home-in-south-hobart-tasmania-australia",
+                    "url": "https://example.test/facility/private-home-in-south-hobart-tasmania-australia/"
+                },
+                {
+                    "id": 100382,
+                    "name": "unspecified conversion therapy program in Sydney",
+                    "slug": "unspecified-conversion-therapy-program-in-sydney-australia",
+                    "url": "https://example.test/facility/unspecified-conversion-therapy-program-in-sydney-australia/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 911,
+            "title": "Federal lawsuit alleges abuse at Nebraska youth center",
+            "outlet": "Central Nebraska Today",
+            "date": "2026-10-01",
+            "date_label": "Oct 1, 2026",
+            "url": "https://www.centralnebraskatoday.com/2026/10/01/new-federal-lawsuit-alleges-yrtc-employees-abused-omaha-teen-who-was-then-punished-when-he-reported-abuse/",
+            "type": "lawsuit",
+            "summary": "A federal lawsuit filed on October 1, 2026 alleges that employees at Nebraska’s Youth Rehabilitation and Treatment Center sexually abused an Omaha teen and that state officials failed to protect him, subsequently punishing him for reporting the abuse. The complaint names specific staff, including Jessica Camacho, and claims that the center’s culture allowed repeated misconduct. The case seeks compensation for the teen’s injuries and punitive damages.",
+            "content_warnings": [
+                "Child Sexual Abuse",
+                "Staff Misconduct",
+                "Sexual Misconduct",
+                "Safety Violations",
+                "Survivor Stories",
+                "Humiliating Punishments"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 100189,
+                    "name": "Youth Rehabilitation and Treatment Center",
+                    "slug": "youth-rehabilitation-and-treatment-center-ne",
+                    "url": "https://example.test/facility/youth-rehabilitation-and-treatment-center-ne/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 910,
+            "title": "Newport Academy Lays Off 68 Workers at St. Cloud Teen Treatment Center",
+            "outlet": "KNSI",
+            "date": "2026-10-01",
+            "date_label": "Oct 1, 2026",
+            "url": "https://knsiradio.com/2026/10/01/857921/",
+            "type": "corporate",
+            "summary": "Newport Academy announced the permanent layoff of approximately 68 employees at its St. Cloud teen mental health and substance‑use treatment center. The layoffs, affecting positions across residential, clinical, and support services, were reported without a stated reason and are part of broader corporate restructuring.",
+            "content_warnings": [],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 12987,
+                    "name": "Newport Academy – St. Cloud",
+                    "slug": "newport-academy-st-cloud-mn",
+                    "url": "https://example.test/facility/newport-academy-st-cloud-mn/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 907,
+            "title": "Toppenish School District honors Native American boarding school survivors with Orange Shirt Day recognition",
+            "outlet": "Apple Valley News Now",
+            "date": "2026-10-01",
+            "date_label": "Oct 1, 2026",
+            "url": "https://www.applevalleynewsnow.com/news/toppenish-school-district-honors-native-american-boarding-school-survivors-with-orange-shirt-day-recognition/article_59df3e19-9d10-40c3-8c10-3c07b063cc2c.html",
+            "type": "event",
+            "summary": "On September 30, 2026, students and staff of the Toppenish School District wore orange to observe Orange Shirt Day, honoring survivors of Native American boarding schools and remembering children who died. The district emphasized the importance of acknowledging the trauma caused by boarding schools and fostering a sense of belonging for Native American students. The event took place in Toppenish, Washington, on Yakama Nation lands.",
+            "content_warnings": [
+                "Racism"
+            ],
+            "image": null,
+            "facilities": [],
+            "story_arc": null,
+            "story_group_id": 546
+        },
+        {
+            "id": 920,
+            "title": "An Oregon Christian ranch promises refuge to people in crisis. Former residents say they were harmed instead",
+            "outlet": "InvestigateWest",
+            "date": "2026-09-30",
+            "date_label": "Sep 30, 2026",
+            "url": "https://www.investigatewest.org/oregon-christian-ranch-promises-refuge-former-residents-say-they-were-harmed/",
+            "type": "expose",
+            "summary": "Former residents of 5Rock Ranch, a faith‑based ministry in Yamhill, Oregon, allege that the organization employed practices such as unwanted physical contact, spiritual manipulation, and denial of external mental‑health services. They report that these practices continued after a 2012 board‑commissioned investigation and have called for the ranch’s shutdown or leadership change.",
+            "content_warnings": [
+                "Sexual Misconduct",
+                "Spiritual Abuse",
+                "Child Sexual Abuse",
+                "Suicide",
+                "Substance Abuse"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 100386,
+                    "name": "5Rock Ranch",
+                    "slug": "5rock-ranch-or",
+                    "url": "https://example.test/facility/5rock-ranch-or/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 905,
+            "title": "Father sues SC after autistic teen dies in restraint at Midlands Center",
+            "outlet": "WIS News 10",
+            "date": "2026-09-30",
+            "date_label": "Sep 30, 2026",
+            "url": "https://www.wistv.com/2026/09/30/he-looked-like-he-had-just-given-up-father-sues-state-after-autistic-teen-dies-physical-restraint-inside-hot-midlands-center-room/",
+            "type": "lawsuit",
+            "summary": "A wrongful‑death lawsuit was filed by the estate of 16‑year‑old Nicholas Walter Brown after he died while restrained in a canvas wrap at Midlands Center. The complaint alleges that the South Carolina Department of Behavioral Health and Developmental Disabilities failed to maintain adequate cooling, delayed emergency response, and used restraints contrary to state guidelines, contributing to the teen’s death by probable hyperthermia.",
+            "content_warnings": [
+                "Physical Restraint",
+                "Medical Neglect",
+                "Child Death",
+                "Autism-Specific Abuse"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 100277,
+                    "name": "Midlands Center",
+                    "slug": "midlands-center-sc",
+                    "url": "https://example.test/facility/midlands-center-sc/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 711,
+            "title": "Washington County youth treatment center worker arrested for aggravated child abuse",
+            "outlet": "Gephardt Daily",
+            "date": "2026-09-30",
+            "date_label": "Sep 30, 2026",
+            "url": "https://gephardtdaily.com/local/washington-county-youth-treatment-center-worker-arrested-for-aggravated-child-abuse/",
+            "type": "arrest",
+            "summary": "A Kiva Adventure Ranch employee, Isaiah Ensoa Faausus Tuiasosopo, was arrested on a first-degree felony charge of aggravated child abuse after a juvenile reported being physically assaulted, resulting in documented injuries. The incident occurred on September 4, 2026, and the investigation remains ongoing.",
+            "content_warnings": [
+                "Physical Restraint",
+                "Graphic Descriptions of Assaults or Injuries"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 10458,
+                    "name": "Kiva Adventure Ranch",
+                    "slug": "kiva-adventure-ranch-ut",
+                    "url": "https://example.test/facility/kiva-adventure-ranch-ut/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": 532
+        },
+        {
+            "id": 545,
+            "title": "Youth treatment center employee arrested in connection with child abuse investigation",
+            "outlet": "KUTV",
+            "date": "2026-09-30",
+            "date_label": "Sep 30, 2026",
+            "url": "https://kutv.com/news/local/youth-treatment-center-employee-arrested-in-connection-with-child-abuse-investigation",
+            "type": "arrest",
+            "summary": "A 33‑year‑old employee of a youth treatment center in Washington County was arrested on a charge of first‑degree felony aggravated child abuse after surveillance footage and forensic examination documented physical assault on a resident. The incident, reported in early September, involved the employee physically restraining and striking the child, who sustained blunt force injuries. The Washington County Sheriff’s Office is continuing the investigation, with no additional arrests reported.",
+            "content_warnings": [
+                "Physical Restraint",
+                "Graphic Descriptions of Assaults or Injuries",
+                "Peer Violence"
+            ],
+            "image": null,
+            "facilities": [],
+            "story_arc": null,
+            "story_group_id": 532
+        },
+        {
+            "id": 543,
+            "title": "Dozens more lawsuits filed over sex abuse in NJ youth jails",
+            "outlet": "New Jersey Monitor",
+            "date": "2026-09-30",
+            "date_label": "Sep 30, 2026",
+            "url": "https://newjerseymonitor.com/2026/09/30/lawsuits-sex-abuse-nj-youth-jails/",
+            "type": "lawsuit",
+            "summary": "Thirty unnamed survivors filed a negligence lawsuit against the State of New Jersey, alleging that staff at youth detention facilities engaged in inappropriate strip searches, coercive sexual contact, and rape from the 1980s through the 2010s. The plaintiffs claim that hiring, training, and supervisory failures created a culture of abuse, and that witnesses failed to intervene or report misconduct. The lawsuit seeks accountability for systemic failures that allegedly left minors at risk of sexual and physical abuse.",
+            "content_warnings": [
+                "Child Sexual Abuse",
+                "Staff Misconduct",
+                "Sexual Misconduct",
+                "Substance Abuse"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 12783,
+                    "name": "New Jersey Training School",
+                    "slug": "new-jersey-training-school-nj",
+                    "url": "https://example.test/facility/new-jersey-training-school-nj/"
+                },
+                {
+                    "id": 12790,
+                    "name": "The Female Secure Care and Intake Facility",
+                    "slug": "the-female-secure-care-and-intake-facility-nj",
+                    "url": "https://example.test/facility/the-female-secure-care-and-intake-facility-nj/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 710,
+            "title": "Tucker: ‘Turn every stone to keep children in Bermuda’",
+            "outlet": "The Royal Gazette",
+            "date": "2026-09-29",
+            "date_label": "Sep 29, 2026",
+            "url": "https://www.royalgazette.com/politics/news/article/20260929/tucker-turn-every-stone-to-keep-children-in-bermuda/",
+            "type": "expose",
+            "summary": "Opposition youth services minister Robin Tucker questioned the Government's awareness of a U.S. Senate report detailing abuse at residential treatment facilities where Bermudian children in care have been placed. She called for greater oversight, local therapeutic options, and transparency regarding the Department of Child and Family Services' vetting and monitoring practices.",
+            "content_warnings": [
+                "Physical Restraint",
+                "Peer Violence",
+                "Safety Violations"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 11083,
+                    "name": "Devereux Advanced Behavioral Health Florida",
+                    "slug": "devereux-advanced-behavioral-health-florida-fl",
+                    "url": "https://example.test/facility/devereux-advanced-behavioral-health-florida-fl/"
+                },
+                {
+                    "id": 12801,
+                    "name": "Harbor Point Behavioral Health Center",
+                    "slug": "harbor-point-behavioral-health-center-va",
+                    "url": "https://example.test/facility/harbor-point-behavioral-health-center-va/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 538,
+            "title": "Former Maryland juvenile detention worker sentenced to 10 years for abusing 11 boys",
+            "outlet": "CBS Baltimore",
+            "date": "2026-09-29",
+            "date_label": "Sep 29, 2026",
+            "url": "https://www.cbsnews.com/baltimore/news/former-maryland-juvenile-detention-worker-sentenced-10-years-abusing-11-boys/",
+            "type": "lawsuit",
+            "summary": "Former juvenile detention worker Ronald Neverdon was sentenced to 10 years in prison for sexually abusing 11 boys between 1968 and 1991 while employed at the Charles H. Hickey Jr. School. The case followed a 2025 lawsuit alleging abuse of more than 69 boys and a state failure to intervene. The sentencing included probation and a no‑contact order with victims and minors.",
+            "content_warnings": [
+                "Child Sexual Abuse"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 13724,
+                    "name": "Charles H. Hickey, Jr. School",
+                    "slug": "charles-h-hickey-jr-school-md",
+                    "url": "https://example.test/facility/charles-h-hickey-jr-school-md/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": 533
+        },
+        {
+            "id": 533,
+            "title": "Ex-Maryland juvenile detention worker gets 10 years for sexually abusing 11 boys",
+            "outlet": "The Banner",
+            "date": "2026-09-29",
+            "date_label": "Sep 29, 2026",
+            "url": "https://www.thebanner.com/community/criminal-justice/former-charles-h-hickey-jr-school-employee-ronald-neverdon-sentencing-sexual-abuse-GYOL5MQKKBAXFEWSQA7TA5GWH4/",
+            "type": "event",
+            "summary": "Ronald Neverdon, a former employee of the Charles H. Hickey Jr. School, was sentenced to ten years in prison for sexually abusing eleven boys between 1968 and 1991. The sentencing followed a guilty plea and testimony from survivors, including Glenn Green, who described the abuse and its impact on their lives. The court condemned Neverdon’s conduct as monstrous and emphasized the need for accountability in juvenile detention settings.",
+            "content_warnings": [
+                "Child Sexual Abuse",
+                "Substance Abuse"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 13724,
+                    "name": "Charles H. Hickey, Jr. School",
+                    "slug": "charles-h-hickey-jr-school-md",
+                    "url": "https://example.test/facility/charles-h-hickey-jr-school-md/"
+                },
+                {
+                    "id": 100241,
+                    "name": "Maryland Training Center for Boys",
+                    "slug": "maryland-training-center-for-boys-md",
+                    "url": "https://example.test/facility/maryland-training-center-for-boys-md/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": 533
+        },
+        {
+            "id": 532,
+            "title": "Southern Utah youth treatment center staff member accused of assaulting boy",
+            "outlet": "KSL.com",
+            "date": "2026-09-29",
+            "date_label": "Sep 29, 2026",
+            "url": "https://www.ksl.com/article/51630144/southern-utah-youth-treatment-center-staff-member-accused-of-assaulting-boy",
+            "type": "arrest",
+            "summary": "A staff member at Kiva Adventure Ranch was charged with aggravated child abuse after physically assaulting a new resident. The assault involved slapping, punching, and kneeing, resulting in rib and upper back injuries. Surveillance footage and forensic nursing reports support the allegations.",
+            "content_warnings": [
+                "Graphic Descriptions of Assaults or Injuries",
+                "Physical Restraint"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 10458,
+                    "name": "Kiva Adventure Ranch",
+                    "slug": "kiva-adventure-ranch-ut",
+                    "url": "https://example.test/facility/kiva-adventure-ranch-ut/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": 532
+        },
+        {
+            "id": 531,
+            "title": "How a private Christian program for “troubled” and “depressed” girls operates with little state oversight",
+            "outlet": "The Frontier",
+            "date": "2026-09-29",
+            "date_label": "Sep 29, 2026",
+            "url": "https://www.readfrontier.org/stories/how-a-private-christian-program-for-troubled-and-depressed-girls-operates-with-little-state-oversight/",
+            "type": "expose",
+            "summary": "New Lifehouse Academy, a faith‑based boarding program for girls in rural Oklahoma, operates without a state mental‑health license and is not supervised by the Oklahoma Department of Education. Former students reported isolation, physical punishment, and lasting harm, while the organization states it follows required abuse‑reporting protocols.",
+            "content_warnings": [
+                "Humiliating Punishments",
+                "Seclusion"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 100210,
+                    "name": "Cross Christian Academy",
+                    "slug": "cross-christian-academy-ok",
+                    "url": "https://example.test/facility/cross-christian-academy-ok/"
+                },
+                {
+                    "id": 13541,
+                    "name": "New Lifehouse Academy",
+                    "slug": "new-lifehouse-academy-ok",
+                    "url": "https://example.test/facility/new-lifehouse-academy-ok/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 523,
+            "title": "A juvenile boys program in St. Pete closed. Where did the kids go?",
+            "outlet": "Tampa Bay Times",
+            "date": "2026-09-29",
+            "date_label": "Sep 29, 2026",
+            "url": "",
+            "type": "closure",
+            "summary": "The Florida Department of Juvenile Justice closed the Britt Technical Youth Academy, a moderate‑risk residential program for boys in St. Petersburg, without providing public details about the relocation of the youth. The facility was subsequently repurposed for the girls' Les Peters Academy, raising questions about capacity and continuity of services for displaced survivors.",
+            "content_warnings": [],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 11144,
+                    "name": "Britt Technical Youth Academy",
+                    "slug": "britt-technical-youth-academy-fl",
+                    "url": "https://example.test/facility/britt-technical-youth-academy-fl/"
+                },
+                {
+                    "id": 100183,
+                    "name": "Hillsborough County juvenile detention center",
+                    "slug": "hillsborough-county-juvenile-detention-center-fl",
+                    "url": "https://example.test/facility/hillsborough-county-juvenile-detention-center-fl/"
+                },
+                {
+                    "id": 11108,
+                    "name": "Les Peters Academy",
+                    "slug": "les-peters-academy-fl",
+                    "url": "https://example.test/facility/les-peters-academy-fl/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
+            "id": 515,
+            "title": "Sex abuse allegations against staff at Clark County juvenile detention center multiply",
+            "outlet": "OregonLive",
+            "date": "2026-09-29",
+            "date_label": "Sep 29, 2026",
+            "url": "https://www.oregonlive.com/crime/2026/09/sex-abuse-allegations-against-staff-at-clark-county-juvenile-detention-center-multiply.html",
+            "type": "lawsuit",
+            "summary": "Multiple survivors have reported sexual misconduct by staff members at the Clark County Juvenile Detention Center. The allegations have prompted investigations by county officials and have raised concerns about oversight and safety protocols within the facility.",
+            "content_warnings": [
+                "Child Sexual Abuse"
+            ],
+            "image": null,
+            "facilities": [
+                {
+                    "id": 12430,
+                    "name": "Clark County Juvenile Detention Center",
+                    "slug": "clark-county-juvenile-detention-center-nv",
+                    "url": "https://example.test/facility/clark-county-juvenile-detention-center-nv/"
+                }
+            ],
+            "story_arc": null,
+            "story_group_id": 391
+        },
+        {
+            "id": 505,
+            "title": "Sylvester Stallone Hid His Struggles for Decades. Now He’s Coming Clean. (Gift Article)",
+            "outlet": "The New York Times Magazine",
+            "date": "2026-09-26",
+            "date_label": "Sep 26, 2026",
+            "url": "https://www.nytimes.com/2026/09/26/magazine/sylvester-stallone-interview.html?unlocked_article_code=1.EFE.ci84.mCmHF95n2FXA&smid=nytcore-ios-share",
+            "type": "general",
+            "summary": "The article is an interview with Sylvester Stallone published in The New York Times Magazine on September 26, 2026.",
+            "content_warnings": [],
+            "image": null,
+            "facilities": [],
+            "story_arc": null,
+            "story_group_id": null
+        }
+    ],
+    "total": 541,
+    "page": 1,
+    "per_page": 20,
+    "pages": 28,
+    "months": [
+        {
+            "month": "2026-10",
+            "count": 7
+        },
+        {
+            "month": "2026-09",
+            "count": 68
+        },
+        {
+            "month": "2026-08",
+            "count": 24
+        },
+        {
+            "month": "2026-07",
+            "count": 23
+        },
+        {
+            "month": "2026-06",
+            "count": 16
+        },
+        {
+            "month": "2026-05",
+            "count": 15
+        },
+        {
+            "month": "2026-04",
+            "count": 26
+        },
+        {
+            "month": "2026-03",
+            "count": 28
+        },
+        {
+            "month": "2026-02",
+            "count": 2
+        },
+        {
+            "month": "2026-01",
+            "count": 13
+        },
+        {
+            "month": "2025-12",
+            "count": 8
+        },
+        {
+            "month": "2025-11",
+            "count": 3
+        },
+        {
+            "month": "2025-10",
+            "count": 2
+        },
+        {
+            "month": "2025-09",
+            "count": 1
+        },
+        {
+            "month": "2025-08",
+            "count": 1
+        },
+        {
+            "month": "2025-07",
+            "count": 26
+        },
+        {
+            "month": "2025-06",
+            "count": 19
+        },
+        {
+            "month": "2025-05",
+            "count": 12
+        },
+        {
+            "month": "2025-04",
+            "count": 5
+        },
+        {
+            "month": "2025-03",
+            "count": 1
+        },
+        {
+            "month": "2025-02",
+            "count": 4
+        },
+        {
+            "month": "2024-11",
+            "count": 2
+        },
+        {
+            "month": "2024-10",
+            "count": 1
+        },
+        {
+            "month": "2024-09",
+            "count": 6
+        },
+        {
+            "month": "2024-08",
+            "count": 14
+        },
+        {
+            "month": "2024-07",
+            "count": 13
+        },
+        {
+            "month": "2024-06",
+            "count": 3
+        },
+        {
+            "month": "2024-05",
+            "count": 2
+        },
+        {
+            "month": "2024-04",
+            "count": 2
+        },
+        {
+            "month": "2024-03",
+            "count": 1
+        },
+        {
+            "month": "2024-02",
+            "count": 1
+        },
+        {
+            "month": "2023-12",
+            "count": 1
+        },
+        {
+            "month": "2023-11",
+            "count": 1
+        },
+        {
+            "month": "2023-10",
+            "count": 4
+        },
+        {
+            "month": "2023-09",
+            "count": 4
+        },
+        {
+            "month": "2023-07",
+            "count": 2
+        },
+        {
+            "month": "2023-06",
+            "count": 1
+        },
+        {
+            "month": "2023-05",
+            "count": 3
+        },
+        {
+            "month": "2023-03",
+            "count": 1
+        },
+        {
+            "month": "2023-02",
+            "count": 2
+        },
+        {
+            "month": "2023-01",
+            "count": 1
+        },
+        {
+            "month": "2022-10",
+            "count": 2
+        },
+        {
+            "month": "2022-09",
+            "count": 1
+        },
+        {
+            "month": "2022-06",
+            "count": 1
+        },
+        {
+            "month": "2022-04",
+            "count": 2
+        },
+        {
+            "month": "2022-03",
+            "count": 2
+        },
+        {
+            "month": "2022-01",
+            "count": 1
+        },
+        {
+            "month": "2021-12",
+            "count": 2
+        },
+        {
+            "month": "2021-11",
+            "count": 2
+        },
+        {
+            "month": "2021-10",
+            "count": 3
+        },
+        {
+            "month": "2021-09",
+            "count": 1
+        },
+        {
+            "month": "2021-08",
+            "count": 1
+        },
+        {
+            "month": "2021-07",
+            "count": 1
+        },
+        {
+            "month": "2021-06",
+            "count": 3
+        },
+        {
+            "month": "2021-05",
+            "count": 1
+        },
+        {
+            "month": "2021-04",
+            "count": 2
+        },
+        {
+            "month": "2021-03",
+            "count": 15
+        },
+        {
+            "month": "2021-02",
+            "count": 4
+        },
+        {
+            "month": "2021-01",
+            "count": 2
+        },
+        {
+            "month": "2020-12",
+            "count": 4
+        },
+        {
+            "month": "2020-11",
+            "count": 1
+        },
+        {
+            "month": "2020-10",
+            "count": 3
+        },
+        {
+            "month": "2020-09",
+            "count": 3
+        },
+        {
+            "month": "2020-08",
+            "count": 1
+        },
+        {
+            "month": "2020-07",
+            "count": 6
+        },
+        {
+            "month": "2020-06",
+            "count": 2
+        },
+        {
+            "month": "2020-05",
+            "count": 1
+        },
+        {
+            "month": "2020-03",
+            "count": 1
+        },
+        {
+            "month": "2020-01",
+            "count": 1
+        },
+        {
+            "month": "2019-11",
+            "count": 1
+        },
+        {
+            "month": "2019-09",
+            "count": 1
+        },
+        {
+            "month": "2019-08",
+            "count": 1
+        },
+        {
+            "month": "2019-07",
+            "count": 4
+        },
+        {
+            "month": "2019-05",
+            "count": 2
+        },
+        {
+            "month": "2019-04",
+            "count": 1
+        },
+        {
+            "month": "2019-02",
+            "count": 1
+        },
+        {
+            "month": "2019-01",
+            "count": 4
+        },
+        {
+            "month": "2018-09",
+            "count": 1
+        },
+        {
+            "month": "2018-08",
+            "count": 1
+        },
+        {
+            "month": "2018-07",
+            "count": 1
+        },
+        {
+            "month": "2018-03",
+            "count": 1
+        },
+        {
+            "month": "2017-04",
+            "count": 1
+        },
+        {
+            "month": "2016-12",
+            "count": 4
+        },
+        {
+            "month": "2016-11",
+            "count": 1
+        },
+        {
+            "month": "2016-08",
+            "count": 2
+        },
+        {
+            "month": "2016-07",
+            "count": 2
+        },
+        {
+            "month": "2016-05",
+            "count": 2
+        },
+        {
+            "month": "2016-04",
+            "count": 3
+        },
+        {
+            "month": "2016-03",
+            "count": 4
+        },
+        {
+            "month": "2016-02",
+            "count": 1
+        },
+        {
+            "month": "2016-01",
+            "count": 1
+        },
+        {
+            "month": "2015-11",
+            "count": 1
+        },
+        {
+            "month": "2015-08",
+            "count": 1
+        },
+        {
+            "month": "2015-03",
+            "count": 2
+        },
+        {
+            "month": "2015-02",
+            "count": 3
+        },
+        {
+            "month": "2014-12",
+            "count": 1
+        },
+        {
+            "month": "2014-11",
+            "count": 1
+        },
+        {
+            "month": "2014-05",
+            "count": 1
+        },
+        {
+            "month": "2013-10",
+            "count": 1
+        },
+        {
+            "month": "2013-02",
+            "count": 1
+        },
+        {
+            "month": "2013-01",
+            "count": 2
+        },
+        {
+            "month": "2011-05",
+            "count": 1
+        },
+        {
+            "month": "2011-03",
+            "count": 4
+        },
+        {
+            "month": "2010-04",
+            "count": 1
+        },
+        {
+            "month": "2008-06",
+            "count": 1
+        },
+        {
+            "month": "2007-12",
+            "count": 1
+        },
+        {
+            "month": "2007-08",
+            "count": 1
+        },
+        {
+            "month": "2007-01",
+            "count": 1
+        },
+        {
+            "month": "2006-06",
+            "count": 1
+        },
+        {
+            "month": "2006-04",
+            "count": 1
+        },
+        {
+            "month": "2003-09",
+            "count": 1
+        },
+        {
+            "month": "2003-03",
+            "count": 1
+        },
+        {
+            "month": "2002-06",
+            "count": 2
+        },
+        {
+            "month": "2001-12",
+            "count": 1
+        },
+        {
+            "month": "1996-04",
+            "count": 1
+        },
+        {
+            "month": "1994-08",
+            "count": 1
+        },
+        {
+            "month": "1986-11",
+            "count": 1
+        },
+        {
+            "month": "1986-08",
+            "count": 1
+        },
+        {
+            "month": "1986-04",
+            "count": 1
+        },
+        {
+            "month": "1985-12",
+            "count": 1
+        },
+        {
+            "month": "1985-11",
+            "count": 1
+        }
+    ],
+    "arcs": [
+        {
+            "id": 1,
+            "title": "Fuller v. Hyde School",
+            "slug": "fuller-v-hyde-school",
+            "description": "",
+            "status": "active",
+            "article_count": 16,
+            "latest_date": "2026-07-28",
+            "facility": null
+        },
+        {
+            "id": 2,
+            "title": "Provo Canyon School Closure",
+            "slug": "provo-canyon-school-closure",
+            "description": "",
+            "status": "active",
+            "article_count": 34,
+            "latest_date": "2026-09-05",
+            "facility": null
+        },
+        {
+            "id": 3,
+            "title": "Refuge Girls Academy Lawsuit",
+            "slug": "refuge-girls-academy",
+            "description": "",
+            "status": "active",
+            "article_count": 15,
+            "latest_date": "2026-09-21",
+            "facility": null
+        },
+        {
+            "id": 4,
+            "title": "Justice for Jonah Bevin",
+            "slug": "justice-for-jonah-bevin",
+            "description": "",
+            "status": "active",
+            "article_count": 13,
+            "latest_date": "2026-09-24",
+            "facility": null
+        }
+    ],
+    "story": null
+}

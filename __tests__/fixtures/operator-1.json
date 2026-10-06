@@ -1,0 +1,676 @@
+{
+    "api_version": 1,
+    "id": 1,
+    "name": "CEDU",
+    "full_name": "CEDU",
+    "url": "https://example.test/operator/cedu/",
+    "aka": [],
+    "current_name": "",
+    "status": "Defunct",
+    "facts": [
+        {
+            "label": "Headquarters",
+            "value": "Running Springs, CA"
+        },
+        {
+            "label": "Founded",
+            "value": "1967"
+        },
+        {
+            "label": "Operating",
+            "value": "1967-2005"
+        },
+        {
+            "label": "Founders",
+            "value": [
+                "Mel Wasserman",
+                "Brigitte Wasserman"
+            ]
+        }
+    ],
+    "parents": [
+        {
+            "name": "Universal Health Services",
+            "url": "https://example.test/operator/universal-health-services/"
+        },
+        {
+            "name": "The Brown Schools",
+            "url": "https://example.test/operator/the-brown-schools/"
+        }
+    ],
+    "subsidiaries": [],
+    "facilities": [
+        {
+            "id": 9683,
+            "name": "Ascent Wilderness Therapy",
+            "place": "Naples, Idaho",
+            "status": "Closed",
+            "years": "1992-2005",
+            "url": "https://example.test/facility/ascent-wilderness-therapy-id/",
+            "has_page": true,
+            "start_year": 1992,
+            "end_year": 2005,
+            "own_years": true
+        },
+        {
+            "id": 9689,
+            "name": "Boulder Creek Academy",
+            "place": "Bonners Ferry, Idaho",
+            "status": "Closed",
+            "years": "1993-2022",
+            "url": "https://example.test/facility/boulder-creek-academy-id/",
+            "has_page": true,
+            "start_year": 1993,
+            "end_year": 2022,
+            "own_years": false
+        },
+        {
+            "id": 9740,
+            "name": "CEDU High School",
+            "place": "Running Springs, California",
+            "status": "Closed",
+            "years": "1967-2005",
+            "url": "https://example.test/facility/cedu-high-school-ca/",
+            "has_page": true,
+            "start_year": 1967,
+            "end_year": 2005,
+            "own_years": true
+        },
+        {
+            "id": 9739,
+            "name": "CEDU Middle School",
+            "place": "Running Springs, California",
+            "status": "Closed",
+            "years": "1992-2005",
+            "url": "https://example.test/facility/cedu-middle-school-ca/",
+            "has_page": true,
+            "start_year": 1992,
+            "end_year": 2005,
+            "own_years": true
+        },
+        {
+            "id": 9691,
+            "name": "Northwest Academy",
+            "place": "Bonners Ferry, Idaho",
+            "status": "Closed",
+            "years": "1994-2019",
+            "url": "https://example.test/facility/northwest-academy-id/",
+            "has_page": true,
+            "start_year": 1994,
+            "end_year": 2019,
+            "own_years": false
+        },
+        {
+            "id": 9727,
+            "name": "Rocky Mountain Academy",
+            "place": "Bonners Ferry, Idaho",
+            "status": "Closed",
+            "years": "1982-2005",
+            "url": "https://example.test/facility/rocky-mountain-academy-id/",
+            "has_page": true,
+            "start_year": 1982,
+            "end_year": 2005,
+            "own_years": true
+        }
+    ],
+    "program_tree": [
+        {
+            "id": 9683,
+            "name": "Ascent Wilderness Therapy",
+            "place": "Naples, Idaho",
+            "status": "Closed",
+            "years": "1992-2005",
+            "url": "https://example.test/facility/ascent-wilderness-therapy-id/",
+            "has_page": true,
+            "start_year": 1992,
+            "end_year": 2005,
+            "own_years": true,
+            "homes": []
+        },
+        {
+            "id": 9689,
+            "name": "Boulder Creek Academy",
+            "place": "Bonners Ferry, Idaho",
+            "status": "Closed",
+            "years": "1993-2022",
+            "url": "https://example.test/facility/boulder-creek-academy-id/",
+            "has_page": true,
+            "start_year": 1993,
+            "end_year": 2022,
+            "own_years": false,
+            "homes": []
+        },
+        {
+            "id": 9740,
+            "name": "CEDU High School",
+            "place": "Running Springs, California",
+            "status": "Closed",
+            "years": "1967-2005",
+            "url": "https://example.test/facility/cedu-high-school-ca/",
+            "has_page": true,
+            "start_year": 1967,
+            "end_year": 2005,
+            "own_years": true,
+            "homes": []
+        },
+        {
+            "id": 9739,
+            "name": "CEDU Middle School",
+            "place": "Running Springs, California",
+            "status": "Closed",
+            "years": "1992-2005",
+            "url": "https://example.test/facility/cedu-middle-school-ca/",
+            "has_page": true,
+            "start_year": 1992,
+            "end_year": 2005,
+            "own_years": true,
+            "homes": []
+        },
+        {
+            "id": 9691,
+            "name": "Northwest Academy",
+            "place": "Bonners Ferry, Idaho",
+            "status": "Closed",
+            "years": "1994-2019",
+            "url": "https://example.test/facility/northwest-academy-id/",
+            "has_page": true,
+            "start_year": 1994,
+            "end_year": 2019,
+            "own_years": false,
+            "homes": []
+        },
+        {
+            "id": 9727,
+            "name": "Rocky Mountain Academy",
+            "place": "Bonners Ferry, Idaho",
+            "status": "Closed",
+            "years": "1982-2005",
+            "url": "https://example.test/facility/rocky-mountain-academy-id/",
+            "has_page": true,
+            "start_year": 1982,
+            "end_year": 2005,
+            "own_years": true,
+            "homes": []
+        }
+    ],
+    "open_count": 0,
+    "place_count": 2,
+    "lawsuits": [
+        {
+            "case_name": "State of Nevada v. Patricia Chappuis, et al.",
+            "case_number": "19CR00069B",
+            "court": "Justice Court of Beatty Township, Nye County, Nevada",
+            "year": "2019",
+            "status": "Closed",
+            "outcome": "Resolved by plea agreement. On July 19, 2021 in Beatty Justice Court, Marcel Chappuis pleaded no contest to two misdemeanor counts of disturbing the peace and paid a $2,000 fine; Patricia Chappuis waived her preliminary hearing and agreed to plead guilty to one gross misdemeanor count in district court in Tonopah, with a $2,000 fine. Prosecutors agreed not to seek jail time or probation, and the 45 felony counts against each were dropped. News coverage found does not report Patricia Chappuis's later court date.",
+            "summary": "In August 2019 the Nye County District Attorney filed a criminal complaint charging Patricia Lynn Chappuis and Marcel Claude Chappuis with 45 counts of felony child abuse or neglect over their running of Northwest Academy, 1492 South Highway 373 in Amargosa Valley, Nevada. Each count concerns a different enrolled child, aged roughly 11 to 17. Prosecutors alleged that between February 9, 2018 and February 12, 2019 the defendants failed to give the children enough potable water, let them drink unsafe tap water, and failed to screen and supervise staff to protect the children from physical and verbal abuse. The complaint was filed in the Beatty Township Justice Court on August 6, 2019, with an arraignment set for August 19, 2019. In July 2021 the case ended in a plea agreement: Marcel Chappuis pleaded no contest to two misdemeanor counts of disturbing the peace, Patricia Chappuis agreed to plead guilty to one gross misdemeanor, each was fined $2,000, and no jail time or probation was sought. Both maintained their innocence through their attorney.",
+            "by_name": false,
+            "facility_ids": [
+                9691
+            ]
+        }
+    ],
+    "memorials": [
+        {
+            "name": "Jonathan Avila",
+            "age": "16",
+            "program": "Rocky Mountain Academy",
+            "date_label": "July 25, 1994",
+            "cause": "Died by suicide",
+            "kop_url": "",
+            "facility_id": 9727
+        }
+    ],
+    "websites": [
+        {
+            "url": "https://web.archive.org/web/19961227205416/http://www.cedu.com/",
+            "label": "Archived website",
+            "live_url": "",
+            "go_url": ""
+        }
+    ],
+    "notes": [],
+    "timeline": [],
+    "people": {
+        "leaders": [
+            {
+                "name": "Brigitte Wasserman",
+                "role": "founder",
+                "career": [
+                    {
+                        "role": "founder",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    }
+                ],
+                "personId": 1811
+            },
+            {
+                "name": "Mel Wasserman",
+                "role": "founder",
+                "career": [
+                    {
+                        "role": "founder",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "participant",
+                        "place": "Synanon",
+                        "years": "",
+                        "url": "https://example.test/facility/synanon/"
+                    }
+                ],
+                "personId": 1810
+            },
+            {
+                "name": "Brian MacInnes",
+                "role": "director of adventure ed Northern Idaho",
+                "career": [
+                    {
+                        "role": "Program Director (1994), left",
+                        "place": "Ascent Wilderness Program",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-program-id/"
+                    },
+                    {
+                        "role": "program director",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "director of adventure ed Northern Idaho",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "program director",
+                        "place": "Santiam Crossing",
+                        "years": "",
+                        "url": "https://example.test/facility/santiam-crossing-or/"
+                    }
+                ],
+                "personId": 95
+            },
+            {
+                "name": "Dave Hampton",
+                "role": "northwest region academic director",
+                "career": [
+                    {
+                        "role": "team lead",
+                        "place": "Boulder Creek Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/boulder-creek-academy-id/"
+                    },
+                    {
+                        "role": "team lead",
+                        "place": "Rocky Mountain Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/rocky-mountain-academy-id/"
+                    },
+                    {
+                        "role": "northwest region academic director",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "academic director",
+                        "place": "Northwest Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    }
+                ],
+                "personId": 1852
+            },
+            {
+                "name": "David LePere",
+                "role": "director",
+                "career": [
+                    {
+                        "role": "Former Director (2007)",
+                        "place": "CEDU Middle School",
+                        "years": "",
+                        "url": "https://example.test/facility/cedu-middle-school-ca/"
+                    },
+                    {
+                        "role": "Former Director (2007)",
+                        "place": "CEDU High School",
+                        "years": "",
+                        "url": "https://example.test/facility/cedu-high-school-ca/"
+                    },
+                    {
+                        "role": "Former Executive Director (2007)",
+                        "place": "Wilderness Quest",
+                        "years": "",
+                        "url": "https://example.test/facility/wilderness-quest-ut/"
+                    },
+                    {
+                        "role": "Former Staff (2007)",
+                        "place": "Mount Bachelor Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/mount-bachelor-academy-or/"
+                    },
+                    {
+                        "role": "Executive Director (2007-2014)",
+                        "place": "Cherokee Creek Boys School",
+                        "years": "",
+                        "url": "https://example.test/facility/cherokee-creek-boys-school-sc/"
+                    },
+                    {
+                        "role": "Board of Directors President",
+                        "place": "NATSAP",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "board of directors",
+                        "place": "Compass Rose Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/compass-rose-academy-in/"
+                    },
+                    {
+                        "role": "director",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    }
+                ],
+                "personId": 153
+            },
+            {
+                "name": "Jane May",
+                "role": "director of business services",
+                "career": [
+                    {
+                        "role": "director of operations and human resources",
+                        "place": "Cherokee Creek Boys School",
+                        "years": "",
+                        "url": "https://example.test/facility/cherokee-creek-boys-school-sc/"
+                    },
+                    {
+                        "role": "director of business services",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "director of business services",
+                        "place": "Rocky Mountain Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/rocky-mountain-academy-id/"
+                    },
+                    {
+                        "role": "director of business services",
+                        "place": "Boulder Creek Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/boulder-creek-academy-id/"
+                    },
+                    {
+                        "role": "director of business services",
+                        "place": "Northwest Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    },
+                    {
+                        "role": "director of business services",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    }
+                ],
+                "personId": 1826
+            },
+            {
+                "name": "Mike Naylor",
+                "role": "exec director",
+                "career": [
+                    {
+                        "role": "cofounder",
+                        "place": "Boulder Creek Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/boulder-creek-academy-id/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Provo Canyon School",
+                        "years": "",
+                        "url": "https://example.test/facility/provo-canyon-school-ut/"
+                    },
+                    {
+                        "role": "exec director",
+                        "place": "Rocky Mountain Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/rocky-mountain-academy-id/"
+                    },
+                    {
+                        "role": "exec director",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    }
+                ],
+                "personId": 1869
+            },
+            {
+                "name": "Paul Johnson",
+                "role": "exec director",
+                "career": [
+                    {
+                        "role": "School Director, Director (2008-2009)",
+                        "place": "Boulder Creek Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/boulder-creek-academy-id/"
+                    },
+                    {
+                        "role": "Interim Executive Director (2008)",
+                        "place": "Northwest Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Rocky Mountain Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/rocky-mountain-academy-id/"
+                    },
+                    {
+                        "role": "exec director",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    }
+                ],
+                "personId": 106
+            },
+            {
+                "name": "Rae Ann Knopf",
+                "role": "executive director",
+                "career": [
+                    {
+                        "role": "Head of School (1998)",
+                        "place": "King George School",
+                        "years": "",
+                        "url": "https://example.test/facility/king-george-school-vt/"
+                    },
+                    {
+                        "role": "Staff (2009)",
+                        "place": "Aspen Education Group",
+                        "years": "",
+                        "url": "https://example.test/facility/aspen-education-group/"
+                    },
+                    {
+                        "role": "founder, executive director",
+                        "place": "Bromley Brook School",
+                        "years": "",
+                        "url": "https://example.test/facility/bromley-brook-school-vt/"
+                    },
+                    {
+                        "role": "executive director",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "executive director CEDU Family of Services",
+                        "place": "The Brown Schools",
+                        "years": "",
+                        "url": "https://example.test/operator/the-brown-schools/"
+                    },
+                    {
+                        "role": "deputy commissioner of education",
+                        "place": "Vermont State Board of Education",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "senior program officer GPA North America",
+                        "place": "Bill and Melinda Gates Foundation",
+                        "years": "",
+                        "url": ""
+                    }
+                ],
+                "personId": 1220
+            },
+            {
+                "name": "Reid Treadaway",
+                "role": "regional director of admissions",
+                "career": [
+                    {
+                        "role": "Director of Admissions (2003)",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "Director of Admissions (2003)",
+                        "place": "Ascent Wilderness Program",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-program-id/"
+                    },
+                    {
+                        "role": "Director of Admissions and Business Development, Admissions and Business Development (2012-2013)",
+                        "place": "Boulder Creek Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/boulder-creek-academy-id/"
+                    },
+                    {
+                        "role": "cofounder/ admissions director",
+                        "place": "blueFire Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/bluefire-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "admissions director",
+                        "place": "Rocky Mountain Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/rocky-mountain-academy-id/"
+                    },
+                    {
+                        "role": "admissions director",
+                        "place": "SUWS of the Carolinas",
+                        "years": "",
+                        "url": "https://example.test/facility/suws-of-the-carolinas-nc/"
+                    },
+                    {
+                        "role": "regional director of admissions",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "admissions specialist",
+                        "place": "InnerChange",
+                        "years": "",
+                        "url": "https://example.test/facility/innerchange-ut/"
+                    }
+                ],
+                "personId": 88
+            }
+        ],
+        "others": [
+            {
+                "name": "Alexander MacDonald",
+                "role": "",
+                "career": [],
+                "personId": 1982
+            },
+            {
+                "name": "Bruce Wilson",
+                "role": "",
+                "career": [],
+                "personId": 124
+            },
+            {
+                "name": "Christopher Carlin",
+                "role": "",
+                "career": [],
+                "personId": 1053
+            },
+            {
+                "name": "John Padgett",
+                "role": "",
+                "career": [],
+                "personId": 2081
+            },
+            {
+                "name": "John stallone",
+                "role": "family head",
+                "career": [],
+                "personId": 2083
+            },
+            {
+                "name": "Morty Molin",
+                "role": "family head",
+                "career": [],
+                "personId": 2148
+            },
+            {
+                "name": "Ron May",
+                "role": "",
+                "career": [],
+                "personId": 1966
+            }
+        ]
+    },
+    "summary": "CEDU is a parent company (defunct) based in Running Springs, CA. Kids Over Profits has records of 6 programs it has run in 2 states and countries.",
+    "index_url": "https://example.test/operator/",
+    "network_url": "https://example.test/network-map/#open=cedu-family-of-services",
+    "updated_label": "October 2, 2026",
+    "news": [
+        {
+            "id": 60,
+            "title": "Why do kids keep going missing? Inside the troubled teen industry",
+            "outlet": "CBC",
+            "date": "2023-02-23",
+            "date_label": "Feb 23, 2023",
+            "url": "https://www.cbc.ca/player/play/audio/9.7100032",
+            "type": "expose",
+            "summary": "A 16-year-old boy named Daniel Yuen went missing after enrolling in a 'tough love' bootcamp in California. His family had been seeking help for his depression. The bootcamp, CEDU Running Springs, was supposed to provide support, but Daniel vanished. An investigation into the troubled teen industry has uncovered ties to a dangerous cult and raises questions about the treatment of teenagers in these facilities.",
+            "image": null,
+            "about": "company"
+        },
+        {
+            "id": 762,
+            "title": "Allegations of Abuse at U.S. Troubled‑Teen Boarding Schools Involving Canadian Teens",
+            "outlet": "HuffPost Canada",
+            "date": "2020-11-22",
+            "date_label": "Nov 22, 2020",
+            "url": "https://www.huffingtonpost.ca/entry/boarding-school-abuse-canadians_ca_5fb53599c5b6f00bd84c6ef7",
+            "type": "expose",
+            "summary": "The article reports allegations of physical restraint, solitary confinement, and sexual misconduct at several U.S. troubled‑teen boarding schools that housed Canadian teenagers. Survivors describe harsh punishments, forced medication, and isolation, and the facilities have faced legal and regulatory scrutiny. The piece highlights gaps in oversight and the impact on the survivors’ mental health.",
+            "image": null,
+            "about": "facility"
+        }
+    ],
+    "history": null,
+    "documents": {
+        "folder_id": 22,
+        "program_total": 47,
+        "url": "https://example.test/operator/cedu/#documents"
+    }
+}

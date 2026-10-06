@@ -1,0 +1,450 @@
+{
+    "api_version": 1,
+    "id": 9606,
+    "slug": "daytona-juvenile-residential-facility-fl",
+    "url": "https://example.test/facility/daytona-juvenile-residential-facility-fl/",
+    "name": "Daytona Juvenile Residential Facility",
+    "unique_name": "Daytona Juvenile Residential Facility",
+    "current_name": "",
+    "formerly": [],
+    "aka": [],
+    "status": "Transferred",
+    "end_year": "",
+    "place": "Daytona Beach, Florida",
+    "city": "Daytona Beach",
+    "state_code": "FL",
+    "state_name": "Florida",
+    "country": "United States",
+    "hub_name": "Florida",
+    "hub_url": "",
+    "operator": {
+        "name": "Rite of Passage, Inc.",
+        "url": "https://example.test/operator/rite-of-passage-inc/"
+    },
+    "siblings": [
+        {
+            "name": "Canyon State Academy",
+            "place": "Queen Creek, Arizona",
+            "status": "Open",
+            "url": "https://example.test/facility/canyon-state-academy-az/"
+        },
+        {
+            "name": "Falcon Ridge Ranch",
+            "place": "Virgin, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/falcon-ridge-ranch-ut/"
+        },
+        {
+            "name": "Gulf Coast Trades Center",
+            "place": "New Waverly, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/gulf-coast-trades-center-tx/"
+        },
+        {
+            "name": "JoAnn Bridges Academy",
+            "place": "Greenville, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/joann-bridges-academy-fl/"
+        },
+        {
+            "name": "Lake Granbury Youth Services",
+            "place": "Granbury, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/lake-granbury-youth-services-tx/"
+        },
+        {
+            "name": "Lava Heights Academy",
+            "place": "Toquerville, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/lava-heights-academy-ut/"
+        },
+        {
+            "name": "Monarch Academy for Girls",
+            "place": "Denison, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/monarch-academy-for-girls-tx/"
+        },
+        {
+            "name": "Mt. Lassen Treatment Center",
+            "place": "San Andreas, California",
+            "status": "Open",
+            "url": "https://example.test/facility/mt-lassen-treatment-center-ca/"
+        },
+        {
+            "name": "Norris Academy",
+            "place": "Andersonville, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/norris-academy-tn/"
+        },
+        {
+            "name": "Oak Grove Academy",
+            "place": "Jasper, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/oak-grove-academy-fl/"
+        },
+        {
+            "name": "Palm Beach Youth Academy",
+            "place": "West Palm Beach, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/palm-beach-youth-academy-fl/"
+        },
+        {
+            "name": "Pearl Haven",
+            "place": "O’ahu, Hawaii",
+            "status": "Open",
+            "url": "https://example.test/facility/pearl-haven-hi/"
+        },
+        {
+            "name": "ROP ATCS Sierra Ridge Treatment Center",
+            "place": "San Andreas, California",
+            "status": "Closed",
+            "url": "https://example.test/facility/rop-atcs-sierra-ridge-treatment-center-ca/"
+        },
+        {
+            "name": "Sierra Sage Treatment Center",
+            "place": "Minden, Nevada",
+            "status": "Open",
+            "url": "https://example.test/facility/sierra-sage-treatment-center-nv/"
+        },
+        {
+            "name": "Silver State Academy",
+            "place": "Yerington, Nevada",
+            "status": "Closed",
+            "url": "https://example.test/facility/silver-state-academy-nv/"
+        },
+        {
+            "name": "The Oaks",
+            "place": "Brownwood, Texas",
+            "status": "Unknown",
+            "url": "https://example.test/facility/the-oaks-tx/"
+        },
+        {
+            "name": "Uta Halee Academy",
+            "place": "Omaha, Nebraska",
+            "status": "Open",
+            "url": "https://example.test/facility/uta-halee-academy-ne/"
+        },
+        {
+            "name": "Walton Academy for Growth and Change",
+            "place": "DeFuniak Springs, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/walton-academy-for-growth-and-change-fl/"
+        },
+        {
+            "name": "Yosemite Treatment Center",
+            "place": "San Andreas, California",
+            "status": "Open",
+            "url": "https://example.test/facility/yosemite-treatment-center-ca/"
+        }
+    ],
+    "program_homes": null,
+    "home_of": null,
+    "addresses": [
+        "1386 Indian Lake Rd, Daytona Beach, FL 32124-1001"
+    ],
+    "former_locations": [],
+    "operated": "",
+    "summary": "Daytona Juvenile Residential Facility was a program in Daytona Beach, Florida, operated by Rite of Passage, Inc. The program was transferred to another operator.",
+    "facts": [
+        {
+            "label": "Operator",
+            "value": "Rite of Passage, Inc."
+        },
+        {
+            "label": "Owners",
+            "value": [
+                "ROP"
+            ]
+        }
+    ],
+    "fact_sources": [],
+    "practices": [],
+    "incidents": [],
+    "staff": [],
+    "notes": [],
+    "field_notes": [],
+    "testimony": [],
+    "forum": [],
+    "videos": [],
+    "profile_links": [],
+    "resources": [],
+    "resource_links": [],
+    "lawsuits": [],
+    "memorials": [],
+    "eras": null,
+    "wiki": [],
+    "updated_at": "2026-09-18 18:35:13",
+    "updated_label": "September 18, 2026",
+    "news_url": "https://example.test/news/",
+    "lawsuits_url": "https://example.test/lawsuits/",
+    "memorial_url": "https://example.test/memorial/",
+    "wiki_url": "https://example.test/wiki-feed/?search=Daytona%20Juvenile%20Residential%20Facility",
+    "submit_url": "https://example.test/tti-data-submission/?find=Daytona%20Juvenile%20Residential%20Facility",
+    "news": [],
+    "inspections": {
+        "summary": {
+            "licensed_names": [
+                "Daytona Juvenile Residential Facility"
+            ],
+            "addresses": [
+                "1386 Indian Lake Road Daytona Beach , FL 32124-1001"
+            ],
+            "phone": "(386) 214-7329",
+            "program_category": "High-risk Residential",
+            "licensed_program_name": "DJJ-daytona-juvenile-residential-facility",
+            "executive_director": "Ryan Montgomery",
+            "bed_capacity": "33",
+            "license_expiration": "",
+            "relicense_visit_date": "",
+            "licensing_action": "Active",
+            "states": [
+                "Florida"
+            ]
+        },
+        "total": 18,
+        "reports": [
+            {
+                "id": 74314,
+                "ts": 1782777600,
+                "date": "06/30/2026",
+                "date_label": "Jun 30, 2026",
+                "url": "",
+                "summary": "QI Residential - FY25-26 - 3 findings",
+                "report_id": "1956086",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": [
+                    {
+                        "text": "The Educational Provider staff shall complete staff training as outlined within the contract. The contracted educational provider is required to provide its assigned staff with professional development and training as specified in their contract. None of the eight flex teachers completed any the required training as contractually required. All on-site teachers completed all required training required by contract with the exception of Department’s Central Communications Center/Incident Reporting, and two of the three teachers did not complete Mental Health and Substance Abuse.",
+                        "standard": "Indicator 1.04 Education Staff Training (Education Contract Provider)",
+                        "label": "Failed compliance, DJJ review"
+                    },
+                    {
+                        "text": "The Educational Provider shall develop and upload an Exit portfolio at least three school days prior to the youth’s exit from a residential commitment program. The contracted educational provider must develop and upload an exit portfolio for each youth. Three closed youth records were reviewed. All three records contained cumulative transcripts and grades in progress. One case requiring an Individualized Education Program (IEP) and one a diploma was included in the exit portfolio. All documents were uploaded within the required three days. All three records reviewed were missing Individual Education Transition Plans, Progress Monitoring plans, results from state and district assessments, and any credentials earned.",
+                        "standard": "Indicator 1.05 Exit Portfolio (Education Contract Provider)",
+                        "label": "Limited compliance, DJJ review"
+                    },
+                    {
+                        "text": "Education staff shall develop and implement a career education competency development program. Florida Scholars Academy, the contracted education prover, is currently in the process of developing the Career Education curriculum. At the time of review, no documentation of Career Education was available. Currently, youth at all programs are working with Career Power Workplace Skills workbooks. A review of the program activities confirmed no career exploration services are being provided beyond soft skills instructions, which does meet the requirements of the Florida Administrative Code for the program, which is not incorporating any Type 1 career education nor any additional Type 2 career preparedness. The instructional leader indicated career education activities are limited to the use of workbooks, with no additional curriculum or industry recognized credential instruction currently available. According to the program schedule, eligible youth participate in Career Power Workplace Skills activities during designated instructional periods Monday through Friday.",
+                        "standard": "Indicator 1.06 Career Education (Education Contract Provider)",
+                        "label": "Limited compliance, DJJ review"
+                    }
+                ]
+            },
+            {
+                "id": 74274,
+                "ts": 1782777600,
+                "date": "06/30/2026",
+                "date_label": "Jun 30, 2026",
+                "url": "",
+                "summary": "SPEP - FY25-26",
+                "report_id": "1953287",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 74273,
+                "ts": 1782777600,
+                "date": "06/30/2026",
+                "date_label": "Jun 30, 2026",
+                "url": "",
+                "summary": "SPEP - FY25-26",
+                "report_id": "1953274",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53771,
+                "ts": 1782777600,
+                "date": "06/30/2026",
+                "date_label": "Jun 30, 2026",
+                "url": "",
+                "summary": "QI Residential - FY25-26 - 1 finding",
+                "report_id": "1952759",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": [
+                    {
+                        "text": "The program shall integrate educational instruction (career and technical education, as well as academic instruction) into the daily schedule in such a way ensuring the integrity of required instructional time. The program has a written policy and procedures addressing educational access. A review of the program’s activity schedule and the daily academic schedule revealed they align with each other. All five interviewed youth stated educational services are being provided and reported there are few interruptions, which are usually due to youth acting out. A review of monthly randomly selected days in the logbook since the last annual compliance review indicated education classes started fifteen minutes late one month and ended fifteen minutes early in another month. The review also showed the morning break period lasted twelve to twenty-five minutes longer than the scheduled fifteen minutes in three reviewed months. Observations of the program's video were conducted for three days. The footage showed school started an average of one to two minutes late on all three days, and the morning breaks went over the allotted fifteen minutes by fourteen to seventeen minutes. Lunch period started eight to nine minutes early and returned between three and twelve minutes late for all three days, and school ended eleven to twelve minutes early on all three reviewed days. The average loss of educational time across all three days ranged from fifteen to forty-six minutes.",
+                        "standard": "Indicator 2.18 Educational Access (Residential Contract Provide)",
+                        "label": "Limited compliance, DJJ review"
+                    }
+                ]
+            },
+            {
+                "id": 53770,
+                "ts": 1751241600,
+                "date": "06/30/2025",
+                "date_label": "Jun 30, 2025",
+                "url": "",
+                "summary": "QI Residential - FY24-25 - 3 findings",
+                "report_id": "1436286",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": [
+                    {
+                        "text": "Specialized treatment services shall be provided in programs designated as “Specialized Treatment Services Programs” or are designated to provide “Specialized Treatment Overlay Services.” The program has a policy and procedures which require specialized treatment services to be provided to youth. The program’s required clinical groups according to the contract are Pathways: A guided workbook for youth beginning treatment, Footprints: Steps to a healthy life, as needed, Aggression Replacement Therapy, Cannabis Youth Treatment, and Sexual Education/Healthy Sexuality and Healthy Boundaries. Seven youth were interviewed. All confirmed they participate in individual and family therapy. Six out of seven interviewed youth stated they attend individual therapy once a week, the remaining youth stated they had individual therapy three times a month. Five out of seven interviewed youth stated they receive family therapy once a month, one stated they receive family therapy bi-weekly, and the remaining youth did not state how often they received family therapy. Seven staff were interviewed. All staff confirmed they do not facilitate any clinical groups. An interview with the designated mental health clinician authority (DMHCA) confirmed all youth receive juvenile sexual offender treatment services (JSO) and clinical services according to their individualized treatment plan. An interview with the program director confirmed Pathways: A guided workbook for youth beginning treatment is the ...",
+                        "standard": "Indicator 3.08 Specialized Treatment Services (Critical)",
+                        "label": "Limited compliance, DJJ review"
+                    },
+                    {
+                        "text": "Program staff shall maintain active supervision of youth, including interacting positively with youth, engaging in a full schedule of constructive activities, closely observing behavior of youth and changes in behavior. Program staff can account for the whereabouts of youth under their supervision at all times. The program has a policy and procedures requiring staff to maintain active supervision of youth, including interacting positively with youth, engaging in a full schedule of constructive activities, and closely observing behavior of youth, to include changes in behavior. Staff must also be able to always account for the whereabouts of youth under their supervision. The program’s contracted supervision ratio is one staff for every eight youth during daytime activities, and one staff to ten youth during evening hours. Each day of the annual compliance review week, program staff were observed supervising youth in school, during recreation, taking restroom breaks from school, cleaning, and during an intake. At all times, staff were properly supervising youth, and were within the contractually required ratio. Interactions were observed to be positive. Three staff were informally interviewed during these observations, and all staff immediately knew the number of youth they were supervising. The program’s procedures define active supervision as the effective positioning of staff in an area suited for optimum sight and sound supervision of youth. Staff are to position ...",
+                        "standard": "Indicator 5.01 Youth Supervision (CRITICAL)",
+                        "label": "Limited compliance, DJJ review"
+                    },
+                    {
+                        "text": "The program has a system in place to govern the control and use of keys including the following: • Key assignment and usage including restrictions on usage; • Inventory and tracking of keys; • Secure storage of keys not in use; • Procedures addressing missing or lost keys; and • Reporting and replacement of damaged keys. The program has a policy and procedures which outline the key control process. The process governs the control and use of keys, to include key assignment and usage, restrictions on usage, inventory and tracking of keys, and secure storage of keys not in use. The procedures also address missing or lost keys and reporting and replacement of damaged keys. A distribution of keys was not observed during the annual compliance review week due to the times the program has shift change. A key inventory was conducted, which revealed a discrepancy. The Key Control Log showed key ring two checked out to maintenance, however, the key ring was in the key locker. The annual compliance review team was advised the lead staff had not yet signed the key ring back in. Keys are stored in a locked cabinet, which is in the master control room, and this is also secured and inaccessible to youth. Permanent issued keys are kept to a minimum and must be authorized in writing by the program director (PD). The PD, maintenance, human resources, and the clinical director are the only staff with permanent keys. The program has a broken key report which is to be completed whenever a key is ...",
+                        "standard": "Indicator 5.07 Key Control (CRITCAL)",
+                        "label": "Limited compliance, DJJ review"
+                    }
+                ]
+            },
+            {
+                "id": 53769,
+                "ts": 1719705600,
+                "date": "06/30/2024",
+                "date_label": "Jun 30, 2024",
+                "url": "",
+                "summary": "SPEP - FY23-24",
+                "report_id": "1209578",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53768,
+                "ts": 1719705600,
+                "date": "06/30/2024",
+                "date_label": "Jun 30, 2024",
+                "url": "",
+                "summary": "SPEP - FY23-24",
+                "report_id": "1209577",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53767,
+                "ts": 1719705600,
+                "date": "06/30/2024",
+                "date_label": "Jun 30, 2024",
+                "url": "",
+                "summary": "SPEP - FY23-24",
+                "report_id": "1209576",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53766,
+                "ts": 1719705600,
+                "date": "06/30/2024",
+                "date_label": "Jun 30, 2024",
+                "url": "",
+                "summary": "QI Residential - FY23-24",
+                "report_id": "1191465",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53765,
+                "ts": 1688083200,
+                "date": "06/30/2023",
+                "date_label": "Jun 30, 2023",
+                "url": "",
+                "summary": "SPEP - FY22-23",
+                "report_id": "617695",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53764,
+                "ts": 1688083200,
+                "date": "06/30/2023",
+                "date_label": "Jun 30, 2023",
+                "url": "",
+                "summary": "SPEP - FY22-23",
+                "report_id": "617694",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53763,
+                "ts": 1688083200,
+                "date": "06/30/2023",
+                "date_label": "Jun 30, 2023",
+                "url": "",
+                "summary": "SPEP - FY22-23",
+                "report_id": "617693",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53762,
+                "ts": 1656547200,
+                "date": "06/30/2022",
+                "date_label": "Jun 30, 2022",
+                "url": "",
+                "summary": "SPEP - FY21-22",
+                "report_id": "56132",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53761,
+                "ts": 1656547200,
+                "date": "06/30/2022",
+                "date_label": "Jun 30, 2022",
+                "url": "",
+                "summary": "SPEP - FY21-22",
+                "report_id": "56131",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53760,
+                "ts": 0,
+                "date": "",
+                "date_label": "",
+                "url": "",
+                "summary": "PREA - 1 finding",
+                "report_id": "23063",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53759,
+                "ts": 0,
+                "date": "",
+                "date_label": "",
+                "url": "",
+                "summary": "PREA",
+                "report_id": "23026",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53758,
+                "ts": 0,
+                "date": "",
+                "date_label": "",
+                "url": "",
+                "summary": "PREA - FINAL",
+                "report_id": "23025",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            },
+            {
+                "id": 53757,
+                "ts": 0,
+                "date": "",
+                "date_label": "",
+                "url": "",
+                "summary": "PREA - Year 2 Cycle 4",
+                "report_id": "1190124",
+                "licensed_as": "Daytona Juvenile Residential Facility",
+                "findings": []
+            }
+        ],
+        "more": 0,
+        "page_url": "https://example.test/fl-reports/"
+    },
+    "documents": {
+        "folder_id": 0,
+        "url": ""
+    }
+}

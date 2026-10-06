@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Kids Over Profits",
+    "slug": "kids-over-profits",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "kidsoverprofits",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "org.kidsoverprofits.app",
+      "supportsTablet": true,
+      "associatedDomains": ["applinks:kidsoverprofits.org"],
+      "infoPlist": { "ITSAppUsesNonExemptEncryption": false }
+    },
+    "android": {
+      "package": "org.kidsoverprofits.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#000435",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            { "scheme": "https", "host": "kidsoverprofits.org", "pathPrefix": "/facility/" },
+            { "scheme": "https", "host": "kidsoverprofits.org", "pathPrefix": "/operator/" },
+            { "scheme": "https", "host": "kidsoverprofits.org", "pathPrefix": "/news/" },
+            { "scheme": "https", "host": "kidsoverprofits.org", "pathPrefix": "/state/" }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": { "output": "static", "favicon": "./assets/images/favicon.png" },
+    "plugins": [
+      "expo-router",
+      ["expo-splash-screen", { "backgroundColor": "#000435", "image": "./assets/images/splash-icon.png", "imageWidth": 120 }]
+    ],
+    "experiments": { "typedRoutes": true, "reactCompiler": true }
+  }
+}

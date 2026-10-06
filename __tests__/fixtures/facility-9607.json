@@ -1,0 +1,728 @@
+{
+    "api_version": 1,
+    "id": 9607,
+    "slug": "falcon-ridge-ranch-ut",
+    "url": "https://example.test/facility/falcon-ridge-ranch-ut/",
+    "name": "Falcon Ridge Ranch",
+    "unique_name": "Falcon Ridge Ranch",
+    "current_name": "",
+    "formerly": [],
+    "aka": [],
+    "status": "Open",
+    "end_year": "",
+    "place": "Virgin, Utah",
+    "city": "Virgin",
+    "state_code": "UT",
+    "state_name": "Utah",
+    "country": "United States",
+    "hub_name": "Utah",
+    "hub_url": "",
+    "operator": {
+        "name": "Sequel TSI",
+        "url": "https://example.test/operator/rite-of-passage-inc/"
+    },
+    "siblings": [
+        {
+            "name": "Canyon State Academy",
+            "place": "Queen Creek, Arizona",
+            "status": "Open",
+            "url": "https://example.test/facility/canyon-state-academy-az/"
+        },
+        {
+            "name": "Daytona Juvenile Residential Facility",
+            "place": "Daytona Beach, Florida",
+            "status": "Transferred",
+            "url": "https://example.test/facility/daytona-juvenile-residential-facility-fl/"
+        },
+        {
+            "name": "Gulf Coast Trades Center",
+            "place": "New Waverly, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/gulf-coast-trades-center-tx/"
+        },
+        {
+            "name": "JoAnn Bridges Academy",
+            "place": "Greenville, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/joann-bridges-academy-fl/"
+        },
+        {
+            "name": "Lake Granbury Youth Services",
+            "place": "Granbury, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/lake-granbury-youth-services-tx/"
+        },
+        {
+            "name": "Lava Heights Academy",
+            "place": "Toquerville, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/lava-heights-academy-ut/"
+        },
+        {
+            "name": "Monarch Academy for Girls",
+            "place": "Denison, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/monarch-academy-for-girls-tx/"
+        },
+        {
+            "name": "Mt. Lassen Treatment Center",
+            "place": "San Andreas, California",
+            "status": "Open",
+            "url": "https://example.test/facility/mt-lassen-treatment-center-ca/"
+        },
+        {
+            "name": "Norris Academy",
+            "place": "Andersonville, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/norris-academy-tn/"
+        },
+        {
+            "name": "Oak Grove Academy",
+            "place": "Jasper, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/oak-grove-academy-fl/"
+        },
+        {
+            "name": "Palm Beach Youth Academy",
+            "place": "West Palm Beach, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/palm-beach-youth-academy-fl/"
+        },
+        {
+            "name": "Pearl Haven",
+            "place": "O’ahu, Hawaii",
+            "status": "Open",
+            "url": "https://example.test/facility/pearl-haven-hi/"
+        },
+        {
+            "name": "ROP ATCS Sierra Ridge Treatment Center",
+            "place": "San Andreas, California",
+            "status": "Closed",
+            "url": "https://example.test/facility/rop-atcs-sierra-ridge-treatment-center-ca/"
+        },
+        {
+            "name": "Sierra Sage Treatment Center",
+            "place": "Minden, Nevada",
+            "status": "Open",
+            "url": "https://example.test/facility/sierra-sage-treatment-center-nv/"
+        },
+        {
+            "name": "Silver State Academy",
+            "place": "Yerington, Nevada",
+            "status": "Closed",
+            "url": "https://example.test/facility/silver-state-academy-nv/"
+        },
+        {
+            "name": "The Oaks",
+            "place": "Brownwood, Texas",
+            "status": "Unknown",
+            "url": "https://example.test/facility/the-oaks-tx/"
+        },
+        {
+            "name": "Uta Halee Academy",
+            "place": "Omaha, Nebraska",
+            "status": "Open",
+            "url": "https://example.test/facility/uta-halee-academy-ne/"
+        },
+        {
+            "name": "Walton Academy for Growth and Change",
+            "place": "DeFuniak Springs, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/walton-academy-for-growth-and-change-fl/"
+        },
+        {
+            "name": "Yosemite Treatment Center",
+            "place": "San Andreas, California",
+            "status": "Open",
+            "url": "https://example.test/facility/yosemite-treatment-center-ca/"
+        }
+    ],
+    "program_homes": null,
+    "home_of": null,
+    "addresses": [
+        "750 East SR9, Virgin, UT 84779"
+    ],
+    "former_locations": [],
+    "operated": "2003 to present",
+    "summary": "Falcon Ridge Ranch is a program in Virgin, Utah, operated by Sequel TSI. It has operated since 2003.",
+    "facts": [
+        {
+            "label": "Operated",
+            "value": "2003 to present"
+        },
+        {
+            "label": "Serves",
+            "value": "Female, ages 12 to 17"
+        },
+        {
+            "label": "Capacity",
+            "value": "22"
+        },
+        {
+            "label": "Operator",
+            "value": "Sequel TSI"
+        },
+        {
+            "label": "Past operators",
+            "value": [
+                "Centers for Adolescent Recovery and Education (CARE)"
+            ]
+        },
+        {
+            "label": "Memberships",
+            "value": [
+                "NATSAP (former member; member from 2008, last listed 2016-17)"
+            ]
+        }
+    ],
+    "fact_sources": {
+        "Serves": [
+            {
+                "source": "Woodbury Reports, Oct 2010",
+                "cite": "Woodbury Reports, October 2010, p. 2",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1010.pdf#page=2"
+            },
+            {
+                "source": "Woodbury Reports, Jul 2007",
+                "cite": "Woodbury Reports, July 2007 (#155), p. 21",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0707.pdf#page=21"
+            }
+        ],
+        "Capacity": [
+            {
+                "source": "Woodbury Reports, Oct 2010",
+                "cite": "Woodbury Reports, October 2010, p. 2",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1010.pdf#page=2"
+            }
+        ]
+    },
+    "practices": [],
+    "incidents": [],
+    "staff": {
+        "administrator": [
+            {
+                "text": "Leslie Budd (Director (2008, Woodbury Reports), left)",
+                "source": "Woodbury Reports, Dec 2008",
+                "cite": "Woodbury Reports, December 2008 (#172), p. 21",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1208.pdf#page=21",
+                "name": "Leslie Budd",
+                "role": "Director (2008, Woodbury Reports), left",
+                "personId": 1,
+                "career": []
+            },
+            {
+                "text": "Brian Pace (Executive Director (2016))",
+                "source": "Network map",
+                "cite": "Kids Over Profits network map",
+                "url": "https://example.test/network-map/#open=brian-pace",
+                "name": "Brian Pace",
+                "role": "Executive Director (2016)",
+                "career": [
+                    {
+                        "role": "executive director",
+                        "place": "Red Rock Canyon School",
+                        "years": "",
+                        "url": "https://example.test/facility/red-rock-canyon-school-ut/"
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Star Guides Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/star-guides-wilderness-therapy-ut/"
+                    },
+                    {
+                        "role": "program director",
+                        "place": "Sunrise RTC",
+                        "years": "",
+                        "url": "https://example.test/facility/sunrise-rtc-ut/"
+                    },
+                    {
+                        "role": "Executive Director (2016)",
+                        "place": "Lava Heights Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/lava-heights-academy-ut/"
+                    },
+                    {
+                        "role": "Executive Director (2017)",
+                        "place": "Mount Pleasant Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/mount-pleasant-academy-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "David Allred (Executive director)",
+                "source": "Network map",
+                "cite": "Kids Over Profits network map",
+                "url": "https://example.test/network-map/#open=david-allred",
+                "name": "David Allred",
+                "role": "Executive director",
+                "career": [
+                    {
+                        "role": "executive director",
+                        "place": "Lava Heights Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/lava-heights-academy-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Logan River Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/logan-river-academy-ut/"
+                    }
+                ],
+                "from_map": true
+            }
+        ],
+        "notableStaff": [
+            {
+                "text": "Bobbie Jensen (Admissions, Business Development and Marketing, Admissions (2009-2010, Woodbury Reports)). Previously: Staff - Cinnamon Hills Youth Crisis Center (2001); Admissions Director - Sunrise Academy (2007); Admissions Director - Sunrise RTC (before 2008); Assistant Admissions Director - Centers for Adolescent Recovery and Education (CARE) (2008) [joined 2008-12-15]; Marketing and Admissions - CARE Schools (2010); later Admissions Director, Admissions - Expedition Therapy (2012) [joined 2012]",
+                "source": "Woodbury Reports, Oct 2010",
+                "cite": "Woodbury Reports, October 2010, p. 2",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1010.pdf#page=2",
+                "name": "Bobbie Jensen",
+                "role": "Admissions, Business Development and Marketing, Admissions (2009-2010, Woodbury Reports)",
+                "personId": 2,
+                "career": [
+                    {
+                        "role": "Staff",
+                        "place": "Cinnamon Hills Youth Crisis Center",
+                        "years": "2001",
+                        "url": "https://example.test/facility/cinnamon-hills-youth-crisis-center-ut/"
+                    },
+                    {
+                        "role": "Admissions Director",
+                        "place": "Sunrise Academy",
+                        "years": "2007",
+                        "url": ""
+                    },
+                    {
+                        "role": "Admissions Director",
+                        "place": "Sunrise RTC",
+                        "years": "before 2008",
+                        "url": "https://example.test/facility/sunrise-rtc-ut/"
+                    },
+                    {
+                        "role": "Assistant Admissions Director",
+                        "place": "Centers for Adolescent Recovery and Education (CARE)",
+                        "years": "2008",
+                        "url": ""
+                    },
+                    {
+                        "role": "Marketing and Admissions",
+                        "place": "CARE Schools",
+                        "years": "2010",
+                        "url": ""
+                    },
+                    {
+                        "role": "Admissions Director, Admissions",
+                        "place": "Expedition Therapy",
+                        "years": "2012",
+                        "url": "https://example.test/facility/expedition-therapy-ak/"
+                    }
+                ]
+            },
+            {
+                "text": "Karen Slack (Admissions (2007, Woodbury Reports))",
+                "source": "Woodbury Reports, Jul 2007",
+                "cite": "Woodbury Reports, July 2007 (#155), p. 21",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0707.pdf#page=21",
+                "name": "Karen Slack",
+                "role": "Admissions (2007, Woodbury Reports)",
+                "personId": 3,
+                "career": []
+            },
+            {
+                "text": "Stephan C. Barrick (Staff (2012, Woodbury Reports))",
+                "source": "Woodbury Reports, Dec 2012",
+                "cite": "Woodbury Reports, December 2012, p. 1",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1212.pdf#page=1",
+                "name": "Stephan C. Barrick",
+                "role": "Staff (2012, Woodbury Reports)",
+                "personId": 4,
+                "career": []
+            },
+            {
+                "text": "Carolle Bell (Clinical Director (2008, Woodbury Reports))",
+                "source": "Woodbury Reports, Dec 2008",
+                "cite": "Woodbury Reports, December 2008 (#172), p. 21",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1208.pdf#page=21",
+                "name": "Carolle Bell",
+                "role": "Clinical Director (2008, Woodbury Reports)",
+                "personId": 5,
+                "career": []
+            },
+            {
+                "text": "Amber Austin (Director of Admissions (2016))",
+                "source": "Network map",
+                "cite": "Kids Over Profits network map",
+                "url": "https://example.test/network-map/#open=amber-austin",
+                "name": "Amber Austin",
+                "role": "Director of Admissions (2016)",
+                "career": [
+                    {
+                        "role": "Director of Admissions (2016)",
+                        "place": "Lava Heights Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/lava-heights-academy-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Kathy Ruiz (Therapist)",
+                "source": "Network map",
+                "cite": "Kids Over Profits network map",
+                "url": "https://example.test/network-map/#open=kathy-ruiz",
+                "name": "Kathy Ruiz",
+                "role": "Therapist",
+                "career": [
+                    {
+                        "role": "therapist",
+                        "place": "WinGate Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/wingate-wilderness-therapy-ut/"
+                    },
+                    {
+                        "role": "senior field instructor",
+                        "place": "Evoke Entrada",
+                        "years": "",
+                        "url": "https://example.test/facility/evoke-entrada-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Oscar Fakahua (Director of campus culture)",
+                "source": "Network map",
+                "cite": "Kids Over Profits network map",
+                "url": "https://example.test/network-map/#open=oscar-fakahua",
+                "name": "Oscar Fakahua",
+                "role": "Director of campus culture",
+                "career": [
+                    {
+                        "role": "program director",
+                        "place": "Havenwood Academy",
+                        "years": "",
+                        "url": "https://example.test/havenwood-academy/"
+                    },
+                    {
+                        "role": "program director",
+                        "place": "Ashcreek Ranch Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/ashcreek-ranch-academy-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Salesi \"Nale\" Misinale Fakahua (Campus culture director)",
+                "source": "Network map",
+                "cite": "Kids Over Profits network map",
+                "url": "https://example.test/network-map/#open=salesi-nale-misinale-fakahua",
+                "name": "Salesi \"Nale\" Misinale Fakahua",
+                "role": "Campus culture director",
+                "career": [
+                    {
+                        "role": "Program Director (2015-2025), left",
+                        "place": "Ashcreek Ranch Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/ashcreek-ranch-academy-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Cinnamon Hills Youth Crisis Center",
+                        "years": "",
+                        "url": "https://example.test/facility/cinnamon-hills-youth-crisis-center-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Steve Barrick (Therapist)",
+                "source": "Network map",
+                "cite": "Kids Over Profits network map",
+                "url": "https://example.test/network-map/#open=steve-barrick",
+                "name": "Steve Barrick",
+                "role": "Therapist",
+                "career": [
+                    {
+                        "role": "Former Therapist (2019)",
+                        "place": "Kolob Canyon RTC",
+                        "years": "",
+                        "url": "https://example.test/facility/kolob-canyon-rtc-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Liahona Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/liahona-academy-for-youth-liahona-treatment-center-ut/"
+                    }
+                ],
+                "from_map": true
+            }
+        ]
+    },
+    "notes": [
+        "Operator: Centers for Adolescent Recovery and Education (CARE) (Woodbury Reports, February 2009, p. 20) https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0209.pdf#page=20",
+        "Accreditation: Northwest Association of Schools and Colleges (Woodbury Reports, October 2010, p. 3)",
+        "License: State licensed (Woodbury Reports, July 2007, p. 21)",
+        "Serves: Female (Woodbury Reports, October 2010, p. 2: https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1010.pdf#page=2)",
+        "Ages 12-17 (Woodbury Reports, July 2007 (#155), p. 21: https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0707.pdf#page=21)",
+        "Capacity: 22 (as of 2010) (Woodbury Reports, October 2010, p. 2: https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1010.pdf#page=2)"
+    ],
+    "field_notes": [],
+    "testimony": [],
+    "forum": [],
+    "videos": [],
+    "profile_links": [
+        {
+            "url": "https://web.archive.org/web/https://falconridgeranch.com/",
+            "label": "falconridgeranch.com (archived copy)",
+            "live_url": "https://falconridgeranch.com/",
+            "go_url": "https://example.test/go/?u=https%3A%2F%2Ffalconridgeranch.com%2F"
+        },
+        {
+            "url": "https://web.archive.org/web/http://www.heal-online.org/falcon.htm",
+            "label": "heal-online.org (archived copy)",
+            "live_url": "http://www.heal-online.org/falcon.htm",
+            "go_url": "https://example.test/go/?u=http%3A%2F%2Fwww.heal-online.org%2Ffalcon.htm"
+        }
+    ],
+    "resources": [],
+    "resource_links": [
+        {
+            "kind": "news",
+            "label": "News coverage",
+            "links": [
+                {
+                    "url": "https://www.troubledteenprograms.org/listing/falcon-ridge-ranch",
+                    "label": "Falcon Ridge Ranch | Troubled Teen Programs",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                }
+            ],
+            "credits": []
+        },
+        {
+            "kind": "social",
+            "label": "Survivor posts and discussion",
+            "links": [
+                {
+                    "url": "https://www.reddit.com/r/troubledteens/comments/clubam/any_other_falcon_ridge_ranch_red_rock_canyon/",
+                    "label": "deleted user (Reddit)",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                }
+            ],
+            "credits": []
+        },
+        {
+            "kind": "reference",
+            "label": "Reference and research",
+            "links": [
+                {
+                    "url": "https://strugglingteens.com/artman/publish/FalconRidgeRanchNP_070626.shtml",
+                    "label": "Falcon Ridge Ranch - New Perspectives",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                },
+                {
+                    "url": "https://www.yelp.com/not_recommended_reviews/falcon-ridge-ranch-virgin",
+                    "label": "Jaimie (Yelp)",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                },
+                {
+                    "url": "https://archive.md/Pjm9A",
+                    "label": "465. Falcon Ridge Ranch",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": {
+                        "label": "SCIAD NET",
+                        "url": "https://web.archive.org/web/20221007171605/https://www.sciad.net/"
+                    }
+                }
+            ],
+            "credits": [
+                {
+                    "label": "SCIAD NET",
+                    "url": "https://web.archive.org/web/20221007171605/https://www.sciad.net/",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "kind": "archive",
+            "label": "Archived pages",
+            "links": [
+                {
+                    "url": "https://archive.ph/PRwaZ",
+                    "label": "arrested and charged with multiple counts of sexual battery and distributing harmful material to minors",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                },
+                {
+                    "url": "https://archive.ph/fDXKK#selection-115.0-115.102",
+                    "label": "reports",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                },
+                {
+                    "url": "https://archive.ph/oH9UM#selection-3177.26-3177.115",
+                    "label": "Montana is sending troubled kids to out-of-state programs that have been accused of abuse",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                }
+            ],
+            "credits": []
+        },
+        {
+            "kind": "other",
+            "label": "Other links",
+            "links": [
+                {
+                    "url": "https://web.archive.org/web/https://journals.sagepub.com/doi/abs/10.1177/1049731506288458",
+                    "label": "Confrontation Therapy (archived copy)",
+                    "live_url": "https://journals.sagepub.com/doi/abs/10.1177/1049731506288458",
+                    "go_url": "https://example.test/go/?u=https%3A%2F%2Fjournals.sagepub.com%2Fdoi%2Fabs%2F10.1177%2F1049731506288458",
+                    "credit": null
+                },
+                {
+                    "url": "https://web.archive.org/web/20060902102254/http://www.falconridgeranch.com/index.html",
+                    "label": "Falcon Ridge Ranch Website Homepage",
+                    "live_url": "",
+                    "go_url": "",
+                    "credit": null
+                },
+                {
+                    "url": "https://web.archive.org/web/https://www.breakingcodesilence.net/testimonial/emilysstory",
+                    "label": "BreakingCodeSilence (archived copy)",
+                    "live_url": "https://www.breakingcodesilence.net/testimonial/emilysstory",
+                    "go_url": "https://example.test/go/?u=https%3A%2F%2Fwww.breakingcodesilence.net%2Ftestimonial%2Femilysstory",
+                    "credit": null
+                }
+            ],
+            "credits": []
+        }
+    ],
+    "lawsuits": [
+        {
+            "id": 29,
+            "case_name": "Falcon Ridge Ranch, Inc., et al. v. Sequel Youth Services of Red Rock Canyon, LLC, et al.",
+            "case_number": "200500204",
+            "court": "Fifth Judicial District Court in and for Washington County, State of Utah",
+            "year": "",
+            "status": "Filed",
+            "outcome": "In the underlying AAA arbitration (No. 01-17-0005-9666), the arbitrator issued an Interim Award on March 2, 2020, and a Final Award on May 1, 2020, denying the Sequel buyers' claims, granting the sellers' counterclaim (a contingent payment of at least $3,118,445), and awarding the sellers $1,300,000 in fees and costs. The sellers filed this amended petition on May 11, 2020, asking the court to confirm the awards; the documents do not show the court's ruling.",
+            "summary": "Frank Habibian and the companies that sold Falcon Ridge Ranch, Red Rock Canyon School, Lava Heights Academy and Mount Pleasant Academy (the CARE Schools) to Sequel Youth Services in August 2016 asked a Utah state court in Washington County to confirm an arbitration award against the Sequel buyers; the amended petition is dated May 11, 2020. In the arbitration, Sequel sought indemnity for a June 2017 settlement of about $2.58 million it paid the United States and Nevada after self-reporting that the schools had paid referral fees for students covered by Nevada Medicaid. The arbitrator dismissed that claim because Sequel settled without notifying the sellers, found the sellers had been ignorant of the law rather than fraudulent, and ruled that Sequel breached the purchase agreement in how it ran the schools after the sale. This is a business dispute between a program's sellers and buyers, not an abuse case, but it documents the referral-fee practice and the Medicaid settlement. The documents do not show whether the court confirmed the award.",
+            "link_type": "primary"
+        }
+    ],
+    "memorials": [],
+    "eras": null,
+    "wiki": [
+        {
+            "id": 107,
+            "title": "Falcon Ridge Ranch",
+            "place": "Virgin, UT",
+            "organization": "",
+            "type": "Residential Treatment Center",
+            "years": "2003-present"
+        }
+    ],
+    "updated_at": "2026-10-04 15:22:17",
+    "updated_label": "October 4, 2026",
+    "news_url": "https://example.test/news/",
+    "lawsuits_url": "https://example.test/lawsuits/",
+    "memorial_url": "https://example.test/memorial/",
+    "wiki_url": "https://example.test/wiki-feed/?search=Falcon%20Ridge%20Ranch",
+    "submit_url": "https://example.test/tti-data-submission/?find=Falcon%20Ridge%20Ranch",
+    "news": [
+        {
+            "id": 476,
+            "title": "‘State-sponsored Abandonment’ No More: California Stops Paying for Adoptees Sent to Out-of-State Treatment Centers",
+            "outlet": "The Imprint",
+            "date": "2025-07-22",
+            "date_label": "Jul 22, 2025",
+            "url": "https://imprintnews.org/top-stories/state-sponsored-abandonment-no-more-california-stops-paying-for-adoptees-sent-to-out-of-state-treatment-centers/262649",
+            "type": "closure",
+            "summary": "California has ceased funding residential treatment placements for adopted foster youth in other states, closing what advocates termed a dangerous loophole. The decision follows revelations that hundreds of children were sent to facilities with histories of violations, including several since-shuttered programs.\n\nAt least 676 adoptees were placed in out-of-state centers since 2020, with many attending problematic facilities. Among them were Sequel Youth and Family Services programs like Iowa’s Clarinda Academy and Utah’s Red Rock Canyon School, both closed after abuse scandals. Other placements included Utah’s Havenwood Academy, disciplined for improper restraints, and Cinnamon Hills Youth Crisis Center, sanctioned for excessive punishments. Three Points Ranch ceased operations in 2025 following violations, while White River Academy continues accepting California-funded youth under existing contracts.",
+            "image": null,
+            "link_type": "mentioned"
+        },
+        {
+            "id": 725,
+            "title": "Falcon Ridge Ranch Academy Staff Member Arrested and Charged with Sexual Battery and Dealing Harmful Material",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2021-03-11",
+            "date_label": "Mar 11, 2021",
+            "url": "https://www.sltrib.com/news/2021/03/12/staff-member-troubled/",
+            "type": "arrest",
+            "summary": "A staff member at Falcon Ridge Ranch Academy in Utah was arrested and charged with multiple counts of sexual battery and dealing harmful material to a minor. According to charging documents, the employee showed explicit photos to four minor students and subjected them to inappropriate physical contact.",
+            "image": null,
+            "link_type": "mentioned"
+        },
+        {
+            "id": 1079,
+            "title": "Cornelius Frederick death: Attorney releases video showing 16-year-old being restrained and given chest compressions later",
+            "outlet": "CNN",
+            "date": "2020-07-08",
+            "date_label": "Jul 8, 2020",
+            "url": "https://www.cnn.com/2020/07/08/us/michigan-cornelius-fredericks-video-restrain/index.html",
+            "type": "event",
+            "summary": "In April 2020, 16-year‑old Cornelius Frederick was restrained by staff at Lakeside Academy in Kalamazoo, Michigan, and later received chest compressions while unresponsive. He suffered cardiac arrest and died two days later; three staff members have been charged with involuntary manslaughter and child abuse.",
+            "image": null,
+            "link_type": "mentioned"
+        },
+        {
+            "id": 624,
+            "title": "Sequel Youth and Family Services Announces Closure of Red Rock Canyon School and Mount Pleasant Academy",
+            "outlet": "St. George News",
+            "date": "2019-07-16",
+            "date_label": "Jul 16, 2019",
+            "url": "https://www.stgeorgeutah.com/news/local/as-red-rock-canyon-school-gears-for-closure-parent-company-shutters-sister-institution/article_def202e9-b52b-57e6-89b9-6a17e5299fa5.html",
+            "type": "closure",
+            "summary": "Sequel Youth and Family Services announced the voluntary closure of Red Rock Canyon School in St. George, Utah, following multiple state and county investigations into allegations of physical and sexual abuse, safety violations, and a reported student riot resulting in arrests. The parent company also announced the upcoming closure of a sister institution, Mount Pleasant Academy, while maintaining the decision was unrelated.",
+            "image": null,
+            "link_type": "mentioned"
+        },
+        {
+            "id": 708,
+            "title": "Sequel Youth and Family Services Closes Two Utah Treatment Facilities Amid Regulatory Scrutiny and Misconduct Investigations",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2019-07-15",
+            "date_label": "Jul 15, 2019",
+            "url": "https://www.sltrib.com/news/2019/07/15/embattled-company-close/",
+            "type": "closure",
+            "summary": "Sequel Youth and Family Services announced the closure of Mount Pleasant Academy following the closure announcement of Red Rock Canyon School, both located in Utah. The facilities faced intense scrutiny, regulatory threats, and police investigations involving allegations of staff misconduct, sexual misconduct, and physical abuse.",
+            "image": null,
+            "link_type": "mentioned"
+        },
+        {
+            "id": 1084,
+            "title": "Opinions differ on mainland placement for Hawaii's troubled teens (2015-02-14)",
+            "outlet": "archive.md (archived)",
+            "date": "2015-02-14",
+            "date_label": "Feb 14, 2015",
+            "url": "https://archive.md/sN1Mj",
+            "type": "general",
+            "summary": "",
+            "image": null,
+            "link_type": "mentioned"
+        }
+    ],
+    "inspections": null,
+    "documents": {
+        "folder_id": 237,
+        "url": "https://example.test/facility/falcon-ridge-ranch-ut/#documents"
+    }
+}

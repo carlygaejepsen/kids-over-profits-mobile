@@ -10,6 +10,7 @@ import {
   AppText,
   Bullets,
   Card,
+  Cited,
   ErrorState,
   Facts,
   LinkRow,
@@ -21,14 +22,10 @@ import {
   StatusPill,
 } from '@/components/ui';
 import { aliasLabel } from '@/lib/alias';
+import { cleanProse } from '@/lib/citations';
 import { openLink } from '@/lib/links';
 import { colors } from '@/theme/colors';
 import { radius, spacing } from '@/theme/typography';
-
-function Source({ url, cite }: { url?: string; cite?: string }) {
-  if (!url) return cite ? <AppText variant="small" muted>{cite}</AppText> : null;
-  return <LinkRow url={url} label={cite ? `source: ${cite}` : 'source'} />;
-}
 
 function IncidentList({ items }: { items: Incident[] }) {
   return (
@@ -38,11 +35,7 @@ function IncidentList({ items }: { items: Incident[] }) {
           {inc.when || inc.kind ? (
             <AppText variant="smallBold" muted>{[inc.when, inc.kind].filter(Boolean).join(' · ')}</AppText>
           ) : null}
-          <AppText variant="body">{inc.text}</AppText>
-          <Source url={inc.url} cite={inc.cite || inc.source} />
-          {(inc.also ?? []).map((a, j) => (
-            <Source key={j} url={a.url} cite={a.cite || a.source} />
-          ))}
+          <Cited text={inc.text} sources={[inc, ...(inc.also ?? [])]} />
         </Card>
       ))}
     </>
@@ -72,11 +65,13 @@ function Memorials({ items }: { items: MemorialRow[] }) {
       {items.map((m, i) => (
         <Card key={m.id ?? i}>
           <AppText variant="bodyBold">{m.name}</AppText>
-          <AppText variant="small" muted>
-            {[m.age ? `Age ${m.age}` : '', m.date_label, m.cause].filter(Boolean).join(' · ')}
-          </AppText>
+          <Cited
+            variant="small"
+            muted
+            text={[m.age ? `Age ${m.age}` : '', m.date_label, m.cause].filter(Boolean).join(' · ')}
+            sources={[{ url: m.source_url, cite: m.source_name }]}
+          />
           {m.program ? <AppText variant="body">{m.program}</AppText> : null}
-          {m.source_url ? <LinkRow url={m.source_url} label={m.source_name ? `source: ${m.source_name}` : 'source'} /> : null}
         </Card>
       ))}
     </>
@@ -98,15 +93,20 @@ function Staff({ staff }: { staff: FacilityPayload['staff'] }) {
           <AppText variant="smallBold" muted style={styles.capitalize}>{role.replace(/([A-Z])/g, ' $1').toLowerCase()}</AppText>
           {entries.map((e, i) => (
             <Card key={i}>
-              <AppText variant="bodyBold">{e.name || e.text}</AppText>
-              {e.name && e.text && e.text !== e.name ? <AppText variant="body">{e.text}</AppText> : null}
+              {e.name && e.text && e.text !== e.name ? (
+                <>
+                  <AppText variant="bodyBold">{e.name}</AppText>
+                  <Cited text={e.text} sources={[e]} />
+                </>
+              ) : (
+                <Cited variant="bodyBold" text={e.name || e.text} sources={[e]} />
+              )}
               {e.role ? <AppText variant="small" muted>{e.role}</AppText> : null}
               {(e.career ?? []).map((c, j) => (
                 <AppText key={j} variant="small" muted>
                   {[c.label ?? c.name ?? c.text, c.role, c.place, c.years].filter(Boolean).join(' · ')}
                 </AppText>
               ))}
-              <Source url={e.url} cite={e.cite || e.source} />
             </Card>
           ))}
         </View>
@@ -163,13 +163,13 @@ function FacilityBody({ f }: { f: FacilityPayload }) {
 
       {f.summary ? (
         <Card>
-          <AppText variant="body">{f.summary}</AppText>
+          <AppText variant="body">{cleanProse(f.summary)}</AppText>
         </Card>
       ) : null}
 
       {f.facts.length ? (
         <Section title="At a glance">
-          <Facts facts={f.facts} />
+          <Facts facts={f.facts} sources={f.fact_sources} />
         </Section>
       ) : null}
 
@@ -285,7 +285,7 @@ function FacilityBody({ f }: { f: FacilityPayload }) {
         <Section title="Notes">
           {f.notes.length ? <Bullets items={f.notes} /> : null}
           {f.field_notes.map((n, i) => (
-            <AppText key={i} variant="body">{n.label ? `${n.label}: ${n.text}` : n.text}</AppText>
+            <Cited key={i} text={n.label ? `${n.label}: ${n.text}` : n.text} />
           ))}
         </Section>
       ) : null}

@@ -5,7 +5,7 @@ import { StyleSheet, View } from 'react-native';
 import { useOperator, useOperatorByName } from '@/api/queries';
 import type { OperatorFacility, OperatorPayload } from '@/api/types';
 import { NewsCard } from '@/components/NewsCard';
-import { AppText, Bullets, Card, ErrorState, Facts, LinkRow, Loading, OpenOnSite, Row, Screen, Section, StatusPill } from '@/components/ui';
+import { AppText, Bullets, Card, ErrorState, Facts, InlineSources, LinkRow, Loading, OpenOnSite, Row, Screen, Section, StatusPill } from '@/components/ui';
 import { aliasLabel } from '@/lib/alias';
 import { openLink } from '@/lib/links';
 import { parseMarkdownLinks } from '@/lib/markdownLinks';
@@ -92,9 +92,10 @@ function OperatorBody({ o }: { o: OperatorPayload }) {
           {o.history.paragraphs.map((p, i) => (
             <Paragraph key={i} text={p} />
           ))}
-          {o.history.sources.map((s, i) => (
-            <LinkRow key={i} url={s.url} label={s.label} />
-          ))}
+          <AppText variant="small" muted>
+            {'History sources'}
+            <InlineSources items={o.history.sources.map((x) => ({ url: x.url, cite: x.label }))} />
+          </AppText>
         </Section>
       ) : null}
 

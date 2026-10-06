@@ -17,6 +17,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { colors, statusColor } from '@/theme/colors';
 import { maxContentWidth, radius, spacing, touchTarget, type } from '@/theme/typography';
 import { openLink } from '@/lib/links';
+import { citeWords, cleanProse, usableCitations } from '@/lib/citations';
 import { urlLabel } from '@/lib/urlLabel';
 import { SITE } from '@/api/client';
 import { Icon } from './Icon';
@@ -133,6 +134,66 @@ export function LinkRow({ url, label }: { url: string; label?: string }) {
   );
 }
 
+export type Cite = { url?: string; cite?: string; source?: string; label?: string };
+
+/**
+ * Citations as the website shows them: "(source)", or "(source 1, source 2)" when there are several, set inline
+ * after the text they support. A link opens the page; with no address the word is plain text. The words behind
+ * the number are the accessibility label, so a screen reader hears what each source is.
+ */
+export function InlineSources({ items }: { items?: Cite[] }) {
+  const router = useRouter();
+  const list = usableCitations(items);
+  if (!list.length) return null;
+  return (
+    <Text style={styles.cite}>
+      {' ('}
+      {list.map((c, i) => {
+        const word = list.length > 1 ? `source ${i + 1}` : 'source';
+        const preview = citeWords(c);
+        const label = preview ? `${word}: ${preview}` : word;
+        return (
+          <Text key={i}>
+            {i > 0 ? ', ' : ''}
+            {c.url ? (
+              <Text
+                onPress={() => openLink(c.url, (href) => router.push(href))}
+                accessibilityRole="link"
+                accessibilityLabel={label}
+                style={styles.citeLink}>
+                {word}
+              </Text>
+            ) : (
+              <Text accessibilityLabel={label}>{word}</Text>
+            )}
+          </Text>
+        );
+      })}
+      {')'}
+    </Text>
+  );
+}
+
+/** A line of text with its citations inline at the end. */
+export function Cited({
+  text,
+  sources,
+  variant = 'body',
+  muted,
+}: {
+  text: string;
+  sources?: Cite[];
+  variant?: Variant;
+  muted?: boolean;
+}) {
+  return (
+    <AppText variant={variant} muted={muted}>
+      {cleanProse(text)}
+      <InlineSources items={sources} />
+    </AppText>
+  );
+}
+
 /** Every record can be opened on the website, where its sources and full text live. */
 export function OpenOnSite({ url }: { url: string }) {
   const router = useRouter();
@@ -179,15 +240,15 @@ export function Empty({ message }: { message: string }) {
   );
 }
 
-/** Label and value pairs ("Capacity", "Founded"). */
-export function Facts({ facts }: { facts: { label: string; value: string }[] }) {
+/** Label and value pairs ("Capacity", "Founded"), each with its citations when the record has them. */
+export function Facts({ facts, sources }: { facts: { label: string; value: string }[]; sources?: Record<string, Cite[]> }) {
   if (!facts.length) return null;
   return (
     <Card>
       {facts.map((f, i) => (
         <View key={`${f.label}-${i}`} style={styles.fact}>
           <AppText variant="smallBold" muted>{f.label}</AppText>
-          <AppText variant="body">{f.value}</AppText>
+          <Cited text={f.value} sources={sources?.[f.label]} />
         </View>
       ))}
     </Card>
@@ -197,7 +258,7 @@ export function Facts({ facts }: { facts: { label: string; value: string }[] }) 
 export function Bullets({ items }: { items: string[] }) {
   return (
     <View style={styles.bullets}>
-      {items.filter(Boolean).map((t, i) => (
+      {items.map(cleanProse).filter(Boolean).map((t, i) => (
         <View key={i} style={styles.bulletRow}>
           <AppText variant="body" style={styles.bullet}>{'•'}</AppText>
           <AppText variant="body" style={styles.bulletText}>{t}</AppText>
@@ -250,6 +311,8 @@ const styles = StyleSheet.create({
   },
   buttonText: { color: colors.white },
   fact: { gap: 2 },
+  cite: { fontSize: 14, color: colors.textMuted },
+  citeLink: { color: colors.tealInk, textDecorationLine: 'underline' },
   bullets: { gap: spacing.xs },
   bulletRow: { flexDirection: 'row', gap: spacing.sm },
   bullet: { width: 12 },

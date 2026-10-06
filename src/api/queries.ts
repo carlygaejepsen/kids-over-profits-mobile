@@ -1,0 +1,98 @@
+import { keepPreviousData, useInfiniteQuery, useQuery } from '@tanstack/react-query';
+
+import { fetchJson } from './client';
+import type {
+  FacilitiesIndex,
+  FacilityPayload,
+  GlobalSearchResponse,
+  NewsFeed,
+  NewsQuery,
+  OperatorPayload,
+  StatePage,
+  SuggestResponse,
+} from './types';
+
+const HOUR = 60 * 60 * 1000;
+const NEWS_PAGE_SIZE = 20;
+
+export function useFacility(ref: string | undefined) {
+  return useQuery({
+    queryKey: ['facility', ref],
+    queryFn: ({ signal }) => fetchJson<FacilityPayload>(`facility/${encodeURIComponent(ref ?? '')}`, undefined, signal),
+    enabled: !!ref,
+    staleTime: 10 * 60 * 1000,
+  });
+}
+
+export function useOperator(ref: string | undefined) {
+  return useQuery({
+    queryKey: ['operator', ref],
+    queryFn: ({ signal }) => fetchJson<OperatorPayload>(`operator/${encodeURIComponent(ref ?? '')}`, undefined, signal),
+    enabled: !!ref,
+    staleTime: 10 * 60 * 1000,
+  });
+}
+
+/** A company found by the name a facility page gives it. */
+export function useOperatorByName(name: string | undefined) {
+  return useQuery({
+    queryKey: ['operator-name', name],
+    queryFn: ({ signal }) => fetchJson<OperatorPayload>('operator', { name }, signal),
+    enabled: !!name,
+    staleTime: 10 * 60 * 1000,
+  });
+}
+
+export function useNews(query: NewsQuery = {}) {
+  return useInfiniteQuery({
+    queryKey: ['news', query],
+    initialPageParam: 1,
+    queryFn: ({ pageParam, signal }) =>
+      fetchJson<NewsFeed>(
+        'news',
+        { page: pageParam, per_page: NEWS_PAGE_SIZE, archive: query.archive, story: query.story, facility: query.facility },
+        signal,
+      ),
+    getNextPageParam: (last) => (last.page < last.pages ? last.page + 1 : undefined),
+    staleTime: 5 * 60 * 1000,
+  });
+}
+
+export function useSuggest(q: string) {
+  const phrase = q.trim();
+  return useQuery({
+    queryKey: ['suggest', phrase.toLowerCase()],
+    queryFn: ({ signal }) => fetchJson<SuggestResponse>('facility-suggest', { q: phrase }, signal),
+    enabled: phrase.length >= 3,
+    staleTime: 5 * 60 * 1000,
+    placeholderData: keepPreviousData,
+  });
+}
+
+export function useGlobalSearch(q: string, enabled: boolean) {
+  const phrase = q.trim();
+  return useQuery({
+    queryKey: ['global-search', phrase.toLowerCase()],
+    queryFn: ({ signal }) => fetchJson<GlobalSearchResponse>('global-search', { q: phrase }, signal),
+    enabled: enabled && phrase.length >= 3,
+    staleTime: 5 * 60 * 1000,
+  });
+}
+
+export function useStatePage(slug: string | undefined, kind: 'state' | 'country' = 'state') {
+  return useQuery({
+    queryKey: [kind, slug],
+    queryFn: ({ signal }) => fetchJson<StatePage>(`${kind}/${encodeURIComponent(slug ?? '')}`, undefined, signal),
+    enabled: !!slug,
+    staleTime: 30 * 60 * 1000,
+  });
+}
+
+/** Every company and place with its facilities, cut down for lists (about a tenth of the full feed). */
+export function useFacilitiesIndex() {
+  return useQuery({
+    queryKey: ['facilities-index'],
+    queryFn: ({ signal }) => fetchJson<FacilitiesIndex>('facilities', { view: 'index' }, signal),
+    staleTime: HOUR,
+  });
+}

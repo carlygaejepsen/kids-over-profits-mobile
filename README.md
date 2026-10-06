@@ -1,56 +1,69 @@
-# Welcome to your Expo app 👋
+# Kids Over Profits mobile app
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An iOS and Android app for [kidsoverprofits.org](https://kidsoverprofits.org), a public database of the troubled teen industry. Version one is read-only: look up a facility, browse the companies and states, and read the news feed. It has no accounts, no analytics and no ads. The only network calls go to kidsoverprofits.org.
 
-## Get started
+Built with Expo (SDK 57), expo-router and TypeScript.
 
-1. Install dependencies
+## What is in it
 
-   ```bash
-   npm install
-   ```
+| Tab | What it does |
+|---|---|
+| Search | Facility names as you type, including former and other names ("Formerly X", "Also known as X"). One tap searches news, lawsuits and records too. |
+| News | The site's news feed with pictures, ongoing stories, a month filter and infinite scroll. Each card links to its facilities. |
+| Places | Every state and a list of other countries; opens that place's facilities, lawsuits and news. |
+| Companies | Parent companies; opens a company's history, programs, people, lawsuits and news. |
+| About | The disclaimer, the data licence, and links to report abuse or share information on the website. |
 
-2. Start the app
+A facility screen shows everything the website page shows. Every record has an "Open on kidsoverprofits.org" link. Site addresses for facilities and companies open inside the app.
 
-   ```bash
-   npx expo start
-   ```
+## Where the data comes from
 
-In the output, you'll find options to open the app in a
+All data is public and read live from the site's REST API at `https://kidsoverprofits.org/wp-json/kop/v1/`:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Route | Used for |
+|---|---|
+| `facility/<slug>` | A facility page |
+| `operator/<slug>` and `operator?name=` | A company page |
+| `news` | The news feed (`page`, `per_page`, `archive`, `story`, `facility`) |
+| `facility-suggest`, `global-search` | Search |
+| `state/<slug>`, `country/<slug>` | A state or country page |
+| `facilities?view=index` | The list of companies |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The first three are in the theme repo, [`inc/mobile-api.php`](https://github.com/carlygaejepsen/Kids-Over-Profits). They copy named keys only, so private columns (who submitted an article, reviewer notes) never reach the app.
 
-## Get a fresh project
-
-When you're ready, run:
+## Run it
 
 ```bash
-npm run reset-project
+npm install
+npx expo start        # scan the QR code with Expo Go on your phone
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Check it
 
-### Other setup steps
+```bash
+npm run typecheck     # tsc --noEmit
+npx expo lint
+npm test              # jest: helpers, and the real API fixtures in __tests__/fixtures
+npx expo export --platform ios --platform android   # proves the app bundles
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+The fixtures are real responses written by the theme's `scripts/test-mobile-api.php --dump <dir>`. Re-run that after the API changes and copy the files here.
 
-## Learn more
+## Colours and accessibility
 
-To learn more about developing your project with Expo, look at the following resources:
+`src/theme/colors.ts` mirrors the site's `css/colors.css`. Text on light backgrounds uses the "ink" shades, white text sits only on "fill" shades, and secondary text uses the muted grey, all for WCAG AA contrast. Tap targets are at least 44 points, text follows the reader's font size, and every card and chip has an accessibility label.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Build for phones
 
-## Join the community
+```bash
+npx eas-cli@latest login
+npx eas-cli@latest build --profile preview --platform android   # an APK you can sideload
+npx eas-cli@latest build --profile production --platform all
+npx eas-cli@latest submit --platform all
+```
 
-Join our community of developers creating universal apps.
+You need an Expo account. Publishing needs an Apple Developer Program membership (99 USD a year) and a Google Play developer account (25 USD once). Universal links need the site to serve `/.well-known/apple-app-site-association` and `assetlinks.json`; the `kidsoverprofits://` scheme works without them.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Licence
+
+Code: GPL-2.0, like the theme. The data the app shows is CC BY-SA 4.0: credit Kids Over Profits (https://kidsoverprofits.org) and share what you build from it under the same licence.

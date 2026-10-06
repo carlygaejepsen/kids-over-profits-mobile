@@ -1,18 +1,42 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from 'expo-router';
-import * as SplashScreen from 'expo-splash-screen';
-import { useColorScheme } from 'react-native';
+import { DefaultTheme, Stack, ThemeProvider } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-import { AnimatedSplashOverlay } from '@/components/animated-icon';
-import AppTabs from '@/components/app-tabs';
+import { DisclaimerGate } from '@/components/DisclaimerGate';
+import { colors } from '@/theme/colors';
 
-SplashScreen.preventAutoHideAsync();
+const queryClient = new QueryClient({
+  defaultOptions: { queries: { retry: 1, refetchOnWindowFocus: false } },
+});
 
-export default function TabLayout() {
-  const colorScheme = useColorScheme();
+const theme = {
+  ...DefaultTheme,
+  colors: { ...DefaultTheme.colors, background: colors.bgPrimary, card: colors.midnight, text: colors.white, primary: colors.teal, border: colors.borderSecondary },
+};
+
+export default function RootLayout() {
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <AnimatedSplashOverlay />
-      <AppTabs />
-    </ThemeProvider>
+    <SafeAreaProvider>
+      <QueryClientProvider client={queryClient}>
+        <ThemeProvider value={theme}>
+          <StatusBar style="light" />
+          <Stack
+            screenOptions={{
+              headerStyle: { backgroundColor: colors.midnight },
+              headerTintColor: colors.white,
+              headerTitleStyle: { fontWeight: '700' },
+              headerBackButtonDisplayMode: 'minimal',
+              contentStyle: { backgroundColor: colors.bgPrimary },
+            }}>
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="facility/[slug]" options={{ title: 'Facility' }} />
+            <Stack.Screen name="operator/[slug]" options={{ title: 'Company' }} />
+            <Stack.Screen name="place/[slug]" options={{ title: 'Place' }} />
+          </Stack>
+          <DisclaimerGate />
+        </ThemeProvider>
+      </QueryClientProvider>
+    </SafeAreaProvider>
   );
 }

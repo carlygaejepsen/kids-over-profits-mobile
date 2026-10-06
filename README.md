@@ -16,6 +16,12 @@ Built with Expo (SDK 57), expo-router and TypeScript.
 
 A facility screen shows everything the website page shows. Every record has an "Open on kidsoverprofits.org" link. Site addresses for facilities and companies open inside the app.
 
+## What is left to do
+
+The open work, in order, and the steps that need the owner's accounts and devices, are in section 3.14 and the
+"Mobile app" part of section 2 of the theme repo's [docs/PLAN.md](https://github.com/carlygaejepsen/Kids-Over-Profits/blob/main/docs/PLAN.md).
+Update it in the same commit as the work it tracks.
+
 ## Where the data comes from
 
 All data is public and read live from the site's REST API at `https://kidsoverprofits.org/wp-json/kop/v1/`:

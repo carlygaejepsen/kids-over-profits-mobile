@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Kids Over Profits",
-    "slug": "kids-over-profits",
+    "slug": "kids-over-profits-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

@@ -55,7 +55,7 @@ All data is public and read live from the site's REST API at `https://kidsoverpr
 | `news` | The news feed (`page`, `per_page`, `archive`, `story`, `facility`) |
 | `facility-suggest`, `global-search` | Search |
 | `state/<slug>`, `country/<slug>` | A state or country page |
-| `facilities?view=index` | The list of companies |
+| `operators` | The list of companies |
 
 The first three are in the theme repo, [`inc/mobile-api.php`](https://github.com/carlygaejepsen/Kids-Over-Profits). They copy named keys only, so private columns (who submitted an article, reviewer notes) never reach the app.
 

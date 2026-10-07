@@ -55,9 +55,20 @@ npx expo export --platform ios --platform android   # proves the app bundles
 
 The fixtures are real responses written by the theme's `scripts/test-mobile-api.php --dump <dir>`. Re-run that after the API changes and copy the files here.
 
+To see every screen at phone size without the live site, run the screenshot harness. It exports the web build, answers every API call from the fixtures (plus the made-up ones in `scripts/shot-fixtures/`) and writes `tmp/shots/<screen>.png` and `<screen>-top.png`:
+
+```bash
+npm run shots                                # all screens
+npm run shots -- --no-build --only=facility-9607,news
+```
+
+## Design
+
+The app copies the website's design, not a design of its own. `src/components/site/` holds one component per thing the website draws (record header, stat tiles, sections with "N more +", the At a glance box, person cards with "Elsewhere in the industry", timelines, news cards, directory rows, company tiles, feed and story cards), each styled from the theme's `css/facility-profile.css`, `css/hub.css`, `css/news-feed.css` and `css/tti-program-index.css`. When the site's look changes, change it there and in `src/theme/`.
+
 ## Colours and accessibility
 
-`src/theme/colors.ts` mirrors the site's `css/colors.css`. Text on light backgrounds uses the "ink" shades, white text sits only on "fill" shades, and secondary text uses the muted grey, all for WCAG AA contrast. Tap targets are at least 44 points, text follows the reader's font size, and every card and chip has an accessibility label.
+`src/theme/colors.ts` mirrors the site's `css/colors.css` and the component colours of the stylesheets above. Text on light backgrounds uses the "ink" shades, white text sits only on "fill" shades, and secondary text uses the muted grey, all for WCAG AA contrast. Tap targets are at least 44 points, text follows the reader's font size, and every card and chip has an accessibility label.
 
 ## Build for phones
 

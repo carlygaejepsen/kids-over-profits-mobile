@@ -53,7 +53,9 @@ export function cleanProse(text: string | null | undefined): string {
     return kept ? `(${kept})` : '';
   });
   out = out.replace(/\s*https?:\/\/\S+/g, '');
-  return out.replace(/[ \t]{2,}/g, ' ').replace(/\s+([.,;:])/g, '$1').trim();
+  // An address removed from inside parentheses leaves "(:" or "( )" behind.
+  out = out.replace(/\s*\(\s*[:;,.]?\s*(?:\)|$)/g, '');
+  return out.replace(/[ \t]{2,}/g, ' ').replace(/\s+([.,;:])/g, '$1').replace(/[\s:;,]+$/, '').trim();
 }
 
 const YEAR_NOTE = /^\(([^()]*\d{4}[^()]*)\)$/;

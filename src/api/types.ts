@@ -134,7 +134,29 @@ export type FacilityInspections = {
   total: number;
   reports: InspectionReport[];
   more: number;
+  /** Approved serious findings, the page's "Serious violations" section. */
+  violations?: SeriousFinding[];
   page_url: string;
+};
+
+/** An approved serious finding (kop_facility_pages_violations in the theme). */
+export type SeriousFinding = {
+  id: number;
+  state?: string;
+  category?: string;
+  label: string;
+  kinds?: string[];
+  weight?: number;
+  severe?: boolean;
+  date?: string;
+  date_label?: string;
+  excerpt?: string;
+  short?: string;
+  state_label?: string;
+  source_url?: string;
+  full_url?: string;
+  home?: string;
+  home_url?: string;
 };
 
 export type Sibling = { name: string; place: string; status: string; url: string };

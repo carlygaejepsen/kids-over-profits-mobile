@@ -1,0 +1,114 @@
+import { useState } from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+
+import type { LawsuitRow, MemorialRow, OperatorPayload } from '@/api/types';
+import { Button, EdgeRow, HubListRow, RecordNewsCard, SectionBlock, useOpenLink } from '@/components/site';
+import { hitSlopFor } from '@/components/site/metrics';
+import { cleanProse } from '@/lib/citations';
+import { urlLabel } from '@/lib/urlLabel';
+import { colors } from '@/theme/colors';
+import { spacing, type } from '@/theme/typography';
+
+export function NewsSection({ o }: { o: OperatorPayload }) {
+  return (
+    <SectionBlock id="news" title="News coverage" icon="newspaper" items={o.news ?? []} limit={4} renderItem={(n) => <RecordNewsCard item={n} />} />
+  );
+}
+
+const SUMMARY_SHOWN = 260;
+
+/** A case: the summary cut at a word, "Read more" for the rest and the outcome. */
+function Lawsuit({ l }: { l: LawsuitRow }) {
+  const [all, setAll] = useState(false);
+  const full = [l.outcome ? `Outcome: ${l.outcome}` : '', l.summary ?? ''].filter(Boolean).join('\n\n');
+  const long = full.length > SUMMARY_SHOWN + 40;
+  const cut = (l.summary ?? full).slice(0, SUMMARY_SHOWN);
+  const short = `${cut.slice(0, cut.lastIndexOf(' ') > 120 ? cut.lastIndexOf(' ') : SUMMARY_SHOWN).replace(/[ ,.;:-]+$/, '')}…`;
+  return (
+    <View>
+      <EdgeRow kind="lawsuit" title={l.case_name} meta={[l.year, l.status, l.court, l.case_number]} body={long && !all ? short : full} />
+      {long ? (
+        <Pressable
+          onPress={() => setAll((a) => !a)}
+          accessibilityRole="button"
+          accessibilityLabel={all ? 'Show less of this case' : 'Read more of this case'}
+          accessibilityState={{ expanded: all }}
+          hitSlop={hitSlopFor(type.smallBold.lineHeight!)}
+          style={styles.toggle}>
+          <Text style={styles.toggleText}>{all ? 'Show less −' : 'Read more +'}</Text>
+        </Pressable>
+      ) : null}
+    </View>
+  );
+}
+
+export function LawsuitsSection({ o }: { o: OperatorPayload }) {
+  return <SectionBlock id="lawsuits" title="Lawsuits" icon="scale" tone="warn" items={o.lawsuits ?? []} renderItem={(l) => <Lawsuit l={l} />} />;
+}
+
+function Death({ m }: { m: MemorialRow }) {
+  const open = useOpenLink();
+  const meta = [m.age ? `Age ${m.age}` : '', m.program, m.date_label, m.cause];
+  return (
+    <EdgeRow
+      kind="death"
+      title={m.name}
+      meta={meta}
+      sources={m.source_url ? [{ url: m.source_url, cite: m.source_name }] : undefined}
+      onPress={m.kop_url ? () => open(m.kop_url) : undefined}
+    />
+  );
+}
+
+export function DeathsSection({ o }: { o: OperatorPayload }) {
+  return <SectionBlock id="deaths" title="Deaths on record" icon="candle" tone="grave" items={o.memorials ?? []} renderItem={(m) => <Death m={m} />} />;
+}
+
+export function DocumentsSection({ o }: { o: OperatorPayload }) {
+  const open = useOpenLink();
+  const url = o.documents?.url;
+  if (!url) return null;
+  return (
+    <SectionBlock id="documents" title="Documents" icon="file-text">
+      <Button label="Documents on the website" variant="secondary" icon="file-text" onPress={() => open(url)} style={styles.button} />
+    </SectionBlock>
+  );
+}
+
+export function WebsitesSection({ o }: { o: OperatorPayload }) {
+  return (
+    <SectionBlock
+      id="websites"
+      title="Websites"
+      icon="globe"
+      items={o.websites ?? []}
+      renderItem={(w) => (
+        <HubListRow title={w.label && !/^https?:\/\//i.test(w.label) ? w.label : urlLabel(w.url)} url={w.go_url || w.url} />
+      )}
+    />
+  );
+}
+
+export function NotesSection({ o }: { o: OperatorPayload }) {
+  const notes = (o.notes ?? []).map(cleanProse).filter(Boolean);
+  if (!notes.length) return null;
+  return (
+    <SectionBlock id="notes" title="Research notes" icon="lightbulb">
+      {notes.map((n, i) => (
+        <View key={i} style={styles.bullet}>
+          <Text style={styles.dot}>{'•'}</Text>
+          <Text style={styles.bulletText}>{n}</Text>
+        </View>
+      ))}
+    </SectionBlock>
+  );
+}
+
+const styles = StyleSheet.create({
+  toggle: { alignSelf: 'flex-start', marginTop: spacing.sm, marginLeft: 17 },
+  toggleText: { ...type.smallBold, color: colors.tealInk },
+  button: { alignSelf: 'flex-start' },
+  bullet: { flexDirection: 'row', gap: spacing.sm },
+  dot: { ...type.body, width: 12 },
+  bulletText: { ...type.body, flex: 1 },
+});

@@ -182,11 +182,24 @@ async function main() {
       await page.waitForLoadState('networkidle');
     }
     await page.waitForTimeout(800);
-    for (const [suffix, fullPage] of [['', true], ['-top', false]]) {
-      const file = path.join(out, `${screen.name}${suffix}.png`);
-      await page.screenshot({ path: file, fullPage });
-      console.log(`wrote ${path.relative(root, file)}`);
-    }
+    const top = path.join(out, `${screen.name}-top.png`);
+    await page.screenshot({ path: top });
+    console.log(`wrote ${path.relative(root, top)}`);
+    // Screens scroll inside their own container, so a "full page" shot needs a viewport as tall as that content.
+    const tall = await page.evaluate(() => {
+      let most = document.documentElement.scrollHeight;
+      for (const el of document.querySelectorAll('*')) {
+        if (el.scrollHeight > el.clientHeight + 4 && /(auto|scroll)/.test(getComputedStyle(el).overflowY)) {
+          most = Math.max(most, el.scrollHeight + (window.innerHeight - el.clientHeight));
+        }
+      }
+      return most;
+    });
+    await page.setViewportSize({ width: 390, height: Math.min(Math.max(844, tall), 16000) });
+    await page.waitForTimeout(600);
+    const full = path.join(out, `${screen.name}.png`);
+    await page.screenshot({ path: full });
+    console.log(`wrote ${path.relative(root, full)} (${Math.min(Math.max(844, tall), 16000)} px tall)`);
     await context.close();
   }
 

@@ -12,7 +12,7 @@ const queryClient = new QueryClient({
 
 const theme = {
   ...DefaultTheme,
-  colors: { ...DefaultTheme.colors, background: colors.bgPrimary, card: colors.midnight, text: colors.white, primary: colors.teal, border: colors.borderSecondary },
+  colors: { ...DefaultTheme.colors, background: colors.bgPrimary, card: colors.midnight, text: colors.white, primary: colors.teal, border: colors.cardBorder },
 };
 
 export default function RootLayout() {
@@ -24,12 +24,15 @@ export default function RootLayout() {
           <Stack
             screenOptions={{
               headerStyle: { backgroundColor: colors.midnight },
+              headerShadowVisible: false,
               headerTintColor: colors.white,
               headerTitleStyle: { fontWeight: '700' },
               headerBackButtonDisplayMode: 'minimal',
-              contentStyle: { backgroundColor: colors.bgPrimary },
+              // The native stack header takes only a background colour, so the footer's 4 px teal rule is
+              // the top edge of the screen under it. The tabs draw their own header with the rule.
+              contentStyle: { backgroundColor: colors.bgPrimary, borderTopWidth: 4, borderTopColor: colors.teal },
             }}>
-            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="(tabs)" options={{ headerShown: false, contentStyle: { backgroundColor: colors.bgPrimary } }} />
             <Stack.Screen name="facility/[slug]" options={{ title: 'Facility' }} />
             <Stack.Screen name="operator/[slug]" options={{ title: 'Company' }} />
             <Stack.Screen name="place/[slug]" options={{ title: 'Place' }} />

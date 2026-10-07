@@ -43,11 +43,11 @@
     },
     "woodbury-inc": {
       "id": "woodbury-inc",
-      "name": "Woodbury Reports Inc",
+      "name": "Aspen Education Group",
       "category": "companies",
       "data": {
         "operator": {
-          "name": "Woodbury Reports Inc"
+          "name": "Aspen Education Group"
         },
         "facilities": [
           {
@@ -262,5 +262,5 @@
         ]
       }
     }
-  ]
+  }
 }

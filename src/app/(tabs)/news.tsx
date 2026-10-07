@@ -5,9 +5,13 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNews } from '@/api/queries';
 import type { NewsItem } from '@/api/types';
 import { NewsCard } from '@/components/NewsCard';
-import { AppText, Chip, Empty, ErrorState, Loading } from '@/components/ui';
+import { StoryCard } from '@/components/site';
+import { Note } from '@/components/tabs/Note';
+import { Pill } from '@/components/tabs/Pill';
+import { pageColumn } from '@/components/tabs/TabPage';
+import { ErrorState, Loading } from '@/components/ui';
 import { colors } from '@/theme/colors';
-import { maxContentWidth, spacing } from '@/theme/typography';
+import { gutter, spacing } from '@/theme/typography';
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
@@ -26,33 +30,42 @@ export default function NewsScreen() {
   const first = query.data?.pages[0];
   const arcs = first?.arcs ?? [];
   const months = first?.months ?? [];
+  const count = first ? `${first.total} article${first.total === 1 ? '' : 's'}` : '';
 
   const header = (
     <View style={styles.header}>
-      <AppText variant="small" muted>
-        {first ? `${first.total} article${first.total === 1 ? '' : 's'}` : ''}
-        {story ? ' in this story' : month ? ` in ${monthLabel(month)}` : ''}
-      </AppText>
       {arcs.length ? (
-        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chipRow} accessibilityLabel="Ongoing stories">
-          <Chip label="All news" onPress={() => { setStory(undefined); }} />
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          accessibilityLabel="Ongoing stories"
+          style={styles.bleed}
+          contentContainerStyle={styles.strip}>
+          <Pill label="All news" selected={!story} onPress={() => setStory(undefined)} />
           {arcs.map((a) => (
-            <Chip key={a.id} label={story === a.slug ? `${a.title} (selected)` : a.title} onPress={() => setStory(story === a.slug ? undefined : a.slug)} />
+            <StoryCard key={a.id} arc={a} selected={story === a.slug} style={story === a.slug ? styles.picked : undefined} onPress={() => setStory(story === a.slug ? undefined : a.slug)} />
           ))}
         </ScrollView>
       ) : null}
       {months.length ? (
-        <View style={styles.chipRow}>
-          <Chip label={month ? `Month: ${monthLabel(month)}` : 'Any month'} onPress={() => setShowMonths((v) => !v)} />
-          {month ? <Chip label="Clear month" onPress={() => setMonth(undefined)} /> : null}
+        <View style={styles.pills}>
+          <Pill
+            label={month ? monthLabel(month) : 'Any month'}
+            icon={showMonths ? 'chevron-up' : 'chevron-down'}
+            selected={!!month}
+            accessibilityLabel={`Month: ${month ? monthLabel(month) : 'any'}`}
+            onPress={() => setShowMonths((v) => !v)}
+          />
+          {month ? <Pill label="Clear month" onPress={() => setMonth(undefined)} /> : null}
         </View>
       ) : null}
       {showMonths ? (
-        <ScrollView style={styles.monthList} contentContainerStyle={styles.chipRow}>
+        <ScrollView style={styles.monthList} nestedScrollEnabled contentContainerStyle={styles.pills}>
           {months.map((m) => (
-            <Chip
+            <Pill
               key={m.month}
               label={`${monthLabel(m.month)} (${m.count})`}
+              selected={m.month === month}
               onPress={() => {
                 setMonth(m.month);
                 setShowMonths(false);
@@ -61,6 +74,7 @@ export default function NewsScreen() {
           ))}
         </ScrollView>
       ) : null}
+      {count ? <Note>{`${count}${story ? ' in this story' : month ? ` in ${monthLabel(month)}` : ''}`}</Note> : null}
     </View>
   );
 
@@ -74,31 +88,32 @@ export default function NewsScreen() {
         <FlatList
           data={items}
           keyExtractor={(item) => String(item.id)}
-          renderItem={({ item }) => (
-            <View style={styles.cardWrap}>
-              <NewsCard item={item} onStory={(slug) => setStory(slug)} />
-            </View>
-          )}
+          renderItem={({ item }) => <NewsCard item={item} onStory={(slug) => setStory(slug)} />}
+          ItemSeparatorComponent={Gap}
           ListHeaderComponent={header}
-          ListEmptyComponent={<Empty message="No articles match." />}
+          ListEmptyComponent={<Note>No articles match.</Note>}
           ListFooterComponent={query.isFetchingNextPage ? <Loading label="Loading more" /> : null}
           onEndReached={() => {
             if (query.hasNextPage && !query.isFetchingNextPage) query.fetchNextPage();
           }}
           onEndReachedThreshold={0.6}
-          refreshControl={<RefreshControl refreshing={query.isRefetching && !query.isFetchingNextPage} onRefresh={() => query.refetch()} tintColor={colors.tealInk} />}
-          contentContainerStyle={styles.list}
+          refreshControl={<RefreshControl refreshing={query.isRefetching && !query.isFetchingNextPage} onRefresh={() => query.refetch()} tintColor={colors.tealInk} colors={[colors.tealInk]} />}
+          contentContainerStyle={pageColumn}
         />
       )}
     </SafeAreaView>
   );
 }
 
+const Gap = () => <View style={styles.gap} />;
+
 const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.bgPrimary },
-  list: { padding: spacing.md, gap: spacing.md, alignSelf: 'center', width: '100%', maxWidth: maxContentWidth },
-  header: { gap: spacing.sm },
-  chipRow: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, alignItems: 'center' },
+  screen: { flex: 1, backgroundColor: colors.sand },
+  header: { gap: spacing.sm, marginBottom: spacing.sm },
+  bleed: { marginHorizontal: -gutter },
+  strip: { alignItems: 'center', gap: spacing.sm + 4, paddingHorizontal: gutter, paddingVertical: spacing.xs },
+  picked: { borderWidth: 2, borderColor: colors.tealInk },
+  pills: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: spacing.sm },
   monthList: { maxHeight: 220 },
-  cardWrap: { marginBottom: spacing.md },
+  gap: { height: spacing.md },
 });

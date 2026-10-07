@@ -40,6 +40,11 @@ describe('cleanProse', () => {
       cleanProse('Operator: Centers for Adolescent Recovery and Education (CARE) (Woodbury Reports, February 2009, p. 20) https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0209.pdf#page=20'),
     ).toBe('Operator: Centers for Adolescent Recovery and Education (CARE)');
   });
+  it('leaves no "(:" or empty brackets where an address was removed', () => {
+    expect(cleanProse('Serves: Female (: https://example.org/x)')).toBe('Serves: Female');
+    expect(cleanProse('Serves: Female (https://example.org/x)')).toBe('Serves: Female');
+    expect(cleanProse('Founded 1995 (see note)')).toBe('Founded 1995 (see note)');
+  });
   it('keeps the years when only the source name is in the parentheses', () => {
     expect(cleanProse('Admissions (2009-2010, Woodbury Reports). Previously: Staff')).toBe('Admissions (2009-2010). Previously: Staff');
   });

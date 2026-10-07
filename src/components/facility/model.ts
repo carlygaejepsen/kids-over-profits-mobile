@@ -1,0 +1,139 @@
+import type { FacilityPayload, Sibling, StaffEntry } from '@/api/types';
+import type { Tone } from '@/theme/colors';
+import type { IconName } from '../Icon';
+
+/** Tells a section where it sits, so the screen can scroll to it (SectionBlock's onLayoutY). */
+export type SectionProps = { onLayoutY: (id: string, y: number) => void };
+
+/** An approved serious finding (inspections.violations), a field the shared FacilityPayload type does not list. */
+export type Violation = {
+  id: number;
+  category?: string;
+  label: string;
+  severe?: boolean;
+  date_label?: string;
+  short?: string;
+  excerpt?: string;
+  source_url?: string;
+  home?: string;
+};
+
+type WithViolations = { violations?: Violation[] } | null | undefined;
+
+/** The record's own findings plus its homes' (kop_facility_pages: program_homes.violations), each counted once. */
+export function violationsOf(f: FacilityPayload): Violation[] {
+  const seen = new Set<number>();
+  const out: Violation[] = [];
+  for (const v of [...((f.inspections as WithViolations)?.violations ?? []), ...((f.program_homes as WithViolations)?.violations ?? [])]) {
+    if (!v || seen.has(v.id)) continue;
+    seen.add(v.id);
+    out.push(v);
+  }
+  return out;
+}
+
+const STAFF_LABELS: Record<string, string> = {
+  administrator: 'Administration',
+  notableStaff: 'Notable staff',
+  pastTTIJobs: 'Staff who came from other programs',
+};
+
+export type StaffRow = { entry: StaffEntry; head?: string };
+
+/** Every staff entry in the site's group order; the first of each group carries its sub-head. */
+export function staffRows(staff: FacilityPayload['staff']): StaffRow[] {
+  const groups: [string, StaffEntry[]][] = Array.isArray(staff)
+    ? [['', staff]]
+    : Object.entries(staff ?? {}).filter((g): g is [string, StaffEntry[]] => Array.isArray(g[1]));
+  const rank = (k: string) => {
+    const i = Object.keys(STAFF_LABELS).indexOf(k);
+    return i < 0 ? 99 : i;
+  };
+  groups.sort((a, b) => rank(a[0]) - rank(b[0]));
+  const rows: StaffRow[] = [];
+  for (const [key, entries] of groups) {
+    const head = key ? (STAFF_LABELS[key] ?? key.replace(/([A-Z])/g, ' $1').replace(/^./, (c) => c.toUpperCase())) : undefined;
+    entries.forEach((entry, i) => rows.push({ entry, head: i === 0 ? head : undefined }));
+  }
+  return rows;
+}
+
+/** Facts whose value is a list on the site ("Past operators") arrive as an array. */
+export function factText(value: unknown): string {
+  return (Array.isArray(value) ? value : [value]).map((v) => String(v ?? '').trim()).filter(Boolean).join('\n');
+}
+
+export const isClosed = (f: FacilityPayload) => (f.status ?? '').trim().toLowerCase() === 'closed';
+
+/** The homes list on a program page, or the program's other homes on a home's page. */
+export function homeRows(f: FacilityPayload): { isProgram: boolean; homes: { id: string; title: string; meta: string; url: string }[] } {
+  const own = f.program_homes?.homes ?? [];
+  if (own.length) {
+    return {
+      isProgram: true,
+      homes: own.map((h) => {
+        const title = h.home_name || h.name;
+        const bits = [h.home_name && h.home_name !== h.name ? h.name : '', h.place, h.years, h.status && h.status !== 'Unknown' ? h.status : ''];
+        return { id: String(h.id), title, meta: bits.filter(Boolean).join(' | '), url: h.url };
+      }),
+    };
+  }
+  const others: Sibling[] = f.home_of?.others ?? [];
+  return {
+    isProgram: false,
+    homes: others.map((s) => ({
+      id: s.url || s.name,
+      title: s.name,
+      meta: [s.place, s.status && s.status !== 'Unknown' ? s.status : ''].filter(Boolean).join(' | '),
+      url: s.url,
+    })),
+  };
+}
+
+export type SectionDef = { id: string; label: string };
+
+/** The sections this record has, in page order, with the short names the jump pills use. */
+export function presentSections(f: FacilityPayload): SectionDef[] {
+  const homes = homeRows(f);
+  const forum = f.forum;
+  const forumHas = !!(forum && (forum.incidents?.length || forum.leads?.length || forum.links?.length));
+  const staff = staffRows(f.staff);
+  const all: [boolean, string, string][] = [
+    [!!f.eras?.list?.length, 'eras', 'Names'],
+    [homes.homes.length > 0, 'homes', homes.isProgram ? 'Homes' : 'Other homes'],
+    [f.memorials.length > 0, 'memorials', 'Deaths on record'],
+    [violationsOf(f).length > 0, 'violations', 'Serious violations'],
+    [f.lawsuits.length > 0, 'lawsuits', 'Lawsuits'],
+    [f.incidents.length > 0, 'incidents', 'Incidents'],
+    [f.news.length > 0, 'news', 'News coverage'],
+    [f.videos.length > 0, 'videos', 'Videos'],
+    [staff.length > 0, 'staff', 'Staff'],
+    [f.practices.length > 0, 'practices', 'Reported practices'],
+    [!!f.inspections && (!!f.inspections.summary || f.inspections.reports.length > 0 || f.inspections.total > 0), 'inspections', 'Licensing'],
+    [!!f.documents?.url, 'documents', 'Documents'],
+    [f.testimony.length > 0, 'testimony', 'Survivor testimony'],
+    [forumHas, 'forum', 'Forums'],
+    [f.notes.length > 0 || f.field_notes.length > 0, 'notes', 'Research notes'],
+    [f.wiki.length > 0, 'wiki', 'Wiki entries'],
+    [f.siblings.length > 0, 'related', 'Same operator'],
+    [f.profile_links.length > 0 || f.resource_links.length > 0, 'resources', 'Materials and links'],
+  ];
+  return all.filter((s) => s[0]).map(([, id, label]) => ({ id, label }));
+}
+
+/** The record in numbers, worst first (template: $kop_fp_tiles). */
+export function statTiles(f: FacilityPayload): {
+  key: string; icon: IconName; count: number; singular: string; plural: string; tone: Tone;
+}[] {
+  return [
+    { key: 'memorials', icon: 'candle', count: f.memorials.length, singular: 'death on record', plural: 'deaths on record', tone: 'grave' },
+    {
+      key: 'violations', icon: 'alert-triangle', count: violationsOf(f).length,
+      singular: 'serious violation confirmed by inspectors', plural: 'serious violations confirmed by inspectors', tone: 'grave',
+    },
+    { key: 'lawsuits', icon: 'scale', count: f.lawsuits.length, singular: 'lawsuit', plural: 'lawsuits', tone: 'warn' },
+    { key: 'incidents', icon: 'siren', count: f.incidents.length, singular: 'incident on record', plural: 'incidents on record', tone: 'warn' },
+    { key: 'news', icon: 'newspaper', count: f.news.length, singular: 'news article', plural: 'news articles', tone: 'info' },
+    { key: 'staff', icon: 'users', count: staffRows(f.staff).length, singular: 'staff member named', plural: 'staff members named', tone: 'info' },
+  ];
+}

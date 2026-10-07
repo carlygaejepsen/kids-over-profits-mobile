@@ -5,6 +5,7 @@
  *   npm run shots                       # export the web build, then shoot every screen
  *   npm run shots -- --no-build         # reuse dist/
  *   npm run shots -- --only=facility-9607,news
+ *   npm run shots -- --dist=tmp/dist-a --out=tmp/shots-a   # separate folders for parallel runs
  *
  * The web build runs in Chromium at 390x844. Every request to the live API
  * (https://kidsoverprofits.org/wp-json/kop/v1/...) is answered inside the browser from
@@ -22,13 +23,15 @@ import zlib from 'node:zlib';
 import { chromium } from 'playwright';
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
-const dist = path.join(root, 'dist');
-const out = path.join(root, 'tmp', 'shots');
+const args = process.argv.slice(2);
+const opt = (name) => (args.find((a) => a.startsWith(`--${name}=`)) ?? '').slice(name.length + 3);
+// --dist=<dir> and --out=<dir> let several runs work side by side.
+const dist = path.resolve(root, opt('dist') || 'dist');
+const out = path.resolve(root, opt('out') || path.join('tmp', 'shots'));
 const appFixtures = path.join(root, '__tests__', 'fixtures');
 const shotFixtures = path.join(root, 'scripts', 'shot-fixtures');
 
-const args = process.argv.slice(2);
-const only = (args.find((a) => a.startsWith('--only=')) ?? '').slice(7).split(',').filter(Boolean);
+const only = opt('only').split(',').filter(Boolean);
 const noBuild = args.includes('--no-build');
 
 const SCREENS = [
@@ -138,7 +141,7 @@ function chromePath() {
 async function main() {
   if (!noBuild || !fs.existsSync(dist)) {
     console.log('Exporting the web build...');
-    execSync('npx expo export --platform web --output-dir dist', { cwd: root, stdio: 'inherit' });
+    execSync(`npx expo export --platform web --output-dir ${JSON.stringify(dist)}`, { cwd: root, stdio: 'inherit' });
   }
   fs.mkdirSync(out, { recursive: true });
   const png = greyPng();

@@ -14,13 +14,15 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { colors, statusColor } from '@/theme/colors';
+import { colors } from '@/theme/colors';
 import { maxContentWidth, radius, spacing, touchTarget, type } from '@/theme/typography';
 import { openLink } from '@/lib/links';
-import { citeWords, cleanProse, usableCitations } from '@/lib/citations';
+import { cleanProse } from '@/lib/citations';
 import { urlLabel } from '@/lib/urlLabel';
 import { SITE } from '@/api/client';
 import { Icon } from './Icon';
+import { InlineSources, type Cite } from './site/Source';
+import { StatusPill } from './site/RecordHeader';
 
 type Variant = keyof typeof type;
 
@@ -98,15 +100,7 @@ export function Row({
   );
 }
 
-export function StatusPill({ status }: { status: string }) {
-  if (!status) return null;
-  const c = statusColor(status);
-  return (
-    <View style={[styles.pill, { backgroundColor: c.background, borderColor: c.border }]}>
-      <AppText variant="smallBold" style={{ color: c.text }}>{status}</AppText>
-    </View>
-  );
-}
+export { StatusPill };
 
 export function Chip({ label, onPress }: { label: string; onPress?: () => void }) {
   const inner = <AppText variant="small" style={{ color: colors.midnight }}>{label}</AppText>;
@@ -134,45 +128,8 @@ export function LinkRow({ url, label }: { url: string; label?: string }) {
   );
 }
 
-export type Cite = { url?: string; cite?: string; source?: string; label?: string };
-
-/**
- * Citations as the website shows them: "(source)", or "(source 1, source 2)" when there are several, set inline
- * after the text they support. A link opens the page; with no address the word is plain text. The words behind
- * the number are the accessibility label, so a screen reader hears what each source is.
- */
-export function InlineSources({ items }: { items?: Cite[] }) {
-  const router = useRouter();
-  const list = usableCitations(items);
-  if (!list.length) return null;
-  return (
-    <Text style={styles.cite}>
-      {' ('}
-      {list.map((c, i) => {
-        const word = list.length > 1 ? `source ${i + 1}` : 'source';
-        const preview = citeWords(c);
-        const label = preview ? `${word}: ${preview}` : word;
-        return (
-          <Text key={i}>
-            {i > 0 ? ', ' : ''}
-            {c.url ? (
-              <Text
-                onPress={() => openLink(c.url, (href) => router.push(href))}
-                accessibilityRole="link"
-                accessibilityLabel={label}
-                style={styles.citeLink}>
-                {word}
-              </Text>
-            ) : (
-              <Text accessibilityLabel={label}>{word}</Text>
-            )}
-          </Text>
-        );
-      })}
-      {')'}
-    </Text>
-  );
-}
+export type { Cite };
+export { InlineSources };
 
 /** A line of text with its citations inline at the end. */
 export function Cited({
@@ -286,7 +243,6 @@ const styles = StyleSheet.create({
   rowInner: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
   rowText: { flex: 1, gap: 2 },
   pressed: { opacity: 0.7 },
-  pill: { alignSelf: 'flex-start', borderWidth: 1, borderRadius: radius.pill, paddingHorizontal: spacing.sm + 2, paddingVertical: 2 },
   chip: {
     alignSelf: 'flex-start',
     backgroundColor: colors.softPastelYellow,
@@ -311,8 +267,6 @@ const styles = StyleSheet.create({
   },
   buttonText: { color: colors.white },
   fact: { gap: 2 },
-  cite: { fontSize: 14, color: colors.textMuted },
-  citeLink: { color: colors.tealInk, textDecorationLine: 'underline' },
   bullets: { gap: spacing.xs },
   bulletRow: { flexDirection: 'row', gap: spacing.sm },
   bullet: { width: 12 },

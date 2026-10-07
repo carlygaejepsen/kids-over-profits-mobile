@@ -1,0 +1,64 @@
+{
+  "query": "falcon",
+  "total": 8,
+  "groups": [
+    {
+      "key": "facilities",
+      "label": "Facilities",
+      "items": [
+        {
+          "title": "Falcon Ridge Ranch",
+          "url": "https://kidsoverprofits.org/facility/falcon-ridge-ranch-ut/",
+          "meta": "Virgin, Utah"
+        },
+        {
+          "title": "Falcon Ridge Academy",
+          "url": "https://kidsoverprofits.org/facility/falcon-ridge-academy-ut/",
+          "meta": "Escalante, Utah (Closed)"
+        },
+        {
+          "title": "Falconry Academy",
+          "url": "https://kidsoverprofits.org/facility/falconry-academy-ut/",
+          "meta": "Blanding, Utah"
+        }
+      ]
+    },
+    {
+      "key": "news",
+      "label": "News",
+      "items": [
+        {
+          "title": "Investigation: Falcon Ridge Ranch Violations Spark Concerns",
+          "url": "https://kidsoverprofits.org/news/falcon-ridge-investigation/",
+          "meta": "Salt Lake Tribune, 2024"
+        },
+        {
+          "title": "Former Students File Lawsuit Against Falcon Ridge",
+          "url": "https://kidsoverprofits.org/news/falcon-ridge-lawsuit/",
+          "meta": "Desert News, 2023"
+        },
+        {
+          "title": "Utah Program Closes Falcon Ridge Location",
+          "url": "https://kidsoverprofits.org/news/falcon-ridge-closure/",
+          "meta": "Associated Press, 2022"
+        }
+      ]
+    },
+    {
+      "key": "wiki",
+      "label": "Wiki",
+      "items": [
+        {
+          "title": "Falcon Ridge Ranch - Reddit r/troubledteens Wiki",
+          "url": "https://kidsoverprofits.org/wiki-feed/falcon-ridge-ranch/",
+          "meta": "Community documented"
+        },
+        {
+          "title": "Falcon Ridge Academy - Reddit r/troubledteens Wiki",
+          "url": "https://kidsoverprofits.org/wiki-feed/falcon-ridge-academy/",
+          "meta": "Community documented"
+        }
+      ]
+    }
+  ]
+}

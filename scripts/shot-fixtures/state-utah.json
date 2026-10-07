@@ -1,0 +1,218 @@
+{
+  "state": {
+    "name": "Utah",
+    "slug": "utah"
+  },
+  "inspections": {
+    "has_reports": true,
+    "page_url": "https://kidsoverprofits.org/utah-reports/"
+  },
+  "facilities": {
+    "active": [
+      {
+        "name": "Falcon Ridge Ranch",
+        "city": "Virgin",
+        "state": "UT",
+        "status": "Open",
+        "operator_name": "Sequel TSI",
+        "operating_period": "1998–present",
+        "profile_url": "https://kidsoverprofits.org/facility/falcon-ridge-ranch-ut/",
+        "facility_ids": [9607]
+      },
+      {
+        "name": "Copper Canyon Academy",
+        "city": "Prescott",
+        "state": "AZ",
+        "status": "Open",
+        "operator_name": "Sequel TSI",
+        "operating_period": "2002–present",
+        "profile_url": "https://kidsoverprofits.org/facility/copper-canyon-academy-az/",
+        "facility_ids": [8921],
+        "inspection_count": 12,
+        "violation_count": 3
+      },
+      {
+        "name": "Mountain Peak Academy",
+        "city": "Lehi",
+        "state": "UT",
+        "status": "Open",
+        "operator_name": "Woodbury Reports Inc",
+        "operating_period": "2001–present",
+        "profile_url": "https://kidsoverprofits.org/facility/mountain-peak-academy-ut/",
+        "facility_ids": [7823],
+        "inspection_count": 8,
+        "violation_count": 1
+      },
+      {
+        "name": "Wilderness Therapy Program",
+        "city": "Sundance",
+        "state": "UT",
+        "status": "Open",
+        "operator_name": "Woodbury Reports Inc",
+        "operating_period": "2000–present",
+        "profile_url": "https://kidsoverprofits.org/facility/wilderness-therapy-program-ut/",
+        "facility_ids": [7654]
+      },
+      {
+        "name": "Summit Valley Academy",
+        "city": "Eden",
+        "state": "UT",
+        "status": "Open",
+        "operator_name": "Woodbury Reports Inc",
+        "operating_period": "2003–present",
+        "profile_url": "https://kidsoverprofits.org/facility/summit-valley-academy-ut/",
+        "facility_ids": [7543]
+      },
+      {
+        "name": "Legacy Academy",
+        "city": "Provo",
+        "state": "UT",
+        "status": "Open",
+        "operator_name": "Woodbury Reports Inc",
+        "operating_period": "2002–present",
+        "profile_url": "https://kidsoverprofits.org/facility/legacy-academy-ut/",
+        "facility_ids": [7234]
+      }
+    ],
+    "closed": [
+      {
+        "name": "Falcon Ridge Academy",
+        "city": "Escalante",
+        "state": "UT",
+        "status": "Closed",
+        "operator_name": "Sequel TSI",
+        "operating_period": "1998–2020",
+        "profile_url": "https://kidsoverprofits.org/facility/falcon-ridge-academy-ut/",
+        "facility_ids": [8234]
+      },
+      {
+        "name": "Mountain Vista Academy",
+        "city": "Altamont",
+        "state": "UT",
+        "status": "Closed",
+        "operator_name": "Life Sending",
+        "operating_period": "1996–2018",
+        "profile_url": "https://kidsoverprofits.org/facility/mountain-vista-academy-ut/",
+        "facility_ids": [6821]
+      },
+      {
+        "name": "Pathways Academy",
+        "city": "Logan",
+        "state": "UT",
+        "status": "Closed",
+        "operator_name": "Woodbury Reports Inc",
+        "operating_period": "1999–2018",
+        "profile_url": "https://kidsoverprofits.org/facility/pathways-academy-ut/",
+        "facility_ids": [6234]
+      },
+      {
+        "name": "Escalante Valley Academy",
+        "city": "Escalante",
+        "state": "UT",
+        "status": "Closed",
+        "operator_name": "Life Sending",
+        "operating_period": "1998–2019",
+        "profile_url": "https://kidsoverprofits.org/facility/escalante-valley-academy-ut/",
+        "facility_ids": [5921]
+      },
+      {
+        "name": "Red Rock Academy",
+        "city": "Moab",
+        "state": "UT",
+        "status": "Closed",
+        "operator_name": "Community Solutions",
+        "operating_period": "2000–2017",
+        "profile_url": "https://kidsoverprofits.org/facility/red-rock-academy-ut/",
+        "facility_ids": [5234]
+      },
+      {
+        "name": "Wasatch Youth Services",
+        "city": "Park City",
+        "state": "UT",
+        "status": "Closed",
+        "operator_name": "Mountain Health Corp",
+        "operating_period": "1997–2016",
+        "profile_url": "https://kidsoverprofits.org/facility/wasatch-youth-services-ut/",
+        "facility_ids": [4987]
+      }
+    ],
+    "total": 12
+  },
+  "news": [
+    {
+      "id": 4521,
+      "article_title": "Investigation: Utah Wilderness Programs Face New Scrutiny",
+      "display_title": "Investigation: Wilderness Programs Face New Scrutiny",
+      "publication_name": "Salt Lake Tribune",
+      "publication_date": "2024-09-15",
+      "article_url": "https://kidsoverprofits.org/news/utah-wilderness-scrutiny/",
+      "article_type": "Investigation",
+      "summary": "State regulators launch formal review of three wilderness therapy programs operating in Utah after reports of inadequate medical care."
+    },
+    {
+      "id": 4512,
+      "article_title": "Former Students File Class Action Against Utah Programs",
+      "display_title": "Former Students File Class Action",
+      "publication_name": "The Salt Lake Happening",
+      "publication_date": "2024-08-20",
+      "article_url": "https://kidsoverprofits.org/news/utah-class-action/",
+      "article_type": "Lawsuit",
+      "summary": "Forty-seven former students sue three Utah-based residential treatment programs for alleged abuse and negligence."
+    },
+    {
+      "id": 4501,
+      "article_title": "Utah Licensing Board Cites Multiple Violations at Falcon Ridge",
+      "display_title": "Licensing Board Cites Violations",
+      "publication_name": "Associated Press",
+      "publication_date": "2024-07-10",
+      "article_url": "https://kidsoverprofits.org/news/falcon-ridge-violations/",
+      "article_type": "Regulatory",
+      "summary": "State licensing board issues formal notice of violations at Falcon Ridge Ranch following inspections in June."
+    },
+    {
+      "id": 4490,
+      "article_title": "Therapy Programs in Utah Show Better Outcomes, Study Says",
+      "display_title": "Study: Utah Programs Show Better Outcomes",
+      "publication_name": "Desert News",
+      "publication_date": "2024-06-05",
+      "article_url": "https://kidsoverprofits.org/news/utah-outcomes-study/",
+      "article_type": "Research",
+      "summary": "New peer-reviewed study examines long-term outcomes for former participants in Utah wilderness and residential programs."
+    }
+  ],
+  "lawsuits": [
+    {
+      "id": 234,
+      "case_name": "Former Students v. Falcon Ridge Ranch and Sequel TSI",
+      "case_number": "2:24-cv-00123",
+      "court": "U.S. District Court, District of Utah",
+      "status": "Filed",
+      "summary": "Allegations of inadequate supervision, physical abuse, and failure to provide adequate medical care."
+    },
+    {
+      "id": 225,
+      "case_name": "Parents v. Wilderness Therapy Program",
+      "case_number": "2024-CV-0456",
+      "court": "Third District Court, Salt Lake County",
+      "status": "Settlement Pending",
+      "summary": "Class action alleging deceptive marketing practices and unsafe conditions."
+    },
+    {
+      "id": 216,
+      "case_name": "Estate of John Doe v. Mountain Peak Academy",
+      "case_number": "2023-CV-0789",
+      "court": "Third District Court, Salt Lake County",
+      "status": "Settled",
+      "summary": "Wrongful death claim; settlement reached in January 2024."
+    }
+  ],
+  "counts": {
+    "active_facilities": 6,
+    "closed_facilities": 6,
+    "total_facilities": 12,
+    "news_articles": 4,
+    "lawsuits": 3,
+    "deaths": 2,
+    "inspection_reports": 23
+  }
+}

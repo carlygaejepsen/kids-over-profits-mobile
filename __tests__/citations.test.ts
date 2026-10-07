@@ -1,4 +1,4 @@
-import { citeWords, cleanProse, isOwnSource, usableCitations } from '@/lib/citations';
+import { citeWords, cleanProse, isOwnSource, roleLine, usableCitations } from '@/lib/citations';
 
 describe('isOwnSource', () => {
   it('drops citations that only point back to us', () => {
@@ -50,6 +50,36 @@ describe('cleanProse', () => {
     expect(cleanProse('Runs two homes (boys and girls).')).toBe('Runs two homes (boys and girls).');
     expect(cleanProse('')).toBe('');
     expect(cleanProse(null)).toBe('');
+  });
+});
+
+describe('roleLine', () => {
+  it('turns a trailing year note into a comma and drops the source wording', () => {
+    expect(roleLine('President (2009, Woodbury Reports)')).toBe('President, 2009');
+    expect(roleLine('Executive Director (2016)')).toBe('Executive Director, 2016');
+    expect(roleLine('Teacher (before 2013)')).toBe('Teacher, before 2013');
+  });
+  it('drops a trailing ", left"', () => {
+    expect(roleLine('Director (2008, Woodbury Reports), left')).toBe('Director, 2008');
+    expect(roleLine('Director, left')).toBe('Director');
+  });
+  it('keeps a year range and long titles', () => {
+    expect(
+      roleLine('NATSAP Board member, Senior Vice President - Northeast Division, Vice President (2008-2009, Woodbury Reports)'),
+    ).toBe('NATSAP Board member, Senior Vice President - Northeast Division, Vice President, 2008-2009');
+  });
+  it('says a repeated title once', () => {
+    expect(roleLine('Admissions, Business Development and Marketing, Admissions (2009-2010, Woodbury Reports)')).toBe(
+      'Admissions, Business Development and Marketing, 2009-2010',
+    );
+    expect(roleLine('Admissions, Business Development and Marketing, Admissions')).toBe('Admissions, Business Development and Marketing');
+  });
+  it('drops empty parentheses and stray punctuation, and is empty for nothing', () => {
+    expect(roleLine('Director ()')).toBe('Director');
+    expect(roleLine(' Director, ')).toBe('Director');
+    expect(roleLine('Director (interim)')).toBe('Director (interim)');
+    expect(roleLine('')).toBe('');
+    expect(roleLine(undefined)).toBe('');
   });
 });
 

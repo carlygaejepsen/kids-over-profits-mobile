@@ -1,3 +1,4 @@
+import { useRouter, type Href } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
@@ -5,6 +6,7 @@ import type { LawsuitRow, MemorialRow, OperatorPayload } from '@/api/types';
 import { Button, EdgeRow, HubListRow, RecordNewsCard, SectionBlock, useOpenLink } from '@/components/site';
 import { hitSlopFor } from '@/components/site/metrics';
 import { cleanProse } from '@/lib/citations';
+import { slugFromUrl } from '@/lib/links';
 import { urlLabel } from '@/lib/urlLabel';
 import { colors } from '@/theme/colors';
 import { spacing, type } from '@/theme/typography';
@@ -65,12 +67,18 @@ export function DeathsSection({ o }: { o: OperatorPayload }) {
 }
 
 export function DocumentsSection({ o }: { o: OperatorPayload }) {
-  const open = useOpenLink();
-  const url = o.documents?.url;
-  if (!url) return null;
+  const router = useRouter();
+  if (!o.documents?.url) return null;
+  const slug = slugFromUrl(o.url) || String(o.id);
   return (
     <SectionBlock id="documents" title="Documents" icon="file-text">
-      <Button label="Documents on the website" variant="secondary" icon="file-text" onPress={() => open(url)} style={styles.button} />
+      <Button
+        label="Open the document library"
+        variant="secondary"
+        icon="file-text"
+        onPress={() => router.push({ pathname: '/documents/[slug]', params: { slug, kind: 'operator' } } as Href)}
+        style={styles.button}
+      />
     </SectionBlock>
   );
 }

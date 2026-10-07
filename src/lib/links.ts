@@ -1,14 +1,45 @@
 import type { Href } from 'expo-router';
 import { openBrowserAsync } from 'expo-web-browser';
+import { Platform } from 'react-native';
 
 import { SITE } from '@/api/client';
+import { docKindOf } from './docs';
 
 export type Resolved = { kind: 'route'; href: Href } | { kind: 'web'; url: string };
 
 const HOST = new URL(SITE).host;
 
-/** Turn an address from the site into an in-app screen when there is one, else a web address. */
-export function resolveLink(raw: string | null | undefined): Resolved | null {
+/** "#page=21" on a PDF link: the page the citation means. */
+function pageOf(hash: string): number | undefined {
+  const m = /(?:^#|&)page=(\d+)/.exec(hash);
+  return m ? Number(m[1]) : undefined;
+}
+
+/** The in-app viewer for a document address (the hash's page kept as a param). */
+export function docHref(url: string, title?: string): Href {
+  let page: number | undefined;
+  let bare = url;
+  try {
+    const u = new URL(url, SITE);
+    page = pageOf(u.hash);
+    u.hash = '';
+    bare = u.toString();
+  } catch {
+    // keep the address as given
+  }
+  const params: Record<string, string> = { url: bare };
+  if (page) params.page = String(page);
+  if (title) params.title = title;
+  return { pathname: '/doc', params } as Href;
+}
+
+/**
+ * Turn an address from the site into an in-app screen when there is one, else a web address: facility and
+ * company pages, their document libraries (#documents), and documents (our own PDFs and pictures, "#page=21"
+ * kept) open in the app. Another site's PDF opens in the viewer on iOS, which reads PDFs itself; Android's
+ * web view cannot, so there it stays in the browser.
+ */
+export function resolveLink(raw: string | null | undefined, platform: string = Platform.OS): Resolved | null {
   const value = (raw ?? '').trim();
   if (!value) return null;
   let url: URL;
@@ -18,11 +49,19 @@ export function resolveLink(raw: string | null | undefined): Resolved | null {
     return null;
   }
   if (url.protocol !== 'https:' && url.protocol !== 'http:') return null;
-  if (url.host.replace(/^www\./, '') === HOST) {
-    const facility = url.pathname.match(/^\/facility\/([^/]+)\/?$/);
-    if (facility) return { kind: 'route', href: `/facility/${facility[1]}` as Href };
-    const operator = url.pathname.match(/^\/operator\/([^/]+)\/?$/);
-    if (operator) return { kind: 'route', href: `/operator/${operator[1]}` as Href };
+  const own = url.host.replace(/^www\./, '') === HOST;
+  if (own) {
+    const page = url.pathname.match(/^\/(facility|operator)\/([^/]+)\/?$/);
+    if (page) {
+      const [, kind, slug] = page;
+      if (url.hash === '#documents') return { kind: 'route', href: { pathname: '/documents/[slug]', params: { slug, kind } } as Href };
+      return { kind: 'route', href: `/${kind}/${slug}` as Href };
+    }
+    if (url.pathname.startsWith('/wp-content/') && docKindOf(url.pathname) !== 'other') {
+      return { kind: 'route', href: docHref(url.toString()) };
+    }
+  } else if (platform === 'ios' && docKindOf(url.pathname) === 'pdf') {
+    return { kind: 'route', href: docHref(url.toString()) };
   }
   return { kind: 'web', url: url.toString() };
 }

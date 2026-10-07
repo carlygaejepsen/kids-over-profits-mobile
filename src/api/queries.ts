@@ -2,6 +2,7 @@ import { keepPreviousData, useInfiniteQuery, useQuery } from '@tanstack/react-qu
 
 import { fetchJson } from './client';
 import type {
+  DocumentsPayload,
   FacilityPayload,
   GlobalSearchResponse,
   NewsFeed,
@@ -28,6 +29,16 @@ export function useOperator(ref: string | undefined) {
   return useQuery({
     queryKey: ['operator', ref],
     queryFn: ({ signal }) => fetchJson<OperatorPayload>(`operator/${encodeURIComponent(ref ?? '')}`, undefined, signal),
+    enabled: !!ref,
+    staleTime: 10 * 60 * 1000,
+  });
+}
+
+/** A facility's or a company's document library. */
+export function useDocuments(kind: 'facility' | 'operator', ref: string | undefined) {
+  return useQuery({
+    queryKey: ['documents', kind, ref],
+    queryFn: ({ signal }) => fetchJson<DocumentsPayload>(`${kind}/${encodeURIComponent(ref ?? '')}/documents`, undefined, signal),
     enabled: !!ref,
     staleTime: 10 * 60 * 1000,
   });

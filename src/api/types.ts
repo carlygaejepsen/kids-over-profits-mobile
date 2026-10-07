@@ -387,3 +387,18 @@ export type SubmitOutcome =
   | { kind: 'ok'; queue: string }
   | { kind: 'duplicate'; message: string; duplicates: DuplicateInfo[] }
   | { kind: 'error'; message: string };
+
+/** kop/v1/facility/<slug>/documents and kop/v1/operator/<slug>/documents: the page's document library. */
+export type DocFile = { id: number; title: string; url: string; ext: string; mime: string; size: number; thumb: string };
+export type DocFolder = { name: string; merged_from: string; count: number; files: DocFile[]; folders: DocFolder[] };
+export type DocumentsPayload = {
+  api_version: number;
+  kind: 'facility' | 'operator';
+  name: string;
+  page_url: string;
+  total: number;
+  files: DocFile[];
+  folders: DocFolder[];
+  /** A company's programs with libraries of their own. */
+  programs: { name: string; slug: string; count: number }[];
+};

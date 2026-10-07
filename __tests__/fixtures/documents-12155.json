@@ -1,0 +1,243 @@
+{
+    "api_version": 1,
+    "kind": "facility",
+    "name": "Copper Canyon Academy",
+    "page_url": "https://example.test/facility/copper-canyon-academy-az/#documents",
+    "total": 24,
+    "files": [],
+    "folders": [
+        {
+            "name": "Woodbury Reports Mentions",
+            "merged_from": "",
+            "count": 6,
+            "files": [
+                {
+                    "id": 12503,
+                    "title": "Woodbury Reports, December 2008 (#172), p. 18: Copper Canyon Academy",
+                    "url": "https://example.test/wp-content/uploads/woodbury-2008-12-Copper-Canyon-Academy-106610.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 12183,
+                    "title": "Woodbury Reports, December 2012, pp. 3-5: Copper Canyon Academy",
+                    "url": "https://example.test/wp-content/uploads/woodbury-2012-12-Copper-Canyon-Academy-f5f8a9.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 12507,
+                    "title": "Woodbury Reports, June 2009 (#178), p. 18: Copper Canyon Academy",
+                    "url": "https://example.test/wp-content/uploads/woodbury-2009-06-Copper-Canyon-Academy-9dffad.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 12504,
+                    "title": "Woodbury Reports, March 2008 (#163), p. 27: Copper Canyon Academy",
+                    "url": "https://example.test/wp-content/uploads/woodbury-2008-03-Copper-Canyon-Academy-7a8690.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 12506,
+                    "title": "Woodbury Reports, May 2009 (#177), p. 16: Copper Canyon Academy",
+                    "url": "https://example.test/wp-content/uploads/woodbury-2009-05-Copper-Canyon-Academy-5c6111.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 12505,
+                    "title": "Woodbury Reports, October 2008 (#170), p. 26: Copper Canyon Academy",
+                    "url": "https://example.test/wp-content/uploads/woodbury-2008-10-Copper-Canyon-Academy-7f1018.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                }
+            ],
+            "folders": []
+        },
+        {
+            "name": "Merged from: Sedona Sky Academy",
+            "merged_from": "Sedona Sky Academy",
+            "count": 18,
+            "files": [
+                {
+                    "id": 9843,
+                    "title": "prince family filing 2001",
+                    "url": "https://example.test/wp-content/uploads/prince-family-filing-2001.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 9844,
+                    "title": "Sedona Sky Academy filings 2020",
+                    "url": "https://example.test/wp-content/uploads/Sedona-Sky-Academy-filings-2020.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 12687,
+                    "title": "CCA Parent Manual 2005",
+                    "url": "https://example.test/wp-content/uploads/CCA-Parent-Manual-2005.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 11259,
+                    "title": "CCA Parent Manual 2010",
+                    "url": "https://example.test/wp-content/uploads/CCA-Parent-Manual-2010.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 12688,
+                    "title": "Copper Canyon Academy Parent Manual 2006",
+                    "url": "https://example.test/wp-content/uploads/Copper-Canyon-Academy-Parent-Manual-2006.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 12686,
+                    "title": "Copper Canyon Academy — Student Manual (February 2010)",
+                    "url": "https://example.test/wp-content/uploads/CCA-Student-Manual-2010.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 12685,
+                    "title": "Copper Canyon Academy — Student Manual (March 2011)",
+                    "url": "https://example.test/wp-content/uploads/CCA-Student-Manual-2011.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 9790,
+                    "title": "records_ratio_08_29_2024",
+                    "url": "https://example.test/wp-content/uploads/records_ratio_08_29_2024.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 9791,
+                    "title": "restraints_10_27_2023",
+                    "url": "https://example.test/wp-content/uploads/restraints_10_27_2023.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 9792,
+                    "title": "safety_03_19_2024",
+                    "url": "https://example.test/wp-content/uploads/safety_03_19_2024.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 9793,
+                    "title": "safety_10-24-2023",
+                    "url": "https://example.test/wp-content/uploads/safety_10-24-2023.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 3789,
+                    "title": "Sedona Sky Academy Student Manual",
+                    "url": "https://example.test/wp-content/uploads/2025/09/Sedona-Sky-Academy-Student-Manual-2.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 9794,
+                    "title": "supervision_07_05_2022",
+                    "url": "https://example.test/wp-content/uploads/supervision_07_05_2022.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 9795,
+                    "title": "training_02_24_2025",
+                    "url": "https://example.test/wp-content/uploads/training_02_24_2025.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 10109,
+                    "title": "Sedona Sky Academy Student Manual",
+                    "url": "https://example.test/wp-content/uploads/Sedona-Sky-Academy-Student-Manual-pdf.jpg",
+                    "ext": "jpg",
+                    "mime": "image/jpeg",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 11260,
+                    "title": "copper canyon sedona sky natsap 2011",
+                    "url": "https://example.test/wp-content/uploads/copper-canyon-sedona-sky-natsap-2011.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 9845,
+                    "title": "sedona sky academy natsap 2014",
+                    "url": "https://example.test/wp-content/uploads/sedona-sky-academy-natsap-2014.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                },
+                {
+                    "id": 9846,
+                    "title": "sedona sky academy natsap 2020",
+                    "url": "https://example.test/wp-content/uploads/sedona-sky-academy-natsap-2020.pdf",
+                    "ext": "pdf",
+                    "mime": "application/pdf",
+                    "size": 0,
+                    "thumb": ""
+                }
+            ],
+            "folders": []
+        }
+    ],
+    "programs": []
+}

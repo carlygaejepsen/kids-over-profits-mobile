@@ -37,6 +37,8 @@ export default function RootLayout() {
             <Stack.Screen name="facility/[slug]" options={{ title: 'Facility' }} />
             <Stack.Screen name="operator/[slug]" options={{ title: 'Company' }} />
             <Stack.Screen name="place/[slug]" options={{ title: 'Place' }} />
+            <Stack.Screen name="documents/[slug]" options={{ title: 'Documents' }} />
+            <Stack.Screen name="doc" options={{ title: 'Document' }} />
             <Stack.Screen name="reviewer" options={{ title: 'Reviewer sign-in' }} />
           </Stack>
           <ShareIntentHandler />

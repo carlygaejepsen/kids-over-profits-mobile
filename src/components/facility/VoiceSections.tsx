@@ -1,22 +1,23 @@
+import { useRouter, type Href } from 'expo-router';
 import { StyleSheet, Text, View } from 'react-native';
 
 import type { FacilityPayload } from '@/api/types';
 import { colors } from '@/theme/colors';
 import { spacing, type } from '@/theme/typography';
-import { Button, HubListRow, NoticeBox, SectionBlock, type TimelineItem, useOpenLink } from '../site';
+import { Button, HubListRow, NoticeBox, SectionBlock, type TimelineItem } from '../site';
 import type { SectionProps } from './model';
 import { Bullets, LimitedTimeline } from './parts';
 
 export function DocumentsSection({ f, onLayoutY }: SectionProps & { f: FacilityPayload }) {
-  const open = useOpenLink();
+  const router = useRouter();
   if (!f.documents?.url) return null;
   return (
     <SectionBlock id="documents" title="Documents" icon="file-text" onLayoutY={onLayoutY}>
       <Button
         variant="secondary"
         icon="file-text"
-        label="Open the document library on the website"
-        onPress={() => open(f.documents.url)}
+        label="Open the document library"
+        onPress={() => router.push({ pathname: '/documents/[slug]', params: { slug: f.slug, kind: 'facility' } } as Href)}
         style={styles.button}
       />
     </SectionBlock>

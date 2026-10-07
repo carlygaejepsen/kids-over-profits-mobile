@@ -39,6 +39,7 @@ The app loads live data from kidsoverprofits.org, so the site must be up.
 - A renamed program shows one "As <name>" section per name.
 - A program with homes (Newport Academy, California) lists its homes; a home names its program.
 - News tab scrolls and loads more; Companies tab lists every company and opens one.
+- Falcon Ridge Ranch: tap a "source" under Leslie Budd; the Woodbury issue opens in the app at page 21. Tap "Open the document library"; folders open, a document opens in the app.
 - Send tab: try one link; it should show up in KOP Tools > Review inbox.
 - Turn the phone's text size up and check nothing is cut off.
 

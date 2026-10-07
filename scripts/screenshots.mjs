@@ -43,6 +43,9 @@ const SCREENS = [
   { name: 'search', path: '/', type: 'falcon' },
   { name: 'news', path: '/news' },
   { name: 'about', path: '/about' },
+  { name: 'send', path: '/send' },
+  { name: 'send-correction', path: '/send?mode=correction&facility_id=9607&facility=Falcon%20Ridge%20Ranch&ts=1' },
+  { name: 'reviewer', path: '/reviewer' },
 ].filter((s) => !only.length || only.includes(s.name));
 
 /** The fixture file for one API path ("facility/9607", "news", ...), or null. */

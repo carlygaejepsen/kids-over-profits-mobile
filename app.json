@@ -39,7 +39,9 @@
     "web": { "output": "static", "favicon": "./assets/images/favicon.png" },
     "plugins": [
       "expo-router",
-      ["expo-splash-screen", { "backgroundColor": "#000435", "image": "./assets/images/splash-icon.png", "imageWidth": 120 }]
+      ["expo-splash-screen", { "backgroundColor": "#000435", "image": "./assets/images/splash-icon.png", "imageWidth": 120 }],
+      ["expo-sharing", { "android": { "enabled": true, "singleShareMimeTypes": ["text/plain"] }, "ios": { "enabled": true, "activationRule": { "supportsText": true, "supportsWebUrlWithMaxCount": 1 } } }],
+      "expo-secure-store"
     ],
     "experiments": { "typedRoutes": true, "reactCompiler": true }
   }

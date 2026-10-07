@@ -42,6 +42,8 @@ const SVG = {
     '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
   x: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
   // Same style, not in the site's set
+  send: '<path d="M21 3L10 14"/><path d="m21 3-7 18-4-7-7-4 18-7z"/>',
+  check: '<path d="M5 12.5l4.5 4.5L19 7"/>',
   'chevron-right': '<path d="m9 18 6-6-6-6"/>',
   'chevron-down': '<path d="m6 9 6 6 6-6"/>',
   'chevron-up': '<path d="m18 15-6-6-6 6"/>',

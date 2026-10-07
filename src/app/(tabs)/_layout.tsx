@@ -39,6 +39,7 @@ export default function TabsLayout() {
       <Tabs.Screen name="news" options={tab('News', 'newspaper')} />
       <Tabs.Screen name="places" options={tab('Places', 'map-pin')} />
       <Tabs.Screen name="companies" options={tab('Companies', 'building')} />
+      <Tabs.Screen name="send" options={tab('Send', 'send')} />
       <Tabs.Screen name="about" options={tab('About', 'info')} />
     </Tabs>
   );

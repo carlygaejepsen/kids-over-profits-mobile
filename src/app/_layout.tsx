@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { DisclaimerGate } from '@/components/DisclaimerGate';
+import { ShareIntentHandler } from '@/components/ShareIntentHandler';
 import { colors } from '@/theme/colors';
 
 const queryClient = new QueryClient({
@@ -36,7 +37,9 @@ export default function RootLayout() {
             <Stack.Screen name="facility/[slug]" options={{ title: 'Facility' }} />
             <Stack.Screen name="operator/[slug]" options={{ title: 'Company' }} />
             <Stack.Screen name="place/[slug]" options={{ title: 'Place' }} />
+            <Stack.Screen name="reviewer" options={{ title: 'Reviewer sign-in' }} />
           </Stack>
+          <ShareIntentHandler />
           <DisclaimerGate />
         </ThemeProvider>
       </QueryClientProvider>

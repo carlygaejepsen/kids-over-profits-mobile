@@ -323,3 +323,51 @@ export type StatePage = {
   lawsuits: { id: number; case_name: string; case_number?: string; court?: string; status?: string; summary?: string }[];
   counts: Record<string, number>;
 };
+
+/** Send to KOP: kop/v1/mobile/* (public) and kop/v1/extension/* (reviewers signed in). */
+export type LinkType = 'article' | 'lawsuit' | 'legislation' | 'website';
+export type FacilityType = 'facility_new' | 'facility_correction';
+export type SubmitType = LinkType | FacilityType;
+
+/** Everything the Send screen can fill in. Empty strings are left out of the request. */
+export type SubmitDraft = {
+  type: SubmitType;
+  url: string;
+  title: string;
+  site_name: string;
+  author: string;
+  published: string;
+  case_number: string;
+  court: string;
+  bill_number: string;
+  jurisdiction: string;
+  session: string;
+  facility: string;
+  facility_id: number | null;
+  notes: string;
+  selection: string;
+  submitter_name: string;
+  notify_email: string;
+  newsletter_email: string;
+  // facility_new only
+  name: string;
+  other_names: string[];
+  city: string;
+  state: string;
+  country: string;
+  operator: string;
+  start_year: string;
+  end_year: string;
+  website: string;
+  program_type: string;
+};
+
+export type Credentials = { username: string; appPassword: string };
+
+export type DuplicateInfo = { type: string; status: string; id?: number; title?: string };
+export type DuplicateCheck = { duplicate: boolean; duplicates: DuplicateInfo[] };
+
+export type SubmitOutcome =
+  | { kind: 'ok'; queue: string }
+  | { kind: 'duplicate'; message: string; duplicates: DuplicateInfo[] }
+  | { kind: 'error'; message: string };

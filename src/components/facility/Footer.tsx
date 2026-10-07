@@ -1,3 +1,4 @@
+import { useRouter } from 'expo-router';
 import { StyleSheet, Text, View } from 'react-native';
 
 import type { FacilityPayload } from '@/api/types';
@@ -37,15 +38,22 @@ export function ReportingNotice({ f }: { f: FacilityPayload }) {
 }
 
 export function FacilityFooter({ f }: { f: FacilityPayload }) {
-  const open = useOpenLink();
+  const router = useRouter();
   return (
     <View style={styles.footer}>
       {f.updated_label ? <Text style={styles.meta}>{`Record updated ${f.updated_label}.`}</Text> : null}
       <Text style={styles.meta}>Generated from the Kids Over Profits facility database.</Text>
       <OpenOnSite url={f.url} />
-      {f.submit_url ? (
-        <Button variant="secondary" label="Suggest a correction" onPress={() => open(f.submit_url)} style={styles.button} />
-      ) : null}
+      <Button
+        variant="secondary"
+        label="Suggest a correction"
+        icon="send"
+        accessibilityLabel={`Suggest a correction to ${f.name}`}
+        onPress={() =>
+          router.push({ pathname: '/send', params: { mode: 'correction', facility_id: String(f.id), facility: f.name, ts: String(Date.now()) } })
+        }
+        style={styles.button}
+      />
     </View>
   );
 }

@@ -1,4 +1,5 @@
 import Constants from 'expo-constants';
+import { useRouter } from 'expo-router';
 import { openBrowserAsync } from 'expo-web-browser';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -17,6 +18,7 @@ const LINKS = [
 ];
 
 export default function AboutScreen() {
+  const router = useRouter();
   const version = Constants.expoConfig?.version;
   return (
     <TabPage>
@@ -49,7 +51,7 @@ export default function AboutScreen() {
           The data is licensed Creative Commons Attribution-ShareAlike 4.0. Credit Kids Over Profits (kidsoverprofits.org) and share what you build from it under the same license.
         </Text>
         <Text style={type.body}>
-          This app has no accounts and no analytics. It only asks kidsoverprofits.org for the pages you open.
+          This app has no accounts and no analytics. It asks kidsoverprofits.org for the pages you open, and sends what you choose to send on the Send tab. When you send a link, it also opens that page to read its title and date.
         </Text>
       </View>
 
@@ -58,6 +60,15 @@ export default function AboutScreen() {
         {LINKS.map((l) => (
           <HubListRow key={l.path} title={l.title} meta={l.meta} onPress={open(l.path)} />
         ))}
+      </View>
+
+      <Text accessibilityRole="header" style={type.heading}>For reviewers</Text>
+      <View style={styles.paragraphs}>
+        <HubListRow
+          title="Reviewer sign-in"
+          meta="For the site's reviewers. Everyone else can send without an account."
+          onPress={() => router.push('/reviewer')}
+        />
       </View>
 
       {version ? <Text style={[type.meta, styles.version]}>{`Version ${version}`}</Text> : null}

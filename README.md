@@ -1,6 +1,6 @@
 # Kids Over Profits mobile app
 
-An iOS and Android app for [kidsoverprofits.org](https://kidsoverprofits.org), a public database of the troubled teen industry. Version one is read-only: look up a facility, browse the companies and states, and read the news feed. It has no accounts, no analytics and no ads. The only network calls go to kidsoverprofits.org.
+An iOS and Android app for [kidsoverprofits.org](https://kidsoverprofits.org), a public database of the troubled teen industry. Look up a facility, browse the companies and states, and read the news feed. It has no accounts, no analytics and no ads. Network calls go to kidsoverprofits.org, plus one read of the page behind a link when you send it (to fill in its title and date).
 
 Built with Expo (SDK 57), expo-router and TypeScript.
 
@@ -12,6 +12,7 @@ Built with Expo (SDK 57), expo-router and TypeScript.
 | News | The site's news feed with pictures, ongoing stories, a month filter and infinite scroll. Each card links to its facilities. |
 | Places | Every state and a list of other countries; opens that place's facilities, lawsuits and news. |
 | Companies | Parent companies; opens a company's history, programs, people, lawsuits and news. |
+| Send | Send a link (article, lawsuit, bill or website), add a missing facility, or correct one. No account. Everything is reviewed by a person first. |
 | About | The disclaimer, the data licence, and links to report abuse or share information on the website. |
 
 A facility screen shows everything the website page shows. Every record has an "Open on kidsoverprofits.org" link. Site addresses for facilities and companies open inside the app.
@@ -21,6 +22,27 @@ A facility screen shows everything the website page shows. Every record has an "
 The open work, in order, and the steps that need the owner's accounts and devices, are in section 3.14 and the
 "Mobile app" part of section 2 of the theme repo's [docs/PLAN.md](https://github.com/carlygaejepsen/Kids-Over-Profits/blob/main/docs/PLAN.md).
 Update it in the same commit as the work it tracks.
+
+## Send to KOP
+
+The Send tab ports the Chrome extension in the theme repo (`browser-extension/send-to-kop/`). `src/lib/classify.ts` is its
+`classify.js`; `src/lib/pageMeta.ts` reads og:title, og:site_name, the published date, author and `<title>` from the fetched HTML.
+
+| Who | Route |
+|---|---|
+| Anyone | `POST kop/v1/mobile/submit`, `GET kop/v1/mobile/check` (no account) |
+| Reviewer signed in (About > Reviewer sign-in) | `kop/v1/extension/submit` and `/check` with HTTP Basic auth (WordPress username + application password) in both `Authorization` and `X-KOP-Authorization`; links only. Facility information always uses the public route |
+
+The login is kept only in `expo-secure-store`. Requests are built in `src/api/submit.ts`.
+
+Ways in: the "Suggest a correction" button on a facility; a link pasted with "Paste link" (expo-clipboard);
+the deep link `kidsoverprofits://send?url=<address>`; and sharing a link from a browser or another app.
+
+What needs a development build (not Expo Go): sharing a link into the app. It uses `expo-sharing` (SDK 57, its incoming-share
+support is marked experimental), configured in `app.json` (Android: text/plain shares; iOS: a Share Extension for text and web
+addresses, which uses the app group `group.org.kidsoverprofits.app`). Build with `eas build --profile development`, or
+`npx expo run:android` / `run:ios`. In Expo Go the share code is skipped without error; the deep link, Paste link and the
+form all work there. Everything else (secure-store, clipboard) works in Expo Go.
 
 ## Where the data comes from
 

@@ -2,7 +2,7 @@ import { StyleSheet, View } from 'react-native';
 
 import type { FacilityPayload } from '@/api/types';
 import { PersonCard, SectionBlock } from '../site';
-import { staffRows, type SectionProps } from './model';
+import { staffRows, type SectionProps, type StaffRow } from './model';
 import { Bullets, SubHead } from './parts';
 
 /** Staff in the site's groups: each person once (name, role, source, career), the group's sub-head over its first. */
@@ -10,13 +10,17 @@ export function StaffSection({ f, onLayoutY }: SectionProps & { f: FacilityPaylo
   const rows = staffRows(f.staff);
   return (
     <SectionBlock id="staff" title="Staff" icon="users" items={rows} limit={6} onLayoutY={onLayoutY}
-      renderItem={(row, i) => (
-        <View>
-          {row.head ? <SubHead first={i === 0}>{row.head}</SubHead> : null}
-          <PersonCard entry={row.entry} style={row.head ? styles.afterHead : styles.person} />
-        </View>
-      )}
-    />
+      renderItem={(row, i) => <StaffRowView row={row} index={i} />} />
+  );
+}
+
+/** One person, under their group's sub-head when they are its first. */
+export function StaffRowView({ row, index }: { row: StaffRow; index: number }) {
+  return (
+    <View>
+      {row.head ? <SubHead first={index === 0}>{row.head}</SubHead> : null}
+      <PersonCard entry={row.entry} style={row.head ? styles.afterHead : styles.person} />
+    </View>
   );
 }
 

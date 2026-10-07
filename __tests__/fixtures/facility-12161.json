@@ -1,0 +1,806 @@
+{
+    "api_version": 1,
+    "id": 12161,
+    "slug": "sedona-sky-academy-az",
+    "url": "https://example.test/facility/sedona-sky-academy-az/",
+    "name": "Sedona Sky Academy",
+    "unique_name": "Sedona Sky Academy",
+    "current_name": "",
+    "formerly": [
+        "Copper Canyon Academy"
+    ],
+    "aka": [],
+    "status": "Suspended",
+    "end_year": "",
+    "place": "Rimrock, Arizona",
+    "city": "Rimrock",
+    "state_code": "AZ",
+    "state_name": "Arizona",
+    "country": "United States",
+    "hub_name": "Arizona",
+    "hub_url": "",
+    "operator": {
+        "name": "New Legal Name: Emoticare",
+        "url": "https://example.test/operator/family-help-wellness/"
+    },
+    "siblings": [
+        {
+            "name": "Asheville Academy for Girls",
+            "place": "Black Mountain, North Carolina",
+            "status": "Closed",
+            "url": "https://example.test/asheville-academy/"
+        },
+        {
+            "name": "BlueFire Wilderness Therapy",
+            "place": "Gooding, Idaho",
+            "status": "Open",
+            "url": "https://example.test/facility/bluefire-wilderness-therapy-id/"
+        },
+        {
+            "name": "Discover Seven Stars",
+            "place": "Syracuse, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/discover-seven-stars-ut/"
+        },
+        {
+            "name": "Elevations RTC",
+            "place": "Syracuse, Utah",
+            "status": "Open",
+            "url": "https://example.test/elevations-rtc/"
+        },
+        {
+            "name": "Equinox RTC",
+            "place": "Hendersonville, North Carolina",
+            "status": "Closed",
+            "url": "https://example.test/facility/equinox-rtc-nc/"
+        },
+        {
+            "name": "Foundations Asheville",
+            "place": "Asheville, North Carolina",
+            "status": "Unknown",
+            "url": "https://example.test/facility/foundations-asheville-nc/"
+        },
+        {
+            "name": "Magnolia Mill School",
+            "place": "Weaverville, North Carolina",
+            "status": "Closed",
+            "url": "https://example.test/facility/magnolia-mill-school-nc/"
+        },
+        {
+            "name": "New Focus Academy",
+            "place": "Heber City, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/new-focus-academy-ut/"
+        },
+        {
+            "name": "ROOTS Transition",
+            "place": "Park City, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/roots-transition-ut/"
+        },
+        {
+            "name": "Red Mountain Colorado",
+            "place": "Greeley, Colorado",
+            "status": "Closed",
+            "url": "https://example.test/facility/red-mountain-colorado-co/"
+        },
+        {
+            "name": "Red Mountain Sedona",
+            "place": "Sedona, Arizona",
+            "status": "Open",
+            "url": "https://example.test/facility/red-mountain-sedona-az/"
+        },
+        {
+            "name": "Sandhill Child Development Center",
+            "place": "Los Lunas, New Mexico",
+            "status": "Open",
+            "url": "https://example.test/facility/sandhill-child-development-center-nm/"
+        },
+        {
+            "name": "Solstice West",
+            "place": "Layton, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/solstice-west-ut/"
+        },
+        {
+            "name": "Trails Carolina",
+            "place": "Lake Toxaway, North Carolina",
+            "status": "Closed",
+            "url": "https://example.test/facility/trails-carolina-nc/"
+        },
+        {
+            "name": "Triple Divide Lodge",
+            "place": "Marion, Montana",
+            "status": "Closed",
+            "url": "https://example.test/facility/triple-divide-lodge-mt/"
+        },
+        {
+            "name": "Uinta Academy",
+            "place": "Wellsville, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/uinta-academy-ut/"
+        },
+        {
+            "name": "Viewpoint Center",
+            "place": "Syracuse, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/viewpoint-center-ut/"
+        },
+        {
+            "name": "Wingate Wilderness Therapy",
+            "place": "Kanab, Utah",
+            "status": "Closed",
+            "url": "https://example.test/facility/wingate-wilderness-therapy-ut/"
+        }
+    ],
+    "program_homes": null,
+    "home_of": null,
+    "addresses": [
+        "3095 Coronado Trail, Rimrock, AZ 86335"
+    ],
+    "former_locations": [],
+    "operated": "1998 to present",
+    "summary": "Sedona Sky Academy is a program in Rimrock, Arizona, operated by New Legal Name: Emoticare. It has operated since 1998. Its license is listed as suspended.",
+    "facts": [
+        {
+            "label": "Operated",
+            "value": "1998 to present"
+        },
+        {
+            "label": "Operator",
+            "value": "New Legal Name: Emoticare"
+        },
+        {
+            "label": "Owners",
+            "value": [
+                "New Legal Name: Emoticare"
+            ]
+        },
+        {
+            "label": "Memberships",
+            "value": [
+                "NATSAP (former member; member from 1999, last listed 2020-21)"
+            ]
+        }
+    ],
+    "fact_sources": [],
+    "practices": [],
+    "incidents": [],
+    "staff": {
+        "administrator": [
+            {
+                "text": "Betsy Warren (Executive director)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Betsy Warren",
+                "role": "Executive director",
+                "career": [
+                    {
+                        "role": "Marketing Director (2012)",
+                        "place": "Academy at Sisters",
+                        "years": "",
+                        "url": "https://example.test/facility/academy-at-sisters-or/"
+                    },
+                    {
+                        "role": "Executive Director, Launched and directed (2008-2009)",
+                        "place": "Ponca Pines Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/ponca-pines-academy-ne/"
+                    },
+                    {
+                        "role": "board of directors",
+                        "place": "NATSAP",
+                        "years": "",
+                        "url": ""
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Fotu Soliai (Exec director)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Fotu Soliai",
+                "role": "Exec director",
+                "career": [
+                    {
+                        "role": "Executive Director (2025), left",
+                        "place": "Ashcreek Ranch Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/ashcreek-ranch-academy-ut/"
+                    },
+                    {
+                        "role": "Executive Director (2025), left",
+                        "place": "Lake House Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/lake-house-academy-nc/"
+                    },
+                    {
+                        "role": "Executive Director",
+                        "place": "Diamond Ranch Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/diamond-ranch-academy-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Tammy Prince Behrman (Cofounder, owner)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Tammy Prince Behrman",
+                "role": "Cofounder, owner",
+                "career": [
+                    {
+                        "role": "cofounder",
+                        "place": "Ashcreek Ranch Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/ashcreek-ranch-academy-ut/"
+                    },
+                    {
+                        "role": "cofounder",
+                        "place": "Copper Canyon Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/copper-canyon-academy-az/"
+                    },
+                    {
+                        "role": "admissions director",
+                        "place": "Cross Creek Programs",
+                        "years": "",
+                        "url": "https://example.test/facility/cross-creek-programs-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Spring Ridge Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/spring-ridge-academy-az/"
+                    }
+                ],
+                "from_map": true
+            }
+        ]
+    },
+    "notes": [
+        "Temporarily closed in 2025."
+    ],
+    "field_notes": [],
+    "testimony": [],
+    "forum": [],
+    "videos": [],
+    "profile_links": [],
+    "resources": [],
+    "resource_links": [],
+    "lawsuits": [],
+    "memorials": [],
+    "eras": {
+        "list": [
+            {
+                "id": "as-copper-canyon-academy",
+                "name": "Copper Canyon Academy",
+                "years": "1998 to 2014",
+                "operators": [
+                    "Aspen Education Group"
+                ],
+                "url": "https://example.test/facility/copper-canyon-academy-az/",
+                "memorials": [],
+                "violations": [],
+                "lawsuits": [],
+                "incidents": [],
+                "news": [],
+                "staff": {
+                    "administrator": [
+                        {
+                            "text": "Tammy Behrmann (Founder and Executive Director (2008 ), left). Previously: later Executive Director - Ashcreek Ranch Academy (2012) [founded 2012; founded 2012-03]",
+                            "source": "Woodbury Reports, Mar 2008",
+                            "cite": "Woodbury Reports, March 2008 (#163), p. 27",
+                            "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0308.pdf#page=27",
+                            "name": "Tammy Behrmann",
+                            "role": "Founder and Executive Director (2008), left",
+                            "personId": 572,
+                            "career": [
+                                {
+                                    "role": "Executive Director",
+                                    "place": "Ashcreek Ranch Academy (2012) [founded 2012",
+                                    "years": "",
+                                    "url": ""
+                                },
+                                {
+                                    "role": "",
+                                    "place": "founded 2012-03]",
+                                    "years": "",
+                                    "url": ""
+                                },
+                                {
+                                    "role": "Executive Director (2012)",
+                                    "place": "Ashcreek Ranch Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/ashcreek-ranch-academy-ut/"
+                                }
+                            ],
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Tracy Edwards (Executive Director (2013 )). Previously: Executive Director - Adirondack Leadership Expeditions (2012) [joined 2012]; Director of Residential Life - Academy at Swift River (before 2012); Staff - Bromley Brook School (before 2012)",
+                            "source": "Woodbury Reports, Sep 2013",
+                            "cite": "Woodbury Reports, September 2013, p. 8",
+                            "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0913.pdf#page=8",
+                            "name": "Tracy Edwards",
+                            "role": "Executive Director (2013)",
+                            "personId": 1074,
+                            "career": [
+                                {
+                                    "role": "Executive Director",
+                                    "place": "Adirondack Leadership Expeditions",
+                                    "years": "2012",
+                                    "url": "https://example.test/facility/adirondack-leadership-expeditions-ny/"
+                                },
+                                {
+                                    "role": "Director of Residential Life",
+                                    "place": "Academy at Swift River",
+                                    "years": "before 2012",
+                                    "url": "https://example.test/facility/academy-at-swift-river-ma/"
+                                },
+                                {
+                                    "role": "Staff",
+                                    "place": "Bromley Brook School",
+                                    "years": "before 2012",
+                                    "url": "https://example.test/facility/bromley-brook-school-vt/"
+                                }
+                            ],
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Paul Taylor (Executive Director (2008 )). Previously: later Executive Director - Oakley School (2013) [promoted 2013]",
+                            "source": "Woodbury Reports, Mar 2008",
+                            "cite": "Woodbury Reports, March 2008 (#163), p. 27",
+                            "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0308.pdf#page=27",
+                            "name": "Paul Taylor",
+                            "role": "Executive Director (2008)",
+                            "personId": 420,
+                            "career": [
+                                {
+                                    "role": "Executive Director",
+                                    "place": "Oakley School",
+                                    "years": "2013",
+                                    "url": "https://example.test/facility/oakley-school-ut/"
+                                }
+                            ],
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Darren Prince (Cofounder)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Darren Prince",
+                            "role": "Cofounder",
+                            "career": [
+                                {
+                                    "role": "Admissions Director (2012-2013)",
+                                    "place": "Ashcreek Ranch Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/ashcreek-ranch-academy-ut/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Josh White (Program director)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Josh White",
+                            "role": "Program director",
+                            "career": [
+                                {
+                                    "role": "clinical director",
+                                    "place": "WinGate Wilderness Therapy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/wingate-wilderness-therapy-ut/"
+                                },
+                                {
+                                    "role": "cofounder, operating partner",
+                                    "place": "Red Mountain Colorado",
+                                    "years": "",
+                                    "url": "https://example.test/facility/red-mountain-colorado-co/"
+                                },
+                                {
+                                    "role": "executive director",
+                                    "place": "Red Mountain Sedona",
+                                    "years": "",
+                                    "url": "https://example.test/facility/red-mountain-sedona-az/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Patty Bowman (Founder)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Patty Bowman",
+                            "role": "Founder",
+                            "career": [
+                                {
+                                    "role": "",
+                                    "place": "Spring Ridge Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/spring-ridge-academy-az/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Tammy Prince Behrman (Cofounder)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Tammy Prince Behrman",
+                            "role": "Cofounder",
+                            "career": [
+                                {
+                                    "role": "cofounder",
+                                    "place": "Ashcreek Ranch Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/ashcreek-ranch-academy-ut/"
+                                },
+                                {
+                                    "role": "cofounder, owner",
+                                    "place": "Sedona Sky Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/sedona-sky-academy-az/"
+                                },
+                                {
+                                    "role": "admissions director",
+                                    "place": "Cross Creek Programs",
+                                    "years": "",
+                                    "url": "https://example.test/facility/cross-creek-programs-ut/"
+                                },
+                                {
+                                    "role": "",
+                                    "place": "Spring Ridge Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/spring-ridge-academy-az/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12155
+                        }
+                    ],
+                    "notableStaff": [
+                        {
+                            "text": "Bev Miller (Art teacher (2014 ))",
+                            "source": "Woodbury Reports, Jan 2014",
+                            "cite": "Woodbury Reports, January 2014, p. 11",
+                            "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0114.pdf#page=11",
+                            "name": "Bev Miller",
+                            "role": "Art teacher (2014)",
+                            "personId": 1231,
+                            "career": [],
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Susannah Fox (Lead therapist (canine therapy program) (2008 ))",
+                            "source": "Woodbury Reports, Oct 2008",
+                            "cite": "Woodbury Reports, October 2008 (#170), p. 26",
+                            "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1008.pdf#page=26",
+                            "name": "Susannah Fox",
+                            "role": "Lead therapist (canine therapy program) (2008)",
+                            "personId": 1232,
+                            "career": [],
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Ken Buxton (Academic Director (2014 ))",
+                            "source": "Woodbury Reports, Jan 2014",
+                            "cite": "Woodbury Reports, January 2014, p. 10",
+                            "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0114.pdf#page=10",
+                            "name": "Ken Buxton",
+                            "role": "Academic Director (2014)",
+                            "personId": 1233,
+                            "career": [],
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Paul Ravenscraft (Admissions Director (2009-2012 )). Previously: Director of Admissions and Marketing - Academy at Swift River (2007); Arizona Territory Liaison, Business Development Department - Aspen Education Group (before 2009); Interim Admissions Director - Bromley Brook School (before 2009)",
+                            "source": "Woodbury Reports, May 2009",
+                            "cite": "Woodbury Reports, May 2009 (#177), p. 16",
+                            "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0509.pdf#page=16",
+                            "name": "Paul Ravenscraft",
+                            "role": "Admissions Director (2009-2012)",
+                            "personId": 1068,
+                            "career": [
+                                {
+                                    "role": "Director of Admissions and Marketing",
+                                    "place": "Academy at Swift River",
+                                    "years": "2007",
+                                    "url": "https://example.test/facility/academy-at-swift-river-ma/"
+                                },
+                                {
+                                    "role": "Arizona Territory Liaison, Business Development Department",
+                                    "place": "Aspen Education Group",
+                                    "years": "before 2009",
+                                    "url": "https://example.test/facility/aspen-education-group/"
+                                },
+                                {
+                                    "role": "Interim Admissions Director",
+                                    "place": "Bromley Brook School",
+                                    "years": "before 2009",
+                                    "url": "https://example.test/facility/bromley-brook-school-vt/"
+                                }
+                            ],
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Belle Shook (Therapist)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Belle Shook",
+                            "role": "Therapist",
+                            "career": [
+                                {
+                                    "role": "",
+                                    "place": "Mingus Mountain Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/mingus-mountain-academy-az/"
+                                },
+                                {
+                                    "role": "therapist",
+                                    "place": "Spring Ridge Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/spring-ridge-academy-az/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Linda Cathcart (Counseling director)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Linda Cathcart",
+                            "role": "Counseling director",
+                            "career": [
+                                {
+                                    "role": "",
+                                    "place": "Spring Ridge Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/spring-ridge-academy-az/"
+                                },
+                                {
+                                    "role": "cofounder",
+                                    "place": "Blue Hills Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/blue-hills-academy-az/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Maureen White (Workshop leader)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Maureen White",
+                            "role": "Workshop leader",
+                            "career": [
+                                {
+                                    "role": "cofounder, senior program advisor",
+                                    "place": "Red Mountain Colorado",
+                                    "years": "",
+                                    "url": "https://example.test/facility/red-mountain-colorado-co/"
+                                },
+                                {
+                                    "role": "executive program director",
+                                    "place": "Red Mountain Sedona",
+                                    "years": "",
+                                    "url": "https://example.test/facility/red-mountain-sedona-az/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Sequoia Smith",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Sequoia Smith",
+                            "role": "",
+                            "career": [
+                                {
+                                    "role": "",
+                                    "place": "Spring Ridge Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/spring-ridge-academy-az/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12155
+                        },
+                        {
+                            "text": "Sonja Fullwood (Therapist)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Sonja Fullwood",
+                            "role": "Therapist",
+                            "career": [
+                                {
+                                    "role": "cofounder",
+                                    "place": "Blue Hills Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/blue-hills-academy-az/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12155
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "as-sedona-sky-academy",
+                "name": "Sedona Sky Academy",
+                "years": "2014 to 2025",
+                "operators": [
+                    "Family Help & Wellness"
+                ],
+                "url": "",
+                "memorials": [],
+                "violations": [],
+                "lawsuits": [],
+                "incidents": [],
+                "news": [],
+                "staff": {
+                    "administrator": [
+                        {
+                            "text": "Betsy Warren (Executive director)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Betsy Warren",
+                            "role": "Executive director",
+                            "career": [
+                                {
+                                    "role": "Marketing Director (2012)",
+                                    "place": "Academy at Sisters",
+                                    "years": "",
+                                    "url": "https://example.test/facility/academy-at-sisters-or/"
+                                },
+                                {
+                                    "role": "Executive Director, Launched and directed (2008-2009)",
+                                    "place": "Ponca Pines Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/ponca-pines-academy-ne/"
+                                },
+                                {
+                                    "role": "board of directors",
+                                    "place": "NATSAP",
+                                    "years": "",
+                                    "url": ""
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12161
+                        },
+                        {
+                            "text": "Fotu Soliai (Exec director)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Fotu Soliai",
+                            "role": "Exec director",
+                            "career": [
+                                {
+                                    "role": "Executive Director (2025), left",
+                                    "place": "Ashcreek Ranch Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/ashcreek-ranch-academy-ut/"
+                                },
+                                {
+                                    "role": "Executive Director (2025), left",
+                                    "place": "Lake House Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/lake-house-academy-nc/"
+                                },
+                                {
+                                    "role": "Executive Director",
+                                    "place": "Diamond Ranch Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/diamond-ranch-academy-ut/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12161
+                        },
+                        {
+                            "text": "Tammy Prince Behrman (Cofounder, owner)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Tammy Prince Behrman",
+                            "role": "Cofounder, owner",
+                            "career": [
+                                {
+                                    "role": "cofounder",
+                                    "place": "Ashcreek Ranch Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/ashcreek-ranch-academy-ut/"
+                                },
+                                {
+                                    "role": "cofounder",
+                                    "place": "Copper Canyon Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/copper-canyon-academy-az/"
+                                },
+                                {
+                                    "role": "admissions director",
+                                    "place": "Cross Creek Programs",
+                                    "years": "",
+                                    "url": "https://example.test/facility/cross-creek-programs-ut/"
+                                },
+                                {
+                                    "role": "",
+                                    "place": "Spring Ridge Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/spring-ridge-academy-az/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 12161
+                        }
+                    ]
+                }
+            }
+        ],
+        "rest": {
+            "memorials": [],
+            "violations": [],
+            "lawsuits": [],
+            "incidents": [],
+            "news": [],
+            "staff": []
+        },
+        "totals": {
+            "memorials": 0,
+            "violations": 0,
+            "lawsuits": 0,
+            "incidents": 0,
+            "news": 0,
+            "staff": 19
+        }
+    },
+    "wiki": [
+        {
+            "id": 675,
+            "title": "Sedona Sky Academy",
+            "place": "Rimrock, AZ",
+            "organization": "",
+            "type": "Therapeutic Boarding School",
+            "years": "2014-2025"
+        }
+    ],
+    "updated_at": "2026-09-24 01:20:04",
+    "updated_label": "September 24, 2026",
+    "news_url": "https://example.test/news/",
+    "lawsuits_url": "https://example.test/lawsuits/",
+    "memorial_url": "https://example.test/memorial/",
+    "wiki_url": "https://example.test/wiki-feed/?search=Sedona%20Sky%20Academy",
+    "submit_url": "https://example.test/tti-data-submission/?find=Sedona%20Sky%20Academy",
+    "news": [],
+    "inspections": null,
+    "documents": {
+        "folder_id": 198,
+        "url": "https://example.test/facility/sedona-sky-academy-az/#documents"
+    }
+}

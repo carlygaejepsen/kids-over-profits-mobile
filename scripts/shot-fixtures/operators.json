@@ -1,0 +1,906 @@
+{
+    "api_version": 1,
+    "total": 50,
+    "items": [
+        {
+            "id": 6,
+            "slug": "acadia-healthcare",
+            "name": "Acadia HealthCare",
+            "url": "https://example.test/operator/acadia-healthcare/",
+            "programs": 14,
+            "open": 12,
+            "places": [
+                "UT",
+                "TX",
+                "TN",
+                "MO",
+                "AR",
+                "PA",
+                "NC",
+                "MT"
+            ],
+            "years": "Founded 2005",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 3,
+            "slug": "altior-healthcare",
+            "name": "Altior Healthcare",
+            "url": "https://example.test/operator/altior-healthcare/",
+            "programs": 4,
+            "open": 4,
+            "places": [
+                "ID",
+                "CA",
+                "ME",
+                "NH"
+            ],
+            "years": "Programs from 2004",
+            "status": "Active",
+            "major": false
+        },
+        {
+            "id": 14162,
+            "slug": "ascend-canyons",
+            "name": "Ascend – Canyons",
+            "url": "https://example.test/operator/ascend-canyons/",
+            "programs": 2,
+            "open": 2,
+            "places": [
+                "CA"
+            ],
+            "years": "",
+            "status": "",
+            "major": false
+        },
+        {
+            "id": 2,
+            "slug": "ascent-companies",
+            "name": "Ascent Companies",
+            "url": "https://example.test/operator/ascent-companies/",
+            "programs": 7,
+            "open": 6,
+            "places": [
+                "UT"
+            ],
+            "years": "Programs from 1989",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 7,
+            "slug": "aspen-education-group",
+            "name": "Aspen Education Group",
+            "url": "https://example.test/operator/aspen-education-group/",
+            "programs": 41,
+            "open": 2,
+            "places": [
+                "ID",
+                "CA",
+                "UT",
+                "TX",
+                "PA",
+                "NC",
+                "MA",
+                "NY",
+                "VT",
+                "DE",
+                "AZ",
+                "OR",
+                "NV",
+                "GA",
+                "HI",
+                "WI",
+                "DC",
+                "United Kingdom"
+            ],
+            "years": "Founded 1997",
+            "status": "Acquired",
+            "major": true
+        },
+        {
+            "id": 5649,
+            "slug": "beloved-ones",
+            "name": "Beloved Ones",
+            "url": "https://example.test/operator/beloved-ones/",
+            "programs": 2,
+            "open": 2,
+            "places": [
+                "CA"
+            ],
+            "years": "",
+            "status": "",
+            "major": false
+        },
+        {
+            "id": 1,
+            "slug": "cedu",
+            "name": "CEDU",
+            "url": "https://example.test/operator/cedu/",
+            "programs": 6,
+            "open": 0,
+            "places": [
+                "ID",
+                "CA"
+            ],
+            "years": "Founded 1967",
+            "status": "Defunct",
+            "major": true
+        },
+        {
+            "id": 5708,
+            "slug": "center-for-positive-changes",
+            "name": "Center for Positive Changes",
+            "url": "https://example.test/operator/center-for-positive-changes/",
+            "programs": 5,
+            "open": 5,
+            "places": [
+                "CA"
+            ],
+            "years": "",
+            "status": "",
+            "major": true
+        },
+        {
+            "id": 500001,
+            "slug": "centers-for-adolescent-recovery-and-education",
+            "name": "Centers for Adolescent Recovery and Education",
+            "url": "https://example.test/operator/centers-for-adolescent-recovery-and-education/",
+            "programs": 0,
+            "open": 0,
+            "places": [],
+            "years": "",
+            "status": "unknown",
+            "major": false
+        },
+        {
+            "id": 5,
+            "slug": "certs-group",
+            "name": "CERTS Group",
+            "url": "https://example.test/operator/certs-group/",
+            "programs": 5,
+            "open": 5,
+            "places": [
+                "UT"
+            ],
+            "years": "Programs from 2002",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 11244,
+            "slug": "chad-youth-enhancement-center",
+            "name": "Chad Youth Enhancement Center",
+            "url": "https://example.test/operator/chad-youth-enhancement-center/",
+            "programs": 1,
+            "open": 1,
+            "places": [
+                "TN"
+            ],
+            "years": "",
+            "status": "",
+            "major": false
+        },
+        {
+            "id": 31,
+            "slug": "correctional-services-corporation",
+            "name": "Correctional Services Corporation",
+            "url": "https://example.test/operator/correctional-services-corporation/",
+            "programs": 3,
+            "open": 0,
+            "places": [
+                "FL",
+                "PR",
+                "TX"
+            ],
+            "years": "Founded 1987",
+            "status": "Acquired",
+            "major": true
+        },
+        {
+            "id": 14161,
+            "slug": "d-o-v-e-s-residential-community-home",
+            "name": "D.O.V.E.S. Residential Community Home",
+            "url": "https://example.test/operator/d-o-v-e-s-residential-community-home/",
+            "programs": 1,
+            "open": 1,
+            "places": [
+                "NJ"
+            ],
+            "years": "",
+            "status": "",
+            "major": false
+        },
+        {
+            "id": 8,
+            "slug": "devereux-advanced-behavioral-health",
+            "name": "Devereux Advanced Behavioral Health",
+            "url": "https://example.test/operator/devereux-advanced-behavioral-health/",
+            "programs": 43,
+            "open": 27,
+            "places": [
+                "TX",
+                "FL",
+                "PA",
+                "MA",
+                "NY",
+                "AZ",
+                "GA",
+                "CO",
+                "CT"
+            ],
+            "years": "Programs from 1948",
+            "status": "",
+            "major": true
+        },
+        {
+            "id": 5748,
+            "slug": "dimondale-adolescent-care-facility",
+            "name": "Dimondale Adolescent Care Facility",
+            "url": "https://example.test/operator/dimondale-adolescent-care-facility/",
+            "programs": 5,
+            "open": 5,
+            "places": [
+                "CA"
+            ],
+            "years": "",
+            "status": "",
+            "major": true
+        },
+        {
+            "id": 9,
+            "slug": "eckerd-connects",
+            "name": "Eckerd Connects",
+            "url": "https://example.test/operator/eckerd-connects/",
+            "programs": 26,
+            "open": 6,
+            "places": [
+                "FL",
+                "NC",
+                "GA",
+                "LA",
+                "RI",
+                "NH",
+                "VT",
+                "TN"
+            ],
+            "years": "Programs from 1977",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 10,
+            "slug": "embark-behavioral-health",
+            "name": "Embark Behavioral Health",
+            "url": "https://example.test/operator/embark-behavioral-health/",
+            "programs": 14,
+            "open": 11,
+            "places": [
+                "CA",
+                "UT",
+                "TX",
+                "TN",
+                "MO",
+                "PA",
+                "NC",
+                "OR",
+                "GA",
+                "WI",
+                "MT"
+            ],
+            "years": "Programs from 1995",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 11,
+            "slug": "evolve-adolescent-behavioral-health",
+            "name": "Evolve Adolescent Behavioral Health",
+            "url": "https://example.test/operator/evolve-adolescent-behavioral-health/",
+            "programs": 13,
+            "open": 13,
+            "places": [
+                "CA"
+            ],
+            "years": "Programs from 2014",
+            "status": "",
+            "major": true
+        },
+        {
+            "id": 12,
+            "slug": "family-help-wellness",
+            "name": "Family Help & Wellness",
+            "url": "https://example.test/operator/family-help-wellness/",
+            "programs": 19,
+            "open": 10,
+            "places": [
+                "ID",
+                "UT",
+                "NC",
+                "AZ",
+                "CO",
+                "MT",
+                "NM"
+            ],
+            "years": "Founded 2008",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 5418,
+            "slug": "four-directions",
+            "name": "Four Directions",
+            "url": "https://example.test/operator/four-directions/",
+            "programs": 2,
+            "open": 0,
+            "places": [
+                "AZ"
+            ],
+            "years": "",
+            "status": "",
+            "major": false
+        },
+        {
+            "id": 5834,
+            "slug": "heritage-youth-services",
+            "name": "Heritage Youth Services",
+            "url": "https://example.test/operator/heritage-youth-services/",
+            "programs": 5,
+            "open": 5,
+            "places": [
+                "CA"
+            ],
+            "years": "",
+            "status": "",
+            "major": true
+        },
+        {
+            "id": 35,
+            "slug": "justice-resource-institute",
+            "name": "Justice Resource Institute",
+            "url": "https://example.test/operator/justice-resource-institute/",
+            "programs": 19,
+            "open": 19,
+            "places": [
+                "MA",
+                "CT"
+            ],
+            "years": "Founded 1973",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 6873,
+            "slug": "key-assets-group-homes",
+            "name": "Key Assets Group Homes",
+            "url": "https://example.test/operator/key-assets-group-homes/",
+            "programs": 1,
+            "open": 1,
+            "places": [
+                "KY"
+            ],
+            "years": "",
+            "status": "",
+            "major": false
+        },
+        {
+            "id": 14,
+            "slug": "kids-centers-of-america",
+            "name": "KIDS Centers of America",
+            "url": "https://example.test/operator/kids-centers-of-america/",
+            "programs": 5,
+            "open": 0,
+            "places": [
+                "CA",
+                "UT",
+                "TX",
+                "NJ",
+                "Canada"
+            ],
+            "years": "Programs from 1984",
+            "status": "Defunct",
+            "major": true
+        },
+        {
+            "id": 500004,
+            "slug": "linden-oaks",
+            "name": "Linden Oaks",
+            "url": "https://example.test/operator/linden-oaks/",
+            "programs": 1,
+            "open": 1,
+            "places": [
+                "IL"
+            ],
+            "years": "Programs from 1989",
+            "status": "",
+            "major": false
+        },
+        {
+            "id": 15,
+            "slug": "neurorestorative",
+            "name": "NeuroRestorative",
+            "url": "https://example.test/operator/neurorestorative/",
+            "programs": 14,
+            "open": 14,
+            "places": [
+                "IL"
+            ],
+            "years": "",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 5454,
+            "slug": "new-hope-of-arizona-inc",
+            "name": "New Hope Of Arizona, Inc",
+            "url": "https://example.test/operator/new-hope-of-arizona-inc/",
+            "programs": 6,
+            "open": 6,
+            "places": [
+                "AZ"
+            ],
+            "years": "",
+            "status": "",
+            "major": true
+        },
+        {
+            "id": 5455,
+            "slug": "new-horizon-youth-homes",
+            "name": "New Horizon Youth Homes",
+            "url": "https://example.test/operator/new-horizon-youth-homes/",
+            "programs": 5,
+            "open": 5,
+            "places": [
+                "AZ"
+            ],
+            "years": "",
+            "status": "",
+            "major": true
+        },
+        {
+            "id": 16,
+            "slug": "newport-healthcare",
+            "name": "Newport Healthcare",
+            "url": "https://example.test/operator/newport-healthcare/",
+            "programs": 35,
+            "open": 34,
+            "places": [
+                "CA",
+                "UT",
+                "NC",
+                "CT",
+                "VA",
+                "WA",
+                "MN"
+            ],
+            "years": "Programs from 2009",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 6006,
+            "slug": "pacific-autism-center-for-education",
+            "name": "Pacific Autism Center for Education",
+            "url": "https://example.test/operator/pacific-autism-center-for-education/",
+            "programs": 5,
+            "open": 5,
+            "places": [
+                "CA"
+            ],
+            "years": "",
+            "status": "",
+            "major": true
+        },
+        {
+            "id": 33,
+            "slug": "paradigm-treatment-centers",
+            "name": "Paradigm Treatment Centers",
+            "url": "https://example.test/operator/paradigm-treatment-centers/",
+            "programs": 0,
+            "open": 0,
+            "places": [],
+            "years": "",
+            "status": "Acquired",
+            "major": false
+        },
+        {
+            "id": 500005,
+            "slug": "psychiatric-solutions-inc",
+            "name": "Psychiatric Solutions, Inc.",
+            "url": "https://example.test/operator/psychiatric-solutions-inc/",
+            "programs": 59,
+            "open": 0,
+            "places": [
+                "ID",
+                "UT",
+                "TX",
+                "FL",
+                "MO",
+                "AR",
+                "PA",
+                "NC",
+                "NV",
+                "GA",
+                "VA",
+                "MI",
+                "OH",
+                "IN",
+                "IL",
+                "OK",
+                "AL",
+                "MS",
+                "SC",
+                "WV",
+                "CO"
+            ],
+            "years": "Founded 1988",
+            "status": "Acquired",
+            "major": true
+        },
+        {
+            "id": 7569,
+            "slug": "ridge-house",
+            "name": "Ridge House",
+            "url": "https://example.test/operator/ridge-house/",
+            "programs": 1,
+            "open": 1,
+            "places": [
+                "NV"
+            ],
+            "years": "",
+            "status": "",
+            "major": false
+        },
+        {
+            "id": 832,
+            "slug": "rite-of-passage-inc",
+            "name": "Rite of Passage, Inc.",
+            "url": "https://example.test/operator/rite-of-passage-inc/",
+            "programs": 20,
+            "open": 16,
+            "places": [
+                "AZ",
+                "FL",
+                "UT",
+                "TX",
+                "CA",
+                "TN",
+                "HI",
+                "NV",
+                "NE"
+            ],
+            "years": "Programs from 1987",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 17,
+            "slug": "roloff-homes",
+            "name": "Roloff Homes",
+            "url": "https://example.test/operator/roloff-homes/",
+            "programs": 7,
+            "open": 1,
+            "places": [
+                "TX",
+                "FL",
+                "MO",
+                "MS"
+            ],
+            "years": "Programs from 1967",
+            "status": "",
+            "major": true
+        },
+        {
+            "id": 20,
+            "slug": "sequel-tsi",
+            "name": "Sequel TSI",
+            "url": "https://example.test/operator/sequel-tsi/",
+            "programs": 42,
+            "open": 10,
+            "places": [
+                "UT",
+                "TN",
+                "FL",
+                "NC",
+                "AL",
+                "ID",
+                "AZ",
+                "KS",
+                "NM",
+                "NJ",
+                "MI",
+                "OH",
+                "IN",
+                "IA",
+                "WY",
+                "IL",
+                "OK"
+            ],
+            "years": "Founded 1999",
+            "status": "Defunct",
+            "major": true
+        },
+        {
+            "id": 500002,
+            "slug": "social-learning-environments",
+            "name": "Social Learning Environments",
+            "url": "https://example.test/operator/social-learning-environments/",
+            "programs": 0,
+            "open": 0,
+            "places": [],
+            "years": "",
+            "status": "unknown",
+            "major": false
+        },
+        {
+            "id": 21,
+            "slug": "straight-inc",
+            "name": "Straight Inc.",
+            "url": "https://example.test/operator/straight-inc/",
+            "programs": 12,
+            "open": 0,
+            "places": [
+                "GA",
+                "OH",
+                "TX",
+                "FL",
+                "MI",
+                "VA",
+                "MA",
+                "MD",
+                "CA"
+            ],
+            "years": "Programs from 1976",
+            "status": "Defunct",
+            "major": true
+        },
+        {
+            "id": 500000,
+            "slug": "summit-school-at-nyack",
+            "name": "Summit School at Nyack",
+            "url": "https://example.test/operator/summit-school-at-nyack/",
+            "programs": 1,
+            "open": 1,
+            "places": [
+                "NY"
+            ],
+            "years": "Programs from 1974",
+            "status": "",
+            "major": false
+        },
+        {
+            "id": 22,
+            "slug": "teen-challenge",
+            "name": "Teen Challenge",
+            "url": "https://example.test/operator/teen-challenge/",
+            "programs": 32,
+            "open": 19,
+            "places": [
+                "ID",
+                "UT",
+                "TX",
+                "FL",
+                "MO",
+                "AR",
+                "NC",
+                "MA",
+                "NV",
+                "GA",
+                "KS",
+                "VA",
+                "IN",
+                "WY",
+                "OK",
+                "AL",
+                "LA",
+                "KY"
+            ],
+            "years": "Programs from 1958",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 4,
+            "slug": "the-brown-schools",
+            "name": "The Brown Schools",
+            "url": "https://example.test/operator/the-brown-schools/",
+            "programs": 18,
+            "open": 8,
+            "places": [
+                "TX",
+                "FL",
+                "OK",
+                "VA",
+                "CO",
+                "ID",
+                "MT",
+                "PR"
+            ],
+            "years": "Programs from 1923",
+            "status": "Defunct",
+            "major": true
+        },
+        {
+            "id": 24,
+            "slug": "three-springs-inc",
+            "name": "Three Springs Inc.",
+            "url": "https://example.test/operator/three-springs-inc/",
+            "programs": 27,
+            "open": 1,
+            "places": [
+                "NC",
+                "AL",
+                "TN",
+                "MD",
+                "VA",
+                "GA",
+                "IN",
+                "FL",
+                "ID",
+                "AZ"
+            ],
+            "years": "Programs from 1976",
+            "status": "Merged",
+            "major": true
+        },
+        {
+            "id": 23,
+            "slug": "truecore-behavioral-solutions",
+            "name": "TrueCore Behavioral Solutions",
+            "url": "https://example.test/operator/truecore-behavioral-solutions/",
+            "programs": 12,
+            "open": 7,
+            "places": [
+                "FL"
+            ],
+            "years": "",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 25,
+            "slug": "universal-health-services",
+            "name": "Universal Health Services",
+            "url": "https://example.test/operator/universal-health-services/",
+            "programs": 75,
+            "open": 45,
+            "places": [
+                "ID",
+                "UT",
+                "TX",
+                "FL",
+                "TN",
+                "MO",
+                "AR",
+                "PA",
+                "NC",
+                "MA",
+                "NV",
+                "GA",
+                "VA",
+                "MI",
+                "OH",
+                "IN",
+                "WY",
+                "IL",
+                "OK",
+                "AL",
+                "AK",
+                "MS",
+                "SC",
+                "WV"
+            ],
+            "years": "Programs from 1940",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 26,
+            "slug": "vivant-behavioral-health",
+            "name": "Vivant Behavioral Health",
+            "url": "https://example.test/operator/vivant-behavioral-health/",
+            "programs": 5,
+            "open": 1,
+            "places": [
+                "FL",
+                "AZ",
+                "NJ",
+                "AL",
+                "SD"
+            ],
+            "years": "Programs from 2013",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 27,
+            "slug": "wayne-halfway-house",
+            "name": "Wayne Halfway House",
+            "url": "https://example.test/operator/wayne-halfway-house/",
+            "programs": 9,
+            "open": 5,
+            "places": [
+                "FL"
+            ],
+            "years": "Programs from 2016",
+            "status": "",
+            "major": true
+        },
+        {
+            "id": 29,
+            "slug": "world-wide-association-of-specialty-programs-and-schools",
+            "name": "World Wide Association of Specialty Programs and Schools",
+            "url": "https://example.test/operator/world-wide-association-of-specialty-programs-and-schools/",
+            "programs": 34,
+            "open": 0,
+            "places": [
+                "CA",
+                "UT",
+                "NY",
+                "NV",
+                "GA",
+                "CO",
+                "MT",
+                "IA",
+                "LA",
+                "MS",
+                "SC",
+                "Costa Rica",
+                "Czech Republic",
+                "Jamaica",
+                "Mexico",
+                "Samoa",
+                "Fiji"
+            ],
+            "years": "Programs from 1978",
+            "status": "Defunct",
+            "major": true
+        },
+        {
+            "id": 28,
+            "slug": "youth-opportunity-investments",
+            "name": "Youth Opportunity Investments",
+            "url": "https://example.test/operator/youth-opportunity-investments/",
+            "programs": 18,
+            "open": 9,
+            "places": [
+                "FL",
+                "TN",
+                "AR"
+            ],
+            "years": "",
+            "status": "Active",
+            "major": true
+        },
+        {
+            "id": 30,
+            "slug": "youth-services-international",
+            "name": "Youth Services International",
+            "url": "https://example.test/operator/youth-services-international/",
+            "programs": 6,
+            "open": 1,
+            "places": [
+                "FL",
+                "PR",
+                "TX",
+                "MD"
+            ],
+            "years": "Founded 1992",
+            "status": "Defunct",
+            "major": true
+        },
+        {
+            "id": 500003,
+            "slug": "zion-educational-systems",
+            "name": "Zion Educational Systems",
+            "url": "https://example.test/operator/zion-educational-systems/",
+            "programs": 0,
+            "open": 0,
+            "places": [],
+            "years": "",
+            "status": "unknown",
+            "major": false
+        }
+    ]
+}

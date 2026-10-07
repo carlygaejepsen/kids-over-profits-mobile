@@ -1,0 +1,1171 @@
+{
+    "api_version": 1,
+    "id": 10865,
+    "slug": "rebekah-home-for-girls-tx",
+    "url": "https://example.test/facility/rebekah-home-for-girls-tx/",
+    "name": "Rebekah Home for Girls",
+    "unique_name": "Rebekah Home for Girls",
+    "current_name": "",
+    "formerly": [],
+    "aka": [
+        "Rebekah Home"
+    ],
+    "status": "Closed",
+    "end_year": "2001",
+    "place": "Corpus Christi, Texas",
+    "city": "Corpus Christi",
+    "state_code": "TX",
+    "state_name": "Texas",
+    "country": "United States",
+    "hub_name": "Texas",
+    "hub_url": "",
+    "operator": {
+        "name": "Roloff Homes",
+        "url": "https://example.test/operator/roloff-homes/"
+    },
+    "siblings": [
+        {
+            "name": "Anchor Home for Boys",
+            "place": "Zapata, Texas",
+            "status": "Closed",
+            "url": "https://example.test/facility/anchor-home-for-boys-tx/"
+        },
+        {
+            "name": "Bethesda Home for Girls",
+            "place": "Forrest County, Mississippi",
+            "status": "Closed",
+            "url": "https://example.test/facility/bethesda-home-for-girls-ms/"
+        },
+        {
+            "name": "Lighthouse for Boys",
+            "place": "Near Corpus Christi, Texas",
+            "status": "Closed",
+            "url": "https://example.test/facility/lighthouse-for-boys-tx/"
+        },
+        {
+            "name": "Marvelous Grace Girls Academy",
+            "place": "Pace, Florida",
+            "status": "Closed",
+            "url": "https://example.test/facility/marvelous-grace-girls-academy-fl/"
+        },
+        {
+            "name": "Mountain Park Baptist Boarding Academy",
+            "place": "Patterson, Missouri",
+            "status": "Closed",
+            "url": "https://example.test/facility/mountain-park-baptist-boarding-academy-mo/"
+        },
+        {
+            "name": "New Beginnings Girls Academy",
+            "place": "La Russell, Missouri",
+            "status": "Open",
+            "url": "https://example.test/facility/new-beginnings-girls-academy-mo/"
+        }
+    ],
+    "program_homes": null,
+    "home_of": null,
+    "addresses": [
+        "1355 FM 665, Corpus Christi, TX 78415"
+    ],
+    "former_locations": [],
+    "operated": "1967 to 2001",
+    "summary": "Rebekah Home for Girls was a program in Corpus Christi, Texas, operated by Roloff Homes. It operated from 1967 to 2001.",
+    "facts": [
+        {
+            "label": "Operated",
+            "value": "1967 to 2001"
+        },
+        {
+            "label": "Operator",
+            "value": "Roloff Homes"
+        }
+    ],
+    "fact_sources": [],
+    "practices": [],
+    "incidents": [],
+    "staff": {
+        "notableStaff": [
+            {
+                "text": "Faye Cameron",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by Anonymous, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.22",
+                "name": "Faye Cameron",
+                "role": "",
+                "personId": 2262,
+                "career": []
+            },
+            {
+                "text": "Lester Roloff (founder / leader)",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by LIZ MALDONADO, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.23",
+                "name": "Lester Roloff",
+                "role": "founder / leader",
+                "personId": 1821,
+                "career": [
+                    {
+                        "role": "Founder (1967-1982)",
+                        "place": "Anchor Home for Boys",
+                        "years": "",
+                        "url": "https://example.test/facility/anchor-home-for-boys-tx/"
+                    },
+                    {
+                        "role": "photo displayed on campus",
+                        "place": "Agape Boarding School",
+                        "years": "",
+                        "url": "https://example.test/facility/agape-baptist-academy-mo/"
+                    },
+                    {
+                        "role": "founder",
+                        "place": "Bethesda Home for Girls",
+                        "years": "",
+                        "url": "https://example.test/facility/bethesda-home-for-girls-ms/"
+                    },
+                    {
+                        "role": "founder",
+                        "place": "Roloff Evangelistic Enterprises",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "founder",
+                        "place": "Lighthouse for Boys",
+                        "years": "",
+                        "url": "https://example.test/facility/lighthouse-for-boys-tx/"
+                    },
+                    {
+                        "role": "founder, pastor",
+                        "place": "People's Baptist Church",
+                        "years": "",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "text": "Charles Crumb (new leader)",
+                "source": "Fornits, Jun 2004",
+                "cite": "Fornits forum, post by Anonymous, June 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.29",
+                "name": "Charles Crumb",
+                "role": "new leader",
+                "personId": 885,
+                "career": [
+                    {
+                        "role": "leader (2001)",
+                        "place": "Lighthouse Christian Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/lighthouse-christian-academy-fl/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Lighthouse of Northwest Florida",
+                        "years": "",
+                        "url": "https://example.test/facility/lighthouse-christian-academy-fl/"
+                    }
+                ]
+            },
+            {
+                "text": "Betty Wills",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Betty Wills",
+                "role": "",
+                "career": [
+                    {
+                        "role": "cofounder",
+                        "place": "Bethesda Home for Girls",
+                        "years": "",
+                        "url": "https://example.test/facility/bethesda-home-for-girls-ms/"
+                    },
+                    {
+                        "role": "cofounder",
+                        "place": "Mountain Park Baptist Boarding Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/mountain-park-baptist-boarding-academy-mo/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "George W Bush (Endorsed (as Governor of Texas; 1997 accreditation))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "George W Bush",
+                "role": "Endorsed (as Governor of Texas; 1997 accreditation)",
+                "career": [
+                    {
+                        "role": "endorsed (as Governor of Texas)",
+                        "place": "Teen Challenge",
+                        "years": "",
+                        "url": "https://example.test/operator/teen-challenge/"
+                    },
+                    {
+                        "role": "endorsed (as Governor of Texas; 1997 accreditation)",
+                        "place": "Roloff Evangelistic Enterprises",
+                        "years": "",
+                        "url": ""
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Herman Fountain",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Herman Fountain",
+                "role": "",
+                "career": [
+                    {
+                        "role": "",
+                        "place": "Bethel Girls Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/bethel-girls-academy-ms/"
+                    },
+                    {
+                        "role": "founder, director",
+                        "place": "New Beginnings Girls' Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/new-beginnings-girls-academy-mo/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Bethel Baptist Children's Home",
+                        "years": "",
+                        "url": "https://example.test/facility/eagle-point-christian-academy-ms/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Bethel Boys Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/eagle-point-christian-academy-ms/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Rev Bobby Ray \"Papa\" Wills (Operator)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Rev Bobby Ray \"Papa\" Wills",
+                "role": "Operator",
+                "career": [
+                    {
+                        "role": "director",
+                        "place": "Christian Life Boarding Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/christian-life-boarding-academy-ms/"
+                    },
+                    {
+                        "role": "cofounder, director",
+                        "place": "Mountain Park Baptist Boarding Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/mountain-park-baptist-boarding-academy-mo/"
+                    },
+                    {
+                        "role": "cofounder",
+                        "place": "Bethesda Home for Girls",
+                        "years": "",
+                        "url": "https://example.test/facility/bethesda-home-for-girls-ms/"
+                    }
+                ],
+                "from_map": true
+            }
+        ],
+        "administrator": [
+            {
+                "text": "Rev. Wiley Cameron (COO)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Rev. Wiley Cameron",
+                "role": "COO",
+                "career": [
+                    {
+                        "role": "Successor / administrator (1982)",
+                        "place": "Anchor Home for Boys",
+                        "years": "",
+                        "url": "https://example.test/facility/anchor-home-for-boys-tx/"
+                    },
+                    {
+                        "role": "founder/director",
+                        "place": "New Beginnings Girls' Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/new-beginnings-girls-academy-mo/"
+                    },
+                    {
+                        "role": "pastor",
+                        "place": "People's Baptist Church",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "president",
+                        "place": "Roloff Evangelistic Enterprises",
+                        "years": "",
+                        "url": ""
+                    }
+                ],
+                "from_map": true
+            }
+        ]
+    },
+    "notes": [
+        "Reported closed on Fornits: Rebekah Home relocated to Florida in 2001 under new leader Charles Crumb. (Fornits forum, post by Anonymous, June 2004: https://www.fornits.com/phpbb/index.php?topic=2107.29)"
+    ],
+    "field_notes": [],
+    "testimony": [],
+    "forum": {
+        "incidents": [
+            {
+                "when": "1976",
+                "year": 1976,
+                "kind": "Seclusion",
+                "text": "A student was locked in a darkened room for three days.",
+                "source": "Fornits, Jul 2004",
+                "cite": "Fornits forum, post by Anonymous, July 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.59",
+                "i": 13,
+                "sort": 0
+            },
+            {
+                "when": "1976",
+                "year": 1976,
+                "kind": "Abuse",
+                "text": "Severe beatings resulting in bruises and bleeding, lack of food, and denial of schooling.",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by LIZ MALDONADO, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.23",
+                "i": 27,
+                "sort": 0
+            },
+            {
+                "when": "1977",
+                "year": 1977,
+                "kind": "Abuse",
+                "text": "Survivor describes being tied, mind controlled, and beaten until bleeding and blistered.",
+                "source": "Fornits, Aug 2004",
+                "cite": "Fornits forum, post by Anonymous, August 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.81",
+                "i": 1,
+                "sort": 0
+            },
+            {
+                "when": "1978",
+                "year": 1978,
+                "kind": "Abuse",
+                "text": "Physical abuse with a boat paddle by staff.",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by Anonymous, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.21",
+                "i": 11,
+                "sort": 0
+            },
+            {
+                "when": "1981",
+                "year": 1981,
+                "kind": "Abuse",
+                "text": "A resident was placed in a windowless lock-up room with roaches for a week and received physical paddlings (\"whakings\").",
+                "source": "Fornits, Apr 2004",
+                "cite": "Fornits forum, post by Melanie, April 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.12",
+                "i": 18,
+                "sort": 0
+            },
+            {
+                "when": "1981",
+                "year": 1981,
+                "kind": "Seclusion",
+                "text": "A student spent a week in a windowless lock-up room with roaches, and received paddlings.",
+                "source": "Fornits, Apr 2004",
+                "cite": "Fornits forum, post by Melanie, April 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.12",
+                "i": 22,
+                "sort": 0
+            },
+            {
+                "when": "1982",
+                "year": 1982,
+                "kind": "Restraint",
+                "text": "A girl was chained to a bed after running away.",
+                "source": "Fornits, Jul 2003",
+                "cite": "Fornits forum, post by Anonymous, July 2003",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.3",
+                "i": 24,
+                "sort": 0
+            },
+            {
+                "when": "1983",
+                "year": 1983,
+                "kind": "Abuse",
+                "text": "A former resident recalls physical punishments including licks, lock-up, having mouths washed out with lye soap, clothespins stuck on ears, and prolonged kneeling on linoleum.",
+                "source": "Fornits, Jul 2004",
+                "cite": "Fornits forum, post by Anonymous, July 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.40",
+                "i": 12,
+                "sort": 0
+            },
+            {
+                "when": "1985",
+                "year": 1985,
+                "kind": "Injury",
+                "text": "A struggling black student broke a perfume bottle, used the glass to slit her wrists, and was initially denied an ER trip before being locked in a room shortly after returning with stitches.",
+                "source": "Fornits, Aug 2004",
+                "cite": "Fornits forum, post by Anonymous, August 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.64",
+                "i": 7,
+                "sort": 0
+            },
+            {
+                "when": "1986",
+                "year": 1986,
+                "kind": "Abuse",
+                "text": "A resident with severe epilepsy was accused of being possessed by the devil and forced to undergo group hymn-singing during convulsions.",
+                "source": "Fornits, Jul 2004",
+                "cite": "Fornits forum, post by Anonymous, July 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.41",
+                "i": 17,
+                "sort": 0
+            },
+            {
+                "when": "1986",
+                "year": 1986,
+                "kind": "Runaway",
+                "text": "A resident known as Bini jumped out of a third-story window to escape and broke her back.",
+                "source": "Fornits, Jul 2004",
+                "cite": "Fornits forum, post by Anonymous, July 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.41",
+                "i": 31,
+                "sort": 0
+            },
+            {
+                "when": "Reported April 2003",
+                "year": 2003,
+                "kind": "Injury",
+                "text": "A girl tied to a bed in restraints escaped and jumped out of a second-story window.",
+                "source": "Fornits, Apr 2003",
+                "cite": "Fornits forum, post by Anonymous, April 2003",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.0",
+                "i": 3,
+                "sort": 400
+            },
+            {
+                "when": "Reported April 2003",
+                "year": 2003,
+                "kind": "Restraint",
+                "text": "A girl was tied and chained to a bed after running away, then jumped out of a second-story window.",
+                "source": "Fornits, Apr 2003",
+                "cite": "Fornits forum, post by Anonymous, April 2003",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.0",
+                "i": 10,
+                "sort": 400
+            },
+            {
+                "when": "Reported July 2003",
+                "year": 2003,
+                "kind": "Abuse",
+                "text": "Girls were forced to kneel on salt and were chained to beds.",
+                "source": "Fornits, Jul 2003",
+                "cite": "Fornits forum, post by Anonymous, July 2003",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.3",
+                "i": 20,
+                "sort": 700
+            },
+            {
+                "when": "Reported March 2004",
+                "year": 2004,
+                "kind": "Restraint",
+                "text": "A student trying to get the attention of a 20/20 camera crew was restrained, pulled inside, and locked up.",
+                "source": "Fornits, Mar 2004",
+                "cite": "Fornits forum, post by Anonymous, March 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.11",
+                "i": 4,
+                "sort": 300
+            },
+            {
+                "when": "Reported May 2004",
+                "year": 2004,
+                "kind": "Runaway",
+                "text": "A girl left and shot her father, and two friends went missing.",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by Anonymous, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.21",
+                "i": 19,
+                "sort": 500
+            },
+            {
+                "when": "Reported May 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Inmates experienced hunger, lock-ups, excessive beatings, bleeding, and standing or kneeling for hours.",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by Anonymous, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.22",
+                "i": 23,
+                "sort": 500
+            },
+            {
+                "when": "Reported May 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Inmates experienced hunger, lock-up, excessive licks, bleeding, and lack of menses.",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by Anonymous, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.22",
+                "i": 28,
+                "sort": 500
+            },
+            {
+                "when": "Reported June 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Survivor forced to kneel in hallway for hours and placed in lockup as punishment.",
+                "source": "Fornits, Jun 2004",
+                "cite": "Fornits forum, post by mac10k, June 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.30",
+                "i": 6,
+                "sort": 600
+            },
+            {
+                "when": "Reported June 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "A survivor was forced to write 250 sentences a day until she confessed to lying about being raped.",
+                "source": "Fornits, Jun 2004",
+                "cite": "Fornits forum, post by mac10k, June 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.30",
+                "i": 21,
+                "sort": 600
+            },
+            {
+                "when": "Reported June 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Staff forced survivor to write 250 sentences a day denying a previous rape until she confessed to lying.",
+                "source": "Fornits, Jun 2004",
+                "cite": "Fornits forum, post by mac10k, June 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.30",
+                "i": 25,
+                "sort": 600
+            },
+            {
+                "when": "Reported June 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Staff slapped survivor across the face.",
+                "source": "Fornits, Jun 2004",
+                "cite": "Fornits forum, post by mac10k, June 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.30",
+                "i": 26,
+                "sort": 600
+            },
+            {
+                "when": "Reported June 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Residents were subjected to frequent physical beatings and paddlings for demerits.",
+                "source": "Fornits, Jun 2004",
+                "cite": "Fornits forum, post by mac10k, June 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.30",
+                "i": 30,
+                "sort": 600
+            },
+            {
+                "when": "Reported July 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Girls had mouths washed out with lye soap, clothespins stuck on ears, and were subjected to physical licks, lock-up, and kneeling on linoleum.",
+                "source": "Fornits, Jul 2004",
+                "cite": "Fornits forum, post by Anonymous, July 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.40",
+                "i": 5,
+                "sort": 700
+            },
+            {
+                "when": "Reported July 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "A girl with severe epilepsy was accused of being possessed by the devil and forced to have others gather around and sing hymns until her convulsions stopped.",
+                "source": "Fornits, Jul 2004",
+                "cite": "Fornits forum, post by Anonymous, July 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.41",
+                "i": 8,
+                "sort": 700
+            },
+            {
+                "when": "Reported July 2004",
+                "year": 2004,
+                "kind": "Runaway",
+                "text": "A girl named Bini jumped out of a 3-story window to escape and broke her back.",
+                "source": "Fornits, Jul 2004",
+                "cite": "Fornits forum, post by Anonymous, July 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.41",
+                "i": 9,
+                "sort": 700
+            },
+            {
+                "when": "Reported November 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Mrs. Cameron disciplined girls by beating them with a board.",
+                "source": "Fornits, Nov 2004",
+                "cite": "Fornits forum, post by Anonymous, November 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.98",
+                "i": 0,
+                "sort": 1100
+            },
+            {
+                "when": "Reported November 2004",
+                "year": 2004,
+                "kind": "Sexual abuse",
+                "text": "Staff members Miss Sue and Miss Cindy were caught sexually abusing a student by Mrs. Cameron and fired.",
+                "source": "Fornits, Nov 2004",
+                "cite": "Fornits forum, post by Anonymous, November 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.102",
+                "i": 2,
+                "sort": 1100
+            },
+            {
+                "when": "Reported November 2004",
+                "year": 2004,
+                "kind": "Sexual abuse",
+                "text": "Staff members Miss Sue and Miss Cindy were caught sexually abusing one of the girls.",
+                "source": "Fornits, Nov 2004",
+                "cite": "Fornits forum, post by Anonymous, November 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.102",
+                "i": 29,
+                "sort": 1100
+            },
+            {
+                "when": "Reported November 2004",
+                "year": 2004,
+                "kind": "Investigation",
+                "text": "DCF was called on Mrs. Cameron at the Florida home for hitting a young lady with a curtain rod.",
+                "source": "Fornits, Nov 2004",
+                "cite": "Fornits forum, post by Anonymous, November 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.101",
+                "i": 32,
+                "sort": 1100
+            },
+            {
+                "when": "Reported January 2005",
+                "year": 2005,
+                "kind": "Sexual abuse",
+                "text": "Staff member Sherri Compton molested underage girls at Rebekah.",
+                "source": "Fornits, Jan 2005",
+                "cite": "Fornits forum, post by Anonymous, January 2005",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.116",
+                "i": 14,
+                "sort": 100
+            },
+            {
+                "when": "Reported January 2005",
+                "year": 2005,
+                "kind": "Lawsuit",
+                "text": "Parents filed a lawsuit against Rebekah regarding staff member Sherri Compton's molestation of a student.",
+                "source": "Fornits, Jan 2005",
+                "cite": "Fornits forum, post by Anonymous, January 2005",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.116",
+                "i": 15,
+                "sort": 100
+            },
+            {
+                "when": "Reported January 2005",
+                "year": 2005,
+                "kind": "Sexual abuse",
+                "text": "Staff member Sherri Compton molested underage girls at Rebekah, leading to a lawsuit and an out-of-court settlement.",
+                "source": "Fornits, Jan 2005",
+                "cite": "Fornits forum, post by Anonymous, January 2005",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.116",
+                "i": 16,
+                "sort": 100
+            }
+        ],
+        "leads": [
+            "Fornits lead (lawsuit): A lawsuit was filed by parents against Rebekah Home for Girls after staff member Sherri Compton molested a student, which ended in an out-of-court settlement. (Fornits forum, post by Anonymous, January 2005: https://www.fornits.com/phpbb/index.php?topic=2107.118)",
+            "Fornits lead (investigation): Abuse charges led to continuous criminal charges, investigations, and lawsuits against the Roloff homes. (Fornits forum, post by Anonymous, June 2004: https://www.fornits.com/phpbb/index.php?topic=2107.37)",
+            "Fornits lead (investigation): Texas monthly article reported that Mrs. Cameron was banned from working in childcare facilities in Texas. (Fornits forum, post by Anonymous, November 2004: https://www.fornits.com/phpbb/index.php?topic=2107.98)",
+            "Fornits lead (news): A 20/20 television crew visited the facility with cameras while residents were in the exercise yard. (Fornits forum, post by Anonymous, March 2004: https://www.fornits.com/phpbb/index.php?topic=2107.11)",
+            "Fornits lead (lawsuit): Parents settled out of court with the Home after a student was molested by staff member Sherri Compton. (Fornits forum, post by Anonymous, January 2005: https://www.fornits.com/phpbb/index.php?topic=2107.118)",
+            "Fornits lead (other): A Yahoo group exists for survivors from different Roloff homes. http://groups.yahoo.com/group/roloffhomes/ (Fornits forum, post by Anonymous, July 2004: https://www.fornits.com/phpbb/index.php?topic=2107.54)",
+            "Fornits lead (investigation): A Texas Monthly article by Pamela Coloff detailed allegations of abuse and noted that Mrs. Cameron was banned by the State of Texas from working in child care facilities. (Fornits forum, post by Anonymous, July 2004: https://www.fornits.com/phpbb/index.php?topic=2107.61)",
+            "Fornits lead (investigation): A Texas Monthly article by Pamela Coloff detailed numerous allegations of abuse against Mrs. Cameron and noted she was banned by the State of Texas from working in child care facilities. http://www.nospank.net/colloff.htm (Fornits forum, post by Anonymous, August 2004: https://www.fornits.com/phpbb/index.php?topic=2107.69)",
+            "Fornits lead (news): A 20/20 news crew visited the facility with cameras. (Fornits forum, post by Anonymous, March 2004: https://www.fornits.com/phpbb/index.php?topic=2107.11)",
+            "Fornits lead (lawsuit): Texas banned Mrs. Cameron from working in childcare facilities. (Fornits forum, post by Anonymous, November 2004: https://www.fornits.com/phpbb/index.php?topic=2107.98)"
+        ],
+        "links": [
+            {
+                "url": "https://www.fornits.com/phpbb/index.php?topic=2107.0",
+                "label": "Fornits: Lester Roloffs Rebekah Home for Girls Survivors-Cult-mindcon (2003-2015, 1260 posts). Former residents describe it as a cult-like facility run under Lester Roloff's ministry where girls faced extreme isolation, restraints, and forced scripture memorization, while defenders credit the home with saving their lives and providing Christian guidance."
+            }
+        ]
+    },
+    "videos": [],
+    "profile_links": [],
+    "resources": [],
+    "resource_links": [],
+    "lawsuits": [],
+    "memorials": [],
+    "eras": {
+        "list": [
+            {
+                "id": "as-rebekah-home-for-girls",
+                "name": "Rebekah Home for Girls",
+                "years": "1967 to 2001",
+                "operators": [],
+                "url": "",
+                "memorials": [],
+                "violations": [],
+                "lawsuits": [],
+                "incidents": [],
+                "news": [
+                    {
+                        "id": 714,
+                        "title": "The History of Lester Roloff's Faith-Based Youth Homes and State Oversight Battles",
+                        "outlet": "Texas Monthly",
+                        "date": "2001-12-01",
+                        "date_label": "Dec 1, 2001",
+                        "url": "http://www.teenadvocatesusa.homestead.com/roloff.html",
+                        "type": "expose",
+                        "summary": "The article documents the history of the Rebekah Home for Girls, a faith‑based residential facility founded by evangelist Lester Roloff, and describes disciplinary practices such as corporal punishment, isolation, and restraints. It includes survivor accounts of physical and spiritual abuse and outlines the facility’s legal battles over state licensing and oversight.",
+                        "link_type": "mentioned",
+                        "aside": false,
+                        "image": null,
+                        "_fid": 10865
+                    }
+                ],
+                "staff": {
+                    "notableStaff": [
+                        {
+                            "text": "Faye Cameron",
+                            "source": "Fornits, May 2004",
+                            "cite": "Fornits forum, post by Anonymous, May 2004",
+                            "url": "https://www.fornits.com/phpbb/index.php?topic=2107.22",
+                            "name": "Faye Cameron",
+                            "role": "",
+                            "personId": 2262,
+                            "career": [],
+                            "_fid": 10865
+                        },
+                        {
+                            "text": "Lester Roloff (founder / leader)",
+                            "source": "Fornits, May 2004",
+                            "cite": "Fornits forum, post by LIZ MALDONADO, May 2004",
+                            "url": "https://www.fornits.com/phpbb/index.php?topic=2107.23",
+                            "name": "Lester Roloff",
+                            "role": "founder / leader",
+                            "personId": 1821,
+                            "career": [
+                                {
+                                    "role": "Founder (1967-1982)",
+                                    "place": "Anchor Home for Boys",
+                                    "years": "",
+                                    "url": "https://example.test/facility/anchor-home-for-boys-tx/"
+                                },
+                                {
+                                    "role": "photo displayed on campus",
+                                    "place": "Agape Boarding School",
+                                    "years": "",
+                                    "url": "https://example.test/facility/agape-baptist-academy-mo/"
+                                },
+                                {
+                                    "role": "founder",
+                                    "place": "Bethesda Home for Girls",
+                                    "years": "",
+                                    "url": "https://example.test/facility/bethesda-home-for-girls-ms/"
+                                },
+                                {
+                                    "role": "founder",
+                                    "place": "Roloff Evangelistic Enterprises",
+                                    "years": "",
+                                    "url": ""
+                                },
+                                {
+                                    "role": "founder",
+                                    "place": "Lighthouse for Boys",
+                                    "years": "",
+                                    "url": "https://example.test/facility/lighthouse-for-boys-tx/"
+                                },
+                                {
+                                    "role": "founder, pastor",
+                                    "place": "People's Baptist Church",
+                                    "years": "",
+                                    "url": ""
+                                }
+                            ],
+                            "_fid": 10865
+                        },
+                        {
+                            "text": "Charles Crumb (new leader)",
+                            "source": "Fornits, Jun 2004",
+                            "cite": "Fornits forum, post by Anonymous, June 2004",
+                            "url": "https://www.fornits.com/phpbb/index.php?topic=2107.29",
+                            "name": "Charles Crumb",
+                            "role": "new leader",
+                            "personId": 885,
+                            "career": [
+                                {
+                                    "role": "leader (2001)",
+                                    "place": "Lighthouse Christian Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/lighthouse-christian-academy-fl/"
+                                },
+                                {
+                                    "role": "",
+                                    "place": "Lighthouse of Northwest Florida",
+                                    "years": "",
+                                    "url": "https://example.test/facility/lighthouse-christian-academy-fl/"
+                                }
+                            ],
+                            "_fid": 10865
+                        },
+                        {
+                            "text": "Betty Wills",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Betty Wills",
+                            "role": "",
+                            "career": [
+                                {
+                                    "role": "cofounder",
+                                    "place": "Bethesda Home for Girls",
+                                    "years": "",
+                                    "url": "https://example.test/facility/bethesda-home-for-girls-ms/"
+                                },
+                                {
+                                    "role": "cofounder",
+                                    "place": "Mountain Park Baptist Boarding Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/mountain-park-baptist-boarding-academy-mo/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 10865
+                        },
+                        {
+                            "text": "George W Bush (Endorsed (as Governor of Texas; 1997 accreditation))",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "George W Bush",
+                            "role": "Endorsed (as Governor of Texas; 1997 accreditation)",
+                            "career": [
+                                {
+                                    "role": "endorsed (as Governor of Texas)",
+                                    "place": "Teen Challenge",
+                                    "years": "",
+                                    "url": "https://example.test/operator/teen-challenge/"
+                                },
+                                {
+                                    "role": "endorsed (as Governor of Texas; 1997 accreditation)",
+                                    "place": "Roloff Evangelistic Enterprises",
+                                    "years": "",
+                                    "url": ""
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 10865
+                        },
+                        {
+                            "text": "Herman Fountain",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Herman Fountain",
+                            "role": "",
+                            "career": [
+                                {
+                                    "role": "",
+                                    "place": "Bethel Girls Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/bethel-girls-academy-ms/"
+                                },
+                                {
+                                    "role": "founder, director",
+                                    "place": "New Beginnings Girls' Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/new-beginnings-girls-academy-mo/"
+                                },
+                                {
+                                    "role": "",
+                                    "place": "Bethel Baptist Children's Home",
+                                    "years": "",
+                                    "url": "https://example.test/facility/eagle-point-christian-academy-ms/"
+                                },
+                                {
+                                    "role": "",
+                                    "place": "Bethel Boys Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/eagle-point-christian-academy-ms/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 10865
+                        },
+                        {
+                            "text": "Rev Bobby Ray \"Papa\" Wills (Operator)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Rev Bobby Ray \"Papa\" Wills",
+                            "role": "Operator",
+                            "career": [
+                                {
+                                    "role": "director",
+                                    "place": "Christian Life Boarding Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/christian-life-boarding-academy-ms/"
+                                },
+                                {
+                                    "role": "cofounder, director",
+                                    "place": "Mountain Park Baptist Boarding Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/mountain-park-baptist-boarding-academy-mo/"
+                                },
+                                {
+                                    "role": "cofounder",
+                                    "place": "Bethesda Home for Girls",
+                                    "years": "",
+                                    "url": "https://example.test/facility/bethesda-home-for-girls-ms/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 10865
+                        }
+                    ],
+                    "administrator": [
+                        {
+                            "text": "Rev. Wiley Cameron (COO)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Rev. Wiley Cameron",
+                            "role": "COO",
+                            "career": [
+                                {
+                                    "role": "Successor / administrator (1982)",
+                                    "place": "Anchor Home for Boys",
+                                    "years": "",
+                                    "url": "https://example.test/facility/anchor-home-for-boys-tx/"
+                                },
+                                {
+                                    "role": "founder/director",
+                                    "place": "New Beginnings Girls' Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/new-beginnings-girls-academy-mo/"
+                                },
+                                {
+                                    "role": "pastor",
+                                    "place": "People's Baptist Church",
+                                    "years": "",
+                                    "url": ""
+                                },
+                                {
+                                    "role": "president",
+                                    "place": "Roloff Evangelistic Enterprises",
+                                    "years": "",
+                                    "url": ""
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 10865
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "as-new-beginnings-girls-academy",
+                "name": "New Beginnings Girls' Academy",
+                "years": "2001 to 2015",
+                "operators": [],
+                "url": "https://example.test/facility/new-beginnings-girls-academy-mo/",
+                "memorials": [],
+                "violations": [],
+                "lawsuits": [],
+                "incidents": [],
+                "news": [
+                    {
+                        "id": 802,
+                        "title": "ALL IN THE NAME OF GOD: THE MULTIBILLION DOLLAR TROUBLED TEEN INDUSTRY AND THE CHRISTIANS WHO PROFIT FROM IT (2022-03-21)",
+                        "outlet": "Killing the Buddha",
+                        "date": "2022-03-21",
+                        "date_label": "Mar 21, 2022",
+                        "url": "https://killingthebuddha.com/mag/damnation/all-in-the-name-of-god-the-multi-billion-dollar-troubled-teen-industry-and-the-christians-who-profit-from-it/",
+                        "type": "expose",
+                        "summary": "The article reports on allegations of physical, spiritual, and sexual abuse in several faith‑based residential programs for troubled teens. It cites survivor testimonies describing forced silence, beatings, and conversion therapy practices. The piece highlights legal challenges that have allowed some facilities to operate with limited oversight.",
+                        "link_type": "mentioned",
+                        "aside": false,
+                        "image": null,
+                        "_fid": 10865
+                    }
+                ],
+                "staff": {
+                    "administrator": [
+                        {
+                            "text": "Herman Fountain (Founder, director)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Herman Fountain",
+                            "role": "Founder, director",
+                            "career": [
+                                {
+                                    "role": "",
+                                    "place": "Bethel Girls Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/bethel-girls-academy-ms/"
+                                },
+                                {
+                                    "role": "",
+                                    "place": "Rebekah Home for Girls",
+                                    "years": "",
+                                    "url": "https://example.test/facility/rebekah-home-for-girls-tx/"
+                                },
+                                {
+                                    "role": "",
+                                    "place": "Bethel Baptist Children's Home",
+                                    "years": "",
+                                    "url": "https://example.test/facility/eagle-point-christian-academy-ms/"
+                                },
+                                {
+                                    "role": "",
+                                    "place": "Bethel Boys Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/eagle-point-christian-academy-ms/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 11430
+                        },
+                        {
+                            "text": "Rev. Wiley Cameron (Founder/director)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Rev. Wiley Cameron",
+                            "role": "Founder/director",
+                            "career": [
+                                {
+                                    "role": "Successor / administrator (1982)",
+                                    "place": "Anchor Home for Boys",
+                                    "years": "",
+                                    "url": "https://example.test/facility/anchor-home-for-boys-tx/"
+                                },
+                                {
+                                    "role": "COO",
+                                    "place": "Rebekah Home for Girls",
+                                    "years": "",
+                                    "url": "https://example.test/facility/rebekah-home-for-girls-tx/"
+                                },
+                                {
+                                    "role": "pastor",
+                                    "place": "People's Baptist Church",
+                                    "years": "",
+                                    "url": ""
+                                },
+                                {
+                                    "role": "president",
+                                    "place": "Roloff Evangelistic Enterprises",
+                                    "years": "",
+                                    "url": ""
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 11430
+                        }
+                    ],
+                    "notableStaff": [
+                        {
+                            "text": "Steven Blankenship (Trained)",
+                            "source": "",
+                            "cite": "",
+                            "url": "",
+                            "name": "Steven Blankenship",
+                            "role": "Trained",
+                            "career": [
+                                {
+                                    "role": "executive director",
+                                    "place": "Marvelous Grace Girls Academy",
+                                    "years": "",
+                                    "url": "https://example.test/facility/marvelous-grace-girls-academy-fl/"
+                                }
+                            ],
+                            "from_map": true,
+                            "_fid": 11430
+                        }
+                    ]
+                }
+            }
+        ],
+        "rest": {
+            "memorials": [],
+            "violations": [],
+            "lawsuits": [],
+            "incidents": [],
+            "news": [],
+            "staff": []
+        },
+        "totals": {
+            "memorials": 0,
+            "violations": 0,
+            "lawsuits": 0,
+            "incidents": 0,
+            "news": 2,
+            "staff": 11
+        }
+    },
+    "wiki": [
+        {
+            "id": 658,
+            "title": "Rebekah Home for Girls",
+            "place": "Corpus Cristi, TX",
+            "organization": "",
+            "type": "Christian Girls Home",
+            "years": "1967-2001"
+        }
+    ],
+    "updated_at": "2026-10-05 22:01:56",
+    "updated_label": "October 5, 2026",
+    "news_url": "https://example.test/news/",
+    "lawsuits_url": "https://example.test/lawsuits/",
+    "memorial_url": "https://example.test/memorial/",
+    "wiki_url": "https://example.test/wiki-feed/?search=Rebekah%20Home%20for%20Girls",
+    "submit_url": "https://example.test/tti-data-submission/?find=Rebekah%20Home%20for%20Girls",
+    "news": [
+        {
+            "id": 802,
+            "title": "ALL IN THE NAME OF GOD: THE MULTIBILLION DOLLAR TROUBLED TEEN INDUSTRY AND THE CHRISTIANS WHO PROFIT FROM IT (2022-03-21)",
+            "outlet": "Killing the Buddha",
+            "date": "2022-03-21",
+            "date_label": "Mar 21, 2022",
+            "url": "https://killingthebuddha.com/mag/damnation/all-in-the-name-of-god-the-multi-billion-dollar-troubled-teen-industry-and-the-christians-who-profit-from-it/",
+            "type": "expose",
+            "summary": "The article reports on allegations of physical, spiritual, and sexual abuse in several faith‑based residential programs for troubled teens. It cites survivor testimonies describing forced silence, beatings, and conversion therapy practices. The piece highlights legal challenges that have allowed some facilities to operate with limited oversight.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 714,
+            "title": "The History of Lester Roloff's Faith-Based Youth Homes and State Oversight Battles",
+            "outlet": "Texas Monthly",
+            "date": "2001-12-01",
+            "date_label": "Dec 1, 2001",
+            "url": "http://www.teenadvocatesusa.homestead.com/roloff.html",
+            "type": "expose",
+            "summary": "The article documents the history of the Rebekah Home for Girls, a faith‑based residential facility founded by evangelist Lester Roloff, and describes disciplinary practices such as corporal punishment, isolation, and restraints. It includes survivor accounts of physical and spiritual abuse and outlines the facility’s legal battles over state licensing and oversight.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        }
+    ],
+    "inspections": null,
+    "documents": {
+        "folder_id": 0,
+        "url": ""
+    }
+}

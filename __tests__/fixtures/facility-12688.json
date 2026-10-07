@@ -1,0 +1,354 @@
+{
+    "api_version": 1,
+    "id": 12688,
+    "slug": "acadia-montana-mt",
+    "url": "https://example.test/facility/acadia-montana-mt/",
+    "name": "Acadia Montana",
+    "unique_name": "Acadia Montana",
+    "current_name": "",
+    "formerly": [
+        "Rivendell of Montana, Children's Comprehensive Services, Kids Behavioral Health of Montana"
+    ],
+    "aka": [],
+    "status": "Closed",
+    "end_year": "2019",
+    "place": "Butte, Montana",
+    "city": "Butte",
+    "state_code": "MT",
+    "state_name": "Montana",
+    "country": "United States",
+    "hub_name": "Montana",
+    "hub_url": "",
+    "operator": {
+        "name": "Acadia HealthCare",
+        "url": "https://example.test/operator/acadia-healthcare/"
+    },
+    "siblings": [
+        {
+            "name": "Aspen Education Group",
+            "place": "",
+            "status": "Open",
+            "url": "https://example.test/facility/aspen-education-group/"
+        },
+        {
+            "name": "Cedar Crest Hospital & RTC",
+            "place": "Belton, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/cedar-crest-hospital-rtc-tx/"
+        },
+        {
+            "name": "Lakeland Behavioral Health System Residential Treatment Program",
+            "place": "Springfield, Missouri",
+            "status": "Open",
+            "url": "https://example.test/facility/lakeland-behavioral-health-system-residential-treatment-program-mo/"
+        },
+        {
+            "name": "Little Creek Behavioral Health Residential Treatment Facility",
+            "place": "Conway, Arkansas",
+            "status": "Open",
+            "url": "https://example.test/facility/little-creek-behavioral-health-residential-treatment-facility-ar/"
+        },
+        {
+            "name": "Millcreek Behavioral Health Psychiatric Residential Treatment Facility",
+            "place": "Fordyce, Arkansas",
+            "status": "Open",
+            "url": "https://example.test/facility/millcreek-behavioral-health-psychiatric-residential-treatment-facility-ar/"
+        },
+        {
+            "name": "Ridgeview Group Home",
+            "place": "Fayetteville, Arkansas",
+            "status": "Open",
+            "url": "https://example.test/facility/ridgeview-group-home-ar/"
+        },
+        {
+            "name": "Southwood Psychiatric Hospital Residential Treatment Program",
+            "place": "Pittsburgh, Pennsylvania",
+            "status": "Open",
+            "url": "https://example.test/facility/southwood-psychiatric-hospital-residential-treatment-program-pa/"
+        },
+        {
+            "name": "Talisman Camps",
+            "place": "Zirconia, North Carolina",
+            "status": "Open",
+            "url": "https://example.test/facility/talisman-camps-nc/"
+        },
+        {
+            "name": "Turn-About Ranch",
+            "place": "Escalante, Utah",
+            "status": "Transferred",
+            "url": "https://example.test/facility/turn-about-ranch-ut/"
+        },
+        {
+            "name": "Vantage Point Behavioral Health Hospital RTP",
+            "place": "Fayetteville, Arkansas",
+            "status": "Open",
+            "url": "https://example.test/facility/vantage-point-behavioral-health-hospital-rtp-ar/"
+        },
+        {
+            "name": "Village Behavioral Health Treatment Center",
+            "place": "Louisville, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/village-behavioral-health-treatment-center-tn/"
+        },
+        {
+            "name": "Yellow Rock Behavioral Health",
+            "place": "Fayetteville, Arkansas",
+            "status": "Open",
+            "url": "https://example.test/facility/yellow-rock-behavioral-health-ar/"
+        },
+        {
+            "name": "Youth Care of Utah",
+            "place": "Draper, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/youth-care-of-utah-ut/"
+        }
+    ],
+    "program_homes": null,
+    "home_of": null,
+    "addresses": [
+        "55 Basin Creek Rd, Butte, MT 59701"
+    ],
+    "former_locations": [],
+    "operated": "2006 to 2019",
+    "summary": "Acadia Montana was a residential treatment center in Butte, Montana, operated by Acadia HealthCare. It operated from 2006 to 2019.",
+    "facts": [
+        {
+            "label": "Type",
+            "value": "Residential Treatment Center"
+        },
+        {
+            "label": "Operated",
+            "value": "2006 to 2019"
+        },
+        {
+            "label": "Serves",
+            "value": "Ages 5 to 18"
+        },
+        {
+            "label": "Capacity",
+            "value": "108"
+        },
+        {
+            "label": "Operator",
+            "value": "Acadia HealthCare"
+        },
+        {
+            "label": "Past operators",
+            "value": [
+                "Acadia Healthcare"
+            ]
+        }
+    ],
+    "fact_sources": {
+        "Capacity": [
+            {
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Acadia Montana\" (as of 2025-12-18)",
+                "url": ""
+            },
+            {
+                "source": "HEAL, archived Jul 2025",
+                "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+                "url": "https://web.archive.org/web/20250712030749/https://heal-online.org/acadia.html"
+            }
+        ],
+        "formerly": [
+            {
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Acadia Montana\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/acadiaMT"
+            }
+        ],
+        "Type": [
+            {
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Acadia Montana\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/acadiaMT"
+            }
+        ],
+        "Serves": [
+            {
+                "source": "HEAL, archived Jul 2025",
+                "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+                "url": "https://web.archive.org/web/20250712030749/https://heal-online.org/acadia.html"
+            }
+        ]
+    },
+    "practices": [],
+    "incidents": [
+        {
+            "when": "2014",
+            "year": 2014,
+            "kind": "Investigation",
+            "text": "A 2014 DPHHS/CMS survey found children left in locked seclusion rooms for up to 40 minutes after calming down.",
+            "source": "HEAL, archived Jul 2025",
+            "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+            "url": "",
+            "i": 6,
+            "sort": 0
+        },
+        {
+            "when": "2016",
+            "year": 2016,
+            "kind": "Investigation",
+            "text": "A 2016 Alaska review found 15 of 15 Alaska residents interviewed did not like the facility, citing injections; Alaska filed a complaint with Montana DPHHS.",
+            "source": "HEAL, archived Jul 2025",
+            "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+            "url": "",
+            "i": 0,
+            "sort": 0
+        },
+        {
+            "when": "2016",
+            "year": 2016,
+            "kind": "Restraint",
+            "text": "Acadia Montana recorded 126 seclusions in March 2016 and over 500 medication orders in August 2016, per DPHHS.",
+            "source": "HEAL, archived Jul 2025",
+            "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+            "url": "",
+            "i": 2,
+            "sort": 0
+        },
+        {
+            "when": "September 2016",
+            "year": 2016,
+            "kind": "License action",
+            "text": "A September 29, 2016 DPHHS letter faulted Acadia Montana for failing to keep a safe environment given its number of Emergency Safety Interventions, including seclusion and emergency medication.",
+            "source": "HEAL, archived Jul 2025",
+            "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+            "url": "",
+            "i": 4,
+            "sort": 900
+        },
+        {
+            "when": "2019",
+            "year": 2019,
+            "kind": "Investigation",
+            "text": "HEAL submitted a public records request on March 12, 2019 for the complaint log on this program and had no response by April 22, 2019.",
+            "source": "HEAL, archived Jul 2025",
+            "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+            "url": "",
+            "i": 1,
+            "sort": 0
+        },
+        {
+            "when": "2019",
+            "year": 2019,
+            "kind": "Restraint",
+            "text": "Former employees told The Montana Standard that injected emergency medication and seclusion were common at the facility in recent years.",
+            "source": "HEAL, archived Jul 2025",
+            "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+            "url": "",
+            "i": 5,
+            "sort": 0
+        },
+        {
+            "when": "April 2019",
+            "year": 2019,
+            "kind": "Restraint",
+            "text": "A 9-year-old Oregon foster child was injected with Benadryl and other antihistamines as chemical restraint and held in locked seclusion at Acadia Montana, per her attorney; removed April 2019.",
+            "source": "HEAL, archived Jul 2025",
+            "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+            "url": "",
+            "i": 3,
+            "sort": 400
+        }
+    ],
+    "staff": {
+        "administrator": [
+            {
+                "text": "Peggy Cunningham (CEO (2019, HEAL))",
+                "source": "HEAL, archived Jul 2025",
+                "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+                "url": "https://web.archive.org/web/20250712030749/https://heal-online.org/acadia.html",
+                "name": "Peggy Cunningham",
+                "role": "CEO (2019, HEAL)",
+                "personId": 1448,
+                "career": []
+            },
+            {
+                "text": "Kristine Carpenter (CEO (2012, r/troubledteens wiki), left)",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Acadia Montana\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/acadiaMT",
+                "name": "Kristine Carpenter",
+                "role": "CEO (2012, r/troubledteens wiki), left",
+                "personId": 1449,
+                "career": []
+            },
+            {
+                "text": "Carter Anderson (CEO, Administrator (2016-2020, HEAL)). Previously: Director of Planning and Development - Rivendell of Montana (1997) [left 1997]",
+                "source": "HEAL, archived Jul 2025",
+                "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+                "url": "https://web.archive.org/web/20250712030749/https://heal-online.org/acadia.html",
+                "name": "Carter Anderson",
+                "role": "CEO, Administrator (2016-2020, HEAL)",
+                "personId": 1450,
+                "career": [
+                    {
+                        "role": "Director of Planning and Development",
+                        "place": "Rivendell of Montana",
+                        "years": "1997",
+                        "url": ""
+                    }
+                ]
+            }
+        ],
+        "notableStaff": [
+            {
+                "text": "Chris Dziak (Admissions (2020, HEAL))",
+                "source": "HEAL, archived Jul 2025",
+                "cite": "HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)",
+                "url": "https://web.archive.org/web/20250712030749/https://heal-online.org/acadia.html",
+                "name": "Chris Dziak",
+                "role": "Admissions (2020, HEAL)",
+                "personId": 1451,
+                "career": []
+            }
+        ]
+    },
+    "notes": [
+        "Capacity: 108 residents (r/troubledteens wiki, page \"Acadia Montana\" (as of 2025-12-18))",
+        "Opened: 1988 per r/troubledteens wiki, page \"Acadia Montana\" (as of 2025-12-18) (the record says 2006)",
+        "Note: operated in Butte under different owners for 31 years (HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12))",
+        "Operator: Acadia Healthcare (HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12)) https://web.archive.org/web/20250712030749/https://heal-online.org/acadia.html",
+        "License: licensed psychiatric residential treatment facility, license #12868 (HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12))",
+        "Past name: Rivendell of Montana, Children's Comprehensive Services, Kids Behavioral Health of Montana (r/troubledteens wiki, page \"Acadia Montana\" (as of 2025-12-18): https://www.reddit.com/r/troubledteens/wiki/index/acadiaMT)",
+        "Type: Residential Treatment Center (r/troubledteens wiki, page \"Acadia Montana\" (as of 2025-12-18): https://www.reddit.com/r/troubledteens/wiki/index/acadiaMT)",
+        "Capacity: 108 (as of 2020) (HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12): https://web.archive.org/web/20250712030749/https://heal-online.org/acadia.html)",
+        "Ages 5-18 (HEAL, staff list for Acadia Montana in Montana (archived 2025-07-12): https://web.archive.org/web/20250712030749/https://heal-online.org/acadia.html)"
+    ],
+    "field_notes": [],
+    "testimony": [],
+    "forum": [],
+    "videos": [],
+    "profile_links": [],
+    "resources": [],
+    "resource_links": [],
+    "lawsuits": [],
+    "memorials": [],
+    "eras": null,
+    "wiki": [
+        {
+            "id": 118,
+            "title": "Acadia Montana",
+            "place": "Butte, MT",
+            "organization": "",
+            "type": "",
+            "years": "1988-2019"
+        }
+    ],
+    "updated_at": "2026-10-02 15:30:46",
+    "updated_label": "October 2, 2026",
+    "news_url": "https://example.test/news/",
+    "lawsuits_url": "https://example.test/lawsuits/",
+    "memorial_url": "https://example.test/memorial/",
+    "wiki_url": "https://example.test/wiki-feed/?search=Acadia%20Montana",
+    "submit_url": "https://example.test/tti-data-submission/?find=Acadia%20Montana",
+    "news": [],
+    "inspections": null,
+    "documents": {
+        "folder_id": 0,
+        "url": ""
+    }
+}

@@ -1,6 +1,24 @@
 {
     "items": [
         {
+            "id": 1100,
+            "title": "New law bans blindfolds, restraints in transporting kids to residential treatment centers",
+            "outlet": "UpNorthLive",
+            "date": "2026-10-05",
+            "date_label": "Oct 5, 2026",
+            "url": "https://upnorthlive.com/news/local/new-law-bans-blindfolds-restraints-in-transporting-kids-to-residential-treatment-centers",
+            "type": "event",
+            "summary": "Michigan Governor Gretchen Whitmer signed House Bill 5514, which prohibits the use of blindfolds and restraints by private transportation companies when moving children to residential treatment centers and restricts transport between 9 p.m. and 6 a.m. The legislation was introduced after parental complaints about transport practices.",
+            "content_warnings": [
+                "Physical Restraint",
+                "Involuntary Transport"
+            ],
+            "image": null,
+            "facilities": [],
+            "story_arc": null,
+            "story_group_id": null
+        },
+        {
             "id": 921,
             "title": "Michigan Bill to Ban Restraints on Youth Transport Advances to Governor",
             "outlet": "Hoodline",
@@ -510,31 +528,16 @@
             ],
             "story_arc": null,
             "story_group_id": 391
-        },
-        {
-            "id": 505,
-            "title": "Sylvester Stallone Hid His Struggles for Decades. Now He’s Coming Clean. (Gift Article)",
-            "outlet": "The New York Times Magazine",
-            "date": "2026-09-26",
-            "date_label": "Sep 26, 2026",
-            "url": "https://www.nytimes.com/2026/09/26/magazine/sylvester-stallone-interview.html?unlocked_article_code=1.EFE.ci84.mCmHF95n2FXA&smid=nytcore-ios-share",
-            "type": "general",
-            "summary": "The article is an interview with Sylvester Stallone published in The New York Times Magazine on September 26, 2026.",
-            "content_warnings": [],
-            "image": null,
-            "facilities": [],
-            "story_arc": null,
-            "story_group_id": null
         }
     ],
-    "total": 541,
+    "total": 580,
     "page": 1,
     "per_page": 20,
-    "pages": 28,
+    "pages": 29,
     "months": [
         {
             "month": "2026-10",
-            "count": 7
+            "count": 8
         },
         {
             "month": "2026-09",
@@ -602,7 +605,7 @@
         },
         {
             "month": "2025-05",
-            "count": 12
+            "count": 13
         },
         {
             "month": "2025-04",
@@ -614,7 +617,7 @@
         },
         {
             "month": "2025-02",
-            "count": 4
+            "count": 5
         },
         {
             "month": "2024-11",
@@ -658,11 +661,11 @@
         },
         {
             "month": "2023-12",
-            "count": 1
+            "count": 2
         },
         {
             "month": "2023-11",
-            "count": 1
+            "count": 2
         },
         {
             "month": "2023-10",
@@ -686,7 +689,7 @@
         },
         {
             "month": "2023-03",
-            "count": 1
+            "count": 2
         },
         {
             "month": "2023-02",
@@ -754,15 +757,15 @@
         },
         {
             "month": "2021-04",
-            "count": 2
+            "count": 3
         },
         {
             "month": "2021-03",
-            "count": 15
+            "count": 17
         },
         {
             "month": "2021-02",
-            "count": 4
+            "count": 5
         },
         {
             "month": "2021-01",
@@ -782,7 +785,7 @@
         },
         {
             "month": "2020-09",
-            "count": 3
+            "count": 4
         },
         {
             "month": "2020-08",
@@ -790,14 +793,18 @@
         },
         {
             "month": "2020-07",
-            "count": 6
+            "count": 7
         },
         {
             "month": "2020-06",
-            "count": 2
+            "count": 3
         },
         {
             "month": "2020-05",
+            "count": 2
+        },
+        {
+            "month": "2020-04",
             "count": 1
         },
         {
@@ -841,6 +848,14 @@
             "count": 4
         },
         {
+            "month": "2018-12",
+            "count": 1
+        },
+        {
+            "month": "2018-10",
+            "count": 1
+        },
+        {
             "month": "2018-09",
             "count": 1
         },
@@ -850,10 +865,14 @@
         },
         {
             "month": "2018-07",
-            "count": 1
+            "count": 2
         },
         {
             "month": "2018-03",
+            "count": 2
+        },
+        {
+            "month": "2017-08",
             "count": 1
         },
         {
@@ -890,7 +909,7 @@
         },
         {
             "month": "2016-02",
-            "count": 1
+            "count": 2
         },
         {
             "month": "2016-01",
@@ -930,7 +949,7 @@
         },
         {
             "month": "2013-02",
-            "count": 1
+            "count": 2
         },
         {
             "month": "2013-01",
@@ -981,6 +1000,10 @@
             "count": 1
         },
         {
+            "month": "2003-02",
+            "count": 1
+        },
+        {
             "month": "2002-06",
             "count": 2
         },
@@ -989,7 +1012,23 @@
             "count": 1
         },
         {
+            "month": "2000-11",
+            "count": 1
+        },
+        {
+            "month": "1999-07",
+            "count": 1
+        },
+        {
+            "month": "1996-06",
+            "count": 1
+        },
+        {
             "month": "1996-04",
+            "count": 1
+        },
+        {
+            "month": "1995-04",
             "count": 1
         },
         {
@@ -1034,7 +1073,7 @@
             "slug": "provo-canyon-school-closure",
             "description": "",
             "status": "active",
-            "article_count": 34,
+            "article_count": 37,
             "latest_date": "2026-09-05",
             "facility": null
         },

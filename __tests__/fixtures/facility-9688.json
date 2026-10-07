@@ -1,0 +1,1501 @@
+{
+    "api_version": 1,
+    "id": 9688,
+    "slug": "ascent-wilderness-program-id",
+    "url": "https://example.test/facility/ascent-wilderness-program-id/",
+    "name": "Ascent Wilderness Program",
+    "unique_name": "Ascent Wilderness Program",
+    "current_name": "",
+    "formerly": [],
+    "aka": [
+        "Caribou Ridge Intervention"
+    ],
+    "status": "Closed",
+    "end_year": "2005",
+    "place": "Naples, Idaho",
+    "city": "Naples",
+    "state_code": "ID",
+    "state_name": "Idaho",
+    "country": "United States",
+    "hub_name": "Idaho",
+    "hub_url": "",
+    "operator": {
+        "name": "Universal Health Services (UHS)",
+        "url": "https://example.test/operator/universal-health-services/"
+    },
+    "siblings": [
+        {
+            "name": "Alabama Clinical Schools",
+            "place": "Birmingham, Alabama",
+            "status": "Open",
+            "url": "https://example.test/facility/alabama-clinical-schools-al/"
+        },
+        {
+            "name": "Boulder Creek Academy",
+            "place": "Bonners Ferry, Idaho",
+            "status": "Closed",
+            "url": "https://example.test/facility/boulder-creek-academy-id/"
+        },
+        {
+            "name": "Bristol Youth Academy",
+            "place": "Bristol, Florida",
+            "status": "Closed",
+            "url": "https://example.test/facility/bristol-youth-academy-fl/"
+        },
+        {
+            "name": "Cedar Grove RTC",
+            "place": "Murfreesboro, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/cedar-grove-rtc-tn/"
+        },
+        {
+            "name": "Cedar Ridge Behavioral Hospital",
+            "place": "Oklahoma City, Oklahoma",
+            "status": "Unknown",
+            "url": "https://example.test/facility/cedar-ridge-behavioral-hospital-ok/"
+        },
+        {
+            "name": "Chad Youth Enhancement Center",
+            "place": "Ashland City, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/chad-youth-enhancement-center-tn/"
+        },
+        {
+            "name": "Chad Youth Enhancement Center – Oak Plains Academy",
+            "place": "Ashland City, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/chad-youth-enhancement-center-oak-plains-academy-tn/"
+        },
+        {
+            "name": "Coastal Harbor Treatment Center",
+            "place": "Savannah, Georgia",
+            "status": "Open",
+            "url": "https://example.test/facility/coastal-harbor-treatment-center-ga/"
+        },
+        {
+            "name": "Columbus Behavioral Center",
+            "place": "Columbus, Indiana",
+            "status": "Open",
+            "url": "https://example.test/facility/columbus-behavioral-center-in/"
+        },
+        {
+            "name": "Copper Hills Youth Center",
+            "place": "West Jordan, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/copper-hills-youth-center-ut/"
+        },
+        {
+            "name": "Cumberland Hospital for Children and Adolescents",
+            "place": "New Kent, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/cumberland-hospital-for-children-and-adolescents-va/"
+        },
+        {
+            "name": "Diamond Grove Center for Children Residential Psychiatric Program",
+            "place": "Louisville, Mississippi",
+            "status": "Open",
+            "url": "https://example.test/facility/diamond-grove-center-for-children-residential-psychiatric-program-ms/"
+        },
+        {
+            "name": "Fox Run Center for Children and Adolescents",
+            "place": "St Clairsville, Ohio",
+            "status": "Open",
+            "url": "https://example.test/facility/fox-run-center-for-children-and-adolescents-oh/"
+        },
+        {
+            "name": "Gulf Coast Treatment Center",
+            "place": "Fort Walton Beach, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/gulf-coast-treatment-center-fl/"
+        },
+        {
+            "name": "Harbor Point Behavioral Health Center",
+            "place": "Portsmouth, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/harbor-point-behavioral-health-center-va/"
+        },
+        {
+            "name": "Havenwyck Hospital Residential Impulse Disorder Program",
+            "place": "Auburn Hills, Michigan",
+            "status": "Open",
+            "url": "https://example.test/facility/havenwyck-hospital-residential-impulse-disorder-program-mi/"
+        },
+        {
+            "name": "Heartland Behavioral Health Services RTF",
+            "place": "Nevada, Missouri",
+            "status": "Open",
+            "url": "https://example.test/facility/heartland-behavioral-health-services-rtf-mo/"
+        },
+        {
+            "name": "Hermitage Hall",
+            "place": "South Nashville, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/hermitage-hall-tn/"
+        },
+        {
+            "name": "Hill Crest Behavioral Health",
+            "place": "Birmingham, Alabama",
+            "status": "Unknown",
+            "url": "https://example.test/facility/hill-crest-behavioral-health-al/"
+        },
+        {
+            "name": "Intermountain Hospital",
+            "place": "Boise, Idaho",
+            "status": "Open",
+            "url": "https://example.test/facility/intermountain-hospital-id/"
+        },
+        {
+            "name": "Kempsville Center for Behavioral Health Adolescent Residential Treatment Program",
+            "place": "Norfolk, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/kempsville-center-for-behavioral-health-adolescent-residential-treatment-program-va/"
+        },
+        {
+            "name": "Keys of Carolina",
+            "place": "Charlotte, North Carolina",
+            "status": "Closed",
+            "url": "https://example.test/facility/keys-of-carolina-nc/"
+        },
+        {
+            "name": "Keystone Marion Youth Center",
+            "place": "Marion, Virginia",
+            "status": "Closed",
+            "url": "https://example.test/facility/keystone-marion-youth-center-va/"
+        },
+        {
+            "name": "La Amistad Behavioral Health Services Teen Residential Treatment",
+            "place": "Maitland, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/la-amistad-behavioral-health-services-teen-residential-treatment-fl/"
+        },
+        {
+            "name": "Laurel Heights Hospital Residential Treatment",
+            "place": "Atlanta, Georgia",
+            "status": "Open",
+            "url": "https://example.test/facility/laurel-heights-hospital-residential-treatment-ga/"
+        },
+        {
+            "name": "Laurel Oaks Behavioral Health Center",
+            "place": "Dothan, Alabama",
+            "status": "Open",
+            "url": "https://example.test/facility/laurel-oaks-behavioral-health-center-al/"
+        },
+        {
+            "name": "Laurel Ridge Treatment Center RTC",
+            "place": "San Antonio, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/laurel-ridge-treatment-center-rtc-tx/"
+        },
+        {
+            "name": "Liberty Point Behavioral Healthcare Secure Residential Treatment",
+            "place": "Staunton, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/liberty-point-behavioral-healthcare-secure-residential-treatment-va/"
+        },
+        {
+            "name": "Lighthouse Care Center of Augusta Psychiatric RTP",
+            "place": "Augusta, Georgia",
+            "status": "Open",
+            "url": "https://example.test/facility/lighthouse-care-center-of-augusta-psychiatric-rtp-ga/"
+        },
+        {
+            "name": "McDowell Center for Children",
+            "place": "Dyersburg, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/mcdowell-center-for-children-tn/"
+        },
+        {
+            "name": "Meridell Achievement Center",
+            "place": "Liberty Hill, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/meridell-achievement-center-tx/"
+        },
+        {
+            "name": "Michiana Behavioral Health Residential Program",
+            "place": "Plymouth, Indiana",
+            "status": "Unknown",
+            "url": "https://example.test/facility/michiana-behavioral-health-residential-program-in/"
+        },
+        {
+            "name": "Midwest Center for Youth and Families Therapeutic RTC",
+            "place": "Kouts, Indiana",
+            "status": "Unknown",
+            "url": "https://example.test/facility/midwest-center-for-youth-and-families-therapeutic-rtc-in/"
+        },
+        {
+            "name": "Milton Girls Residential Facility",
+            "place": "Milton, Florida",
+            "status": "Closed",
+            "url": "https://example.test/facility/milton-girls-residential-facility-fl/"
+        },
+        {
+            "name": "Mountain Youth Academy",
+            "place": "Mountain City, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/mountain-youth-academy-tn/"
+        },
+        {
+            "name": "Natchez Trace Youth Academy",
+            "place": "Waverly, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/natchez-trace-youth-academy-tn/"
+        },
+        {
+            "name": "National Deaf Academy",
+            "place": "Mt Dora, Florida",
+            "status": "Closed",
+            "url": "https://example.test/facility/national-deaf-academy-fl/"
+        },
+        {
+            "name": "Newport News Behavioral Health Center RTF",
+            "place": "Newport News, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-news-behavioral-health-center-rtf-va/"
+        },
+        {
+            "name": "North Spring Behavioral Healthcare Horizons Program",
+            "place": "Leesburg, Virginia",
+            "status": "Unknown",
+            "url": "https://example.test/facility/north-spring-behavioral-healthcare-horizons-program-va/"
+        },
+        {
+            "name": "North Spring Behavioral Healthcare Sunrise Program",
+            "place": "Leesburg, Virginia",
+            "status": "Unknown",
+            "url": "https://example.test/facility/north-spring-behavioral-healthcare-sunrise-program-va/"
+        },
+        {
+            "name": "North Spring Behavioral Healthcare Trailblazers Program",
+            "place": "Leesburg, Virginia",
+            "status": "Unknown",
+            "url": "https://example.test/facility/north-spring-behavioral-healthcare-trailblazers-program-va/"
+        },
+        {
+            "name": "North Star Behavioral Health DeBarr RTC",
+            "place": "Anchorage, Alaska",
+            "status": "Unknown",
+            "url": "https://example.test/facility/north-star-behavioral-health-debarr-rtc-ak/"
+        },
+        {
+            "name": "North Star Behavioral Health Palmer RTC",
+            "place": "Anchorage, Alaska",
+            "status": "Unknown",
+            "url": "https://example.test/facility/north-star-behavioral-health-palmer-rtc-ak/"
+        },
+        {
+            "name": "Northwest Academy",
+            "place": "Bonners Ferry, Idaho",
+            "status": "Closed",
+            "url": "https://example.test/facility/northwest-academy-id/"
+        },
+        {
+            "name": "Okaloosa Youth Academy",
+            "place": "Crestview, Florida",
+            "status": "Transferred",
+            "url": "https://example.test/facility/okaloosa-youth-academy-fl/"
+        },
+        {
+            "name": "Palm Shores Behavioral Health Center",
+            "place": "Bradenton, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/palm-shores-behavioral-health-center-fl/"
+        },
+        {
+            "name": "Palmetto Pee Dee Behavioral Health",
+            "place": "Florence, South Carolina",
+            "status": "Closed",
+            "url": "https://example.test/facility/palmetto-pee-dee-behavioral-health-sc/"
+        },
+        {
+            "name": "Palmetto Summerville Behavioral Health",
+            "place": "Summerville, South Carolina",
+            "status": "Unknown",
+            "url": "https://example.test/facility/palmetto-summerville-behavioral-health-sc/"
+        },
+        {
+            "name": "Parkwood Behavioral Health System Adolescent Residential Program",
+            "place": "Olive Branch, Mississippi",
+            "status": "Unknown",
+            "url": "https://example.test/facility/parkwood-behavioral-health-system-adolescent-residential-program-ms/"
+        },
+        {
+            "name": "Pines Residential Treatment Center",
+            "place": "Portsmouth, Virginia",
+            "status": "Unknown",
+            "url": "https://example.test/facility/pines-residential-treatment-center-va/"
+        },
+        {
+            "name": "Pinnacle Pointe Hospital Sub-Acute Inpatient Treatment",
+            "place": "Little Rock, Arkansas",
+            "status": "Open",
+            "url": "https://example.test/facility/pinnacle-pointe-hospital-sub-acute-inpatient-treatment-ar/"
+        },
+        {
+            "name": "Poplar Springs Hospital RTC",
+            "place": "Petersburg, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/poplar-springs-hospital-rtc-va/"
+        },
+        {
+            "name": "Provo Canyon School",
+            "place": "Provo, Utah",
+            "status": "Closed",
+            "url": "https://example.test/facility/provo-canyon-school-ut/"
+        },
+        {
+            "name": "Rivendell of Arkansas",
+            "place": "Benton, Arkansas",
+            "status": "Open",
+            "url": "https://example.test/facility/rivendell-of-arkansas-ar/"
+        },
+        {
+            "name": "River Park Hospital",
+            "place": "West Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/river-park-hospital-wv/"
+        },
+        {
+            "name": "River Park Hospital – The Barboursville School",
+            "place": "Barboursville, West Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/river-park-hospital-the-barboursville-school-wv/"
+        },
+        {
+            "name": "River Park Hospital – The Bridge Program",
+            "place": "Huntington, West Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/river-park-hospital-the-bridge-program-wv/"
+        },
+        {
+            "name": "River Park Hospital – The Roundtable Program",
+            "place": "Huntington, West Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/river-park-hospital-the-roundtable-program-wv/"
+        },
+        {
+            "name": "Rock River Academy",
+            "place": "Rockford, Illinois",
+            "status": "Closed",
+            "url": "https://example.test/facility/rock-river-academy-il/"
+        },
+        {
+            "name": "San Marcos Treatment Center",
+            "place": "San Marcos, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/san-marcos-treatment-center-tx/"
+        },
+        {
+            "name": "SandyPines RTC",
+            "place": "Jupiter, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/sandypines-rtc-fl/"
+        },
+        {
+            "name": "Shadow Mountain Behavioral Health System",
+            "place": "Tulsa, Oklahoma",
+            "status": "Open",
+            "url": "https://example.test/facility/shadow-mountain-behavioral-health-system-ok/"
+        },
+        {
+            "name": "Suncoast Behavioral Health Center RTP",
+            "place": "Bradenton, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/suncoast-behavioral-health-center-rtp-fl/"
+        },
+        {
+            "name": "The Hughes Center",
+            "place": "Danville, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/the-hughes-center-va/"
+        },
+        {
+            "name": "The Meadows Psychiatric Center",
+            "place": "Centre Hall, Pennsylvania",
+            "status": "Open",
+            "url": "https://example.test/facility/the-meadows-psychiatric-center-pa/"
+        },
+        {
+            "name": "The Pavilion Behavioral Health System RTC",
+            "place": "Haverhill, Massachusetts",
+            "status": "Unknown",
+            "url": "https://example.test/facility/the-pavilion-behavioral-health-system-rtc-ma/"
+        },
+        {
+            "name": "Three Rivers Midlands",
+            "place": "West Columbia, South Carolina",
+            "status": "Open",
+            "url": "https://example.test/facility/three-rivers-midlands-sc/"
+        },
+        {
+            "name": "Timberlawn Psychiatric Hospital",
+            "place": "Dallas, Texas",
+            "status": "Closed",
+            "url": "https://example.test/facility/timberlawn-psychiatric-hospital-tx/"
+        },
+        {
+            "name": "Two Rivers Psychiatric Hospital",
+            "place": "Kansas City, Missouri",
+            "status": "Closed",
+            "url": "https://example.test/facility/two-rivers-psychiatric-hospital-mo/"
+        },
+        {
+            "name": "Valle Vista Health System Residential Treatment",
+            "place": "Greenwood, Indiana",
+            "status": "Unknown",
+            "url": "https://example.test/facility/valle-vista-health-system-residential-treatment-in/"
+        },
+        {
+            "name": "West Oaks Hospital PRTF",
+            "place": "Houston, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/west-oaks-hospital-prtf-tx/"
+        },
+        {
+            "name": "Westwood Lodge",
+            "place": "Westwood, Massachusetts",
+            "status": "Closed",
+            "url": "https://example.test/facility/westwood-lodge-ma/"
+        },
+        {
+            "name": "Willow Springs Center",
+            "place": "Reno, Nevada",
+            "status": "Open",
+            "url": "https://example.test/facility/willow-springs-center-nv/"
+        },
+        {
+            "name": "Wyoming Behavioral Institute Pathways Residential Trauma-Informed Care",
+            "place": "Casper, Wyoming",
+            "status": "Unknown",
+            "url": "https://example.test/facility/wyoming-behavioral-institute-pathways-residential-trauma-informed-care-wy/"
+        }
+    ],
+    "program_homes": null,
+    "home_of": null,
+    "addresses": [
+        "139 Success Ln, Naples, ID 83847"
+    ],
+    "former_locations": [
+        {
+            "line": "Montana",
+            "years": "until 1994"
+        }
+    ],
+    "operated": "1994 to 2005",
+    "summary": "Ascent Wilderness Program was a wilderness therapy in Naples, Idaho, operated by Universal Health Services (UHS). It operated from 1994 to 2005.",
+    "facts": [
+        {
+            "label": "Type",
+            "value": "Wilderness Therapy"
+        },
+        {
+            "label": "Operated",
+            "value": "1994 to 2005"
+        },
+        {
+            "label": "Capacity",
+            "value": "40"
+        },
+        {
+            "label": "Operator",
+            "value": "Universal Health Services (UHS)"
+        },
+        {
+            "label": "Past operators",
+            "value": [
+                "Universal Health Services"
+            ]
+        }
+    ],
+    "fact_sources": {
+        "former_locations": [
+            {
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild"
+            }
+        ],
+        "Capacity": [
+            {
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild"
+            }
+        ],
+        "Type": [
+            {
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild"
+            }
+        ]
+    },
+    "practices": [],
+    "incidents": [
+        {
+            "when": "1996",
+            "year": 1996,
+            "kind": "Lawsuit",
+            "text": "In 1996 a former resident sued Ascent Wilderness and Northwest Academy claiming abuse in 1994-1995, including taunting by untrained counsellors, withheld medication, sleeping among dead rats and being forced to sit outside in January.",
+            "source": "r/troubledteens wiki, as of Dec 2025",
+            "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+            "url": "",
+            "i": 0,
+            "sort": 0
+        }
+    ],
+    "staff": {
+        "administrator": [
+            {
+                "text": "Troy Knight (Healthcare Administration Program Director (2008 )). Previously: Executive Director - Wilderness Quest (2007) [promoted 2007-09-17]; later Executive Director - Clearview Horizon (2009) [joined 2009-05-22; joined 2009-06-04]",
+                "source": "Woodbury Reports, Oct 2008",
+                "cite": "Woodbury Reports, October 2008 (#170), p. 31",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1008.pdf#page=31",
+                "name": "Troy Knight",
+                "role": "Healthcare Administration Program Director (2008)",
+                "personId": 89,
+                "career": [
+                    {
+                        "role": "Executive Director",
+                        "place": "Wilderness Quest",
+                        "years": "2007",
+                        "url": "https://example.test/facility/wilderness-quest-ut/"
+                    },
+                    {
+                        "role": "Executive Director",
+                        "place": "Clearview Horizon (2009) [joined 2009-05-22",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "",
+                        "place": "joined 2009-06-04]",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "Executive Director (2009)",
+                        "place": "Clearview Horizon",
+                        "years": "",
+                        "url": "https://example.test/facility/clearview-horizon-mt/"
+                    }
+                ]
+            },
+            {
+                "text": "Chris Ankney (Executive Director (2008 )). Previously: Interim Executive Director, Executive Director - Ascent Inc. (2008) [promoted 2008-01-02]; later Interim Executive Director - Ascent Intervention (2009)",
+                "source": "Woodbury Reports, Oct 2008",
+                "cite": "Woodbury Reports, October 2008 (#170), p. 31",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1008.pdf#page=31",
+                "name": "Chris Ankney",
+                "role": "Executive Director (2008)",
+                "personId": 90,
+                "career": [
+                    {
+                        "role": "Interim Executive Director, Executive Director",
+                        "place": "Ascent Inc.",
+                        "years": "2008",
+                        "url": "https://example.test/facility/ascent-inc-ut/"
+                    },
+                    {
+                        "role": "Interim Executive Director",
+                        "place": "Ascent Intervention",
+                        "years": "2009",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "text": "Trilby Hoover (Executive Director (2025, r/troubledteens wiki), left). Previously: Staff - Ascent Inc. (2006) [joined 2006-11-09]; Executive Director, Admissions Director - Passages to Recovery (before 2007); Founder - Sheep Gate Services (2007) [founded 2007-10-22]; Admissions Director, Admissions - Shadow Mountain Academy (2008-2009); Executive Director - Ascent Wilderness Intervention (2021)",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+                "name": "Trilby Hoover",
+                "role": "Executive Director (2025, r/troubledteens wiki), left",
+                "personId": 91,
+                "career": [
+                    {
+                        "role": "Staff",
+                        "place": "Ascent Inc.",
+                        "years": "2006",
+                        "url": "https://example.test/facility/ascent-inc-ut/"
+                    },
+                    {
+                        "role": "Executive Director, Admissions Director",
+                        "place": "Passages to Recovery",
+                        "years": "before 2007",
+                        "url": "https://example.test/facility/passages-to-recovery-ut/"
+                    },
+                    {
+                        "role": "Founder",
+                        "place": "Sheep Gate Services",
+                        "years": "2007",
+                        "url": ""
+                    },
+                    {
+                        "role": "Admissions Director, Admissions",
+                        "place": "Shadow Mountain Academy",
+                        "years": "2008-2009",
+                        "url": "https://example.test/facility/shadow-mountain-academy-nm/"
+                    },
+                    {
+                        "role": "Executive Director",
+                        "place": "Ascent Wilderness Intervention",
+                        "years": "2021",
+                        "url": ""
+                    },
+                    {
+                        "role": "executive director",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Northwest Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    }
+                ]
+            },
+            {
+                "text": "Larry Blakey (Executive Director (2025, r/troubledteens wiki), left). Previously: Staff - SquareOne (2001) [founded 2001]; Staff - On Track (before 2025); Staff - VisionQuest (before 2025)",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+                "name": "Larry Blakey",
+                "role": "Executive Director (2025, r/troubledteens wiki), left",
+                "personId": 92,
+                "career": [
+                    {
+                        "role": "Staff",
+                        "place": "SquareOne",
+                        "years": "2001",
+                        "url": "https://example.test/facility/squareone-id/"
+                    },
+                    {
+                        "role": "Staff",
+                        "place": "On Track",
+                        "years": "before 2025",
+                        "url": ""
+                    },
+                    {
+                        "role": "Staff",
+                        "place": "VisionQuest",
+                        "years": "before 2025",
+                        "url": "https://example.test/facility/visionquest-ca/"
+                    },
+                    {
+                        "role": "executive director",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "",
+                        "place": "On Track Wilderness Program",
+                        "years": "",
+                        "url": "https://example.test/facility/ontrack-wilderness-program-tx/"
+                    },
+                    {
+                        "role": "founded SquareOne with Rob Spear",
+                        "place": "Rocky Mountain Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/rocky-mountain-academy-id/"
+                    }
+                ]
+            },
+            {
+                "text": "Brian Rossiter (Program Director (1997, r/troubledteens wiki)). Previously: later Program Director - SageWalk Wilderness (2004) [left 2004-11]; later Executive Director - Evoke Cascades (2005) [joined 2005]; later Director of Admissions/Marketing, Admissions Director - SeaChange Hawaii (2010-2011); later Executive Director - Santiam Crossing (2012) [joined 2012]; later Program Director - Phoenix Outdoor (before 2025)",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"SageWalk Wilderness\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/sagewalk",
+                "name": "Brian Rossiter",
+                "role": "Program Director (1997, r/troubledteens wiki)",
+                "personId": 93,
+                "career": [
+                    {
+                        "role": "Program Director",
+                        "place": "SageWalk Wilderness",
+                        "years": "2004",
+                        "url": "https://example.test/facility/sagewalk-wilderness-or/"
+                    },
+                    {
+                        "role": "Executive Director",
+                        "place": "Evoke Cascades",
+                        "years": "2005",
+                        "url": "https://example.test/facility/evoke-cascades-or/"
+                    },
+                    {
+                        "role": "Director of Admissions/Marketing, Admissions Director",
+                        "place": "SeaChange Hawaii",
+                        "years": "2010-2011",
+                        "url": "https://example.test/facility/seachange-hawaii-hi/"
+                    },
+                    {
+                        "role": "Executive Director",
+                        "place": "Santiam Crossing",
+                        "years": "2012",
+                        "url": "https://example.test/facility/santiam-crossing-or/"
+                    },
+                    {
+                        "role": "Program Director",
+                        "place": "Phoenix Outdoor",
+                        "years": "before 2025",
+                        "url": "https://example.test/facility/phoenix-outdoor-nc/"
+                    },
+                    {
+                        "role": "executive director",
+                        "place": "Second Nature Cascades",
+                        "years": "",
+                        "url": "https://example.test/facility/evoke-cascades-or/"
+                    },
+                    {
+                        "role": "program director",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "program director",
+                        "place": "King George School",
+                        "years": "",
+                        "url": "https://example.test/facility/king-george-school-vt/"
+                    },
+                    {
+                        "role": "exec director",
+                        "place": "Second Nature",
+                        "years": "",
+                        "url": "https://example.test/facility/second-nature-wilderness-program-ut/"
+                    }
+                ]
+            },
+            {
+                "text": "Ramon Palacios (Program Director (2025, r/troubledteens wiki), left). Previously: Staff - Ascent Inc. (2006) [joined 2006-11-09]; Executive Director, Founder - Heart Cry Recovery (2009) [founded 2009]; Program Director - Ascent Outdoor Wilderness Program (before 2009); Staff - Passages to Recovery (before 2009); Founding team member - Four Circles Recovery Center (before 2009); Staff - Wilderness Quest (before 2009); Owner - HeartCry Recovery (2009); Staff - Northwest Academy (2010) [joined 2010]; Program Director - Ascent Wilderness Intervention (2021)",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+                "name": "Ramon Palacios",
+                "role": "Program Director (2025, r/troubledteens wiki), left",
+                "personId": 94,
+                "career": [
+                    {
+                        "role": "Staff",
+                        "place": "Ascent Inc.",
+                        "years": "2006",
+                        "url": "https://example.test/facility/ascent-inc-ut/"
+                    },
+                    {
+                        "role": "Executive Director, Founder",
+                        "place": "Heart Cry Recovery",
+                        "years": "2009",
+                        "url": ""
+                    },
+                    {
+                        "role": "Program Director",
+                        "place": "Ascent Outdoor Wilderness Program",
+                        "years": "before 2009",
+                        "url": ""
+                    },
+                    {
+                        "role": "Staff",
+                        "place": "Passages to Recovery",
+                        "years": "before 2009",
+                        "url": "https://example.test/facility/passages-to-recovery-ut/"
+                    },
+                    {
+                        "role": "Founding team member",
+                        "place": "Four Circles Recovery Center",
+                        "years": "before 2009",
+                        "url": "https://example.test/facility/four-circles-recovery-center-nc/"
+                    },
+                    {
+                        "role": "Staff",
+                        "place": "Wilderness Quest",
+                        "years": "before 2009",
+                        "url": "https://example.test/facility/wilderness-quest-ut/"
+                    },
+                    {
+                        "role": "Owner",
+                        "place": "HeartCry Recovery",
+                        "years": "2009",
+                        "url": ""
+                    },
+                    {
+                        "role": "Staff",
+                        "place": "Northwest Academy",
+                        "years": "2010",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    },
+                    {
+                        "role": "Program Director",
+                        "place": "Ascent Wilderness Intervention",
+                        "years": "2021",
+                        "url": ""
+                    },
+                    {
+                        "role": "program director",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "Chemical Dependency Counselor",
+                        "place": "Boulder Creek Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/boulder-creek-academy-id/"
+                    }
+                ]
+            },
+            {
+                "text": "Brian MacInnes (Program Director (1994, r/troubledteens wiki), left). Previously: later Director of Adventure Education - North Idaho CEDU Schools (2002); later Director of Family Education - Cedu (2003); later Program Director - Santiam Crossing (2005)",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+                "name": "Brian MacInnes",
+                "role": "Program Director (1994, r/troubledteens wiki), left",
+                "personId": 95,
+                "career": [
+                    {
+                        "role": "Director of Adventure Education",
+                        "place": "North Idaho CEDU Schools",
+                        "years": "2002",
+                        "url": ""
+                    },
+                    {
+                        "role": "Director of Family Education",
+                        "place": "Cedu",
+                        "years": "2003",
+                        "url": ""
+                    },
+                    {
+                        "role": "Program Director",
+                        "place": "Santiam Crossing",
+                        "years": "2005",
+                        "url": "https://example.test/facility/santiam-crossing-or/"
+                    },
+                    {
+                        "role": "program director",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "director of adventure ed Northern Idaho",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    }
+                ]
+            }
+        ],
+        "notableStaff": [
+            {
+                "text": "Dan Kemp (Admissions Director, Director of Admissions (2008 )). Previously: Admissions Director - Phoenix Outdoor (2006); later Director of Admissions - Suws (2009) [joined 2009]",
+                "source": "Woodbury Reports, Feb 2008",
+                "cite": "Woodbury Reports, February 2008 (#162), p. 30",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0208.pdf#page=30",
+                "name": "Dan Kemp",
+                "role": "Admissions Director, Director of Admissions (2008)",
+                "personId": 96,
+                "career": [
+                    {
+                        "role": "Admissions Director",
+                        "place": "Phoenix Outdoor",
+                        "years": "2006",
+                        "url": "https://example.test/facility/phoenix-outdoor-nc/"
+                    },
+                    {
+                        "role": "Director of Admissions",
+                        "place": "Suws",
+                        "years": "2009",
+                        "url": ""
+                    },
+                    {
+                        "role": "admissions director",
+                        "place": "Northwest Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    },
+                    {
+                        "role": "Director of Program Development",
+                        "place": "Island View RTC",
+                        "years": "",
+                        "url": "https://example.test/facility/island-view-rtc-ut/"
+                    },
+                    {
+                        "role": "Headmaster and director of admissions",
+                        "place": "The Oakley School",
+                        "years": "",
+                        "url": "https://example.test/facility/oakley-school-ut/"
+                    },
+                    {
+                        "role": "Division director",
+                        "place": "Aspen Education Group",
+                        "years": "",
+                        "url": "https://example.test/facility/aspen-education-group/"
+                    },
+                    {
+                        "role": "admissions director",
+                        "place": "SUWS Adolescent and Youth Programs",
+                        "years": "",
+                        "url": "https://example.test/facility/suws-idaho-id/"
+                    }
+                ]
+            },
+            {
+                "text": "Jim Powell (Clinical Director (2008 )). Previously: Clinical Director - KidsQuest Wagon Train (2006); Co-Founder - Powell & Elliott Collaborative, LLC (2008) [founded 2008; founded 2008; founded 2008]; Co-Founder - Friends of Families with Children in Crisis Foundation (2008) [founded 2008-02-18]; Co-Founder - Friends of Families Foundation (2008) [founded 2008-05-09]",
+                "source": "Woodbury Reports, Oct 2008",
+                "cite": "Woodbury Reports, October 2008 (#170), p. 31",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1008.pdf#page=31",
+                "name": "Jim Powell",
+                "role": "Clinical Director (2008)",
+                "personId": 97,
+                "career": [
+                    {
+                        "role": "Clinical Director",
+                        "place": "KidsQuest Wagon Train",
+                        "years": "2006",
+                        "url": "https://example.test/facility/kidsquest-wagon-train-az/"
+                    },
+                    {
+                        "role": "Co-Founder",
+                        "place": "Powell & Elliott Collaborative, LLC (2008) [founded 2008",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "",
+                        "place": "founded 2008",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "Co-Founder",
+                        "place": "Friends of Families with Children in Crisis Foundation",
+                        "years": "2008",
+                        "url": ""
+                    },
+                    {
+                        "role": "Co-Founder",
+                        "place": "Friends of Families Foundation",
+                        "years": "2008",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "text": "Guy Hardcastle (Director of Business Development (2008 )). Previously: later Director of Business Development - Ascent Inc. (before 2009); later Director of Business Development, Director of Admissions - West Ridge Academy (2009-2010) [joined 2009-04-13; joined 2010-05]; Director of Operations - Wilderness Quest (before 2009)",
+                "source": "Woodbury Reports, Oct 2008",
+                "cite": "Woodbury Reports, October 2008 (#170), p. 31",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1008.pdf#page=31",
+                "name": "Guy Hardcastle",
+                "role": "Director of Business Development (2008)",
+                "personId": 98,
+                "career": [
+                    {
+                        "role": "Director of Business Development",
+                        "place": "Ascent Inc.",
+                        "years": "before 2009",
+                        "url": "https://example.test/facility/ascent-inc-ut/"
+                    },
+                    {
+                        "role": "Director of Business Development, Director of Admissions",
+                        "place": "West Ridge Academy (2009-2010) [joined 2009-04-13",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "",
+                        "place": "joined 2010-05]",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "Director of Operations",
+                        "place": "Wilderness Quest",
+                        "years": "before 2009",
+                        "url": "https://example.test/facility/wilderness-quest-ut/"
+                    },
+                    {
+                        "role": "Director of Business Development, Director of Admissions (2009-2010)",
+                        "place": "West Ridge Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/west-ridge-academy-ut/"
+                    }
+                ]
+            },
+            {
+                "text": "Jonathan Gurney (Clinical Services (2025, r/troubledteens wiki), left). Previously: Director of Advising and Clinical Director, Dean of Advising, Transition Services - Carlbrook School (2001-2019) [left 2014]",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+                "name": "Jonathan Gurney",
+                "role": "Clinical Services (2025, r/troubledteens wiki), left",
+                "personId": 99,
+                "career": [
+                    {
+                        "role": "Director of Advising and Clinical Director, Dean of Advising, Transition Services",
+                        "place": "Carlbrook School",
+                        "years": "2001-2019",
+                        "url": "https://example.test/facility/carlbrook-school-va/"
+                    },
+                    {
+                        "role": "clinical services",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    }
+                ]
+            },
+            {
+                "text": "Matthew Fitzgerald (Admissions Director (1994, r/troubledteens wiki)). Previously: Senior Counselor/Admissions Counselor - Rocky Mountain Academy (1989); later Director - Northwest Academy (1997); later Co-Owner and President - Northwoods (1999) [joined 1999]",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Northwoods\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/northwoods",
+                "name": "Matthew Fitzgerald",
+                "role": "Admissions Director (1994, r/troubledteens wiki)",
+                "personId": 100,
+                "career": [
+                    {
+                        "role": "Senior Counselor/Admissions Counselor",
+                        "place": "Rocky Mountain Academy",
+                        "years": "1989",
+                        "url": "https://example.test/facility/rocky-mountain-academy-id/"
+                    },
+                    {
+                        "role": "Director",
+                        "place": "Northwest Academy",
+                        "years": "1997",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    },
+                    {
+                        "role": "Co-Owner and President",
+                        "place": "Northwoods",
+                        "years": "1999",
+                        "url": "https://example.test/facility/northwoods-id/"
+                    },
+                    {
+                        "role": "co-owner/president",
+                        "place": "Northwoods Boarding School",
+                        "years": "",
+                        "url": "https://example.test/facility/northwoods-id/"
+                    },
+                    {
+                        "role": "admissions director",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    }
+                ]
+            },
+            {
+                "text": "Reid Treadaway (Director of Admissions (2003, r/troubledteens wiki)). Previously: Front-line staff, then Admissions Director, Admissions Director - Rocky Mountain Academy (1996) [left 1996]; Admissions Director - SUWS of the Carolinas (2000-2003); Director of Admissions - Ascent Wilderness Therapy (2003); later Admissions Specialist - InnerChange (2010); later Director of Admissions and Business Development, Director of Admissions, Admissions and Business Development - Boulder Creek Academy (2012-2013) [joined 2012]; later Admissions Director - BlueFire Wilderness (2013) [founded 2013]; later Admissions - Blue Fire Wilderness (2014) [founded 2014]; later Admissions/Co-Founder, Co-Founder and Director of Admissions - BlueFire Wilderness Therapy (2021-2025) [founded 2025]",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+                "name": "Reid Treadaway",
+                "role": "Director of Admissions (2003, r/troubledteens wiki)",
+                "personId": 88,
+                "career": [
+                    {
+                        "role": "Front-line staff, then Admissions Director, Admissions Director",
+                        "place": "Rocky Mountain Academy",
+                        "years": "1996",
+                        "url": "https://example.test/facility/rocky-mountain-academy-id/"
+                    },
+                    {
+                        "role": "Admissions Director",
+                        "place": "SUWS of the Carolinas",
+                        "years": "2000-2003",
+                        "url": "https://example.test/facility/suws-of-the-carolinas-nc/"
+                    },
+                    {
+                        "role": "Director of Admissions",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "2003",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "Admissions Specialist",
+                        "place": "InnerChange",
+                        "years": "2010",
+                        "url": "https://example.test/facility/innerchange-ut/"
+                    },
+                    {
+                        "role": "Director of Admissions and Business Development, Director of Admissions, Admissions and Business Development",
+                        "place": "Boulder Creek Academy",
+                        "years": "2012-2013",
+                        "url": "https://example.test/facility/boulder-creek-academy-id/"
+                    },
+                    {
+                        "role": "Admissions Director",
+                        "place": "BlueFire Wilderness",
+                        "years": "2013",
+                        "url": ""
+                    },
+                    {
+                        "role": "Admissions",
+                        "place": "Blue Fire Wilderness",
+                        "years": "2014",
+                        "url": ""
+                    },
+                    {
+                        "role": "Admissions/Co-Founder, Co-Founder and Director of Admissions",
+                        "place": "BlueFire Wilderness Therapy",
+                        "years": "2021-2025",
+                        "url": "https://example.test/facility/bluefire-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "regional director of admissions",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "admissions specialist",
+                        "place": "New Haven RTC",
+                        "years": "",
+                        "url": "https://example.test/facility/new-haven-rtc-ut/"
+                    },
+                    {
+                        "role": "admissions specialist",
+                        "place": "Sunrise RTC",
+                        "years": "",
+                        "url": "https://example.test/facility/sunrise-rtc-ut/"
+                    },
+                    {
+                        "role": "admissions specialist",
+                        "place": "Fulshear Treatment to Transition",
+                        "years": "",
+                        "url": "https://example.test/facility/fulshear-treatment-to-transition-tx/"
+                    }
+                ]
+            },
+            {
+                "text": "Roger D. Topp (Former Admissions Counsellor, Field Instructor, then Admissions Counsellor (before 2025, r/troubledteens wiki)). Previously: Admissions Director - The Ridge New Hampshire (2025) [left 2025]",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"The Ridge RTC NH\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/shortridge",
+                "name": "Roger D. Topp",
+                "role": "Former Admissions Counsellor, Field Instructor, then Admissions Counsellor (before 2025, r/troubledteens wiki)",
+                "personId": 101,
+                "career": [
+                    {
+                        "role": "Admissions Director",
+                        "place": "The Ridge New Hampshire",
+                        "years": "2025",
+                        "url": "https://example.test/facility/the-ridge-new-hampshire-nh/"
+                    },
+                    {
+                        "role": "admissions director",
+                        "place": "Shortridge Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/the-ridge-new-hampshire-nh/"
+                    },
+                    {
+                        "role": "admissions counselor",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    }
+                ]
+            },
+            {
+                "text": "Nikole Brown (Clinical Director (1998, r/troubledteens wiki), left). Previously: Clinical Director - Ascent Wilderness Intervention (1998-2021) [joined 1998]; later Clinical Director - Northwest Academy (2007) [joined 2007-09-07]; later Clinical Director - Ascent Inc. (before 2007)",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+                "name": "Nikole Brown",
+                "role": "Clinical Director (1998, r/troubledteens wiki), left",
+                "personId": 102,
+                "career": [
+                    {
+                        "role": "Clinical Director",
+                        "place": "Ascent Wilderness Intervention",
+                        "years": "1998-2021",
+                        "url": ""
+                    },
+                    {
+                        "role": "Clinical Director",
+                        "place": "Northwest Academy",
+                        "years": "2007",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    },
+                    {
+                        "role": "Clinical Director",
+                        "place": "Ascent Inc.",
+                        "years": "before 2007",
+                        "url": "https://example.test/facility/ascent-inc-ut/"
+                    }
+                ]
+            },
+            {
+                "text": "James H. Powell (Former Clinical Director (before 2011, r/troubledteens wiki)). Previously: Clinical Director - CEDU High School (1988) [left 1988]; Founder - Friends of Families (2008) [founded 2008]; Clinical Director - Benchmark Young Adult School (2009) [joined 2009-04-06]; Clinical Director - CEDU Mountain Schools (before 2009); Founder - Powell and Elliott Collaborative (2009) [founded 2009]; Staff - Friends of Families with Children in Crisis Foundation (2009) [founded 2009-05-09]; Clinical Director, Executive Clinical Director - Benchmark Transitions (2009-2019) [joined 2011; joined 2011]; Staff - Ascent Wilderness (2010) [joined 2010]",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Benchmark Transitions\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/benchmark",
+                "name": "James H. Powell",
+                "role": "Former Clinical Director (before 2011, r/troubledteens wiki)",
+                "personId": 97,
+                "career": [
+                    {
+                        "role": "Clinical Director",
+                        "place": "CEDU High School",
+                        "years": "1988",
+                        "url": "https://example.test/facility/cedu-high-school-ca/"
+                    },
+                    {
+                        "role": "Founder",
+                        "place": "Friends of Families",
+                        "years": "2008",
+                        "url": ""
+                    },
+                    {
+                        "role": "Clinical Director",
+                        "place": "Benchmark Young Adult School",
+                        "years": "2009",
+                        "url": ""
+                    },
+                    {
+                        "role": "Clinical Director",
+                        "place": "CEDU Mountain Schools",
+                        "years": "before 2009",
+                        "url": ""
+                    },
+                    {
+                        "role": "Founder",
+                        "place": "Powell and Elliott Collaborative",
+                        "years": "2009",
+                        "url": ""
+                    },
+                    {
+                        "role": "Staff",
+                        "place": "Friends of Families with Children in Crisis Foundation",
+                        "years": "2009",
+                        "url": ""
+                    },
+                    {
+                        "role": "Clinical Director, Executive Clinical Director",
+                        "place": "Benchmark Transitions (2009-2019) [joined 2011",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "",
+                        "place": "joined 2011]",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "Staff",
+                        "place": "Ascent Wilderness",
+                        "years": "2010",
+                        "url": ""
+                    },
+                    {
+                        "role": "Clinical Director (2006)",
+                        "place": "KidsQuest Wagon Train",
+                        "years": "",
+                        "url": "https://example.test/facility/kidsquest-wagon-train-az/"
+                    }
+                ]
+            },
+            {
+                "text": "Rachel M. Webster (Therapist (2007-2021, r/troubledteens wiki), left). Previously: Therapist - Ascent Wilderness Intervention (2007-2021) [joined 2007]; Clinician, Therapist - Boulder Creek Academy (2008-2025) [joined 2008; left 2025]",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+                "name": "Rachel M. Webster",
+                "role": "Therapist (2007-2021, r/troubledteens wiki), left",
+                "personId": 103,
+                "career": [
+                    {
+                        "role": "Therapist",
+                        "place": "Ascent Wilderness Intervention",
+                        "years": "2007-2021",
+                        "url": ""
+                    },
+                    {
+                        "role": "Clinician, Therapist",
+                        "place": "Boulder Creek Academy (2008-2025) [joined 2008",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "",
+                        "place": "left 2025]",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "clinician",
+                        "place": "Boulder Creek Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/boulder-creek-academy-id/"
+                    }
+                ]
+            },
+            {
+                "text": "Kaysie Dannemiller (Therapist (2006, r/troubledteens wiki), left). Previously: Wilderness Guide - Catherine Freer Wilderness Program (1995); later Guide - Rites of Passage (2010); later Therapist - Ascent Wilderness Intervention (2021)",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+                "name": "Kaysie Dannemiller",
+                "role": "Therapist (2006, r/troubledteens wiki), left",
+                "personId": 104,
+                "career": [
+                    {
+                        "role": "Wilderness Guide",
+                        "place": "Catherine Freer Wilderness Program",
+                        "years": "1995",
+                        "url": "https://example.test/facility/catherine-freer-wilderness-program-or/"
+                    },
+                    {
+                        "role": "Guide",
+                        "place": "Rites of Passage",
+                        "years": "2010",
+                        "url": ""
+                    },
+                    {
+                        "role": "Therapist",
+                        "place": "Ascent Wilderness Intervention",
+                        "years": "2021",
+                        "url": ""
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    },
+                    {
+                        "role": "wilderness guide",
+                        "place": "Catherine Freer Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/catherine-freer-wilderness-program-or/"
+                    },
+                    {
+                        "role": "guide",
+                        "place": "Rite of Passage, Inc",
+                        "years": "",
+                        "url": "https://example.test/operator/rite-of-passage-inc/"
+                    }
+                ]
+            },
+            {
+                "text": "Dan Tadlock (Therapist (2025, r/troubledteens wiki), left). Previously: Senior Clinician, Director of Family Services, Clinical Supervisor - Northwest Academy (2007-2025) [joined 2007-11-13; left 2025]; CEO - Hawk’s Landing Therapeutic Home for Boys (2016) [joined 2016]; Therapist - Ascent Wilderness Intervention (2021); Therapist - Ascent Wilderness (before 2025)",
+                "source": "r/troubledteens wiki, as of Dec 2025",
+                "cite": "r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18)",
+                "url": "https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+                "name": "Dan Tadlock",
+                "role": "Therapist (2025, r/troubledteens wiki), left",
+                "personId": 105,
+                "career": [
+                    {
+                        "role": "Senior Clinician, Director of Family Services, Clinical Supervisor",
+                        "place": "Northwest Academy (2007-2025) [joined 2007-11-13",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "",
+                        "place": "left 2025]",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "CEO",
+                        "place": "Hawk’s Landing Therapeutic Home for Boys",
+                        "years": "2016",
+                        "url": "https://example.test/facility/hawk-s-landing-therapeutic-home-for-boys-id/"
+                    },
+                    {
+                        "role": "Therapist",
+                        "place": "Ascent Wilderness Intervention",
+                        "years": "2021",
+                        "url": ""
+                    },
+                    {
+                        "role": "Therapist",
+                        "place": "Ascent Wilderness",
+                        "years": "before 2025",
+                        "url": ""
+                    },
+                    {
+                        "role": "Senior Clinician, Director of Family Services (2007-2011)",
+                        "place": "Northwest Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Ascent Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/ascent-wilderness-therapy-id/"
+                    }
+                ]
+            }
+        ]
+    },
+    "notes": [
+        "Operator: a division of UHS (Woodbury Reports, October 2008, p. 31)",
+        "Former location: Montana (moved 1994) (r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18): https://www.reddit.com/r/troubledteens/wiki/index/ascentwild)",
+        "Operator: Universal Health Services (r/troubledteens wiki, page \"CEDU:\" (as of 2026-01-07)) https://www.reddit.com/r/troubledteens/wiki/index/ascentwild",
+        "Cost: $340 per day; over $15,000 for six weeks (r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18))",
+        "Operator: CEDU (r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18))",
+        "Capacity: 40 (as of 2025) (r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18): https://www.reddit.com/r/troubledteens/wiki/index/ascentwild)",
+        "Type: Wilderness Therapy (r/troubledteens wiki, page \"Ascent Wilderness Program\" (as of 2025-12-18): https://www.reddit.com/r/troubledteens/wiki/index/ascentwild)"
+    ],
+    "field_notes": [],
+    "testimony": [],
+    "forum": [],
+    "videos": [],
+    "profile_links": [],
+    "resources": [],
+    "resource_links": [],
+    "lawsuits": [],
+    "memorials": [],
+    "eras": null,
+    "wiki": [
+        {
+            "id": 93,
+            "title": "Ascent Wilderness Program",
+            "place": "Naples, ID",
+            "organization": "",
+            "type": "Wilderness Program",
+            "years": "1994-2005/2010"
+        }
+    ],
+    "updated_at": "2026-10-02 15:30:46",
+    "updated_label": "October 2, 2026",
+    "news_url": "https://example.test/news/",
+    "lawsuits_url": "https://example.test/lawsuits/",
+    "memorial_url": "https://example.test/memorial/",
+    "wiki_url": "https://example.test/wiki-feed/?search=Ascent%20Wilderness%20Program",
+    "submit_url": "https://example.test/tti-data-submission/?find=Ascent%20Wilderness%20Program",
+    "news": [
+        {
+            "id": 762,
+            "title": "Allegations of Abuse at U.S. Troubled‑Teen Boarding Schools Involving Canadian Teens",
+            "outlet": "HuffPost Canada",
+            "date": "2020-11-22",
+            "date_label": "Nov 22, 2020",
+            "url": "https://www.huffingtonpost.ca/entry/boarding-school-abuse-canadians_ca_5fb53599c5b6f00bd84c6ef7",
+            "type": "expose",
+            "summary": "The article reports allegations of physical restraint, solitary confinement, and sexual misconduct at several U.S. troubled‑teen boarding schools that housed Canadian teenagers. Survivors describe harsh punishments, forced medication, and isolation, and the facilities have faced legal and regulatory scrutiny. The piece highlights gaps in oversight and the impact on the survivors’ mental health.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        }
+    ],
+    "inspections": null,
+    "documents": {
+        "folder_id": 3114,
+        "url": "https://example.test/facility/ascent-wilderness-program-id/#documents"
+    }
+}

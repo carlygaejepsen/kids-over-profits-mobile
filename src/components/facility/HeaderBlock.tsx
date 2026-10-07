@@ -5,17 +5,19 @@ import { aliasLabel } from '@/lib/alias';
 import { cleanProse } from '@/lib/citations';
 import { colors } from '@/theme/colors';
 import { spacing, type } from '@/theme/typography';
-import { RecordHeader, useOpenLink } from '../site';
+import { RecordHeader, useOpenLink, type AliasLine } from '../site';
 import { homeRows } from './model';
 
 /** "Name · Operated ... · Run by ..." as RecordHeader's lines, in the website's order. */
 export function HeaderBlock({ f }: { f: FacilityPayload }) {
   const open = useOpenLink();
-  const aliases = [
+  const past = f.formerly ?? [];
+  const aliases: AliasLine[] = [
     ...(f.current_name ? [aliasLabel('current', f.current_name)] : []),
-    ...(f.formerly ?? []).map((n) => aliasLabel('past', n)),
+    // The past names' sources follow the last of them, as the website's one "Formerly" line ends with them.
+    ...past.map((n, i) => ({ text: aliasLabel('past', n), sources: i === past.length - 1 ? f.fact_sources?.formerly : undefined })),
     ...(f.aka ?? []).map((n) => aliasLabel('other', n)),
-  ].filter(Boolean);
+  ];
   const where = f.state_name || f.country;
   const place = [f.place, f.operated ? `Operated ${f.operated}` : ''].filter(Boolean).join('\n');
   const homes = homeRows(f);

@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from 'react';
+import { Fragment, useState, type ReactNode } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { cleanProse } from '@/lib/citations';
@@ -55,6 +55,20 @@ export function LimitedTimeline({ items, limit = 5 }: { items: TimelineItem[]; l
   );
 }
 
+/** A list cut to `limit` rows with "N more +", for lists inside a section (a name's news, staff). */
+export function Limited<T>({ items, limit = 5, render }: { items: T[]; limit?: number; render: (item: T, i: number) => ReactNode }) {
+  const [all, setAll] = useState(false);
+  const hidden = Math.max(0, items.length - limit);
+  return (
+    <View style={styles.limited}>
+      {(all ? items : items.slice(0, limit)).map((item, i) => (
+        <Fragment key={i}>{render(item, i)}</Fragment>
+      ))}
+      {hidden > 0 ? <MoreButton count={hidden} expanded={all} onPress={() => setAll((a) => !a)} /> : null}
+    </View>
+  );
+}
+
 /** Label and value pairs in a quiet sand panel (the licence summary), a dl without a heading. */
 export function FactList({ rows }: { rows: { label: string; value: string }[] }) {
   const list = rows.filter((r) => r.value);
@@ -87,6 +101,7 @@ const styles = StyleSheet.create({
   bullet: { ...type.body, width: 12 },
   bulletText: { ...type.body, flex: 1 },
   lead: { ...type.small, color: colors.textMuted },
+  limited: { gap: spacing.sm },
   facts: { backgroundColor: colors.sand, borderRadius: radius.box, padding: 14, gap: 10 },
   fact: { gap: spacing.xxs },
   dt: { ...type.label },

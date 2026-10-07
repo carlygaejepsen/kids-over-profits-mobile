@@ -164,9 +164,9 @@
         "administrator": [
             {
                 "text": "Brian Heath (Director)",
-                "source": "Network map",
-                "cite": "Kids Over Profits network map",
-                "url": "https://example.test/network-map/#open=brian-heath",
+                "source": "",
+                "cite": "",
+                "url": "",
                 "name": "Brian Heath",
                 "role": "Director",
                 "career": [
@@ -181,9 +181,9 @@
             },
             {
                 "text": "James Bednark (President)",
-                "source": "Network map",
-                "cite": "Kids Over Profits network map",
-                "url": "https://example.test/network-map/#open=james-bednark",
+                "source": "",
+                "cite": "",
+                "url": "",
                 "name": "James Bednark",
                 "role": "President",
                 "career": [
@@ -485,7 +485,209 @@
             "kop_url": ""
         }
     ],
-    "eras": null,
+    "eras": {
+        "list": [
+            {
+                "id": "as-arizona-boys-ranch",
+                "name": "Arizona Boys Ranch",
+                "years": "until 2000",
+                "operators": [],
+                "url": "",
+                "memorials": [
+                    {
+                        "id": 163,
+                        "name": "Nicholaus Contreras",
+                        "age": "16",
+                        "program": "Arizona Boys Ranch",
+                        "date": "1998-03-02",
+                        "date_label": "March 2, 1998",
+                        "cause": "Restraint",
+                        "category": "restraint",
+                        "source_name": "Arizona Daily Sun",
+                        "source_url": "https://azdailysun.com/article_213ca401-d535-5db5-9429-db3cae68afec.html",
+                        "kop_url": "",
+                        "_fid": 9605
+                    },
+                    {
+                        "id": 187,
+                        "name": "Lorenzo Johnson",
+                        "age": "17",
+                        "program": "Arizona Boys Ranch",
+                        "date": "1994-06-27",
+                        "date_label": "June 27, 1994",
+                        "cause": "Drowned during escape attempt",
+                        "category": "escape_attempt",
+                        "source_name": "Arizona Republic",
+                        "source_url": "https://ackert.fortunecity.ws/0531ranch.htm",
+                        "kop_url": "",
+                        "_fid": 9605
+                    }
+                ],
+                "violations": [],
+                "lawsuits": [],
+                "incidents": [],
+                "news": [
+                    {
+                        "id": 998,
+                        "title": "Civil Settlements Reached in Death of Resident at Arizona Boys Ranch",
+                        "outlet": "Arizona Daily Sun",
+                        "date": "1999-07-10",
+                        "date_label": "Jul 10, 1999",
+                        "url": "https://azdailysun.com/mother-of-dead-boy-reaches-settlement-with-boys-ranch/article_6344870c-c2d9-583d-bb88-1a372beba8e3.html",
+                        "type": "lawsuit",
+                        "summary": "The mother of a 16-year-old resident who died at Boys Ranch in 1998 reached civil settlements totaling over $1 million with the State of Arizona, the facility, and Sacramento County. An autopsy and reports indicated the youth died from an undiagnosed infection after staff members allegedly forced him to perform rigorous exercise while accusing him of malingering. Criminal child abuse charges were subsequently filed against three facility staff members, and placements and funding were suspended by California authorities.",
+                        "link_type": "mentioned",
+                        "aside": false,
+                        "image": null,
+                        "_fid": 9605
+                    }
+                ],
+                "staff": []
+            },
+            {
+                "id": "as-canyon-state-academy",
+                "name": "Canyon State Academy",
+                "years": "from 2000",
+                "operators": [
+                    "Rite of Passage, Inc"
+                ],
+                "url": "",
+                "memorials": [],
+                "violations": [],
+                "lawsuits": [],
+                "incidents": [],
+                "news": [
+                    {
+                        "id": 481,
+                        "title": "Queen Creek police investigating alleged assault at Desert Lily Academy",
+                        "outlet": "Queen Creek Independent",
+                        "date": "2025-09-16",
+                        "date_label": "Sep 16, 2025",
+                        "url": "https://www.yourvalley.net/queen-creek-independent/stories/queen-creek-police-investigating-alleged-assault-at-residential-school,615952",
+                        "type": "arrest",
+                        "summary": "Christopher Allen, a 48-year-old staff member at Desert Lily Academy in Queen Creek, Arizona, was arrested on September 4, 2025, and charged with two counts of sexual conduct with a minor following a reported sexual assault involving a juvenile resident. Police report responding to over 2,000 calls at this facility and its companion boys' school, Canyon State Academy, over the past three years, including reports of various incidents and mental health crises.",
+                        "link_type": "mentioned",
+                        "aside": false,
+                        "image": null,
+                        "_fid": 9605
+                    },
+                    {
+                        "id": 1004,
+                        "title": "Canyon State Academy Employee Investigated for Alleged Misconduct With Student",
+                        "outlet": "East Valley Tribune",
+                        "date": "2003-02-25",
+                        "date_label": "Feb 25, 2003",
+                        "url": "https://www.eastvalleytribune.com/news/worker-accused-of-sex-with-teen/article_97db1f5e-9c27-5d2f-bc5f-bb7a9cf9133d.html",
+                        "type": "arrest",
+                        "summary": "A female employee at Canyon State Academy in Queen Creek, Arizona, was placed on administrative leave following allegations of sexual misconduct with a 16-year-old student. The allegations emerged during a police investigation after the student was arrested following an incident in Phoenix. State officials and local law enforcement confirmed an active investigation into the matter.",
+                        "link_type": "mentioned",
+                        "aside": false,
+                        "image": null,
+                        "_fid": 9605
+                    },
+                    {
+                        "id": 1075,
+                        "title": "Camp Fear: Gina Score was the latest teenager to die at a juvenile boot camp. Why do so many states still insist that humiliation and abuse will straighten out troubled kids? (2000-11-01)",
+                        "outlet": "motherjones.com",
+                        "date": "2000-11-01",
+                        "date_label": "Nov 1, 2000",
+                        "url": "https://www.motherjones.com/politics/2000/11/camp-fear/",
+                        "type": "general",
+                        "summary": "",
+                        "link_type": "mentioned",
+                        "aside": false,
+                        "image": null,
+                        "_fid": 9605
+                    }
+                ],
+                "staff": []
+            }
+        ],
+        "rest": {
+            "memorials": [],
+            "violations": [],
+            "lawsuits": [],
+            "incidents": [],
+            "news": [
+                {
+                    "id": 1005,
+                    "title": "The New Camp Kush: Former Terror of Tempe Is Still Watching Devils, but Now It’s at Reform School",
+                    "outlet": "latimes.com",
+                    "date": "",
+                    "date_label": "",
+                    "url": "https://www.latimes.com/archives/la-xpm-1996-11-14-sp-64539-story.html",
+                    "type": "general",
+                    "summary": "",
+                    "link_type": "mentioned",
+                    "aside": true,
+                    "image": null,
+                    "_fid": 9605
+                },
+                {
+                    "id": 996,
+                    "title": "Arizona Daily Sun",
+                    "outlet": "azdailysun.com",
+                    "date": "",
+                    "date_label": "",
+                    "url": "https://azdailysun.com/article_213ca401-d535-5db5-9429-db3cae68afec.html",
+                    "type": "general",
+                    "summary": "",
+                    "link_type": "mentioned",
+                    "aside": false,
+                    "image": null,
+                    "_fid": 9605
+                }
+            ],
+            "staff": {
+                "administrator": [
+                    {
+                        "text": "Brian Heath (Director)",
+                        "source": "",
+                        "cite": "",
+                        "url": "",
+                        "name": "Brian Heath",
+                        "role": "Director",
+                        "career": [
+                            {
+                                "role": "exec director",
+                                "place": "Rite of Passage, Inc",
+                                "years": "",
+                                "url": "https://example.test/operator/rite-of-passage-inc/"
+                            }
+                        ],
+                        "from_map": true,
+                        "_fid": 9605
+                    },
+                    {
+                        "text": "James Bednark (President)",
+                        "source": "",
+                        "cite": "",
+                        "url": "",
+                        "name": "James Bednark",
+                        "role": "President",
+                        "career": [
+                            {
+                                "role": "president",
+                                "place": "Rite of Passage, Inc",
+                                "years": "",
+                                "url": "https://example.test/operator/rite-of-passage-inc/"
+                            }
+                        ],
+                        "from_map": true,
+                        "_fid": 9605
+                    }
+                ]
+            }
+        },
+        "totals": {
+            "memorials": 2,
+            "violations": 0,
+            "lawsuits": 0,
+            "incidents": 0,
+            "news": 6,
+            "staff": 2
+        }
+    },
     "wiki": [
         {
             "id": 226,
@@ -496,8 +698,8 @@
             "years": "1948-present"
         }
     ],
-    "updated_at": "2026-10-04 15:21:47",
-    "updated_label": "October 4, 2026",
+    "updated_at": "2026-10-05 21:09:48",
+    "updated_label": "October 5, 2026",
     "news_url": "https://example.test/news/",
     "lawsuits_url": "https://example.test/lawsuits/",
     "memorial_url": "https://example.test/memorial/",
@@ -514,7 +716,73 @@
             "type": "arrest",
             "summary": "Christopher Allen, a 48-year-old staff member at Desert Lily Academy in Queen Creek, Arizona, was arrested on September 4, 2025, and charged with two counts of sexual conduct with a minor following a reported sexual assault involving a juvenile resident. Police report responding to over 2,000 calls at this facility and its companion boys' school, Canyon State Academy, over the past three years, including reports of various incidents and mental health crises.",
             "image": null,
-            "link_type": "mentioned"
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 1004,
+            "title": "Canyon State Academy Employee Investigated for Alleged Misconduct With Student",
+            "outlet": "East Valley Tribune",
+            "date": "2003-02-25",
+            "date_label": "Feb 25, 2003",
+            "url": "https://www.eastvalleytribune.com/news/worker-accused-of-sex-with-teen/article_97db1f5e-9c27-5d2f-bc5f-bb7a9cf9133d.html",
+            "type": "arrest",
+            "summary": "A female employee at Canyon State Academy in Queen Creek, Arizona, was placed on administrative leave following allegations of sexual misconduct with a 16-year-old student. The allegations emerged during a police investigation after the student was arrested following an incident in Phoenix. State officials and local law enforcement confirmed an active investigation into the matter.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 1075,
+            "title": "Camp Fear: Gina Score was the latest teenager to die at a juvenile boot camp. Why do so many states still insist that humiliation and abuse will straighten out troubled kids? (2000-11-01)",
+            "outlet": "motherjones.com",
+            "date": "2000-11-01",
+            "date_label": "Nov 1, 2000",
+            "url": "https://www.motherjones.com/politics/2000/11/camp-fear/",
+            "type": "general",
+            "summary": "",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 998,
+            "title": "Civil Settlements Reached in Death of Resident at Arizona Boys Ranch",
+            "outlet": "Arizona Daily Sun",
+            "date": "1999-07-10",
+            "date_label": "Jul 10, 1999",
+            "url": "https://azdailysun.com/mother-of-dead-boy-reaches-settlement-with-boys-ranch/article_6344870c-c2d9-583d-bb88-1a372beba8e3.html",
+            "type": "lawsuit",
+            "summary": "The mother of a 16-year-old resident who died at Boys Ranch in 1998 reached civil settlements totaling over $1 million with the State of Arizona, the facility, and Sacramento County. An autopsy and reports indicated the youth died from an undiagnosed infection after staff members allegedly forced him to perform rigorous exercise while accusing him of malingering. Criminal child abuse charges were subsequently filed against three facility staff members, and placements and funding were suspended by California authorities.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 1005,
+            "title": "The New Camp Kush: Former Terror of Tempe Is Still Watching Devils, but Now It’s at Reform School",
+            "outlet": "latimes.com",
+            "date": "",
+            "date_label": "",
+            "url": "https://www.latimes.com/archives/la-xpm-1996-11-14-sp-64539-story.html",
+            "type": "general",
+            "summary": "",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 996,
+            "title": "Arizona Daily Sun",
+            "outlet": "azdailysun.com",
+            "date": "",
+            "date_label": "",
+            "url": "https://azdailysun.com/article_213ca401-d535-5db5-9429-db3cae68afec.html",
+            "type": "general",
+            "summary": "",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
         }
     ],
     "inspections": null,

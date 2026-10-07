@@ -9,7 +9,7 @@ import { FacilityFooter, ReportingNotice } from '@/components/facility/Footer';
 import { Glance } from '@/components/facility/Glance';
 import { HeaderBlock, Summary } from '@/components/facility/HeaderBlock';
 import { InspectionsSection } from '@/components/facility/InspectionsSection';
-import { presentSections, statTiles } from '@/components/facility/model';
+import { pageView, presentSections, statTiles, tileAnchor } from '@/components/facility/model';
 import { PracticesSection, StaffSection } from '@/components/facility/PeopleSections';
 import {
   ErasSection, HomesSection, IncidentsSection, LawsuitsSection, MemorialsSection, NewsSection,
@@ -36,7 +36,8 @@ function FacilityBody({ f }: { f: FacilityPayload }) {
 
   const sections = presentSections(f);
   const tiles = statTiles(f).filter((t) => t.count > 0);
-  const p = { f, onLayoutY };
+  // A renamed program's plain sections keep only what no name's section took.
+  const p = { f: pageView(f), onLayoutY };
 
   return (
     <SafeAreaView style={styles.screen} edges={['bottom']}>
@@ -44,7 +45,7 @@ function FacilityBody({ f }: { f: FacilityPayload }) {
         <View style={styles.column}>
           <HeaderBlock f={f} />
           <Summary text={f.summary} />
-          {tiles.length >= 2 ? <StatTiles tiles={tiles} onJump={jump} /> : null}
+          {tiles.length >= 2 ? <StatTiles tiles={tiles} onJump={(key) => jump(tileAnchor(f, key))} /> : null}
           {sections.length > 1 ? <JumpPills items={sections.map((s) => ({ key: s.id, label: s.label }))} onJump={jump} /> : null}
           <Glance f={f} />
           <View onLayout={(e) => { listY.current = e.nativeEvent.layout.y; }}>

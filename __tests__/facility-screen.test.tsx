@@ -46,7 +46,7 @@ describe('facility screen, Falcon Ridge Ranch', () => {
     expect(screen.getByText(falcon.lawsuits[0].case_name)).toBeTruthy();
     expect(screen.getByText(falcon.news[0].title)).toBeTruthy();
     expect(screen.getByLabelText('1 lawsuit')).toBeTruthy();
-    expect(screen.getByLabelText('6 news articles')).toBeTruthy();
+    expect(screen.getByLabelText(`${falcon.news.length} news articles`)).toBeTruthy();
     expect(screen.getByLabelText('Jump to Lawsuits')).toBeTruthy();
   });
 

@@ -1,0 +1,472 @@
+{
+    "api_version": 1,
+    "id": 9758,
+    "slug": "newport-academy-acre-ca",
+    "url": "https://example.test/facility/newport-academy-acre-ca/",
+    "name": "Newport Academy – Acre",
+    "unique_name": "Newport Academy – Acre",
+    "current_name": "",
+    "formerly": [],
+    "aka": [],
+    "status": "Open",
+    "end_year": "",
+    "place": "Orange, California",
+    "city": "Orange",
+    "state_code": "CA",
+    "state_name": "California",
+    "country": "United States",
+    "hub_name": "California",
+    "hub_url": "",
+    "operator": {
+        "name": "Newport Healthcare",
+        "url": "https://example.test/operator/newport-healthcare/"
+    },
+    "siblings": [
+        {
+            "name": "Newport Academy",
+            "place": "Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-va/"
+        },
+        {
+            "name": "Newport Academy",
+            "place": "Washington",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-wa/"
+        },
+        {
+            "name": "Newport Academy",
+            "place": "Bethlehem, Connecticut",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-ct/"
+        },
+        {
+            "name": "Newport Academy - Kentland",
+            "place": "Great Falls, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-kentland-va/"
+        },
+        {
+            "name": "Newport Academy Child and Pre-Teen RTP",
+            "place": "California",
+            "status": "Unknown",
+            "url": "https://example.test/facility/newport-academy-child-and-pre-teen-rtp-ca/"
+        },
+        {
+            "name": "Newport Academy – Charlotte",
+            "place": "Charlotte, North Carolina",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-charlotte-nc/"
+        },
+        {
+            "name": "Newport Academy – Double Hill",
+            "place": "Bethlehem, Connecticut",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-double-hill-ct/"
+        },
+        {
+            "name": "Newport Academy – Gratitude",
+            "place": "Great Falls, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-gratitude-va/"
+        },
+        {
+            "name": "Newport Academy – Kurtz",
+            "place": "McLean, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-kurtz-va/"
+        },
+        {
+            "name": "Newport Academy – Oakley",
+            "place": "Oakley, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-oakley-ut/"
+        },
+        {
+            "name": "Newport Academy – Port Townsend",
+            "place": "Port Townsend, Washington",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-port-townsend-wa/"
+        },
+        {
+            "name": "Newport Academy – Seattle",
+            "place": "Kirkland, Washington",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-seattle-wa/"
+        },
+        {
+            "name": "Newport Academy – St. Cloud",
+            "place": "St Cloud, Minnesota",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-st-cloud-mn/"
+        },
+        {
+            "name": "Newport Academy – Todd Hill",
+            "place": "Bethlehem, Connecticut",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-todd-hill-ct/"
+        },
+        {
+            "name": "Newport Institute – Miramar",
+            "place": "Santa Ana, California",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-institute-miramar-ca/"
+        },
+        {
+            "name": "PrairieCare Residential Services",
+            "place": "Maple Grove, Minnesota",
+            "status": "Open",
+            "url": "https://example.test/facility/prairiecare-residential-services-mn/"
+        }
+    ],
+    "program_homes": null,
+    "home_of": {
+        "program": {
+            "id": 100284,
+            "name": "Newport Academy",
+            "url": "https://example.test/facility/newport-academy-ca/"
+        },
+        "home_name": "Acre",
+        "count": 34,
+        "others": [
+            {
+                "id": 10087,
+                "name": "Newport Academy – Alberca",
+                "home_name": "Alberca",
+                "place": ". Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-alberca-ca/"
+            },
+            {
+                "id": 10088,
+                "name": "Newport Academy – Applewood",
+                "home_name": "Applewood",
+                "place": "Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-applewood-ca/"
+            },
+            {
+                "id": 9759,
+                "name": "Newport Academy – Aracena",
+                "home_name": "Aracena",
+                "place": "Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-aracena-ca/"
+            },
+            {
+                "id": 10089,
+                "name": "Newport Academy – Arena",
+                "home_name": "Arena",
+                "place": "Pleasanton, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-arena-ca/"
+            },
+            {
+                "id": 10090,
+                "name": "Newport Academy – Autumn",
+                "home_name": "Autumn",
+                "place": "Shingle Springs, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-autumn-ca/"
+            },
+            {
+                "id": 9760,
+                "name": "Newport Academy – Avocado",
+                "home_name": "Avocado",
+                "place": "Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-avocado-ca/"
+            },
+            {
+                "id": 10091,
+                "name": "Newport Academy – Chandler",
+                "home_name": "Chandler",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-chandler-ca/"
+            },
+            {
+                "id": 10092,
+                "name": "Newport Academy – Chariot",
+                "home_name": "Chariot",
+                "place": "Bonsall, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-chariot-ca/"
+            },
+            {
+                "id": 10093,
+                "name": "Newport Academy – Crestview",
+                "home_name": "Crestview",
+                "place": "Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-crestview-ca/"
+            },
+            {
+                "id": 10094,
+                "name": "Newport Academy – Del Cerro",
+                "home_name": "Del Cerro",
+                "place": "Vista, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-del-cerro-ca/"
+            },
+            {
+                "id": 10095,
+                "name": "Newport Academy – Flores",
+                "home_name": "Flores",
+                "place": "Bonsall, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-flores-ca/"
+            },
+            {
+                "id": 10096,
+                "name": "Newport Academy – French Creek",
+                "home_name": "French Creek",
+                "place": "Shingle Springs, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-french-creek-ca/"
+            },
+            {
+                "id": 10097,
+                "name": "Newport Academy – Golden",
+                "home_name": "Golden",
+                "place": "Shingle Springs, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-golden-ca/"
+            },
+            {
+                "id": 9761,
+                "name": "Newport Academy – Happy Valley",
+                "home_name": "Happy Valley",
+                "place": "Pleasanton, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-happy-valley-ca/"
+            },
+            {
+                "id": 9762,
+                "name": "Newport Academy – Highcliff",
+                "home_name": "Highcliff",
+                "place": "North Tustin, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-highcliff-ca/"
+            },
+            {
+                "id": 9763,
+                "name": "Newport Academy – Hill",
+                "home_name": "Hill",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-hill-ca/"
+            },
+            {
+                "id": 9764,
+                "name": "Newport Academy – Hillside",
+                "home_name": "Hillside",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-hillside-ca/"
+            },
+            {
+                "id": 9765,
+                "name": "Newport Academy – Maoli",
+                "home_name": "Maoli",
+                "place": "San Rafael, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-maoli-ca/"
+            },
+            {
+                "id": 9766,
+                "name": "Newport Academy – Morada",
+                "home_name": "Morada",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-morada-ca/"
+            },
+            {
+                "id": 10098,
+                "name": "Newport Academy – Nicasio",
+                "home_name": "Nicasio",
+                "place": "San Geronimo, California",
+                "status": "Open",
+                "years": "",
+                "url": ""
+            },
+            {
+                "id": 10099,
+                "name": "Newport Academy – Oasis",
+                "home_name": "Oasis",
+                "place": "Pleasanton, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-oasis-ca/"
+            },
+            {
+                "id": 10100,
+                "name": "Newport Academy – Palm Hills",
+                "home_name": "Palm Hills",
+                "place": "Anaheim, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-palm-hills-ca/"
+            },
+            {
+                "id": 9767,
+                "name": "Newport Academy – Paloma",
+                "home_name": "Paloma",
+                "place": "Castro Valley, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-paloma-ca/"
+            },
+            {
+                "id": 9768,
+                "name": "Newport Academy – Ranch",
+                "home_name": "Ranch",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-ranch-ca/"
+            },
+            {
+                "id": 9769,
+                "name": "Newport Academy – Redwood",
+                "home_name": "Redwood",
+                "place": "San Geronimo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-redwood-ca/"
+            },
+            {
+                "id": 9770,
+                "name": "Newport Academy – Ridgeview",
+                "home_name": "Ridgeview",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-ridgeview-ca/"
+            },
+            {
+                "id": 9771,
+                "name": "Newport Academy – Rodeo",
+                "home_name": "Rodeo",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-rodeo-ca/"
+            },
+            {
+                "id": 9772,
+                "name": "Newport Academy – Rogers",
+                "home_name": "Rogers",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-rogers-ca/"
+            },
+            {
+                "id": 9773,
+                "name": "Newport Academy – Rush Creek",
+                "home_name": "Rush Creek",
+                "place": "Novato, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-rush-creek-ca/"
+            },
+            {
+                "id": 9774,
+                "name": "Newport Academy – Sundance",
+                "home_name": "Sundance",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-sundance-ca/"
+            },
+            {
+                "id": 9775,
+                "name": "Newport Academy – Tanglewood",
+                "home_name": "Tanglewood",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-tanglewood-ca/"
+            },
+            {
+                "id": 10101,
+                "name": "Newport Academy – Valley Vista",
+                "home_name": "Valley Vista",
+                "place": "Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-valley-vista-ca/"
+            },
+            {
+                "id": 10102,
+                "name": "Newport Academy – Willow Hill",
+                "home_name": "Willow Hill",
+                "place": "Danville, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-willow-hill-ca/"
+            }
+        ]
+    },
+    "addresses": [
+        "20371 Acre Place, Orange, CA 92869"
+    ],
+    "former_locations": [],
+    "operated": "",
+    "summary": "Newport Academy – Acre is a program in Orange, California, operated by Newport Healthcare.",
+    "facts": [
+        {
+            "label": "Operator",
+            "value": "Newport Healthcare"
+        }
+    ],
+    "fact_sources": [],
+    "practices": [],
+    "incidents": [],
+    "staff": [],
+    "notes": [],
+    "field_notes": [],
+    "testimony": [],
+    "forum": [],
+    "videos": [],
+    "profile_links": [],
+    "resources": [],
+    "resource_links": [],
+    "lawsuits": [],
+    "memorials": [],
+    "eras": null,
+    "wiki": [],
+    "updated_at": "2026-09-18 18:35:13",
+    "updated_label": "September 18, 2026",
+    "news_url": "https://example.test/news/",
+    "lawsuits_url": "https://example.test/lawsuits/",
+    "memorial_url": "https://example.test/memorial/",
+    "wiki_url": "https://example.test/wiki-feed/?search=Newport%20Academy%20%E2%80%93%20Acre",
+    "submit_url": "https://example.test/tti-data-submission/?find=Newport%20Academy%20%E2%80%93%20Acre",
+    "news": [],
+    "inspections": null,
+    "documents": {
+        "folder_id": 0,
+        "url": ""
+    }
+}

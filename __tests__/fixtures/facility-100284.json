@@ -1,0 +1,902 @@
+{
+    "api_version": 1,
+    "id": 100284,
+    "slug": "newport-academy-ca",
+    "url": "https://example.test/facility/newport-academy-ca/",
+    "name": "Newport Academy",
+    "unique_name": "Newport Academy",
+    "current_name": "",
+    "formerly": [],
+    "aka": [],
+    "status": "Open",
+    "end_year": "",
+    "place": "California",
+    "city": "",
+    "state_code": "CA",
+    "state_name": "California",
+    "country": "United States",
+    "hub_name": "California",
+    "hub_url": "",
+    "operator": {
+        "name": "Newport Healthcare",
+        "url": "https://example.test/operator/newport-healthcare/"
+    },
+    "siblings": [
+        {
+            "name": "Newport Academy",
+            "place": "Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-va/"
+        },
+        {
+            "name": "Newport Academy",
+            "place": "Washington",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-wa/"
+        },
+        {
+            "name": "Newport Academy",
+            "place": "Bethlehem, Connecticut",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-ct/"
+        },
+        {
+            "name": "Newport Academy - Kentland",
+            "place": "Great Falls, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-kentland-va/"
+        },
+        {
+            "name": "Newport Academy Child and Pre-Teen RTP",
+            "place": "California",
+            "status": "Unknown",
+            "url": "https://example.test/facility/newport-academy-child-and-pre-teen-rtp-ca/"
+        },
+        {
+            "name": "Newport Academy – Charlotte",
+            "place": "Charlotte, North Carolina",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-charlotte-nc/"
+        },
+        {
+            "name": "Newport Academy – Double Hill",
+            "place": "Bethlehem, Connecticut",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-double-hill-ct/"
+        },
+        {
+            "name": "Newport Academy – Gratitude",
+            "place": "Great Falls, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-gratitude-va/"
+        },
+        {
+            "name": "Newport Academy – Kurtz",
+            "place": "McLean, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-kurtz-va/"
+        },
+        {
+            "name": "Newport Academy – Oakley",
+            "place": "Oakley, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-oakley-ut/"
+        },
+        {
+            "name": "Newport Academy – Port Townsend",
+            "place": "Port Townsend, Washington",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-port-townsend-wa/"
+        },
+        {
+            "name": "Newport Academy – Seattle",
+            "place": "Kirkland, Washington",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-seattle-wa/"
+        },
+        {
+            "name": "Newport Academy – St. Cloud",
+            "place": "St Cloud, Minnesota",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-st-cloud-mn/"
+        },
+        {
+            "name": "Newport Academy – Todd Hill",
+            "place": "Bethlehem, Connecticut",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-academy-todd-hill-ct/"
+        },
+        {
+            "name": "Newport Institute – Miramar",
+            "place": "Santa Ana, California",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-institute-miramar-ca/"
+        },
+        {
+            "name": "PrairieCare Residential Services",
+            "place": "Maple Grove, Minnesota",
+            "status": "Open",
+            "url": "https://example.test/facility/prairiecare-residential-services-mn/"
+        }
+    ],
+    "program_homes": {
+        "homes": [
+            {
+                "id": 9758,
+                "name": "Newport Academy – Acre",
+                "home_name": "Acre",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-acre-ca/"
+            },
+            {
+                "id": 10087,
+                "name": "Newport Academy – Alberca",
+                "home_name": "Alberca",
+                "place": ". Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-alberca-ca/"
+            },
+            {
+                "id": 10088,
+                "name": "Newport Academy – Applewood",
+                "home_name": "Applewood",
+                "place": "Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-applewood-ca/"
+            },
+            {
+                "id": 9759,
+                "name": "Newport Academy – Aracena",
+                "home_name": "Aracena",
+                "place": "Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-aracena-ca/"
+            },
+            {
+                "id": 10089,
+                "name": "Newport Academy – Arena",
+                "home_name": "Arena",
+                "place": "Pleasanton, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-arena-ca/"
+            },
+            {
+                "id": 10090,
+                "name": "Newport Academy – Autumn",
+                "home_name": "Autumn",
+                "place": "Shingle Springs, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-autumn-ca/"
+            },
+            {
+                "id": 9760,
+                "name": "Newport Academy – Avocado",
+                "home_name": "Avocado",
+                "place": "Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-avocado-ca/"
+            },
+            {
+                "id": 10091,
+                "name": "Newport Academy – Chandler",
+                "home_name": "Chandler",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-chandler-ca/"
+            },
+            {
+                "id": 10092,
+                "name": "Newport Academy – Chariot",
+                "home_name": "Chariot",
+                "place": "Bonsall, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-chariot-ca/"
+            },
+            {
+                "id": 10093,
+                "name": "Newport Academy – Crestview",
+                "home_name": "Crestview",
+                "place": "Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-crestview-ca/"
+            },
+            {
+                "id": 10094,
+                "name": "Newport Academy – Del Cerro",
+                "home_name": "Del Cerro",
+                "place": "Vista, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-del-cerro-ca/"
+            },
+            {
+                "id": 10095,
+                "name": "Newport Academy – Flores",
+                "home_name": "Flores",
+                "place": "Bonsall, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-flores-ca/"
+            },
+            {
+                "id": 10096,
+                "name": "Newport Academy – French Creek",
+                "home_name": "French Creek",
+                "place": "Shingle Springs, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-french-creek-ca/"
+            },
+            {
+                "id": 10097,
+                "name": "Newport Academy – Golden",
+                "home_name": "Golden",
+                "place": "Shingle Springs, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-golden-ca/"
+            },
+            {
+                "id": 9761,
+                "name": "Newport Academy – Happy Valley",
+                "home_name": "Happy Valley",
+                "place": "Pleasanton, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-happy-valley-ca/"
+            },
+            {
+                "id": 9762,
+                "name": "Newport Academy – Highcliff",
+                "home_name": "Highcliff",
+                "place": "North Tustin, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-highcliff-ca/"
+            },
+            {
+                "id": 9763,
+                "name": "Newport Academy – Hill",
+                "home_name": "Hill",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-hill-ca/"
+            },
+            {
+                "id": 9764,
+                "name": "Newport Academy – Hillside",
+                "home_name": "Hillside",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-hillside-ca/"
+            },
+            {
+                "id": 9765,
+                "name": "Newport Academy – Maoli",
+                "home_name": "Maoli",
+                "place": "San Rafael, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-maoli-ca/"
+            },
+            {
+                "id": 9766,
+                "name": "Newport Academy – Morada",
+                "home_name": "Morada",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-morada-ca/"
+            },
+            {
+                "id": 10098,
+                "name": "Newport Academy – Nicasio",
+                "home_name": "Nicasio",
+                "place": "San Geronimo, California",
+                "status": "Open",
+                "years": "",
+                "url": ""
+            },
+            {
+                "id": 10099,
+                "name": "Newport Academy – Oasis",
+                "home_name": "Oasis",
+                "place": "Pleasanton, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-oasis-ca/"
+            },
+            {
+                "id": 10100,
+                "name": "Newport Academy – Palm Hills",
+                "home_name": "Palm Hills",
+                "place": "Anaheim, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-palm-hills-ca/"
+            },
+            {
+                "id": 9767,
+                "name": "Newport Academy – Paloma",
+                "home_name": "Paloma",
+                "place": "Castro Valley, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-paloma-ca/"
+            },
+            {
+                "id": 9768,
+                "name": "Newport Academy – Ranch",
+                "home_name": "Ranch",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-ranch-ca/"
+            },
+            {
+                "id": 9769,
+                "name": "Newport Academy – Redwood",
+                "home_name": "Redwood",
+                "place": "San Geronimo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-redwood-ca/"
+            },
+            {
+                "id": 9770,
+                "name": "Newport Academy – Ridgeview",
+                "home_name": "Ridgeview",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-ridgeview-ca/"
+            },
+            {
+                "id": 9771,
+                "name": "Newport Academy – Rodeo",
+                "home_name": "Rodeo",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-rodeo-ca/"
+            },
+            {
+                "id": 9772,
+                "name": "Newport Academy – Rogers",
+                "home_name": "Rogers",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-rogers-ca/"
+            },
+            {
+                "id": 9773,
+                "name": "Newport Academy – Rush Creek",
+                "home_name": "Rush Creek",
+                "place": "Novato, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-rush-creek-ca/"
+            },
+            {
+                "id": 9774,
+                "name": "Newport Academy – Sundance",
+                "home_name": "Sundance",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-sundance-ca/"
+            },
+            {
+                "id": 9775,
+                "name": "Newport Academy – Tanglewood",
+                "home_name": "Tanglewood",
+                "place": "Orange, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-tanglewood-ca/"
+            },
+            {
+                "id": 10101,
+                "name": "Newport Academy – Valley Vista",
+                "home_name": "Valley Vista",
+                "place": "Camarillo, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-valley-vista-ca/"
+            },
+            {
+                "id": 10102,
+                "name": "Newport Academy – Willow Hill",
+                "home_name": "Willow Hill",
+                "place": "Danville, California",
+                "status": "Open",
+                "years": "",
+                "url": "https://example.test/facility/newport-academy-willow-hill-ca/"
+            }
+        ],
+        "news": [],
+        "lawsuits": [],
+        "violations": [],
+        "reports": 513
+    },
+    "home_of": null,
+    "addresses": [
+        "CA"
+    ],
+    "former_locations": [],
+    "operated": "",
+    "summary": "Newport Academy is a program in California, operated by Newport Healthcare.",
+    "facts": [
+        {
+            "label": "Operator",
+            "value": "Newport Healthcare"
+        }
+    ],
+    "fact_sources": [],
+    "practices": [],
+    "incidents": [],
+    "staff": [],
+    "notes": [],
+    "field_notes": [],
+    "testimony": [],
+    "forum": [],
+    "videos": [],
+    "profile_links": [],
+    "resources": [],
+    "resource_links": [],
+    "lawsuits": [],
+    "memorials": [],
+    "eras": null,
+    "wiki": [],
+    "updated_at": "2026-10-02 23:18:07",
+    "updated_label": "October 2, 2026",
+    "news_url": "https://example.test/news/",
+    "lawsuits_url": "https://example.test/lawsuits/",
+    "memorial_url": "https://example.test/memorial/",
+    "wiki_url": "https://example.test/wiki-feed/?search=Newport%20Academy",
+    "submit_url": "https://example.test/tti-data-submission/?find=Newport%20Academy",
+    "news": [],
+    "inspections": {
+        "summary": {
+            "licensed_names": [
+                "NEWPORT ACADEMY",
+                "NEWPORT ACADEMY (PALOMA)",
+                "NEWPORT ACADEMY - APPLEWOOD",
+                "NEWPORT ACADEMY - CHANDLER",
+                "NEWPORT ACADEMY - CHARIOT",
+                "NEWPORT ACADEMY - CRESTVIEW",
+                "NEWPORT ACADEMY - DEL CERRO",
+                "NEWPORT ACADEMY - FLORES",
+                "NEWPORT ACADEMY - GOLDEN",
+                "NEWPORT ACADEMY - HAPPY VALLEY",
+                "NEWPORT ACADEMY - HIGHCLIFF",
+                "NEWPORT ACADEMY - MORADA",
+                "NEWPORT ACADEMY - PALM HILLS",
+                "NEWPORT ACADEMY - RUSH CREEK",
+                "NEWPORT ACADEMY - SUNDANCE",
+                "NEWPORT ACADEMY - VALLEY VISTA",
+                "NEWPORT ACADEMY- ARENA",
+                "NEWPORT ACADEMY-ALBERCA",
+                "NEWPORT ACADEMY-ARACENA",
+                "NEWPORT ACADEMY-AUTUMN",
+                "NEWPORT ACADEMY-AVOCADO",
+                "NEWPORT ACADEMY-FRENCH CREEK",
+                "NEWPORT ACADEMY-MAOLI",
+                "NEWPORT ACADEMY-OASIS",
+                "NEWPORT ACADEMY-REDWOOD",
+                "NEWPORT ACADEMY-RIDGEVIEW",
+                "NEWPORT ACADEMY-ROGERS",
+                "NEWPORT ACADEMY-TANGLEWOOD",
+                "NEWPORT ACADEMY-WILLOW HILL"
+            ],
+            "addresses": [],
+            "phone": "",
+            "program_category": "Group Home",
+            "licensed_program_name": "",
+            "executive_director": "ELLEN ASQUITH",
+            "bed_capacity": "6",
+            "license_expiration": "",
+            "relicense_visit_date": "",
+            "licensing_action": "",
+            "states": [
+                "California"
+            ]
+        },
+        "total": 620,
+        "reports": [
+            {
+                "id": 80233,
+                "ts": 1789430400,
+                "date": "09/15/2026",
+                "date_label": "Sep 15, 2026",
+                "url": "",
+                "summary": "Complaint Investigation - Unsubstantiated - 1 allegation",
+                "report_id": "306090009-8",
+                "licensed_as": "NEWPORT ACADEMY-TANGLEWOOD",
+                "findings": []
+            },
+            {
+                "id": 80231,
+                "ts": 1787702400,
+                "date": "08/26/2026",
+                "date_label": "Aug 26, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "306004818-6",
+                "licensed_as": "NEWPORT ACADEMY",
+                "findings": [
+                    {
+                        "text": "On August 26 2026, at 11: AM, Licensing Program Analyst (LPA) Jacqueline Garcia arrived unannounced at the facility to conduct an Random Annual inspection of the facility. The facility was inspected inside and out with Administrator, Madison Holstein. The facility is license for six ambulatory clients ages 7- OR 12-17 years of age. There are currently no clients in care. Bedrooms are arranged so that no more than two clients share a room, and there is one client per bed. There is adequate shelf and closet space for client's belongings. The bathrooms were clean and in good repair. The hot water in the kitchen sink was measured at 105 degrees, which is within regulatory requirements. All hazardous items have been properly made inaccessible and locked. The medications were stored and locked in a cabinet in the medication room in the hallway. Cleansers/chemicals are locked and stored in a cabinet in the garage, and also in a locked cabinet in the kitchen. Sharp knives are inaccessible and stored in a locked drawer in the kitchen. The First Aid Kit is located in the medication room and contained all required supplies. The facility's smoke/carbon monoxide detectors in the hallways were checked and were operable. There are no guns or weapons in the facility as stated by Madison Holstein. The following required posted items were observed accessible to clients: Facility License, Grievance Procedures, Personal Rights, Visitation policies, Emergency Disaster Plan and current menu. The ...",
+                        "standard": "",
+                        "label": "Deficiency cited at inspection"
+                    }
+                ]
+            },
+            {
+                "id": 80235,
+                "ts": 1787616000,
+                "date": "08/25/2026",
+                "date_label": "Aug 25, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "374690048-9",
+                "licensed_as": "NEWPORT ACADEMY - DEL CERRO",
+                "findings": []
+            },
+            {
+                "id": 80234,
+                "ts": 1787616000,
+                "date": "08/25/2026",
+                "date_label": "Aug 25, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "374690048-8",
+                "licensed_as": "NEWPORT ACADEMY - DEL CERRO",
+                "findings": []
+            },
+            {
+                "id": 80232,
+                "ts": 1787616000,
+                "date": "08/25/2026",
+                "date_label": "Aug 25, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "306090014-5",
+                "licensed_as": "NEWPORT ACADEMY-ROGERS",
+                "findings": []
+            },
+            {
+                "id": 78064,
+                "ts": 1785196800,
+                "date": "07/28/2026",
+                "date_label": "Jul 28, 2026",
+                "url": "",
+                "summary": "Complaint Investigation - Unsubstantiated - 1 allegation",
+                "report_id": "306004843-13",
+                "licensed_as": "NEWPORT ACADEMY",
+                "findings": []
+            },
+            {
+                "id": 75814,
+                "ts": 1784160000,
+                "date": "07/16/2026",
+                "date_label": "Jul 16, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "565802326-3",
+                "licensed_as": "NEWPORT ACADEMY - APPLEWOOD",
+                "findings": []
+            },
+            {
+                "id": 75821,
+                "ts": 1783987200,
+                "date": "07/14/2026",
+                "date_label": "Jul 14, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "216890064-10",
+                "licensed_as": "NEWPORT ACADEMY - RUSH CREEK",
+                "findings": []
+            },
+            {
+                "id": 75811,
+                "ts": 1783555200,
+                "date": "07/09/2026",
+                "date_label": "Jul 9, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "306004843-12",
+                "licensed_as": "NEWPORT ACADEMY",
+                "findings": [
+                    {
+                        "text": "On July 9, 2026, at 2: PM, Licensing Program Analyst (LPA) Jacqueline Garcia conducted an unannounced Case Management inspection at the facility and met with Amanda Seymour, Executive Director, regarding Incident Report received on 7/3/26 involving an incident with C1 and C2. On 7/3/26, LPA received an incident report from the facility regarding an incident that occurred on 6/30/26 involving C1 and C2. The Department received notification until 7/3/26 and the facility did not notify the department within the required time frame. After review of serious incident report, the facility is being cited under Title 22, Division 6, Chapter 5, Article Continuing Requirements, section 84061(i)(1), Reporting Requirements . An exit interview was conducted, a copy of this report along with appeal rights, and LIC 811 was reviewed and provided to Amanda Seymour.",
+                        "standard": "",
+                        "label": "Deficiency cited at inspection"
+                    }
+                ]
+            },
+            {
+                "id": 75810,
+                "ts": 1782950400,
+                "date": "07/02/2026",
+                "date_label": "Jul 2, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "306004843-11",
+                "licensed_as": "NEWPORT ACADEMY",
+                "findings": [
+                    {
+                        "text": "On July 2, 2026, at 2: PM, Licensing Program Analyst (LPA) Jacqueline Garcia conducted an unannounced Case Management inspection at the facility and met with Amanda Seymour, Executive Director, regarding Incident Report received involving concerns with facility medication errors for client in care. On 6/23/26, LPA received an incident report from the facility regarding medication error that occurred with C1 and S1 on 6/21/26. Documents reviewed indicated that on 6/21/26, S1 administered the wrong medication to C1 during AM medication passing. The facility was previously cited on 6/4/26 under Title 22, Division 6, Chapter 1, Article Continuing Requirement, section 80075 (b)(5)(B), Health Related Services for the medication error. After further review, based on additional information from incident 6/21/26, documents reviewed, the facility is being cited on repeated violation under Title 22, Division 6, Chapter 1, Article Continuing Requirement, section 80075 (b)(5)(B), Health Related Services for medication error and is being assessed civil penalty at today's visit. An exit interview was conducted, a copy of this report along with appeal rights, and LIC 811 was reviewed and provided to Amanda Seymour.",
+                        "standard": "",
+                        "label": "Deficiency cited at inspection"
+                    }
+                ]
+            },
+            {
+                "id": 75808,
+                "ts": 1782950400,
+                "date": "07/02/2026",
+                "date_label": "Jul 2, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "306004815-8",
+                "licensed_as": "NEWPORT ACADEMY",
+                "findings": []
+            },
+            {
+                "id": 75815,
+                "ts": 1782691200,
+                "date": "06/29/2026",
+                "date_label": "Jun 29, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "374690053-6",
+                "licensed_as": "NEWPORT ACADEMY - CHARIOT",
+                "findings": []
+            },
+            {
+                "id": 75809,
+                "ts": 1780531200,
+                "date": "06/04/2026",
+                "date_label": "Jun 4, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "306004843-10",
+                "licensed_as": "NEWPORT ACADEMY",
+                "findings": [
+                    {
+                        "text": "On June 4, 2026, at 09:30AM, Licensing Program Analyst (LPA) Jacqueline Garcia conducted an unannounced Case Management inspection at the facility and met with Amanda Seymour, Executive Director, regarding concerns with facility medication errors for client in care. LPA conducted an inspection of the facility inside and out with Amanda Seymour. On 5/18/26, LPA received an incident report from the facility regarding medication error that occurred with C1 on 5/10/26. Documents reviewed indicated that on 5/10/26, S1 administered the wrong medication to C1 during PM medication passing. After further review the facility is being cited under Title 22, Division 6, Chapter 1, Article Continuing Requirement, section 80075 (b)(5)(B), Health Related Services. An exit interview was conducted, a copy of this report along with appeal rights was reviewed and provided to Amanda Seymour.",
+                        "standard": "",
+                        "label": "Deficiency cited at inspection"
+                    }
+                ]
+            },
+            {
+                "id": 75817,
+                "ts": 1779840000,
+                "date": "05/27/2026",
+                "date_label": "May 27, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "097006140-21",
+                "licensed_as": "NEWPORT ACADEMY - GOLDEN",
+                "findings": []
+            },
+            {
+                "id": 75816,
+                "ts": 1779408000,
+                "date": "05/22/2026",
+                "date_label": "May 22, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "097006140-20",
+                "licensed_as": "NEWPORT ACADEMY - GOLDEN",
+                "findings": []
+            },
+            {
+                "id": 75818,
+                "ts": 1779148800,
+                "date": "05/19/2026",
+                "date_label": "May 19, 2026",
+                "url": "",
+                "summary": "Complaint Investigation - Unsubstantiated - 1 allegation",
+                "report_id": "015650119-39",
+                "licensed_as": "NEWPORT ACADEMY - HAPPY VALLEY",
+                "findings": [
+                    {
+                        "text": "LPA found that in January-February 2026 clients continually found contraband near the facility, and though some measures such as increased body/room searches were put in place, preventative measures were not implemented despite management being made aware of the issue of contraband being left near the premises -- leading to clients continuing to obtain contraband. LPA issued one Type A deficiency under CCR 84072(d)(1) Personal Rights.See attached LIC9099-D. The preponderance of evidence standard has been met, and therefore the above allegations are found to be substantiated. An exit interview was conducted, appeal rights were discussed, and a copy of this report was emailed to Crystal Butler, Compliance Manager. This document is sent for digital signature. An exit interview was conducted and a copy of this report was emailed to Crystal Butler, Compliance Manager. This document is sent for digital signature.",
+                        "standard": "84072(d)(1)",
+                        "label": "Substantiated"
+                    }
+                ]
+            },
+            {
+                "id": 57798,
+                "ts": 1778457600,
+                "date": "05/11/2026",
+                "date_label": "May 11, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "306090011-6",
+                "licensed_as": "NEWPORT ACADEMY-RIDGEVIEW",
+                "findings": [
+                    {
+                        "text": "On May 11, 2026, at 8: AM, Licensing Program Analyst (LPA), Jacqueline Garcia arrived unannounced to the facility and met with Madison Holstein, Behavioral Health Specialist, regarding a case management inspection at the facility. The purpose of the inspection is to obtain additional information regarding incident that occurred at the facility on 05/06/26. Community Care Licensing received a Serious Incident report informing the department information regarding incident involving client listed on the confidential names list (LIC 811) dated 05/11/2026. LPA conducted a safety check of the facility, and no deficiencies were observed. LPA conducted staff and client interviews. Additionally, LPA conducted a records review to further assist with the case management. This case management is being extended to further investigate. LPA will return to the facility to provide the outcome of this case management at a later time. LPA discussed this report and provided a copy of this report along with LIC 811 to Madison Holstein-Behavioral Health Specialist.",
+                        "standard": "",
+                        "label": "Deficiency cited at inspection"
+                    }
+                ]
+            },
+            {
+                "id": 57846,
+                "ts": 1776729600,
+                "date": "04/21/2026",
+                "date_label": "Apr 21, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "374690048-7-529a2bbdc6",
+                "licensed_as": "NEWPORT ACADEMY - DEL CERRO",
+                "findings": []
+            },
+            {
+                "id": 26261,
+                "ts": 1776729600,
+                "date": "04/21/2026",
+                "date_label": "Apr 21, 2026",
+                "url": "",
+                "summary": "Facility Evaluation",
+                "report_id": "374690048-7",
+                "licensed_as": "NEWPORT ACADEMY - DEL CERRO",
+                "findings": []
+            },
+            {
+                "id": 26323,
+                "ts": 1775433600,
+                "date": "04/06/2026",
+                "date_label": "Apr 6, 2026",
+                "url": "",
+                "summary": "Complaint Investigation - Unsubstantiated - 1 allegation",
+                "report_id": "015650119-38",
+                "licensed_as": "NEWPORT ACADEMY - HAPPY VALLEY",
+                "findings": []
+            }
+        ],
+        "more": 5,
+        "violations": [
+            {
+                "id": 618,
+                "state": "CA",
+                "category": "sexual_abuse",
+                "label": "Sexual abuse",
+                "kinds": [
+                    "Sexual abuse",
+                    "Police involvement"
+                ],
+                "weight": 90,
+                "severe": true,
+                "date": "2023-12-07",
+                "date_label": "Dec 7, 2023",
+                "excerpt": "Based on confidential interviews and record reviews, the allegation of sexual abuse had maintained consistent through multiple interviews. [...] The allegations were also investigated by the Alameda County Sheriff's Office. [...] Based on the confidential interviews and record review, the allegation that staff sexually abused a youth in care has met the preponderance of doubt and is therefore substantiated.",
+                "plain": "",
+                "short": "Based on confidential interviews and record reviews, the allegation of sexual abuse had maintained consistent through multiple interviews. [...] The allegations were also investigated by the Alameda County Sheriff's Office. [...] Based on the confidential interviews and record review, the allegation that staff sexually abused a youth in care has met the [...]",
+                "state_label": "Substantiated",
+                "source_url": "https://www.ccld.dss.ca.gov/carefacilitysearch/FacDetail/015650119",
+                "full_url": "https://example.test/severe-reports/#finding-618"
+            },
+            {
+                "id": 621,
+                "state": "CA",
+                "category": "sexual_abuse",
+                "label": "Sexual abuse",
+                "kinds": [
+                    "Sexual abuse"
+                ],
+                "weight": 90,
+                "severe": true,
+                "date": "2023-03-28",
+                "date_label": "Mar 28, 2023",
+                "excerpt": "On 04/04/2022, the San Jose Children's Residential Program Regional Office received a complaint for Newport Academy Paloma with three allegations: (1) Staff do not provide a safe and healthful environment for residents in care; (2) Inappropriate touching by one residents toward residents; and (3) Inappropriate sexual language used by one resident toward residents.",
+                "plain": "",
+                "short": "On 04/04/2022, the San Jose Children's Residential Program Regional Office received a complaint for Newport Academy Paloma with three allegations: (1) Staff do not provide a safe and healthful environment for residents in care; (2) Inappropriate touching by one residents toward residents; and (3) Inappropriate sexual language used by one resident toward [...]",
+                "state_label": "Substantiated",
+                "source_url": "https://www.ccld.dss.ca.gov/carefacilitysearch/FacDetail/015650118",
+                "full_url": "https://example.test/severe-reports/#finding-621"
+            },
+            {
+                "id": 610,
+                "state": "CA",
+                "category": "sexual_abuse",
+                "label": "Sexual abuse",
+                "kinds": [
+                    "Sexual abuse"
+                ],
+                "weight": 90,
+                "severe": true,
+                "date": "2022-09-27",
+                "date_label": "Sep 27, 2022",
+                "excerpt": "During investigation, confidential interviews, police reports, and physical evidence were obtained, it was determined that a staff sexually abused client in care. Therefore, the preponderance of evidence standard has been met, therefore the above allegation, Staff sexually abused client in care is found to be SUBSTANTIATED.",
+                "plain": "",
+                "short": "During investigation, confidential interviews, police reports, and physical evidence were obtained, it was determined that a staff sexually abused client in care. Therefore, the preponderance of evidence standard has been met, therefore the above allegation, Staff sexually abused client in care is found to be SUBSTANTIATED.",
+                "state_label": "Substantiated",
+                "source_url": "https://www.ccld.dss.ca.gov/carefacilitysearch/FacDetail/015650125",
+                "full_url": "https://example.test/severe-reports/#finding-610"
+            },
+            {
+                "id": 1040,
+                "state": "CA",
+                "category": "medical_neglect",
+                "label": "Medical neglect",
+                "kinds": [
+                    "Medical neglect"
+                ],
+                "weight": 60,
+                "severe": false,
+                "date": "2026-07-02",
+                "date_label": "Jul 2, 2026",
+                "excerpt": "On July 2, 2026, at 2: PM, Licensing Program Analyst (LPA) Jacqueline Garcia conducted an unannounced Case Management inspection at the facility and met with Amanda Seymour, Executive Director, regarding Incident Report received involving concerns with facility medication errors for client in care. On 6/23/26, LPA received an incident report from the facility regarding medication error that occurred with C1 and S1 on 6/21/26. Documents reviewed indicated that on 6/21/26, S1 administered the wrong medication to C1 during AM medication passing. The facility was previously cited on 6/4/26 under Title 22, Division 6, Chapter 1, Article Continuing Requirement, section 80075 (b)(5)(B), Health Related Services for the medication error.",
+                "plain": "",
+                "short": "On July 2, 2026, at 2: PM, Licensing Program Analyst (LPA) Jacqueline Garcia conducted an unannounced Case Management inspection at the facility and met with Amanda Seymour, Executive Director, regarding Incident Report received involving concerns with facility medication errors for client in care. On 6/23/26, LPA received an incident report from the [...]",
+                "state_label": "Deficiency cited at inspection",
+                "source_url": "https://www.ccld.dss.ca.gov/carefacilitysearch/FacDetail/306004843",
+                "full_url": "https://example.test/severe-reports/#finding-1040"
+            },
+            {
+                "id": 1039,
+                "state": "CA",
+                "category": "medical_neglect",
+                "label": "Medical neglect",
+                "kinds": [
+                    "Medical neglect"
+                ],
+                "weight": 60,
+                "severe": false,
+                "date": "2026-06-04",
+                "date_label": "Jun 4, 2026",
+                "excerpt": "On June 4, 2026, at 09:30AM, Licensing Program Analyst (LPA) Jacqueline Garcia conducted an unannounced Case Management inspection at the facility and met with Amanda Seymour, Executive Director, regarding concerns with facility medication errors for client in care. [...] On 5/18/26, LPA received an incident report from the facility regarding medication error that occurred with C1 on 5/10/26. Documents reviewed indicated that on 5/10/26, S1 administered the wrong medication to C1 during PM medication passing.",
+                "plain": "",
+                "short": "On June 4, 2026, at 09:30AM, Licensing Program Analyst (LPA) Jacqueline Garcia conducted an unannounced Case Management inspection at the facility and met with Amanda Seymour, Executive Director, regarding concerns with facility medication errors for client in care. [...] On 5/18/26, LPA received an incident report from the facility regarding medication [...]",
+                "state_label": "Deficiency cited at inspection",
+                "source_url": "https://www.ccld.dss.ca.gov/carefacilitysearch/FacDetail/306004843",
+                "full_url": "https://example.test/severe-reports/#finding-1039"
+            },
+            {
+                "id": 617,
+                "state": "CA",
+                "category": "medical_neglect",
+                "label": "Medical neglect",
+                "kinds": [
+                    "Medical neglect"
+                ],
+                "weight": 60,
+                "severe": false,
+                "date": "2025-05-08",
+                "date_label": "May 8, 2025",
+                "excerpt": "The incident involved medication errors involving staff (S1& S2) and clients (C1 & C2).",
+                "plain": "",
+                "short": "The incident involved medication errors involving staff (S1& S2) and clients (C1 & C2).",
+                "state_label": "Deficiency cited at inspection",
+                "source_url": "https://www.ccld.dss.ca.gov/carefacilitysearch/FacDetail/306090014",
+                "full_url": "https://example.test/severe-reports/#finding-617"
+            }
+        ],
+        "page_url": "https://example.test/ca-reports/"
+    },
+    "documents": {
+        "folder_id": 3917,
+        "url": "https://example.test/facility/newport-academy-ca/#documents"
+    }
+}

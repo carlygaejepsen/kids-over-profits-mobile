@@ -2,12 +2,12 @@ import { keepPreviousData, useInfiniteQuery, useQuery } from '@tanstack/react-qu
 
 import { fetchJson } from './client';
 import type {
-  FacilitiesIndex,
   FacilityPayload,
   GlobalSearchResponse,
   NewsFeed,
   NewsQuery,
   OperatorPayload,
+  OperatorsList,
   StatePage,
   SuggestResponse,
 } from './types';
@@ -88,11 +88,11 @@ export function useStatePage(slug: string | undefined, kind: 'state' | 'country'
   });
 }
 
-/** Every company and place with its facilities, cut down for lists (about a tenth of the full feed). */
-export function useFacilitiesIndex() {
+/** Every company page, one line each (12 KB; the facility index it replaced was 2.4 MB). */
+export function useOperators() {
   return useQuery({
-    queryKey: ['facilities-index'],
-    queryFn: ({ signal }) => fetchJson<FacilitiesIndex>('facilities', { view: 'index' }, signal),
+    queryKey: ['operators'],
+    queryFn: ({ signal }) => fetchJson<OperatorsList>('operators', undefined, signal),
     staleTime: HOUR,
   });
 }

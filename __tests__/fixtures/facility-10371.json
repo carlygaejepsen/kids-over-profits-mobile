@@ -1,0 +1,3200 @@
+{
+    "api_version": 1,
+    "id": 10371,
+    "slug": "provo-canyon-school-ut",
+    "url": "https://example.test/facility/provo-canyon-school-ut/",
+    "name": "Provo Canyon School",
+    "unique_name": "Provo Canyon School",
+    "current_name": "",
+    "formerly": [],
+    "aka": [
+        "PCS",
+        "UHS of Provo Canyon dba Provo Campus"
+    ],
+    "status": "Closed",
+    "end_year": "2026",
+    "place": "Provo, Utah",
+    "city": "Provo",
+    "state_code": "UT",
+    "state_name": "Utah",
+    "country": "United States",
+    "hub_name": "Utah",
+    "hub_url": "",
+    "operator": {
+        "name": "Universal Health Services (UHS)",
+        "url": "https://example.test/operator/universal-health-services/"
+    },
+    "siblings": [
+        {
+            "name": "Alabama Clinical Schools",
+            "place": "Birmingham, Alabama",
+            "status": "Open",
+            "url": "https://example.test/facility/alabama-clinical-schools-al/"
+        },
+        {
+            "name": "Ascent Wilderness Program",
+            "place": "Naples, Idaho",
+            "status": "Closed",
+            "url": "https://example.test/facility/ascent-wilderness-program-id/"
+        },
+        {
+            "name": "Boulder Creek Academy",
+            "place": "Bonners Ferry, Idaho",
+            "status": "Closed",
+            "url": "https://example.test/facility/boulder-creek-academy-id/"
+        },
+        {
+            "name": "Bristol Youth Academy",
+            "place": "Bristol, Florida",
+            "status": "Closed",
+            "url": "https://example.test/facility/bristol-youth-academy-fl/"
+        },
+        {
+            "name": "Cedar Grove RTC",
+            "place": "Murfreesboro, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/cedar-grove-rtc-tn/"
+        },
+        {
+            "name": "Cedar Ridge Behavioral Hospital",
+            "place": "Oklahoma City, Oklahoma",
+            "status": "Unknown",
+            "url": "https://example.test/facility/cedar-ridge-behavioral-hospital-ok/"
+        },
+        {
+            "name": "Chad Youth Enhancement Center",
+            "place": "Ashland City, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/chad-youth-enhancement-center-tn/"
+        },
+        {
+            "name": "Chad Youth Enhancement Center – Oak Plains Academy",
+            "place": "Ashland City, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/chad-youth-enhancement-center-oak-plains-academy-tn/"
+        },
+        {
+            "name": "Coastal Harbor Treatment Center",
+            "place": "Savannah, Georgia",
+            "status": "Open",
+            "url": "https://example.test/facility/coastal-harbor-treatment-center-ga/"
+        },
+        {
+            "name": "Columbus Behavioral Center",
+            "place": "Columbus, Indiana",
+            "status": "Open",
+            "url": "https://example.test/facility/columbus-behavioral-center-in/"
+        },
+        {
+            "name": "Copper Hills Youth Center",
+            "place": "West Jordan, Utah",
+            "status": "Open",
+            "url": "https://example.test/facility/copper-hills-youth-center-ut/"
+        },
+        {
+            "name": "Cumberland Hospital for Children and Adolescents",
+            "place": "New Kent, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/cumberland-hospital-for-children-and-adolescents-va/"
+        },
+        {
+            "name": "Diamond Grove Center for Children Residential Psychiatric Program",
+            "place": "Louisville, Mississippi",
+            "status": "Open",
+            "url": "https://example.test/facility/diamond-grove-center-for-children-residential-psychiatric-program-ms/"
+        },
+        {
+            "name": "Fox Run Center for Children and Adolescents",
+            "place": "St Clairsville, Ohio",
+            "status": "Open",
+            "url": "https://example.test/facility/fox-run-center-for-children-and-adolescents-oh/"
+        },
+        {
+            "name": "Gulf Coast Treatment Center",
+            "place": "Fort Walton Beach, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/gulf-coast-treatment-center-fl/"
+        },
+        {
+            "name": "Harbor Point Behavioral Health Center",
+            "place": "Portsmouth, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/harbor-point-behavioral-health-center-va/"
+        },
+        {
+            "name": "Havenwyck Hospital Residential Impulse Disorder Program",
+            "place": "Auburn Hills, Michigan",
+            "status": "Open",
+            "url": "https://example.test/facility/havenwyck-hospital-residential-impulse-disorder-program-mi/"
+        },
+        {
+            "name": "Heartland Behavioral Health Services RTF",
+            "place": "Nevada, Missouri",
+            "status": "Open",
+            "url": "https://example.test/facility/heartland-behavioral-health-services-rtf-mo/"
+        },
+        {
+            "name": "Hermitage Hall",
+            "place": "South Nashville, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/hermitage-hall-tn/"
+        },
+        {
+            "name": "Hill Crest Behavioral Health",
+            "place": "Birmingham, Alabama",
+            "status": "Unknown",
+            "url": "https://example.test/facility/hill-crest-behavioral-health-al/"
+        },
+        {
+            "name": "Intermountain Hospital",
+            "place": "Boise, Idaho",
+            "status": "Open",
+            "url": "https://example.test/facility/intermountain-hospital-id/"
+        },
+        {
+            "name": "Kempsville Center for Behavioral Health Adolescent Residential Treatment Program",
+            "place": "Norfolk, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/kempsville-center-for-behavioral-health-adolescent-residential-treatment-program-va/"
+        },
+        {
+            "name": "Keys of Carolina",
+            "place": "Charlotte, North Carolina",
+            "status": "Closed",
+            "url": "https://example.test/facility/keys-of-carolina-nc/"
+        },
+        {
+            "name": "Keystone Marion Youth Center",
+            "place": "Marion, Virginia",
+            "status": "Closed",
+            "url": "https://example.test/facility/keystone-marion-youth-center-va/"
+        },
+        {
+            "name": "La Amistad Behavioral Health Services Teen Residential Treatment",
+            "place": "Maitland, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/la-amistad-behavioral-health-services-teen-residential-treatment-fl/"
+        },
+        {
+            "name": "Laurel Heights Hospital Residential Treatment",
+            "place": "Atlanta, Georgia",
+            "status": "Open",
+            "url": "https://example.test/facility/laurel-heights-hospital-residential-treatment-ga/"
+        },
+        {
+            "name": "Laurel Oaks Behavioral Health Center",
+            "place": "Dothan, Alabama",
+            "status": "Open",
+            "url": "https://example.test/facility/laurel-oaks-behavioral-health-center-al/"
+        },
+        {
+            "name": "Laurel Ridge Treatment Center RTC",
+            "place": "San Antonio, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/laurel-ridge-treatment-center-rtc-tx/"
+        },
+        {
+            "name": "Liberty Point Behavioral Healthcare Secure Residential Treatment",
+            "place": "Staunton, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/liberty-point-behavioral-healthcare-secure-residential-treatment-va/"
+        },
+        {
+            "name": "Lighthouse Care Center of Augusta Psychiatric RTP",
+            "place": "Augusta, Georgia",
+            "status": "Open",
+            "url": "https://example.test/facility/lighthouse-care-center-of-augusta-psychiatric-rtp-ga/"
+        },
+        {
+            "name": "McDowell Center for Children",
+            "place": "Dyersburg, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/mcdowell-center-for-children-tn/"
+        },
+        {
+            "name": "Meridell Achievement Center",
+            "place": "Liberty Hill, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/meridell-achievement-center-tx/"
+        },
+        {
+            "name": "Michiana Behavioral Health Residential Program",
+            "place": "Plymouth, Indiana",
+            "status": "Unknown",
+            "url": "https://example.test/facility/michiana-behavioral-health-residential-program-in/"
+        },
+        {
+            "name": "Midwest Center for Youth and Families Therapeutic RTC",
+            "place": "Kouts, Indiana",
+            "status": "Unknown",
+            "url": "https://example.test/facility/midwest-center-for-youth-and-families-therapeutic-rtc-in/"
+        },
+        {
+            "name": "Milton Girls Residential Facility",
+            "place": "Milton, Florida",
+            "status": "Closed",
+            "url": "https://example.test/facility/milton-girls-residential-facility-fl/"
+        },
+        {
+            "name": "Mountain Youth Academy",
+            "place": "Mountain City, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/mountain-youth-academy-tn/"
+        },
+        {
+            "name": "Natchez Trace Youth Academy",
+            "place": "Waverly, Tennessee",
+            "status": "Open",
+            "url": "https://example.test/facility/natchez-trace-youth-academy-tn/"
+        },
+        {
+            "name": "National Deaf Academy",
+            "place": "Mt Dora, Florida",
+            "status": "Closed",
+            "url": "https://example.test/facility/national-deaf-academy-fl/"
+        },
+        {
+            "name": "Newport News Behavioral Health Center RTF",
+            "place": "Newport News, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/newport-news-behavioral-health-center-rtf-va/"
+        },
+        {
+            "name": "North Spring Behavioral Healthcare Horizons Program",
+            "place": "Leesburg, Virginia",
+            "status": "Unknown",
+            "url": "https://example.test/facility/north-spring-behavioral-healthcare-horizons-program-va/"
+        },
+        {
+            "name": "North Spring Behavioral Healthcare Sunrise Program",
+            "place": "Leesburg, Virginia",
+            "status": "Unknown",
+            "url": "https://example.test/facility/north-spring-behavioral-healthcare-sunrise-program-va/"
+        },
+        {
+            "name": "North Spring Behavioral Healthcare Trailblazers Program",
+            "place": "Leesburg, Virginia",
+            "status": "Unknown",
+            "url": "https://example.test/facility/north-spring-behavioral-healthcare-trailblazers-program-va/"
+        },
+        {
+            "name": "North Star Behavioral Health DeBarr RTC",
+            "place": "Anchorage, Alaska",
+            "status": "Unknown",
+            "url": "https://example.test/facility/north-star-behavioral-health-debarr-rtc-ak/"
+        },
+        {
+            "name": "North Star Behavioral Health Palmer RTC",
+            "place": "Anchorage, Alaska",
+            "status": "Unknown",
+            "url": "https://example.test/facility/north-star-behavioral-health-palmer-rtc-ak/"
+        },
+        {
+            "name": "Northwest Academy",
+            "place": "Bonners Ferry, Idaho",
+            "status": "Closed",
+            "url": "https://example.test/facility/northwest-academy-id/"
+        },
+        {
+            "name": "Okaloosa Youth Academy",
+            "place": "Crestview, Florida",
+            "status": "Transferred",
+            "url": "https://example.test/facility/okaloosa-youth-academy-fl/"
+        },
+        {
+            "name": "Palm Shores Behavioral Health Center",
+            "place": "Bradenton, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/palm-shores-behavioral-health-center-fl/"
+        },
+        {
+            "name": "Palmetto Pee Dee Behavioral Health",
+            "place": "Florence, South Carolina",
+            "status": "Closed",
+            "url": "https://example.test/facility/palmetto-pee-dee-behavioral-health-sc/"
+        },
+        {
+            "name": "Palmetto Summerville Behavioral Health",
+            "place": "Summerville, South Carolina",
+            "status": "Unknown",
+            "url": "https://example.test/facility/palmetto-summerville-behavioral-health-sc/"
+        },
+        {
+            "name": "Parkwood Behavioral Health System Adolescent Residential Program",
+            "place": "Olive Branch, Mississippi",
+            "status": "Unknown",
+            "url": "https://example.test/facility/parkwood-behavioral-health-system-adolescent-residential-program-ms/"
+        },
+        {
+            "name": "Pines Residential Treatment Center",
+            "place": "Portsmouth, Virginia",
+            "status": "Unknown",
+            "url": "https://example.test/facility/pines-residential-treatment-center-va/"
+        },
+        {
+            "name": "Pinnacle Pointe Hospital Sub-Acute Inpatient Treatment",
+            "place": "Little Rock, Arkansas",
+            "status": "Open",
+            "url": "https://example.test/facility/pinnacle-pointe-hospital-sub-acute-inpatient-treatment-ar/"
+        },
+        {
+            "name": "Poplar Springs Hospital RTC",
+            "place": "Petersburg, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/poplar-springs-hospital-rtc-va/"
+        },
+        {
+            "name": "Rivendell of Arkansas",
+            "place": "Benton, Arkansas",
+            "status": "Open",
+            "url": "https://example.test/facility/rivendell-of-arkansas-ar/"
+        },
+        {
+            "name": "River Park Hospital",
+            "place": "West Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/river-park-hospital-wv/"
+        },
+        {
+            "name": "River Park Hospital – The Barboursville School",
+            "place": "Barboursville, West Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/river-park-hospital-the-barboursville-school-wv/"
+        },
+        {
+            "name": "River Park Hospital – The Bridge Program",
+            "place": "Huntington, West Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/river-park-hospital-the-bridge-program-wv/"
+        },
+        {
+            "name": "River Park Hospital – The Roundtable Program",
+            "place": "Huntington, West Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/river-park-hospital-the-roundtable-program-wv/"
+        },
+        {
+            "name": "Rock River Academy",
+            "place": "Rockford, Illinois",
+            "status": "Closed",
+            "url": "https://example.test/facility/rock-river-academy-il/"
+        },
+        {
+            "name": "San Marcos Treatment Center",
+            "place": "San Marcos, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/san-marcos-treatment-center-tx/"
+        },
+        {
+            "name": "SandyPines RTC",
+            "place": "Jupiter, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/sandypines-rtc-fl/"
+        },
+        {
+            "name": "Shadow Mountain Behavioral Health System",
+            "place": "Tulsa, Oklahoma",
+            "status": "Open",
+            "url": "https://example.test/facility/shadow-mountain-behavioral-health-system-ok/"
+        },
+        {
+            "name": "Suncoast Behavioral Health Center RTP",
+            "place": "Bradenton, Florida",
+            "status": "Open",
+            "url": "https://example.test/facility/suncoast-behavioral-health-center-rtp-fl/"
+        },
+        {
+            "name": "The Hughes Center",
+            "place": "Danville, Virginia",
+            "status": "Open",
+            "url": "https://example.test/facility/the-hughes-center-va/"
+        },
+        {
+            "name": "The Meadows Psychiatric Center",
+            "place": "Centre Hall, Pennsylvania",
+            "status": "Open",
+            "url": "https://example.test/facility/the-meadows-psychiatric-center-pa/"
+        },
+        {
+            "name": "The Pavilion Behavioral Health System RTC",
+            "place": "Haverhill, Massachusetts",
+            "status": "Unknown",
+            "url": "https://example.test/facility/the-pavilion-behavioral-health-system-rtc-ma/"
+        },
+        {
+            "name": "Three Rivers Midlands",
+            "place": "West Columbia, South Carolina",
+            "status": "Open",
+            "url": "https://example.test/facility/three-rivers-midlands-sc/"
+        },
+        {
+            "name": "Timberlawn Psychiatric Hospital",
+            "place": "Dallas, Texas",
+            "status": "Closed",
+            "url": "https://example.test/facility/timberlawn-psychiatric-hospital-tx/"
+        },
+        {
+            "name": "Two Rivers Psychiatric Hospital",
+            "place": "Kansas City, Missouri",
+            "status": "Closed",
+            "url": "https://example.test/facility/two-rivers-psychiatric-hospital-mo/"
+        },
+        {
+            "name": "Valle Vista Health System Residential Treatment",
+            "place": "Greenwood, Indiana",
+            "status": "Unknown",
+            "url": "https://example.test/facility/valle-vista-health-system-residential-treatment-in/"
+        },
+        {
+            "name": "West Oaks Hospital PRTF",
+            "place": "Houston, Texas",
+            "status": "Open",
+            "url": "https://example.test/facility/west-oaks-hospital-prtf-tx/"
+        },
+        {
+            "name": "Westwood Lodge",
+            "place": "Westwood, Massachusetts",
+            "status": "Closed",
+            "url": "https://example.test/facility/westwood-lodge-ma/"
+        },
+        {
+            "name": "Willow Springs Center",
+            "place": "Reno, Nevada",
+            "status": "Open",
+            "url": "https://example.test/facility/willow-springs-center-nv/"
+        },
+        {
+            "name": "Wyoming Behavioral Institute Pathways Residential Trauma-Informed Care",
+            "place": "Casper, Wyoming",
+            "status": "Unknown",
+            "url": "https://example.test/facility/wyoming-behavioral-institute-pathways-residential-trauma-informed-care-wy/"
+        }
+    ],
+    "program_homes": null,
+    "home_of": null,
+    "addresses": [
+        "4501 N University Ave, Provo, UT 84604",
+        "763 N 1650 W, Springville, UT 84663 (girls campus, opened 2005; separate record: UHS of Provo Canyon Springville Campus)",
+        "1350 E 750 N, Orem, UT 84097 (former girls campus; now Provo Canyon Behavioral Hospital)"
+    ],
+    "former_locations": [],
+    "operated": "1971 to 2026",
+    "summary": "Provo Canyon School was a residential treatment center in Provo, Utah, operated by Universal Health Services (UHS). It operated from 1971 to 2026.",
+    "facts": [
+        {
+            "label": "Type",
+            "value": "Residential Treatment Center"
+        },
+        {
+            "label": "Operated",
+            "value": "1971 to 2026"
+        },
+        {
+            "label": "Serves",
+            "value": "Male, ages 11 to 17"
+        },
+        {
+            "label": "Capacity",
+            "value": "106"
+        },
+        {
+            "label": "Operator",
+            "value": "Universal Health Services (UHS)"
+        },
+        {
+            "label": "Owners",
+            "value": [
+                "Universal Health Services (UHS)"
+            ]
+        },
+        {
+            "label": "Past operators",
+            "value": [
+                "Robert H. Crist and Jack Williams (founders; Dennis Eugene Thorne co-owner 1978-1986)",
+                "Charter Behavioral Health Systems (1986-2000)"
+            ]
+        },
+        {
+            "label": "Accreditation",
+            "value": [
+                "Northwest Association of Accredited Schools (NAAS)"
+            ]
+        },
+        {
+            "label": "Memberships",
+            "value": [
+                "NATSAP (former member; member from 1999, last listed 2011-12)"
+            ]
+        },
+        {
+            "label": "Licensing",
+            "value": [
+                "Utah Department of Health and Human Services, Office of Licensing: residential treatment license 93696, Provo campus, capacity 106, conditional status, revoked July 17, 2026 (under appeal)"
+            ]
+        }
+    ],
+    "fact_sources": [],
+    "practices": [
+        {
+            "label": "Treatment methods",
+            "items": [
+                "Behavior modification",
+                "Level system (eight levels plus Investment)",
+                "Seclusion (Observation)",
+                "Physical restraint (Dial 9)",
+                "Chemical sedation",
+                "Mail and phone monitoring"
+            ]
+        },
+        {
+            "label": "Program philosophy",
+            "items": [
+                "Acuity Based Care (marketed)",
+                "Tough love"
+            ]
+        },
+        {
+            "label": "Conditions treated",
+            "items": [
+                "Substance abuse",
+                "ADHD",
+                "Anxiety and trauma disorders",
+                "Mood disorders",
+                "Oppositional defiant disorder",
+                "Personality disorders",
+                "Reactive attachment disorder"
+            ]
+        }
+    ],
+    "incidents": [
+        {
+            "when": "1974",
+            "year": 1974,
+            "kind": "",
+            "text": "Shut down over child abuse and neglect allegations; reopened the same year",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 0,
+            "sort": 0
+        },
+        {
+            "when": "1980",
+            "year": 1980,
+            "kind": "",
+            "text": "Federal jury sides with the school in Milonas and Rice; judge issues permanent injunction against polygraphs, mail censorship, and isolation or force except for immediate danger",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 1,
+            "sort": 0
+        },
+        {
+            "when": "2004",
+            "year": 2004,
+            "kind": "",
+            "text": "Parent complaint alleges a 15-year-old's nose was broken before a forced Haldol injection and children were held in Observation most of the day",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 2,
+            "sort": 0
+        },
+        {
+            "when": "2012",
+            "year": 2012,
+            "kind": "",
+            "text": "Provo campus placed on conditional status after a runaway stole a car and caused a fatal crash",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 3,
+            "sort": 0
+        },
+        {
+            "when": "2013",
+            "year": 2013,
+            "kind": "",
+            "text": "Springville campus placed on conditional status after a girl was injured in a restraint",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 4,
+            "sort": 0
+        },
+        {
+            "when": "2015-2020",
+            "year": 2015,
+            "kind": "",
+            "text": "341 Office of Licensing investigations, 27 substantiated violations",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 5,
+            "sort": 0
+        },
+        {
+            "when": "September 2024",
+            "year": 2024,
+            "kind": "",
+            "text": "Staff member arrested for striking a 15-year-old during a restraint; guilty plea July 2025",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 6,
+            "sort": 900
+        },
+        {
+            "when": "December 1, 2024",
+            "year": 2024,
+            "kind": "",
+            "text": "Staff member struck a client during a restraint (substantiated, repeat noncompliance)",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 7,
+            "sort": 1201
+        },
+        {
+            "when": "April 13, 2025",
+            "year": 2025,
+            "kind": "",
+            "text": "Staff member injured a client's face during a restraint (substantiated)",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 8,
+            "sort": 413
+        },
+        {
+            "when": "June 2026",
+            "year": 2026,
+            "kind": "",
+            "text": "Licensers sanction the school for delaying care to a teen with a jaw injury and brain bleed; two families sue",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 9,
+            "sort": 600
+        },
+        {
+            "when": "July 17, 2026",
+            "year": 2026,
+            "kind": "",
+            "text": "Provo campus license revoked; Springville license revoked; operations ordered to cease; appeal filed July 27",
+            "source": "",
+            "cite": "",
+            "url": "",
+            "i": 10,
+            "sort": 717
+        }
+    ],
+    "staff": {
+        "administrator": [
+            {
+                "text": "Adam McClain (Group Director and CEO)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Adam McClain",
+                "role": "Group Director and CEO",
+                "personId": 121,
+                "career": [
+                    {
+                        "role": "executive director",
+                        "place": "Northwest Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    },
+                    {
+                        "role": "clinical director",
+                        "place": "Peninsula Village",
+                        "years": "",
+                        "url": "https://example.test/facility/village-behavioral-health-treatment-center-tn/"
+                    }
+                ]
+            },
+            {
+                "text": "Barry Woodward (CEO (appointed 2000))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Barry Woodward",
+                "role": "CEO (appointed 2000)",
+                "personId": 510,
+                "career": [
+                    {
+                        "role": "CEO",
+                        "place": "Copper Hills Youth Center",
+                        "years": "",
+                        "url": "https://example.test/facility/copper-hills-youth-center-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Olympus View Hospital RTC",
+                        "years": "",
+                        "url": "https://example.test/facility/olympus-view-hospital-rtc-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Community Psychiatric Centers",
+                        "years": "",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "text": "Kreg Gillman (CEO (2003-2006))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Kreg Gillman",
+                "role": "CEO (2003-2006)",
+                "personId": 215,
+                "career": [
+                    {
+                        "role": "Clinical Director (2011-2012)",
+                        "place": "RedCliff Ascent",
+                        "years": "",
+                        "url": "https://example.test/facility/redcliff-ascent-ut/"
+                    },
+                    {
+                        "role": "Former Head (2007)",
+                        "place": "Aspen Ranch",
+                        "years": "",
+                        "url": "https://example.test/facility/aspen-ranch-ut/"
+                    },
+                    {
+                        "role": "Executive Director, Founder and Director (2007-2008)",
+                        "place": "Silverado Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    },
+                    {
+                        "role": "executive director",
+                        "place": "Silverado Boys Ranch",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    },
+                    {
+                        "role": "executive director",
+                        "place": "SunHawk Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/sunhawk-academy-ut/"
+                    },
+                    {
+                        "role": "CEO",
+                        "place": "Universal Health Services",
+                        "years": "",
+                        "url": "https://example.test/operator/universal-health-services/"
+                    },
+                    {
+                        "role": "executive director",
+                        "place": "WayPoint Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/waypoint-academy-ut/"
+                    }
+                ]
+            },
+            {
+                "text": "Ron S. Tuinei (Program Director, then Executive Director (2016-2020))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Ron S. Tuinei",
+                "role": "Program Director, then Executive Director (2016-2020)",
+                "personId": 511,
+                "career": [
+                    {
+                        "role": "CEO",
+                        "place": "Copper Hills Youth Center",
+                        "years": "",
+                        "url": "https://example.test/facility/copper-hills-youth-center-ut/"
+                    },
+                    {
+                        "role": "program supervisor",
+                        "place": "Heritage Schools (Heritage RTC)",
+                        "years": "",
+                        "url": "https://example.test/facility/heritage-schools-inc-ut/"
+                    },
+                    {
+                        "role": "program director",
+                        "place": "Cottonwood Treatment Center",
+                        "years": "",
+                        "url": "https://example.test/facility/cottonwood-treatment-center-ut/"
+                    },
+                    {
+                        "role": "program director",
+                        "place": "The Oakley School",
+                        "years": "",
+                        "url": "https://example.test/facility/oakley-school-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "San Marcos Treatment Center",
+                        "years": "",
+                        "url": "https://example.test/facility/san-marcos-treatment-center-tx/"
+                    }
+                ]
+            },
+            {
+                "text": "David Melear (Chief Executive Officer (2006 ))",
+                "source": "Woodbury Reports, Oct 2006",
+                "cite": "Woodbury Reports, October 2006 (#146), p. 30",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1006.pdf#page=30",
+                "name": "David Melear",
+                "role": "Chief Executive Officer (2006)",
+                "personId": 512,
+                "career": []
+            },
+            {
+                "text": "Adam Mclain (CEO)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Adam Mclain",
+                "role": "CEO",
+                "career": [
+                    {
+                        "role": "Executive Director (2008-2009)",
+                        "place": "Northwest Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/northwest-academy-id/"
+                    },
+                    {
+                        "role": "clinical director",
+                        "place": "Peninsula Village",
+                        "years": "",
+                        "url": "https://example.test/facility/village-behavioral-health-treatment-center-tn/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Charter Medical Corporation (Owner)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Charter Medical Corporation",
+                "role": "Owner",
+                "career": [],
+                "from_map": true
+            },
+            {
+                "text": "Denise Westman (Midwest regional director)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Denise Westman",
+                "role": "Midwest regional director",
+                "career": [
+                    {
+                        "role": "Director of Admissions, Director of Admissions & Marketing, Director of Admissions and Marketing, Admissions Director, Director of Development (2006-2009)",
+                        "place": "Silverado Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    },
+                    {
+                        "role": "cofounder",
+                        "place": "Silverado Boys Ranch",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Eugene Thorn (Co-owner)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Eugene Thorn",
+                "role": "Co-owner",
+                "career": [
+                    {
+                        "role": "founder",
+                        "place": "Discovery Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/discovery-academy-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Jeff Smith (CEO)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Jeff Smith",
+                "role": "CEO",
+                "career": [
+                    {
+                        "role": "cofounder/owner",
+                        "place": "Logan River Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/logan-river-academy-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Mount Bachelor Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/mount-bachelor-academy-or/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Ken Huey (Business director)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Ken Huey",
+                "role": "Business director",
+                "career": [
+                    {
+                        "role": "Clinical Director, Director of Clinical Services (2006), left",
+                        "place": "West Ridge Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/west-ridge-academy-ut/"
+                    },
+                    {
+                        "role": "founder",
+                        "place": "CALO Programs",
+                        "years": "",
+                        "url": "https://example.test/facility/calo-programs-mo/"
+                    },
+                    {
+                        "role": "founder",
+                        "place": "Red Mountain Colorado",
+                        "years": "",
+                        "url": "https://example.test/facility/red-mountain-colorado-co/"
+                    },
+                    {
+                        "role": "CEO",
+                        "place": "HOPE Group",
+                        "years": "",
+                        "url": ""
+                    },
+                    {
+                        "role": "founder",
+                        "place": "Kokua Recovery",
+                        "years": "",
+                        "url": "https://example.test/facility/red-mountain-colorado-co/"
+                    },
+                    {
+                        "role": "CEO",
+                        "place": "Havenwood Academy",
+                        "years": "",
+                        "url": "https://example.test/havenwood-academy/"
+                    }
+                ],
+                "from_map": true
+            }
+        ],
+        "notableStaff": [
+            {
+                "text": "Robert H. Crist (Co-founder; Medical Director and psychiatrist)",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by Anonymous, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.82",
+                "name": "Robert H. Crist",
+                "role": "Co-founder; Medical Director and psychiatrist",
+                "personId": 513,
+                "career": [
+                    {
+                        "role": "cofounder, medical director",
+                        "place": "Silverado Boys Ranch",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    },
+                    {
+                        "role": "owner, vice-president",
+                        "place": "Discovery Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/discovery-academy-ut/"
+                    },
+                    {
+                        "role": "cofounder, medical director",
+                        "place": "Logan River Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/logan-river-academy-ut/"
+                    }
+                ]
+            },
+            {
+                "text": "Jack Williams (Co-founder (died 2009))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Jack Williams",
+                "role": "Co-founder (died 2009)",
+                "personId": 514,
+                "career": []
+            },
+            {
+                "text": "Dennis Eugene Thorne (Co-owner (1978-1986))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Dennis Eugene Thorne",
+                "role": "Co-owner (1978-1986)",
+                "personId": 515,
+                "career": []
+            },
+            {
+                "text": "Robert B. Lichfield (Dorm parent from 1977; later founded WWASP)",
+                "source": "Fornits, Apr 2004",
+                "cite": "Fornits forum, post by cherish wisdom, April 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.0",
+                "name": "Robert B. Lichfield",
+                "role": "Dorm parent from 1977; later founded WWASP",
+                "personId": 516,
+                "career": [
+                    {
+                        "role": "Staff (2025)",
+                        "place": "Academy at Ivy Ridge",
+                        "years": "",
+                        "url": "https://example.test/facility/academy-at-ivy-ridge-ny/"
+                    },
+                    {
+                        "role": "owner",
+                        "place": "Teen Mentor",
+                        "years": "",
+                        "url": "https://example.test/facility/teen-mentor-school-costa-rica/"
+                    },
+                    {
+                        "role": "founder, owner",
+                        "place": "WWASPS",
+                        "years": "",
+                        "url": "https://example.test/operator/world-wide-association-of-specialty-programs-and-schools/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Cross Creek Programs",
+                        "years": "",
+                        "url": "https://example.test/facility/cross-creek-programs-ut/"
+                    },
+                    {
+                        "role": "owner",
+                        "place": "Browning Distance Learning Academy",
+                        "years": "",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "text": "Karr Farnsworth (Staff; later WWASP president)",
+                "source": "Fornits, Apr 2004",
+                "cite": "Fornits forum, post by cherish wisdom, April 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.26",
+                "name": "Karr Farnsworth",
+                "role": "Staff; later WWASP president",
+                "personId": 517,
+                "career": [
+                    {
+                        "role": "director, owner",
+                        "place": "Cross Creek Programs",
+                        "years": "",
+                        "url": "https://example.test/facility/cross-creek-programs-ut/"
+                    },
+                    {
+                        "role": "president",
+                        "place": "WWASPS",
+                        "years": "",
+                        "url": "https://example.test/operator/world-wide-association-of-specialty-programs-and-schools/"
+                    },
+                    {
+                        "role": "trustee",
+                        "place": "Browning Distance Learning Academy",
+                        "years": "",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "text": "Larry Carter (Therapist (13 years))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Larry Carter",
+                "role": "Therapist (13 years)",
+                "personId": 518,
+                "career": [
+                    {
+                        "role": "Executive Director, CEO (2006-2012)",
+                        "place": "Logan River Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/logan-river-academy-ut/"
+                    },
+                    {
+                        "role": "Former Senior Vice-President of In-Patient Services (2025)",
+                        "place": "Aspen Education Group",
+                        "years": "",
+                        "url": "https://example.test/facility/aspen-education-group/"
+                    }
+                ]
+            },
+            {
+                "text": "Jennifer Morgan Smith (Therapist, Executive Clinical Director, Director of Admissions, Executive Director (from 1998))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Jennifer Morgan Smith",
+                "role": "Therapist, Executive Clinical Director, Director of Admissions, Executive Director (from 1998)",
+                "personId": 519,
+                "career": []
+            },
+            {
+                "text": "Wade Taylor (Therapist, boys program (from 2001); named in 2015 negligence suit)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Wade Taylor",
+                "role": "Therapist, boys program (from 2001); named in 2015 negligence suit",
+                "personId": 334,
+                "career": [
+                    {
+                        "role": "Former Therapist (2001)",
+                        "place": "Aspen Ranch",
+                        "years": "",
+                        "url": "https://example.test/facility/aspen-ranch-ut/"
+                    }
+                ]
+            },
+            {
+                "text": "Sam Hill (Program Director, girls program (1990-2012))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Sam Hill",
+                "role": "Program Director, girls program (1990-2012)",
+                "personId": 520,
+                "career": [
+                    {
+                        "role": "therapist",
+                        "place": "Daniels Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/daniels-academy-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Youth Care of Utah",
+                        "years": "",
+                        "url": "https://example.test/facility/youth-care-of-utah-ut/"
+                    }
+                ]
+            },
+            {
+                "text": "Brent Esplin (Therapist and Admissions Director (2007-2012))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Brent Esplin",
+                "role": "Therapist and Admissions Director (2007-2012)",
+                "personId": 521,
+                "career": [
+                    {
+                        "role": "Admissions Director (2008)",
+                        "place": "Academy at Canyon Creek",
+                        "years": "",
+                        "url": "https://example.test/facility/academy-at-canyon-creek-ut/"
+                    }
+                ]
+            },
+            {
+                "text": "Katie Jochum (Director of Business Development)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Katie Jochum",
+                "role": "Director of Business Development",
+                "personId": 522,
+                "career": []
+            },
+            {
+                "text": "Marcie Remington (Therapist)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Marcie Remington",
+                "role": "Therapist",
+                "personId": 523,
+                "career": []
+            },
+            {
+                "text": "Megan L. Hamblin (Registered Nurse (1990s))",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Megan L. Hamblin",
+                "role": "Registered Nurse (1990s)",
+                "personId": 524,
+                "career": []
+            },
+            {
+                "text": "Mulimauga Tuiloma (Staff; arrested September 2024 for striking a student, pleaded guilty July 2025)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Mulimauga Tuiloma",
+                "role": "Staff; arrested September 2024 for striking a student, pleaded guilty July 2025",
+                "personId": 525,
+                "career": []
+            },
+            {
+                "text": "James Murray (Director of Business Development (2006-2007 ), left). Previously: later Founder and Director - Breakthrough Interventions (2009) [founded 2009]",
+                "source": "Woodbury Reports, Oct 2006",
+                "cite": "Woodbury Reports, October 2006 (#146), p. 30",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1006.pdf#page=30",
+                "name": "James Murray",
+                "role": "Director of Business Development (2006-2007), left",
+                "personId": 526,
+                "career": [
+                    {
+                        "role": "Founder and Director",
+                        "place": "Breakthrough Interventions",
+                        "years": "2009",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "text": "Kelly Corey (Regional Director of Business Development, California Director (2006-2009 )). Previously: Educational Consultant - Paula Feldman (2009) [joined 2009-10-16]",
+                "source": "Woodbury Reports, Jan 2006",
+                "cite": "Woodbury Reports, January 2006 (#137), p. 31",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0106.pdf#page=31",
+                "name": "Kelly Corey",
+                "role": "Regional Director of Business Development, California Director (2006-2009)",
+                "personId": 527,
+                "career": [
+                    {
+                        "role": "Educational Consultant",
+                        "place": "Paula Feldman",
+                        "years": "2009",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "text": "Tim Marshall (Director of Business Development (2009 )). Previously: Staff - Brown Schools/CEDU (before 2009); Staff - Cornell Companies (before 2009)",
+                "source": "Woodbury Reports, Nov 2009",
+                "cite": "Woodbury Reports, November 2009 (#183), p. 11",
+                "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1109.pdf#page=11",
+                "name": "Tim Marshall",
+                "role": "Director of Business Development (2009)",
+                "personId": 528,
+                "career": [
+                    {
+                        "role": "Staff",
+                        "place": "Brown Schools/CEDU",
+                        "years": "before 2009",
+                        "url": ""
+                    },
+                    {
+                        "role": "Staff",
+                        "place": "Cornell Companies",
+                        "years": "before 2009",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "text": "Ken Stettler (Industry figure / official promoting facilities)",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by cherish wisdom, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.98",
+                "name": "Ken Stettler",
+                "role": "Industry figure / official promoting facilities",
+                "personId": 2258,
+                "career": []
+            },
+            {
+                "text": "Brent Charles Hall",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Brent Charles Hall",
+                "role": "",
+                "career": [
+                    {
+                        "role": "Executive Director (2007-2008)",
+                        "place": "Discovery Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/discovery-academy-ut/"
+                    },
+                    {
+                        "role": "Reported to have run the program; co-founder and Executive Director of Discovery Academy; former NATSAP director",
+                        "place": "Discovery Ranch",
+                        "years": "",
+                        "url": "https://example.test/discovery-ranch/"
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Cross Creek Manor for Girls",
+                        "years": "",
+                        "url": "https://example.test/facility/cross-creek-manor-ut/"
+                    },
+                    {
+                        "role": "management director",
+                        "place": "Kentucky River Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/kentucky-river-academy-ky/"
+                    },
+                    {
+                        "role": "owner, director",
+                        "place": "Red River Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/us-youth-services-la/"
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Cross Creek Programs",
+                        "years": "",
+                        "url": "https://example.test/facility/cross-creek-programs-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Dave Blackwell",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Dave Blackwell",
+                "role": "",
+                "career": [
+                    {
+                        "role": "Therapist",
+                        "place": "Discovery Ranch",
+                        "years": "",
+                        "url": "https://example.test/discovery-ranch/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Drew Hirsch (Clinical supervisor)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Drew Hirsch",
+                "role": "Clinical supervisor",
+                "career": [
+                    {
+                        "role": "Therapist (2000)",
+                        "place": "Aspen Ranch",
+                        "years": "",
+                        "url": "https://example.test/facility/aspen-ranch-ut/"
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Youth Care of Utah",
+                        "years": "",
+                        "url": "https://example.test/facility/youth-care-of-utah-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Eric Fawson (Therapist)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Eric Fawson",
+                "role": "Therapist",
+                "career": [
+                    {
+                        "role": "Primary Wilderness Therapist (2011)",
+                        "place": "Wingate Wilderness Therapy",
+                        "years": "",
+                        "url": "https://example.test/facility/wingate-wilderness-therapy-ut/"
+                    },
+                    {
+                        "role": "Program Director, Program / Clinical Director and Therapist (2007-2010)",
+                        "place": "Silverado Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    },
+                    {
+                        "role": "administrator",
+                        "place": "Silverado Boys Ranch",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    },
+                    {
+                        "role": "clinical director",
+                        "place": "RedCliff Ascent",
+                        "years": "",
+                        "url": "https://example.test/facility/redcliff-ascent-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Jeff Scott (Therapist)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Jeff Scott",
+                "role": "Therapist",
+                "career": [
+                    {
+                        "role": "Former Intern (2025)",
+                        "place": "Aspen Achievement Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/aspen-achievement-academy-ut/"
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Blue Ridge Therapeutic Wilderness",
+                        "years": "",
+                        "url": "https://example.test/facility/blue-ridge-therapeutic-wilderness-ga/"
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Second Nature Blue Ridge",
+                        "years": "",
+                        "url": "https://example.test/facility/blue-ridge-therapeutic-wilderness-ga/"
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "SUWS of the Carolinas",
+                        "years": "",
+                        "url": "https://example.test/facility/suws-of-the-carolinas-nc/"
+                    },
+                    {
+                        "role": "clinical director",
+                        "place": "Second Nature",
+                        "years": "",
+                        "url": "https://example.test/facility/second-nature-wilderness-program-ut/"
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Heritage Schools (Heritage RTC)",
+                        "years": "",
+                        "url": "https://example.test/facility/heritage-schools-inc-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Jerry Spanos (Therapist)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Jerry Spanos",
+                "role": "Therapist",
+                "career": [
+                    {
+                        "role": "CEO (2008)",
+                        "place": "Heritage Schools, Inc.",
+                        "years": "",
+                        "url": "https://example.test/facility/heritage-schools-inc-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Jordan Killpack (Therapist)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Jordan Killpack",
+                "role": "Therapist",
+                "career": [
+                    {
+                        "role": "Clinical Director",
+                        "place": "Elevations RTC",
+                        "years": "",
+                        "url": "https://example.test/elevations-rtc/"
+                    },
+                    {
+                        "role": "clinical director",
+                        "place": "Viewpoint Center",
+                        "years": "",
+                        "url": "https://example.test/facility/viewpoint-center-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Mike Naylor",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Mike Naylor",
+                "role": "",
+                "career": [
+                    {
+                        "role": "cofounder",
+                        "place": "Boulder Creek Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/boulder-creek-academy-id/"
+                    },
+                    {
+                        "role": "exec director",
+                        "place": "Rocky Mountain Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/rocky-mountain-academy-id/"
+                    },
+                    {
+                        "role": "exec director",
+                        "place": "CEDU Family of Services",
+                        "years": "",
+                        "url": ""
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Natalie Stark",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Natalie Stark",
+                "role": "",
+                "career": [
+                    {
+                        "role": "recreational therapy director",
+                        "place": "Equinox RTC",
+                        "years": "",
+                        "url": "https://example.test/facility/equinox-rtc-nc/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Vista Treatment Centers",
+                        "years": "",
+                        "url": ""
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Nick Pakidko (Academic director)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Nick Pakidko",
+                "role": "Academic director",
+                "career": [
+                    {
+                        "role": "Principal (2007)",
+                        "place": "Silverado Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Silverado Boys Ranch",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Rachel Steinberg (Clinician)",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Rachel Steinberg",
+                "role": "Clinician",
+                "career": [
+                    {
+                        "role": "",
+                        "place": "Spark Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/spark-academy-ut/"
+                    },
+                    {
+                        "role": "therapist",
+                        "place": "Heritage Schools (Heritage RTC)",
+                        "years": "",
+                        "url": "https://example.test/facility/heritage-schools-inc-ut/"
+                    }
+                ],
+                "from_map": true
+            },
+            {
+                "text": "Tere Snodgrass",
+                "source": "",
+                "cite": "",
+                "url": "",
+                "name": "Tere Snodgrass",
+                "role": "",
+                "career": [
+                    {
+                        "role": "Former Admissions and marketing (2007)",
+                        "place": "Academy at Canyon Creek",
+                        "years": "",
+                        "url": "https://example.test/facility/academy-at-canyon-creek-ut/"
+                    },
+                    {
+                        "role": "Former Admissions and marketing (2007)",
+                        "place": "Aspen Achievement Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/aspen-achievement-academy-ut/"
+                    },
+                    {
+                        "role": "Assistant Admissions Director (2007)",
+                        "place": "Silverado Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    },
+                    {
+                        "role": "Former Admissions and marketing (2006)",
+                        "place": "Sequel TSI Kissimmee",
+                        "years": "",
+                        "url": "https://example.test/facility/sequel-tsi-kissimmee-fl/"
+                    },
+                    {
+                        "role": "admissions, marketing director",
+                        "place": "Three Springs Inc.",
+                        "years": "",
+                        "url": "https://example.test/operator/three-springs-inc/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Silverado Boys Ranch",
+                        "years": "",
+                        "url": "https://example.test/facility/silverado-academy-ut/"
+                    },
+                    {
+                        "role": "",
+                        "place": "Auldern Academy",
+                        "years": "",
+                        "url": "https://example.test/facility/auldern-academy-nc/"
+                    }
+                ],
+                "from_map": true
+            }
+        ],
+        "pastTTIJobs": [
+            {
+                "text": "Robert B. Lichfield: founded Cross Creek and WWASP after leaving PCS",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Robert H. Crist and Larry Carter: founded Logan River Academy (2000)",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Robert H. Crist and Kreg Gillman: founded Silverado Academy (2006; closed 2016)",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Dennis Eugene Thorne, Robert H. Crist and Brent Hall: founded Discovery Academy (1989)",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Jack Williams: founded Cinnamon Hills Youth Crisis Center",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Barry Woodward and Ron S. Tuinei: later CEOs of Copper Hills Youth Center",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Adam McClain: previously Clinical Director of Peninsula Village (2003-2008) and Executive Director of Northwest Academy (WWASP)",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Kreg Gillman: previously Aspen Healthcare Services; later Clinical Director of Redcliff Ascent and CEO of UHS Salt Lake Behavioral Health",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Jennifer Morgan Smith: Executive Director of Provo Canyon Behavioral Hospital",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Brent Esplin: Red Rock Canyon School, Provo Canyon Behavioral Hospital, Telos RTC, Embark at Hobble Creek",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Ron S. Tuinei: Heritage RTC, Slate Canyon Youth Center, Cottonwood Treatment Center, Oakley School",
+                "source": "",
+                "cite": "",
+                "url": ""
+            },
+            {
+                "text": "Katie Jochum: CEDU schools, Boulder Creek Academy, Embark Behavioral Health",
+                "source": "",
+                "cite": "",
+                "url": ""
+            }
+        ]
+    },
+    "notes": [
+        "Founded 1971 as an all-boys program by Robert H. Crist and Jack Williams; the girls program opened in Orem and moved to a new Springville campus in 2005. Elementary and transition programs have operated in Orem.",
+        "Considered a hub of the troubled teen industry: WWASP's founders and much of its staff came from PCS.",
+        "Tuition reported at more than $12,500 per month; average stay 8 to 12 months, often longer.",
+        "Utah Office of Licensing records mirrored on this site: Springville campus 64 inspections and 7 substantiated findings, December 2022 to August 2025; Provo campus 18 inspections in the same period.",
+        "Profile assembled by Kids Over Profits on 2026-09-11 from site records; see the Facility Profile post for sources.",
+        "Gender as recorded: boys (Provo campus; girls at the Springville campus)",
+        "Operations suspended: the Utah Department of Health and Human Services revoked the Provo campus license (93696) on July 17, 2026 and ordered the campus to cease operations by August 16, 2026; the Springville campus license (93697) was revoked as well. The school appealed both orders on July 27, 2026 and the appeal is pending.",
+        "Shut down in 1974 over child abuse and neglect allegations; reopened the same year.",
+        "Provo campus placed on conditional status in 2012 after a runaway caused a fatal crash; Springville campus placed on conditional status in 2013 after a restraint injury; both licenses were conditional at revocation.",
+        "Ordered closed (2026-08-06) per news report: Jezebel, \"Paris Hilton and More Survivors Win Fight to Shut Down Former ‘Troubled Teen’ Facility\", 2026-07-09 https://www.jezebel.com/paris-hilton-and-more-survivors-win-fight-to-shut-down-former-troubled-teen-facility"
+    ],
+    "field_notes": [],
+    "testimony": [],
+    "forum": {
+        "incidents": [
+            {
+                "when": "1988",
+                "year": 1988,
+                "kind": "Abuse",
+                "text": "A survivor reports being locked up in 1988-1989, subjected to wall-staring for hours, solitary confinement, and physical violence by staff.",
+                "source": "Fornits, Jun 2004",
+                "cite": "Fornits forum, post by Anonymous, June 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.146",
+                "i": 16,
+                "sort": 0
+            },
+            {
+                "when": "1988",
+                "year": 1988,
+                "kind": "Seclusion",
+                "text": "A survivor describes being locked in solitary confinement for over 24 hours.",
+                "source": "Fornits, Jun 2004",
+                "cite": "Fornits forum, post by Anonymous, June 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.146",
+                "i": 20,
+                "sort": 0
+            },
+            {
+                "when": "1990",
+                "year": 1990,
+                "kind": "Sexual abuse",
+                "text": "A former student reported witnessing the sexual abuse of a child during an 11-month stay between 1990 and 1991.",
+                "source": "Fornits, Jun 2004",
+                "cite": "Fornits forum, post by Anonymous, June 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.142",
+                "i": 15,
+                "sort": 0
+            },
+            {
+                "when": "2003",
+                "year": 2003,
+                "kind": "Injury",
+                "text": "A poster states their sister was sent to Provo Canyon School and was injured and traumatized.",
+                "source": "Fornits, Jun 2004",
+                "cite": "Fornits forum, post by Anonymous, June 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.171",
+                "i": 13,
+                "sort": 0
+            },
+            {
+                "when": "2004",
+                "year": 2004,
+                "kind": "Seclusion",
+                "text": "A 16-year-old girl with mental illness was isolated in a tiny, cold, concrete observation room all day long without schooling or socialization.",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by cherish wisdom, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.127",
+                "i": 17,
+                "sort": 0
+            },
+            {
+                "when": "2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "A 14-year-old rape victim had her nose broken in a violent physical take-down and was overdosed with a forced injection of Haldol.",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by cherish wisdom, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.127",
+                "i": 22,
+                "sort": 0
+            },
+            {
+                "when": "Reported April 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Former students report abuse including forced drugging, denial of medical care, isolation, seclusion, and sleep deprivation.",
+                "source": "Fornits, Apr 2004",
+                "cite": "Fornits forum, post by cherish wisdom, April 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.0",
+                "i": 11,
+                "sort": 400
+            },
+            {
+                "when": "Reported April 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "A student was placed in isolation and seclusion for a month and punished for speaking out in group therapy.",
+                "source": "Fornits, Apr 2004",
+                "cite": "Fornits forum, post by cherish wisdom, April 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.26",
+                "i": 14,
+                "sort": 400
+            },
+            {
+                "when": "Reported April 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Former students and activists report physical, emotional, and psychological abuse including forced drugging, medical denial, and isolation.",
+                "source": "Fornits, Apr 2004",
+                "cite": "Fornits forum, post by cherish wisdom, April 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.0",
+                "i": 19,
+                "sort": 400
+            },
+            {
+                "when": "Reported May 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "A parent states their epileptic daughter was locked in cages wearing only undergarments with a sheep for warmth and given unapproved medications.",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by cherish wisdom, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.65",
+                "i": 12,
+                "sort": 500
+            },
+            {
+                "when": "Reported May 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "A student describes being thrown on a concrete floor, having a knee placed in their back and neck, and being injected with Haldol after yelling in frustration.",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by darkhunterhope, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.76",
+                "i": 18,
+                "sort": 500
+            },
+            {
+                "when": "Reported May 2004",
+                "year": 2004,
+                "kind": "Abuse",
+                "text": "Provo Canyon School routinely breaks core rules on isolation, treats patients with disdain, and deprives children of necessary medical care.",
+                "source": "Fornits, May 2004",
+                "cite": "Fornits forum, post by cherish wisdom, May 2004",
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.98",
+                "i": 21,
+                "sort": 500
+            }
+        ],
+        "leads": [],
+        "links": [
+            {
+                "url": "https://www.fornits.com/phpbb/index.php?topic=5238.0",
+                "label": "Fornits: Petition to close the abusive Provo Canyon School is gaining (2004-2006, 403 posts). Discussed as an abusive facility with a petition for its closure, and as the place where WWASPS founder Robert Lichfield got his training and worked as Residential Director."
+            }
+        ]
+    },
+    "videos": [],
+    "profile_links": [
+        {
+            "url": "https://kidsoverprofits.org/provo-canyon-school/",
+            "label": "kidsoverprofits.org",
+            "live_url": "",
+            "go_url": ""
+        },
+        {
+            "url": "https://www.reddit.com/r/troubledteens/wiki/index/provocanyon/",
+            "label": "reddit.com",
+            "live_url": "",
+            "go_url": ""
+        },
+        {
+            "url": "https://web.archive.org/web/https://provocanyon.com/",
+            "label": "provocanyon.com (archived copy)",
+            "live_url": "https://provocanyon.com/",
+            "go_url": "https://example.test/go/?u=https%3A%2F%2Fprovocanyon.com%2F"
+        },
+        {
+            "url": "https://web.archive.org/web/http://www.heal-online.org/pcsstaff.htm",
+            "label": "heal-online.org (archived copy)",
+            "live_url": "http://www.heal-online.org/pcsstaff.htm",
+            "go_url": "https://example.test/go/?u=http%3A%2F%2Fwww.heal-online.org%2Fpcsstaff.htm"
+        },
+        {
+            "url": "https://en.wikipedia.org/wiki/Provo_Canyon_School",
+            "label": "en.wikipedia.org",
+            "live_url": "",
+            "go_url": ""
+        }
+    ],
+    "resources": [
+        {
+            "label": "News articles",
+            "group": "News and media",
+            "detail": "14 approved articles in the Kids Over Profits news feed, 2020-2026, plus four news posts"
+        },
+        {
+            "label": "Staff manual",
+            "group": "Manuals and handbooks",
+            "detail": ""
+        },
+        {
+            "label": "Video",
+            "group": "News and media",
+            "detail": ""
+        },
+        {
+            "label": "NATSAP profile",
+            "group": "Other documentation",
+            "detail": ""
+        },
+        {
+            "label": "Student or resident manual",
+            "group": "Manuals and handbooks",
+            "detail": ""
+        },
+        {
+            "label": "Archived website",
+            "group": "Other documentation",
+            "detail": ""
+        },
+        {
+            "label": "Lawsuits",
+            "group": "Legal and compliance",
+            "detail": ""
+        },
+        {
+            "label": "Documented violations",
+            "group": "Legal and compliance",
+            "detail": ""
+        },
+        {
+            "label": "Inspection reports",
+            "group": "Official documentation",
+            "detail": ""
+        },
+        {
+            "label": "State reports",
+            "group": "Official documentation",
+            "detail": ""
+        },
+        {
+            "label": "Police reports",
+            "group": "Legal and compliance",
+            "detail": ""
+        },
+        {
+            "label": "Press releases",
+            "group": "News and media",
+            "detail": "October 2020 media statement on ownership"
+        },
+        {
+            "label": "Enrollment documents",
+            "group": "Business and property",
+            "detail": ""
+        },
+        {
+            "label": "Promotional materials",
+            "group": "Business and property",
+            "detail": ""
+        },
+        {
+            "label": "Document folder 50: 1997 parent manual, Preparing for the Return Home, December 2017 admissions packet, 2011 NATSAP listing, Milonas ruling and memorandum, 2025 admissions page captures",
+            "group": "Other documentation",
+            "detail": ""
+        },
+        {
+            "label": "HEAL police call log, January 2001 to December 2007",
+            "group": "Other documentation",
+            "detail": ""
+        },
+        {
+            "label": "Utah Office of Licensing inspection records, licenses 93696 and 93697 (mirrored on /ut-reports/)",
+            "group": "Other documentation",
+            "detail": ""
+        }
+    ],
+    "resource_links": [],
+    "lawsuits": [
+        {
+            "id": 21,
+            "case_name": "Second family v. Provo Canyon School (2026, medical malpractice)",
+            "case_number": "",
+            "court": "",
+            "year": "2026",
+            "status": "Filed",
+            "outcome": "",
+            "summary": "The second of two family lawsuits filed in June 2026, alleging the school failed to provide adequate medical care to a teenager, resulting in serious injury and health complications.",
+            "link_type": "primary"
+        },
+        {
+            "id": 20,
+            "case_name": "Family of injured teen v. Provo Canyon School (2026, delayed medical care)",
+            "case_number": "",
+            "court": "",
+            "year": "2026",
+            "status": "Filed",
+            "outcome": "",
+            "summary": "A mother alleges staff ignored her son's warnings that he was not safe before he was attacked at the facility and suffered a jaw injury and brain bleed, and that medical care was delayed. Utah licensers sanctioned the school over the same incident in June 2026. Paris Hilton publicly supported the family and called for the school's closure.",
+            "link_type": "primary"
+        },
+        {
+            "id": 19,
+            "case_name": "Ross v. Universal Health Services, Inc. et al.",
+            "case_number": "2:22-cv-00053 (D. Utah)",
+            "court": "U.S. District Court for the District of Utah",
+            "year": "2021",
+            "status": "In progress",
+            "outcome": "",
+            "summary": "A former resident who was 13 when placed at the school in 2001 alleges he was forced to perform oral sex on a staff member at least a dozen times under threat of punishment and starvation, was locked in solitary confinement for weeks at a time, was overmedicated with Seroquel, Depakote, Trileptal and Celexa, and went two years without being allowed outdoors.",
+            "link_type": "primary"
+        },
+        {
+            "id": 18,
+            "case_name": "Chudnovsky v. Provo Canyon School",
+            "case_number": "",
+            "court": "",
+            "year": "2017",
+            "status": "Unknown",
+            "outcome": "",
+            "summary": "Parents allege their daughter was denied medical care for nearly two weeks after breaking her thumb, and was given access to staples, pens and plastic cutlery despite the program knowing she struggled with compulsive self-harm.",
+            "link_type": "primary"
+        },
+        {
+            "id": 17,
+            "case_name": "Hinman v. Island View Academy et al.",
+            "case_number": "1:14-cv-00015 (D. Utah)",
+            "court": "U.S. District Court for the District of Utah",
+            "year": "2014",
+            "status": "Unknown",
+            "outcome": "Ruling issued May 13, 2015 (published on govinfo).",
+            "summary": "Negligence and breach of fiduciary duty claims against Island View RTC and Provo Canyon School, naming Provo Canyon therapist Wade Taylor among the defendants. The court issued a ruling on May 13, 2015.",
+            "link_type": "primary"
+        },
+        {
+            "id": 16,
+            "case_name": "Provo Canyon School v. HEAL (Human Earth Animal Liberation)",
+            "case_number": "",
+            "court": "",
+            "year": "2009",
+            "status": "Unknown",
+            "outcome": "",
+            "summary": "The school sued the human rights group HEAL for libel over its published records of police calls and complaints about the program. HEAL describes the suit as a strategic lawsuit against public participation and disputes a later NATSAP bulletin's account of it.",
+            "link_type": "primary"
+        },
+        {
+            "id": 14,
+            "case_name": "Milonas and Rice v. Williams (Provo Canyon School)",
+            "case_number": "691 F.2d 931 (10th Cir. 1982)",
+            "court": "U.S. District Court for the District of Utah; Tenth Circuit Court of Appeals",
+            "year": "1979",
+            "status": "Ruling",
+            "outcome": "Jury found for the school in 1980, but the district court entered a permanent injunction barring Provo Canyon School from opening, reading or censoring boys' mail, administering polygraphs, placing boys in isolation except to contain physical violence, and using physical force except to restrain a boy who is an immediate danger to himself or others. Affirmed as Milonas v. Williams, 691 F.2d 931 (10th Cir. 1982).",
+            "summary": "Two teenagers sent to Provo Canyon School by their home states' juvenile justice systems escaped and brought a federal class action challenging the school's confinement, education and treatment methods. The case produced the 1980 injunction that still defines the limits on isolation, restraint, polygraphs and mail censorship at the school.",
+            "link_type": "primary"
+        },
+        {
+            "id": 15,
+            "case_name": "Taylor v. Charter Medical Corporation and Charter Provo School, Inc. d/b/a Provo Canyon School",
+            "case_number": "162 F.3d 827 (5th Cir. 1998)",
+            "court": "U.S. Court of Appeals for the Fifth Circuit",
+            "year": "",
+            "status": "Ruling",
+            "outcome": "Fifth Circuit opinion issued December 9, 1998 (CourtListener). One of the 1980s and 1990s suits over confinement and treatment at the school.",
+            "summary": "A former resident sued the school and its then-owner over his confinement and treatment. Part of a run of civil suits during the Charter years alleging abuse, false imprisonment, medical negligence and First Amendment violations.",
+            "link_type": "primary"
+        }
+    ],
+    "memorials": [],
+    "eras": null,
+    "wiki": [
+        {
+            "id": 657,
+            "title": "Provo Canyon School",
+            "place": "Provo, UT",
+            "organization": "",
+            "type": "Residential Treatment Center",
+            "years": "1971-present"
+        }
+    ],
+    "updated_at": "2026-10-05 22:00:58",
+    "updated_label": "October 5, 2026",
+    "news_url": "https://example.test/news/",
+    "lawsuits_url": "https://example.test/lawsuits/",
+    "memorial_url": "https://example.test/memorial/",
+    "wiki_url": "https://example.test/wiki-feed/?search=Provo%20Canyon%20School",
+    "submit_url": "https://example.test/tti-data-submission/?find=Provo%20Canyon%20School",
+    "news": [
+        {
+            "id": 380,
+            "title": "Advocates call for stronger Utah oversight after deaths at care facilities",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2026-09-23",
+            "date_label": "Sep 23, 2026",
+            "url": "https://www.sltrib.com/news/2026/09/23/advocates-call-stronger-utah/",
+            "type": "event",
+            "summary": "Advocates in Utah are urging stronger state oversight of care facilities after three men died from carbon monoxide poisoning and a nursing home resident died in a fire. The report indicates that warning signs were missed and that existing oversight mechanisms were insufficient.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 297,
+            "title": "Documentary exposes alleged abuse at Provo Canyon School",
+            "outlet": "The Express Tribune",
+            "date": "2026-09-05",
+            "date_label": "Sep 5, 2026",
+            "url": "https://tribune.com.pk/story/2624206/reckless-ben-infiltrates-school-linked-to-paris-hilton-abuse-allegations",
+            "type": "expose",
+            "summary": "A documentary released by YouTuber Reckless Ben alleges that Provo Canyon School, a for‑profit residential treatment center in Utah, engaged in verbal and physical abuse, solitary confinement, and other questionable practices. The report describes the infiltration of the facility by Ben posing as a student and a friend posing as staff, and notes prior lawsuits and loss of licenses for the school’s campuses.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 298,
+            "title": "Utah Youth Residential Treatment Facility Provo Canyon School Ordered to Close Amid Regulatory Violations",
+            "outlet": "Fashion Times",
+            "date": "2026-08-19",
+            "date_label": "Aug 19, 2026",
+            "url": "https://www.fashiontimes.co.uk/provo-canyon-school-closure-youth-residential-care-1762921",
+            "type": "closure",
+            "summary": "Utah regulators revoked the licenses of Provo Canyon School's Provo and Springville campuses in August 2026, ordering the facilities to cease operations due to documented regulatory violations. An undercover video released by a YouTuber highlighted alleged deficiencies in recruitment, screening, and the use of restraint and humiliating disciplinary practices, adding public attention to the closure.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 281,
+            "title": "Reckless Ben went undercover at Utah’s Provo Canyon School",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2026-08-19",
+            "date_label": "Aug 19, 2026",
+            "url": "https://www.sltrib.com/news/2026/08/19/reckless-ben-went-undercover-utahs/",
+            "type": "expose",
+            "summary": "YouTuber 'Reckless Ben' conducted an undercover investigation at Provo Canyon School by posing as a teenager. Hidden‑camera footage released by the investigator shows staff training sessions that discuss the use of physical restraints on residents. The school’s administration is reviewing possible actions regarding the investigation.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 249,
+            "title": "Paris Hilton: Utah must not let Provo Canyon School reopen",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2026-08-04",
+            "date_label": "Aug 4, 2026",
+            "url": "https://www.sltrib.com/opinion/commentary/2026/08/04/paris-hilton-utah-must-not-let/",
+            "type": "general",
+            "summary": "Paris Hilton is advocating against the reopening of Provo Canyon School, citing concerns about the facility's history of abuse. Hilton, a survivor of the school, is urging Utah to prioritize the well-being of children over corporate interests. The school's closure is being considered, with Hilton and other survivors speaking out against its potential reopening.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 268,
+            "title": "Paris Hilton Celebrates Planned Closure of Utah Treatment School Where She Claims She Experienced 'Abuse'",
+            "outlet": "Yahoo Style Canada",
+            "date": "2026-08-03",
+            "date_label": "Aug 3, 2026",
+            "url": "https://ca.style.yahoo.com/paris-hilton-celebrates-planned-closure-100000397.html",
+            "type": "closure",
+            "summary": "The Utah Department of Health and Human Services has revoked the license of Provo Canyon School, a residential treatment facility, due to noncompliance with rules and statutes. Paris Hilton, a survivor of the facility, has spoken out about the abuse she experienced during her time there. The school's closure is set to be completed by August 6.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 251,
+            "title": "10th Circuit rejects Narvin Lichfield's defamation lawsuit against Netflix's 'The Program'",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2026-08-03",
+            "date_label": "Aug 3, 2026",
+            "url": "https://www.sltrib.com/news/2026/08/03/10th-circuit-rejects-narvin/",
+            "type": "lawsuit",
+            "summary": "The 10th Circuit has rejected a defamation lawsuit filed by Narvin Lichfield against Netflix's documentary series 'The Program: Cons, Cults and Kidnapping'. Lichfield, a former teen treatment director, claims the documentary defamed him. The documentary series features allegations of abuse and mistreatment at teen treatment facilities, including Provo Canyon School.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 221,
+            "title": "Provo Canyon School appeals Utah’s order to shut down both troubled teen programs",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2026-07-27",
+            "date_label": "Jul 27, 2026",
+            "url": "https://www.sltrib.com/news/2026/07/27/provo-canyon-school-appeals-utahs/",
+            "type": "closure",
+            "summary": "Utah officials revoked the licenses of Provo Canyon School's programs due to allegations of abusive discipline, unnecessary restraints, and humiliation of children. The school is now appealing the decision. The allegations led to an order to close the school's girls program by August.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 255,
+            "title": "Provo Canyon boarding forced to shut down after abuse lawsuits",
+            "outlet": "Baptist News Global",
+            "date": "2026-07-24",
+            "date_label": "Jul 24, 2026",
+            "url": "https://baptistnews.com/article/provo-canyon-boarding-forced-to-shut-down-after-abuse-lawsuits/",
+            "type": "closure",
+            "summary": "Provo Canyon School, a residential treatment center, has been shut down due to allegations of abuse and neglect. The school faced multiple lawsuits, including two recent cases involving improper care of students who were injured or sick. The Utah Department of Health and Human Services revoked the school's residential treatment license, citing failure to provide a safe environment for children.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 269,
+            "title": "License revoked for boarding school in Utah where Paris Hilton says she was abused as a teen",
+            "outlet": "The Associated Press",
+            "date": "2026-07-19",
+            "date_label": "Jul 19, 2026",
+            "url": "https://www.greenevillesun.com/news/license-revoked-for-boarding-school-in-utah-where-paris-hilton-says-she-was-abused-as/article_5c77d774-8de9-540b-8b9d-97df53080f04.html",
+            "type": "closure",
+            "summary": "The Utah Department of Health and Human Services revoked the license of the Provo Canyon School's Provo campus due to multiple noncompliance citations, including failure to protect clients from harm and using cruel practices on children. Paris Hilton, who attended the school as a teenager, has spoken out about the abuse she suffered there. The school has until August 15 to stop providing services at its Provo campus.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 227,
+            "title": "Voices: Utah must stand firm on its closure of Provo Canyon School",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2026-07-19",
+            "date_label": "Jul 19, 2026",
+            "url": "https://web.archive.org/web/20260726051122/https://www.sltrib.com/opinion/commentary/2026/07/19/voices-utah-must-stand-firm-its/",
+            "type": "closure",
+            "summary": "Jen Robison, a survivor of Provo Canyon School, writes about her experience and advocates for the school's permanent closure. She believes that children deserve safe help and that the program's closure is necessary to ensure their well-being. The author urges Utah to stand firm on its decision to revoke the school's license.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 256,
+            "title": "State revokes license of Provo Canyon School's Provo campus amid lawsuit, abuse allegations",
+            "outlet": "KSL",
+            "date": "2026-07-17",
+            "date_label": "Jul 17, 2026",
+            "url": "https://www.ksl.com/article/51599155/state-revokes-license-of-provo-canyon-schools-provo-campus-amid-lawsuit-abuse-allegations",
+            "type": "lawsuit",
+            "summary": "The state of Utah has revoked the license of Provo Canyon School's Provo campus due to repeated noncompliance citations and allegations of abuse. The school was cited for failing to protect clients from harm and using cruel and unnecessary practices. Paris Hilton, a survivor of the school, has filed a lawsuit alleging mistreatment and abuse during her time at the facility.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 242,
+            "title": "Utah revokes Provo Canyon School's Provo campus license, orders facility to close",
+            "outlet": "KUTV",
+            "date": "2026-07-17",
+            "date_label": "Jul 17, 2026",
+            "url": "https://kutv.com/news/local/utah-revokes-provo-canyon-schools-provo-campus-license-orders-facility-to-close",
+            "type": "closure",
+            "summary": "The Utah Department of Health and Human Services has revoked the residential treatment license for Provo Canyon School's Provo campus, citing concerns over allegations of abuse and mistreatment. The facility must cease operations by August 16. Survivors, including Paris Hilton, have spoken out about their experiences at the school, describing physical and mental abuse.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 236,
+            "title": "Utah officials shut down embattled Provo residential treatment facility Paris Hilton has fought for years to close",
+            "outlet": "Deseret News",
+            "date": "2026-07-17",
+            "date_label": "Jul 17, 2026",
+            "url": "https://www.deseret.com/utah/2026/07/17/provo-canyon-school-license-revoked-shut-down-paris-hilton/",
+            "type": "closure",
+            "summary": "The Utah Department of Health and Human Services revoked the residential treatment license for Provo Canyon School's Provo campus, effectively shutting down the program. The facility must stop providing all services by August 16. Paris Hilton, who attended the school as a youth and has spoken out about abuse, applauded the shutdown.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 504,
+            "title": "Paris Hilton and More Survivors Win Fight to Shut Down Former ‘Troubled Teen’ Facility",
+            "outlet": "Jezebel",
+            "date": "2026-07-09",
+            "date_label": "Jul 9, 2026",
+            "url": "https://www.jezebel.com/paris-hilton-and-more-survivors-win-fight-to-shut-down-former-troubled-teen-facility",
+            "type": "closure",
+            "summary": "State officials revoked the license of Provo Canyon School in Utah and ordered its closure by August 6, 2026, citing repeated failures to provide adequate care and safety. Survivors, including Paris Hilton, have long reported verbal abuse, forced medication, solitary confinement, and nonconsensual medical examinations at the facility.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 243,
+            "title": "Utah Shuts Down Provo Canyon School Paris Hilton Accused of Abuse",
+            "outlet": "The Hollywood Reporter",
+            "date": "2026-07-09",
+            "date_label": "Jul 9, 2026",
+            "url": "https://www.hollywoodreporter.com/news/general-news/provo-canyon-school-paris-hilton-shut-down-abuse-1236643448/",
+            "type": "closure",
+            "summary": "The state of Utah has shut down the Provo Canyon School due to multiple health and safety violations. Paris Hilton, a survivor of the facility, has spoken out about the abuse she experienced during her time there. The school's closure comes after years of allegations of abuse and neglect.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 314,
+            "title": "Utah Revokes License for Boarding School Where Paris Hilton Says She Was Abused As a Teen",
+            "outlet": "EDGE",
+            "date": "2026-07-08",
+            "date_label": "Jul 8, 2026",
+            "url": "https://www.edgemedianetwork.com/story/168073/utah-revokes-license-for-boarding-school-where-paris-hilton-says-she-was-abused?utm_source\\u003dsocialmedia%2F%2F%2F%3Fsugg%3Ds%2F%2F%2F%2F",
+            "type": "closure",
+            "summary": "Utah's Department of Health & Human Services revoked the operating license of Provo Canyon School, citing multiple health and safety violations, including inadequate staffing, improper restraints, and failure to verify employee background checks. The action follows survivor testimony, including statements from Paris Hilton, about alleged abuse at the facility.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 241,
+            "title": "Utah boarding school where Paris Hilton alleged abuse as a teen loses its licence",
+            "outlet": "BBC",
+            "date": "2026-07-08",
+            "date_label": "Jul 8, 2026",
+            "url": "https://www.bbc.com/news/articles/cjdg4r3k3emo",
+            "type": "closure",
+            "summary": "The Provo Canyon School in Utah has had its license revoked due to noncompliance issues, including unnecessary restraint and neglect. Paris Hilton, a survivor of the school, has spoken out about the abuse she experienced during her time there. The school's license cancellation is a result of an investigation by Utah state regulators.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 217,
+            "title": "Disability Law Center says teens aren’t safe at Utah program",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2026-06-23",
+            "date_label": "Jun 23, 2026",
+            "url": "https://www.sltrib.com/news/2026/06/23/disability-law-center-says-teens/",
+            "type": "expose",
+            "summary": "The Disability Law Center has reported concerns about the safety of teens at Provo Canyon School, citing incidents of violence, self-harm, and inadequate medical care. The center's findings are based on visits to the program's Provo and Springville campuses. The report highlights chronic staffing shortages and other issues that may be putting teens at risk.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 207,
+            "title": "Provo Canyon School lawsuit: Teen warned he wasn’t safe before attack, mother says ‘Shut it down’",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2026-06-15",
+            "date_label": "Jun 15, 2026",
+            "url": "https://www.sltrib.com/news/2026/06/15/provo-canyon-school-lawsuit-teen/",
+            "type": "lawsuit",
+            "summary": "A mother has filed a lawsuit against Provo Canyon School, alleging that staff ignored safety concerns before her son was seriously injured. The incident has prompted calls for the school's closure. Paris Hilton, an advocate for reform of the troubled teen industry, has spoken out in support of the family.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 206,
+            "title": "Paris Hilton backs two families' lawsuits against Provo Canyon School",
+            "outlet": "KUTV",
+            "date": "2026-06-15",
+            "date_label": "Jun 15, 2026",
+            "url": "https://kutv.com/news/local/paris-hilton-comes-to-utah-as-families-file-lawsuits-against-provo-canyon-school",
+            "type": "lawsuit",
+            "summary": "Two families have filed lawsuits against Provo Canyon School, alleging medical neglect and malpractice. Paris Hilton, who attended the school as a teenager, is supporting the families and calling for the school to be shut down. The lawsuits claim that the school failed to provide adequate medical care to two teenagers, resulting in serious injuries and health complications.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 193,
+            "title": "‘Troubled teen’ industry: Provo Canyon School under renewed scrutiny after Utah sanctions facility over injured teen",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2026-06-02",
+            "date_label": "Jun 2, 2026",
+            "url": "https://www.sltrib.com/news/2026/06/02/troubled-teen-industry-provo/",
+            "type": "event",
+            "summary": "Provo Canyon School has been sanctioned by Utah licensers for delaying medical care to a teen who suffered a jaw injury and brain bleed in a fight at the facility. The school has a history of abuse allegations. The sanction prevents the facility from accepting new clients temporarily.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 18,
+            "title": "Former Spring Ridge Academy Students Say School Inflicted Abuse, Trauma",
+            "outlet": "HuffPost",
+            "date": "2025-10-10",
+            "date_label": "Oct 10, 2025",
+            "url": "https://www.huffpost.com/entry/troubled-teens-spring-ridge-academy_n_68cc1b68e4b0df2833ccfa2c",
+            "type": "lawsuit",
+            "summary": "Former students of Spring Ridge Academy have come forward with allegations of abuse and trauma, including physical restraint, psychological games, and humiliating punishments. The facility's founder, Jeannie Courtney, denies the allegations, but court records and police reports suggest a pattern of mistreatment. Many former students have struggled with long-term effects, including addiction and survivor's guilt.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 429,
+            "title": "Their kids died in Utah teen treatment programs. Now, these parents are asking Utah lawmakers to beef up oversight.",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2025-02-21",
+            "date_label": "Feb 21, 2025",
+            "url": "https://www.sltrib.com/news/health/2025/02/21/troubled-teen-industry-utah/",
+            "type": "expose",
+            "summary": "Parents of teens who died in Utah treatment facilities spoke to lawmakers in support of SB297, a bill to strengthen oversight of the troubled teen industry. Dean Goodridge described how his daughter Taylor died at Diamond Ranch Academy after staff failed to get her medical help for a treatable infection. Katy Silvers said her son Biruk died by suicide at Discovery Ranch after telling his therapist he had a detailed plan. The program never informed his family. Both parents said their children could have been saved if someone had acted.\n\nSB297 would fund an independent ombudsman to investigate complaints and create an advisory board to review whether facilities are admitting youth they are equipped to serve. Primary Children’s Hospital reported treating 169 out-of-state children from Utah programs in 2024, leading to a shortage of beds for local kids. The average stay for those out-of-state youth was 30 percent longer. One child lived in the hospital for five months, blocking care for 22 Utah patients. Although some families defended the programs, the Senate Judiciary Committee voted unanimously to move the bill forward.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 427,
+            "title": "Provo Canyon School staff hurt kids, Utah licensers found; its Springville campus is under close watch",
+            "outlet": "Salt Lake Tribune",
+            "date": "2025-02-14",
+            "date_label": "Feb 14, 2025",
+            "url": "https://www.sltrib.com/news/2025/02/14/provo-canyon-school-staff-hurt/",
+            "type": "general",
+            "summary": "Utah officials placed Provo Canyon School’s Springville campus under heightened scrutiny after state inspectors found repeated harm to youth in its care. A recent video showed a staff member striking a child during a restraint, one of at least seven documented incidents over two years where young people were not kept safe. Survivors like Paris Hilton have spoken publicly about their experiences at the school, describing abuse and overmedication. Regulators now require more oversight, but the program continues to operate, housing over 100 teens with serious mental health needs.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 426,
+            "title": "Utah treatment center closes abruptly after history of violations and abuse",
+            "outlet": "KUTV",
+            "date": "2025-02-14",
+            "date_label": "Feb 14, 2025",
+            "url": "https://kutv.com/news/local/utah-treatment-center-closes-abruptly-after-history-of-violations-and-abuse",
+            "type": "arrest",
+            "summary": "Three Points Center, a residential treatment program in Hurricane, Utah, closed abruptly on February 14, giving families just ten days to respond. The facility, which served adopted teens, had a documented history of abuse, including 14 state violations for improper restraints, physical aggression, and verbal abuse. Reports included a staff member throwing furniture at a child and injuring another during an unnecessary intervention.\n\nFounded by Dr. Norm Thibault, the center had direct ties to the discredited WWASP network, with leaders previously working at Cross Creek and Liahona Academy. Child rights attorney Dawn J. Post also linked the program to an abusive facility in the U.S. through her investigation of Youth Division Academy in Jamaica.\n\nPost raised additional concerns about staff with criminal histories and a pattern of hiring unqualified workers. One reported employee had a 2013 charge for child abuse material and a 2024 felony obscenity conviction. Utah laws allowing parents to force teens into treatment until age 18—with no consent required from the child—make the state a hub for such facilities. Critics fear current residents will be quietly transferred to other institutions without review or accountability.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 424,
+            "title": "Provo Canyon School employee arrested",
+            "outlet": "KSL.com",
+            "date": "2024-09-14",
+            "date_label": "Sep 14, 2024",
+            "url": "https://www.ksl.com/article/51128296/provo-canyon-school-employee-arrested-accused-of-punching-student",
+            "type": "arrest",
+            "summary": "Mulmauga Tuiloma, 27, was arrested for physically assaulting a 15 year-old girl at Provo Canyon School\n\nHe is being investigated for aggravated child abuse\n\nTuiloma originally claimed that the assault was a form of “restraint”\n\nCharges have not yet been filed",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 769,
+            "title": "Discover the Person Behind the Name in Paris Hilton’s ‘Paris: The Memoir’",
+            "outlet": "Yahoo Lifestyle",
+            "date": "2023-03-24",
+            "date_label": "Mar 24, 2023",
+            "url": "https://archive.is/yrAfN",
+            "type": "general",
+            "summary": "Paris Hilton recounts her 11‑month stay at Provo Canyon School, describing forced medical examinations, threats of sedation, and being required to sit nude in an observation room. She characterizes these practices as part of broader harms associated with the troubled‑teen industry.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 201,
+            "title": "Paris Hilton Reveals Sexual Abuse, Nonconsensual ‘Cervical Exams’ at Utah Boarding School",
+            "outlet": "Jezebel",
+            "date": "2022-10-12",
+            "date_label": "Oct 12, 2022",
+            "url": "https://www.jezebel.com/paris-hilton-reveals-sexual-abuse-nonconsensual-medic-1849647540",
+            "type": "expose",
+            "summary": "Paris Hilton has spoken out about the abuse she experienced at Provo Canyon School, including nonconsensual medical exams. She has testified about the emotional and physical abuse she and other teens faced at the school. Hilton is advocating for reforms to youth congregate care and reform schools.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 765,
+            "title": "An Investigation into the Troubled Teen Industry and Mental Health Facilities",
+            "outlet": "The New York Times",
+            "date": "2022-10-11",
+            "date_label": "Oct 11, 2022",
+            "url": "https://www.nytimes.com/interactive/2022/10/11/opinion/teen-mental-health-care.html",
+            "type": "expose",
+            "summary": "An investigative report examining the troubled teen industry highlights systemic issues including minimal oversight, profit-driven management, and widespread allegations of physical and sexual abuse, chemical and physical restraints, and solitary confinement in residential treatment facilities.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 768,
+            "title": "Paris Hilton Details Experiences at Provo Congregate Care Facility and Advocates for Reform",
+            "outlet": "The US Sun",
+            "date": "2022-09-15",
+            "date_label": "Sep 15, 2022",
+            "url": "https://www.the-sun.com/entertainment/1356661/paris-hilton-alleged-torture-abuse-documentary-youtube-school/",
+            "type": "expose",
+            "summary": "Paris Hilton publicly detailed allegations of physical and emotional abuse experienced while enrolled at the Provo Canyon School in Utah as a teenager. Hilton later advocated for legislative reform in congregate care settings, sharing her experiences in a documentary and through testimony before lawmakers.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 745,
+            "title": "Cushman: Utah Needs to Address Isolation of Teens in Utah Teen Treatment Centers",
+            "outlet": "The Daily Utah Chronicle",
+            "date": "2022-04-13",
+            "date_label": "Apr 13, 2022",
+            "url": "https://dailyutahchronicle.com/2022/04/13/cushman-utah-teen-treatment-centers/",
+            "type": "expose",
+            "summary": "The article reports allegations of physical restraint, emotional abuse, solitary confinement, forced medication, and sexual abuse experienced by survivors at Utah teen treatment centers such as Provo Canyon School and Red Rock Canyon School. It highlights the role of isolation in limiting access to help and calls for stronger state regulation to protect youths in these facilities.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 949,
+            "title": "Federal Watchdogs Find Abuse at For-Profit Youth Residential Programs in 18 States",
+            "outlet": "The Imprint",
+            "date": "2021-11-02",
+            "date_label": "Nov 2, 2021",
+            "url": "https://imprintnews.org/top-stories/federal-watchdogs-find-widespread-abuse-at-youth-residential-programs/60071",
+            "type": "corporate",
+            "summary": "A report by the National Disability Rights Network documents widespread civil rights violations, physical, emotional, and sexual abuse, and inappropriate use of psychotropic medication across for-profit youth residential programs in 18 states. The findings highlight systemic issues driven by profit-seeking models, prompting calls for increased federal oversight and accountability.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 766,
+            "title": "Paris Hilton Discusses Trauma from Residential Treatment and Subsequent Advocacy Work",
+            "outlet": "The Sydney Morning Herald",
+            "date": "2021-08-22",
+            "date_label": "Aug 22, 2021",
+            "url": "https://www.smh.com.au/culture/tv-and-radio/nobody-ever-knew-why-paris-hilton-built-her-barbie-persona-to-block-out-trauma-20210818-p58juj.html",
+            "type": "general",
+            "summary": "Paris Hilton discusses her experience as a teenager at Provo Canyon School, a residential treatment center in Utah, where she experienced emotional and physical abuse. Following the release of her documentary, she partnered with Breaking Code Silence to advocate for legislation regulating troubled teen facilities and banning practices such as chemical sedation and unauthorized mechanical restraints.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 677,
+            "title": "An Examination of Allegations and Practices Within the Troubled Teen Industry",
+            "outlet": "Refinery29",
+            "date": "2021-06-29",
+            "date_label": "Jun 29, 2021",
+            "url": "https://www.refinery29.com/en-us/2021/06/10401693/troubled-teens-programs-industry-problem",
+            "type": "expose",
+            "summary": "Multiple survivors have come forward with allegations of emotional, physical, and psychological abuse within various residential treatment facilities and behavioral modification programs. Former residents report practices including involuntary transport, isolation, forced labor, and peer-to-peer shaming sessions, prompting increased public scrutiny of the troubled teen industry.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 739,
+            "title": "Investigation Details Historical Lapses in Oversight at Utah Youth Treatment Facilities",
+            "outlet": "The Salt Lake Tribune",
+            "date": "2021-06-21",
+            "date_label": "Jun 21, 2021",
+            "url": "https://www.sltrib.com/news/2021/06/23/after-disabled-teen-was/",
+            "type": "expose",
+            "summary": "An investigative report reveals that Utah regulatory agencies historically failed to cite residential youth treatment facilities for rule violations, leaving incidents of physical restraint and mistreatment largely unpunished. The report details a 2016 incident at Provo Canyon School involving the physical restraint of a resident, which resulted in an untreated concussion, and examines subsequent state efforts to increase regulatory oversight.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 757,
+            "title": "Analysis Of New Crowd-Funded Utah Teen Treatment Database Raises Questions About Effectiveness Of Inspections",
+            "outlet": "KUER",
+            "date": "2021-03-10",
+            "date_label": "Mar 10, 2021",
+            "url": "https://www.kuer.org/health-science-environment/2021-03-10/analysis-of-new-crowd-funded-utah-teen-treatment-database-raises-questions-about-effectiveness-of-inspections",
+            "type": "expose",
+            "summary": "An analysis of a new database containing five years of inspection reports for youth residential treatment centers in Utah reveals that state regulators found facilities to be compliant 98% of the time. Journalists noted that while inspection checklists primarily focus on minor structural and paperwork compliance rather than treatment quality or safety, incident reports continue to document concerning practices such as staff use of physical restraints.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 742,
+            "title": "Amid abuse allegations at Provo Canyon School, state legislators push for transparency (2021-02-12)",
+            "outlet": "Daily Herald",
+            "date": "2021-02-12",
+            "date_label": "Feb 12, 2021",
+            "url": "https://www.heraldextra.com/news/local/amid-abuse-allegations-at-provo-canyon-school-state-legislators-push-for-transparency/article_891d834d-5fcb-5760-a7c5-1576d2440e62.html",
+            "type": "event",
+            "summary": "Former residents of Provo Canyon School have alleged physical, chemical, and sexual abuse, prompting survivor Paris Hilton to testify before Utah legislators. In response, Senate Bill 127 was introduced to increase oversight, limit restraints, and require reporting and suicide‑prevention measures at youth residential treatment facilities.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 735,
+            "title": "Paris Hilton testifies about alleged abuse at Utah boarding school",
+            "outlet": "Windsor Star",
+            "date": "2021-02-09",
+            "date_label": "Feb 9, 2021",
+            "url": "https://archive.is/LbLs2",
+            "type": "event",
+            "summary": "Paris Hilton testified before the Utah Senate Judiciary, Law Enforcement, and Criminal Justice Committee about alleged verbal, mental, and physical abuse she experienced while attending the Provo Canyon residential school for 11 months. She described daily abuse, lack of privacy, forced medication, and called for increased oversight of such facilities.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 738,
+            "title": "New York Man Charged with Threatening Utah Lawmakers Over Provo Canyon School Grievances",
+            "outlet": "Deseret News",
+            "date": "2020-12-11",
+            "date_label": "Dec 11, 2020",
+            "url": "https://www.deseret.com/utah/2020/12/11/22170204/charges-man-sent-death-threats-to-utah-lawmakers-over-provo-canyon-school",
+            "type": "arrest",
+            "summary": "A New York man and former resident of Provo Canyon School was arrested and charged with making terroristic threats after sending death threats and violent messages to Utah lawmakers demanding legal action against the facility. The suspect, who reported experiencing physical and sexual abuse while housed at the institution, was located in New York and placed under psychiatric evaluation following the issuance of an arrest warrant.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 758,
+            "title": "Paris Hilton still fighting Provo Canyon School after 'This Is Paris'",
+            "outlet": "USA TODAY",
+            "date": "2020-12-10",
+            "date_label": "Dec 10, 2020",
+            "url": "https://www.usatoday.com/story/entertainment/celebrities/2020/12/10/paris-hilton-fighting-abuse-provo-canyon-school-this-is-paris/6475425002/",
+            "type": "expose",
+            "summary": "Paris Hilton alleges that during her 11 months at Provo Canyon School she experienced verbal, emotional and physical abuse, resulting in anxiety, insomnia and trust issues. The school has denied the allegations, citing a change in management in 2000. Hilton and other survivors have formed a database to collect testimonies and are advocating for legislative and regulatory reforms.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 762,
+            "title": "Allegations of Abuse at U.S. Troubled‑Teen Boarding Schools Involving Canadian Teens",
+            "outlet": "HuffPost Canada",
+            "date": "2020-11-22",
+            "date_label": "Nov 22, 2020",
+            "url": "https://www.huffingtonpost.ca/entry/boarding-school-abuse-canadians_ca_5fb53599c5b6f00bd84c6ef7",
+            "type": "expose",
+            "summary": "The article reports allegations of physical restraint, solitary confinement, and sexual misconduct at several U.S. troubled‑teen boarding schools that housed Canadian teenagers. Survivors describe harsh punishments, forced medication, and isolation, and the facilities have faced legal and regulatory scrutiny. The piece highlights gaps in oversight and the impact on the survivors’ mental health.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 767,
+            "title": "‘It’s What I’ve Been Waiting 30 Years For:’ Survivors Of Abuse In Troubled Teen Facilities March On Provo Canyon School",
+            "outlet": "KUER",
+            "date": "2020-10-11",
+            "date_label": "Oct 11, 2020",
+            "url": "https://www.kuer.org/health-science-environment/2020-10-11/its-what-ive-been-waiting-30-years-for-survivors-of-abuse-in-troubled-teen-facilities-march-on-provo-canyon-school",
+            "type": "event",
+            "summary": "More than 100 survivors gathered in Provo, Utah, to march and call for the closure of Provo Canyon School and broader reform of troubled‑teen programs. Participants shared allegations of physical and chemical restraint, forced medical procedures, and suicides linked to their experiences, while urging increased oversight and regulation.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 622,
+            "title": "Disability Rights Organization To Investigate Utah’s Youth Residential Treatment Facilities | KUER",
+            "outlet": "KUER 90.1",
+            "date": "2020-10-06",
+            "date_label": "Oct 6, 2020",
+            "url": "https://www.kuer.org/health-science-environment/2020-10-06/disability-rights-organization-to-investigate-utahs-youth-residential-treatment-facilities",
+            "type": "event",
+            "summary": "The Disability Law Center has launched a formal investigation into Utah's youth residential treatment facilities following increased public scrutiny and an incident at Red Rock Canyon School. The inquiry aims to evaluate conditions and practices across approximately 100 private behavioral treatment programs operating in the state.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 746,
+            "title": "Documentary 'This is Paris' Highlights Institutional Trauma and Survivor Advocacy",
+            "outlet": "The Chronicle",
+            "date": "2020-09-24",
+            "date_label": "Sep 24, 2020",
+            "url": "https://www.dukechronicle.com/article/2020/09/skyler-graham-this-is-paris-hilton-documentary",
+            "type": "expose",
+            "summary": "The documentary \"This is Paris\" features public figures discussing institutional abuse experienced during adolescence at Provo Canyon School. The film highlights accounts of physical force, seclusion, and psychological trauma endured by residents while enrolled at the behavioral health facility.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 733,
+            "title": "Paris Hilton and Drew Barrymore Discuss Shared Experiences in Youth Residential Facilities",
+            "outlet": "Refinery29",
+            "date": "2020-09-22",
+            "date_label": "Sep 22, 2020",
+            "url": "https://archive.is/Zcob4",
+            "type": "general",
+            "summary": "During an interview on a talk show, media personalities Paris Hilton and Drew Barrymore discussed their shared experiences as adolescents subjected to involuntary placement in youth residential facilities. Hilton referenced her documentary, detailing institutional practices at Provo Canyon School, while Barrymore shared her own history of institutionalization and prolonged seclusion.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 749,
+            "title": "Documentary 'This Is Paris' Features Survivor Accounts of Institutional Abuse at Provo Canyon School",
+            "outlet": "CNN",
+            "date": "2020-09-15",
+            "date_label": "Sep 15, 2020",
+            "url": "https://www.cnn.com/2020/09/15/entertainment/this-is-paris-paris-hilton/index.html",
+            "type": "expose",
+            "summary": "The documentary \"This Is Paris\" includes Paris Hilton's account of physical and emotional abuse she experienced while attending Provo Canyon School, a Utah boarding school for troubled teens. Hilton reports ongoing PTSD symptoms and has joined a campaign to raise awareness about similar institutions.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": true
+        },
+        {
+            "id": 759,
+            "title": "Allegations of Abuse in Residential Treatment Programs for Teens",
+            "outlet": "Dissident Voice",
+            "date": "2006-04-20",
+            "date_label": "Apr 20, 2006",
+            "url": "http://www.nospank.net/chapeli.htm",
+            "type": "expose",
+            "summary": "The article reports allegations that several privately operated residential treatment programs for adolescents employ coercive discipline, physical and chemical restraints, and isolation, resulting in reported trauma among former participants. It also describes corporate ties, political contributions, and legal actions related to these facilities.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 393,
+            "title": "Disability watchdog group calls for greater oversight of Utah’s long-term care system",
+            "outlet": "FOX 13 News",
+            "date": "",
+            "date_label": "",
+            "url": "https://www.fox13now.com/news/fox-13-investigates/disability-watchdog-group-calls-for-greater-oversight-of-utahs-long-term-care-system",
+            "type": "expose",
+            "summary": "The Disability Law Center released a report alleging abuse, neglect, and financial mismanagement in Utah nursing homes, teen treatment centers, and disability day programs. The report calls for increased state oversight, transparency of public funds, and stronger staffing and licensing requirements.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 219,
+            "title": "Families scramble to find alternatives after Provo Canyon School closes",
+            "outlet": "FOX 13 News",
+            "date": "",
+            "date_label": "",
+            "url": "https://www.fox13now.com/news/local-news/utah-county/families-scramble-to-find-alternatives-after-provo-canyon-school-closes",
+            "type": "closure",
+            "summary": "The Provo Canyon School is closing after the Utah Department of Health and Human Services revoked its licenses due to failure to protect its residents. The school's closure will affect dozens of juveniles who will need to find alternative treatment options. An investigation found that the school had failed to ensure the safety and well-being of its residents, leading to incidents of physical harm.",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
+        }
+    ],
+    "inspections": {
+        "summary": {
+            "licensed_names": [
+                "UHS Of Provo Canyon dba Provo Campus"
+            ],
+            "addresses": [
+                "4501 N University Ave, Provo, UT, 84604"
+            ],
+            "phone": "8017041313",
+            "program_category": "Residential Treatment",
+            "licensed_program_name": "",
+            "executive_director": "",
+            "bed_capacity": "106",
+            "license_expiration": "01/31/2027",
+            "relicense_visit_date": "",
+            "licensing_action": "Conditional",
+            "states": [
+                "Utah"
+            ]
+        },
+        "total": 31,
+        "reports": [
+            {
+                "id": 80104,
+                "ts": 1786579200,
+                "date": "08/13/2026",
+                "date_label": "Aug 13, 2026",
+                "url": "",
+                "summary": "Follow-Up, Additional Follow-Up Inspection",
+                "report_id": "2026-08-13",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 80106,
+                "ts": 1785974400,
+                "date": "08/06/2026",
+                "date_label": "Aug 6, 2026",
+                "url": "",
+                "summary": "Conditional, Monitoring Inspection, Follow-Up Inspection",
+                "report_id": "2026-08-06",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 80108,
+                "ts": 1785110400,
+                "date": "07/27/2026",
+                "date_label": "Jul 27, 2026",
+                "url": "",
+                "summary": "Conditional, Monitoring Inspection, Follow-Up Inspection",
+                "report_id": "2026-07-27",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 80109,
+                "ts": 1784678400,
+                "date": "07/22/2026",
+                "date_label": "Jul 22, 2026",
+                "url": "",
+                "summary": "Follow-Up, Additional Follow-Up Inspection",
+                "report_id": "2026-07-22",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 80110,
+                "ts": 1783987200,
+                "date": "07/14/2026",
+                "date_label": "Jul 14, 2026",
+                "url": "",
+                "summary": "Follow-Up, Additional Follow-Up Inspection",
+                "report_id": "2026-07-14",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 75651,
+                "ts": 1783296000,
+                "date": "07/06/2026",
+                "date_label": "Jul 6, 2026",
+                "url": "",
+                "summary": "Follow-Up, Additional Follow-Up Inspection",
+                "report_id": "2026-07-06",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 77732,
+                "ts": 1782864000,
+                "date": "07/01/2026",
+                "date_label": "Jul 1, 2026",
+                "url": "",
+                "summary": "Non On-Site Inspection",
+                "report_id": "2026-07-01",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 75653,
+                "ts": 1782086400,
+                "date": "06/22/2026",
+                "date_label": "Jun 22, 2026",
+                "url": "",
+                "summary": "Conditional, Monitoring Inspection",
+                "report_id": "2026-06-22",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 75654,
+                "ts": 1781827200,
+                "date": "06/19/2026",
+                "date_label": "Jun 19, 2026",
+                "url": "",
+                "summary": "Complaint, Investigation Inspection (16 findings)",
+                "report_id": "2026-06-19",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": [
+                    {
+                        "text": "The provider was out of compliance with R380-80-5(10) by failing to provide services and supervision that is commensurate with the skills, abilities, behaviors, and needs of each client. During the investigation, provider records and facility video coverage show that on June 24, 2026, staff members failed to adequately supervise a client with a documented history of ingesting hazardous objects. Video evidence showed the client lying on the floor directly behind a staff member's chair. Although the staff member was aware of the client's presence, staff turned their back to the client to engage in a conversation with another youth. Left unmonitored, the client removed a metal screw from the underside of the chair the staff member was occupying and ingested it, which resulted in emergency medical intervention.",
+                        "standard": "R380-80-5(10) Services and supervision to meet each clients needs",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R380-80-5(10) for failing to provide services and supervision that is commensurate with the skills, abilities, behaviors, and needs of each client. During the investigation inspection, provider records documented that a staff member failed to verify that all clients were accounted for before transitioning clients from the living unit to the school and a client was left unsupervised on a living unit for 2 hours and 30 minutes.",
+                        "standard": "R380-80-5(10) Services and supervision to meet each clients needs",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R380-80-5(10) for failing to provide services and supervision that is commensurate with the skills, abilities, behaviors, and needs of each client. During the investigation, provider records documented an incident on November 27, 2025, in which a staff member failed to supervise a client who ran from the facility and was missing without staff awareness for 1 hour and 40 minutes.\n 26B-2-123(1)(a)-(b): Use of a cruel, severe, unusual, or unnecessary practice on a child — The provider was out of compliance with 26B-2-123(1)(a)(iii) for using cruel and unnecessary practice on a child that included inducing pain to obtain compliance. During the investigation inspection, information was obtained through two (2) interviews, facility video coverage, and provider records that showed facility staff induced physical pain to obtain compliance during a prolonged and unnecessary physical restraint of a client.",
+                        "standard": "R380-80-5(10) Services and supervision to meet each clients needs",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R380-80-6(1)(e) by not ensuring clients have the right to be free from abuse and mistreatment. During the investigation inspection, eleven (11) clients and six (6) staff interviews verified that clients were mistreated and felt unsafe with staff members. The evidence substantiated that staff yell and curse at clients, use racist and homophobic slurs directed at clients, engage in power struggles, antagonize, and instigate reactive behaviors from clients. Additionally, clients reported staff are dismissive, nonresponsive, and verbally aggressive. One staff told a client to kill themselves when the client expressed suicidal ideation. \n 26B-2-123(1)(a)-(b): Use of a cruel, severe, unusual, or unnecessary practice on a child — The provider was out of compliance with 26B-2-123(1)(a)(vi) by using a cruel, unusual, and unnecessary practice on a child by using discipline or punishment that was intended to frighten or humiliate. During the investigation inspection, three (3) clients and one (1) staff member reported that staff intentionally humiliate clients. Examples include directing clients to get on their hands and knees and bark like a dog for snacks, and forcing a client, who is a black person, to eat a banana while peers laughed.",
+                        "standard": "R380-80-6(1)(a)-(i) Client rights",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R380-600-7(6) by not ensuring that the integrity of the department's information gathering process is not compromised by withholding or manipulating information. During the investigation, it was determined that the provider omitted critical details from at least two (2) reports previously submitted to the department. Had this crucial information been properly disclosed at the time of submission, it would have immediately prompted a department investigation.",
+                        "standard": "R380-600-7(6) No withholding or manipulating sources",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R501-14-4(3)(b) by not checking the roster at least monthly to verify employee information and the employment of the employees due for a renewal review. During the investigation inspection, the department identified at least eight (8) provider staff members who did not pass a background screening and had access to clients and/or client records.",
+                        "standard": "R501-14-4(3)(a)-(c) Agency's roster and employee information current",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R380-80-5(4) by not protecting clients from abuse, harm, and mistreatment, and any action that may compromise the health and safety of clients through acts or omissions and shall instruct and encourage others to do the same. During the investigation, facility video footage and provider records verified that two (2) staff members failed to intervene, standing by as they watched a client slap two (2) other clients in the head and face. The staff initiated a physical restraint after the client threw water on the staff. During the physical restraint, a staff laid on the client's legs, resulting in the client sustaining a fractured foot.",
+                        "standard": "R380-80-5(4) Provider shall protect clients from abuse, prevent abuse",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R501-14-5(2)(b)(i)(ii) by not ensuring each applicant is directly supervised until OBP issues a conditional or eligible clearance determination. During the investigation inspection, an audit conducted by the department identified one hundred (100) staff members whose background screening statuses required them to have direct, uninterrupted audio and visual supervision by a fully cleared staff member at all times when accessing clients or client records. During on-site investigation inspections and throughout facility video coverage review, the department directly observed multiple staff members from this audit list who did not have a conditional or eligible clearance determination interacting with clients without the mandated supervision.\n 26B-2-123(1)(a)-(b): Use of a cruel, severe, unusual, or unnecessary practice on a child — The provider was out of compliance with 26B-2-123(1)(a)(xi) for depriving clients of water, rest, and the opportunity for toileting. During the investigation inspection, interviews with three (3) clients and three (3) staff members reported that clients in the Stabilization Unit were limited to using the restroom or obtaining drinking water only at the top of the hour. Clients who reported being ill were denied the opportunity to rest in their beds which was observed by department representatives. Sick clients were required to remain with their group or stay with the Stabilization Unit which only included ...",
+                        "standard": "R501-14-5(2)(a)-(b) Application submitted within 2 weeks and applicant directly supervised",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R380-80-6(1)(g) by not ensuring that each client has the right to be free from retaliation for reporting any violation of their rights. During the investigation, one (1) staff and three (3) client interviews substantiated that a staff member engaged in a verbal confrontation and called that client a bitch for submitting a grievance report about a staff member.",
+                        "standard": "R380-80-6(1)(a)-(i) Client rights",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R501-19-5(1)(b)((ii) and (iii) for not ensuring the manager has a bachelor’s degree or equivalent training in a human service-related field and has at least three years management experience in a residential or secure treatment setting. During the investigation, a credential review revealed that fifteen (15) provider Program Managers do not meet the requirements for their position.",
+                        "standard": "R501-19-5(1)(a)-(b) Manager responsibilities and qualifications",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R380-80-5(7) for failing to maintain the health and safety of clients. During on-site inspections conducted on June 20 and June 22, 2026, department investigators observed sanitation, maintenance, and safety deficiencies throughout the facility including, but not limited, damaged walls in client living units, an exposed cable wire hanging from a Stabilization Unit bedroom ceiling, multiple hanging wires under clients’ school desks, gang graffiti carved into the desks, and unsanitary bathrooms with sticky surfaces, a strong odor of urine, and a lack of toilet paper and paper towels across multiple bathrooms.",
+                        "standard": "R380-80-5(7) Maintaining health and safety of clients",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R501-14-4(3)(a) by failing to keep the program’s roster and employee information current in DACS. During the investigation inspection, the provider did not update legal name changes and aliases for (3) staff members who have worked for the provider.",
+                        "standard": "R501-14-4(3)(a)-(c) Agency's roster and employee information current",
+                        "label": "Out of compliance, complaint, investigation inspection"
+                    }
+                ]
+            },
+            {
+                "id": 74810,
+                "ts": 1779148800,
+                "date": "05/19/2026",
+                "date_label": "May 19, 2026",
+                "url": "",
+                "summary": "2nd Unannounced",
+                "report_id": "2026-05-19",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 74811,
+                "ts": 1779062400,
+                "date": "05/18/2026",
+                "date_label": "May 18, 2026",
+                "url": "",
+                "summary": "Investigation Inspection (3 findings)",
+                "report_id": "2026-05-18",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": [
+                    {
+                        "text": "The provider was out of compliance with R380-80-5(4) by not protecting a client from any action that may compromise the health and safety of the client through acts or omissions. During the inspection, the investigator determined that the provider failed to summon emergency medical services for a minor client who was rendered unconscious and sustained severe head and facial injuries during a physical assault. Rather than summoning emergency medical transport, the provider elected to call a non-medical transport company to take the client to the hospital, delaying medical treatment",
+                        "standard": "R380-80-5(4) Provider shall protect clients from abuse, prevent abuse",
+                        "label": "Out of compliance, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R380-80-6(1)(c) for failing to ensure that each client has the right to be free from potential harm or acts of violence. During the inspection, the investigator determined that the provider failed to act upon explicit safety concerns, peer threats of violence, and unit transfer requests communicated by a minor client and his legal guardian prior to a severe physical attack. The therapist confirmed these concerns and requests were brought to his attention, but the client was not moved.",
+                        "standard": "R380-80-6(1)(a)-(i) Client rights",
+                        "label": "Out of compliance, investigation inspection"
+                    },
+                    {
+                        "text": "The provider was out of compliance with R380-80-6(1)(c) for failing to ensure that each client has the right to be free from potential harm or acts of violence. During the inspection, the investigator viewed the video footage which showed a client pour water on another client’s head and slap the top of his head. A staff member attempted to intervene, extending her arm, but was pushed aside. Staff failed to use behavior management training and perform appropriate holds and restraints in order to prevent harm to the client. That staff member called on the radio for assistance while the client lifted the other client up, slammed him onto the floor, and punched him in the face four times rendering him unconscious sustaining severe facial injuries and life threatening head injuries.",
+                        "standard": "R380-80-6(1)(a)-(i) Client rights",
+                        "label": "Out of compliance, investigation inspection"
+                    }
+                ]
+            },
+            {
+                "id": 74812,
+                "ts": 1778716800,
+                "date": "05/14/2026",
+                "date_label": "May 14, 2026",
+                "url": "",
+                "summary": "Investigation Inspection",
+                "report_id": "2026-05-14",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 67791,
+                "ts": 1774310400,
+                "date": "03/24/2026",
+                "date_label": "Mar 24, 2026",
+                "url": "",
+                "summary": "Investigation Inspection",
+                "report_id": "2026-03-24",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 73913,
+                "ts": 1774224000,
+                "date": "03/23/2026",
+                "date_label": "Mar 23, 2026",
+                "url": "",
+                "summary": "Investigation Inspection (1 finding)",
+                "report_id": "2026-03-23",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": [
+                    {
+                        "text": "The licensee was out of compliance with R380-80-6(1)(a) by failing to protect a client from potential harm or acts of violence. On 2/18/2026, a staff member punched a client. The client was injured and got stitches in their mouth.",
+                        "standard": "R380-80-6(1)(a)-(i) Client rights",
+                        "label": "Out of compliance, investigation inspection"
+                    }
+                ]
+            },
+            {
+                "id": 67792,
+                "ts": 1770249600,
+                "date": "02/05/2026",
+                "date_label": "Feb 5, 2026",
+                "url": "",
+                "summary": "Unannounced, Annual Inspection",
+                "report_id": "2026-02-05",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 67793,
+                "ts": 1763337600,
+                "date": "11/17/2025",
+                "date_label": "Nov 17, 2025",
+                "url": "",
+                "summary": "Announced, Annual Inspection",
+                "report_id": "2025-11-17",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 67794,
+                "ts": 1754438400,
+                "date": "08/06/2025",
+                "date_label": "Aug 6, 2025",
+                "url": "",
+                "summary": "Investigation Inspection",
+                "report_id": "2025-08-06",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 67795,
+                "ts": 1754265600,
+                "date": "08/04/2025",
+                "date_label": "Aug 4, 2025",
+                "url": "",
+                "summary": "3rd Unannounced",
+                "report_id": "2025-08-04",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 67796,
+                "ts": 1746662400,
+                "date": "05/08/2025",
+                "date_label": "May 8, 2025",
+                "url": "",
+                "summary": "2nd Unannounced",
+                "report_id": "2025-05-08",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            },
+            {
+                "id": 67797,
+                "ts": 1744329600,
+                "date": "04/11/2025",
+                "date_label": "Apr 11, 2025",
+                "url": "",
+                "summary": "Follow-Up Inspection",
+                "report_id": "2025-04-11",
+                "licensed_as": "UHS Of Provo Canyon dba Provo Campus",
+                "findings": []
+            }
+        ],
+        "more": 5,
+        "violations": [
+            {
+                "id": 1325,
+                "state": "UT",
+                "category": "physical_abuse",
+                "label": "Physical abuse or assault",
+                "kinds": [
+                    "Physical abuse or assault",
+                    "Restraint or seclusion causing injury"
+                ],
+                "weight": 80,
+                "severe": true,
+                "date": "2026-06-19",
+                "date_label": "Jun 19, 2026",
+                "excerpt": "The staff initiated a physical restraint after the client threw water on the staff. During the physical restraint, a staff laid on the client's legs, resulting in the client sustaining a fractured foot.",
+                "plain": "",
+                "short": "The staff initiated a physical restraint after the client threw water on the staff. During the physical restraint, a staff laid on the client's legs, resulting in the client sustaining a fractured foot.",
+                "state_label": "Out of compliance, complaint, investigation inspection",
+                "source_url": "",
+                "full_url": "https://example.test/severe-reports/#finding-1325"
+            },
+            {
+                "id": 1315,
+                "state": "UT",
+                "category": "physical_abuse",
+                "label": "Physical abuse or assault",
+                "kinds": [
+                    "Physical abuse or assault",
+                    "Medical neglect"
+                ],
+                "weight": 80,
+                "severe": true,
+                "date": "2026-05-18",
+                "date_label": "May 18, 2026",
+                "excerpt": "During the inspection, the investigator determined that the provider failed to summon emergency medical services for a minor client who was rendered unconscious and sustained severe head and facial injuries during a physical assault. Rather than summoning emergency medical transport, the provider elected to call a non-medical transport company to take the client to the hospital, delaying medical treatment",
+                "plain": "",
+                "short": "During the inspection, the investigator determined that the provider failed to summon emergency medical services for a minor client who was rendered unconscious and sustained severe head and facial injuries during a physical assault. Rather than summoning emergency medical transport, the provider elected to call a non-medical transport company to take the [...]",
+                "state_label": "Out of compliance, investigation inspection",
+                "source_url": "",
+                "full_url": "https://example.test/severe-reports/#finding-1315"
+            },
+            {
+                "id": 1303,
+                "state": "UT",
+                "category": "physical_abuse",
+                "label": "Physical abuse or assault",
+                "kinds": [
+                    "Physical abuse or assault",
+                    "Hospitalisation"
+                ],
+                "weight": 80,
+                "severe": true,
+                "date": "2026-03-23",
+                "date_label": "Mar 23, 2026",
+                "excerpt": "On 2/18/2026, a staff member punched a client. The client was injured and got stitches in their mouth.",
+                "plain": "",
+                "short": "On 2/18/2026, a staff member punched a client. The client was injured and got stitches in their mouth.",
+                "state_label": "Out of compliance, investigation inspection",
+                "source_url": "",
+                "full_url": "https://example.test/severe-reports/#finding-1303"
+            },
+            {
+                "id": 1324,
+                "state": "UT",
+                "category": "self_harm",
+                "label": "Self-harm",
+                "kinds": [
+                    "Self-harm"
+                ],
+                "weight": 65,
+                "severe": false,
+                "date": "2026-06-19",
+                "date_label": "Jun 19, 2026",
+                "excerpt": "Left unmonitored, the client removed a metal screw from the underside of the chair the staff member was occupying and ingested it, which resulted in emergency medical intervention.",
+                "plain": "",
+                "short": "Left unmonitored, the client removed a metal screw from the underside of the chair the staff member was occupying and ingested it, which resulted in emergency medical intervention.",
+                "state_label": "Out of compliance, complaint, investigation inspection",
+                "source_url": "",
+                "full_url": "https://example.test/severe-reports/#finding-1324"
+            }
+        ],
+        "page_url": "https://example.test/ut-reports/"
+    },
+    "documents": {
+        "folder_id": 50,
+        "url": "https://example.test/facility/provo-canyon-school-ut/#documents"
+    }
+}

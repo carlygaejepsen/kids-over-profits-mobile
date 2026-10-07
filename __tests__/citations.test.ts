@@ -1,3 +1,6 @@
+import fs from 'node:fs';
+import path from 'node:path';
+
 import { citeWords, cleanProse, isOwnSource, roleLine, usableCitations } from '@/lib/citations';
 
 describe('isOwnSource', () => {
@@ -89,7 +92,9 @@ describe('roleLine', () => {
 });
 
 describe('real facility text', () => {
-  const f = require('./fixtures/facility-9607.json');
+  // Every facility the app's fixtures hold (scripts/test-mobile-api.php --dump): renamed programs, homes, forum posts.
+  const dir = path.join(__dirname, 'fixtures');
+  const all = fs.readdirSync(dir).filter((n) => /^facility-\d+\.json$/.test(n)).map((n) => JSON.parse(fs.readFileSync(path.join(dir, n), 'utf8')));
   const strings: string[] = [];
   const walk = (v: unknown) => {
     if (typeof v === 'string') strings.push(v);
@@ -99,10 +104,14 @@ describe('real facility text', () => {
       for (const [k, x] of Object.entries(v)) if (!['cite', 'source', 'url', 'label'].includes(k)) walk(x);
     }
   };
-  walk(f.facts);
-  walk(f.staff);
-  walk(f.incidents);
-  walk(f.summary);
+  for (const f of all) {
+    walk(f.facts);
+    walk(f.staff);
+    walk(f.incidents);
+    walk(f.summary);
+    walk(f.notes); // the server leaves the Woodbury wording and addresses in these; the app cleans them as it prints
+    walk(f.eras);
+  }
 
   it('has no Woodbury wording or bare address left once cleaned', () => {
     const dirty = strings.filter((s) => /woodbury reports|https?:\/\//i.test(s));
@@ -124,8 +133,12 @@ describe('real facility text', () => {
         Object.values(o).forEach(collect);
       }
     };
-    collect(f.staff);
-    collect(f.fact_sources);
+    for (const f of all) {
+      collect(f.staff);
+      collect(f.fact_sources);
+      collect(f.eras);
+      collect(f.incidents);
+    }
     expect(cites.length).toBeGreaterThan(0);
     for (const c of usableCitations(cites)) {
       expect(`${c.cite} ${c.source}`).not.toMatch(/kids over profits|network map/i);

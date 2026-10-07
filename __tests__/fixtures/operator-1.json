@@ -652,7 +652,8 @@
             "type": "expose",
             "summary": "A 16-year-old boy named Daniel Yuen went missing after enrolling in a 'tough love' bootcamp in California. His family had been seeking help for his depression. The bootcamp, CEDU Running Springs, was supposed to provide support, but Daniel vanished. An investigation into the troubled teen industry has uncovered ties to a dangerous cult and raises questions about the treatment of teenagers in these facilities.",
             "image": null,
-            "about": "company"
+            "about": "company",
+            "aside": false
         },
         {
             "id": 762,
@@ -664,7 +665,8 @@
             "type": "expose",
             "summary": "The article reports allegations of physical restraint, solitary confinement, and sexual misconduct at several U.S. troubled‑teen boarding schools that housed Canadian teenagers. Survivors describe harsh punishments, forced medication, and isolation, and the facilities have faced legal and regulatory scrutiny. The piece highlights gaps in oversight and the impact on the survivors’ mental health.",
             "image": null,
-            "about": "facility"
+            "about": "facility",
+            "aside": false
         }
     ],
     "history": null,

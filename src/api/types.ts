@@ -163,12 +163,30 @@ export type Sibling = { name: string; place: string; status: string; url: string
 
 export type ResourceLinkGroup = { kind: string; label: string; links: Link[] };
 
-export type Era = {
+/** What one name of a renamed program holds, its own record's and the other names' (inc/facility-eras.php). */
+export type EraLists = {
+  memorials: MemorialRow[];
+  violations: SeriousFinding[];
+  lawsuits: LawsuitRow[];
+  incidents: Incident[];
+  news: NewsItem[];
+  staff: Record<string, StaffEntry[]>;
+};
+export type EraKind = keyof EraLists;
+
+export type Era = EraLists & {
+  /** The section's anchor on the website ("as-copper-canyon-academy"). */
   id: string;
   name: string;
-  years?: string;
-  [key: string]: unknown;
+  /** "1998 to 2014", "from 2014", "until 2000". */
+  years: string;
+  operators: string[];
+  /** The record kept under this name when it is another record's; empty for this one. */
+  url: string;
 };
+
+/** A renamed program's page cut into one section per name; `rest` is what no name took, `totals` the whole page's counts. */
+export type FacilityEras = { list?: Era[]; rest?: Partial<EraLists>; totals?: Partial<Record<EraKind, number>> };
 
 export type FacilityPayload = {
   api_version: number;
@@ -213,7 +231,7 @@ export type FacilityPayload = {
   news: NewsItem[];
   lawsuits: LawsuitRow[];
   memorials: MemorialRow[];
-  eras: { list?: Era[] } | null;
+  eras: FacilityEras | null;
   wiki: { id: number; title: string; place: string; organization: string; type: string; years: string }[];
   inspections: FacilityInspections | null;
   documents: { folder_id: number; url: string };
@@ -282,25 +300,23 @@ export type GlobalSearchItem = { title: string; url: string; meta?: string };
 export type GlobalSearchGroup = { key: string; label: string; items: GlobalSearchItem[] };
 export type GlobalSearchResponse = { query: string; total: number; groups: GlobalSearchGroup[] };
 
-/** kop/v1/facilities?view=index: companies and places, each with slim facilities. */
-export type IndexFacility = {
-  facility_id?: number;
-  name?: string;
-  city?: string;
-  state?: string;
-  country?: string;
-  yearsOfOperation?: string;
-  operatingPeriod?: { status?: string; yearsOfOperation?: string };
-  [key: string]: unknown;
+/** kop/v1/operators: every company page, one line each, A to Z (kop_mobile_operators()). */
+export type OperatorListItem = {
+  id: number;
+  slug: string;
+  name: string;
+  url: string;
+  programs: number;
+  open: number;
+  /** State codes, or a country's name outside the US. */
+  places: string[];
+  /** "Founded 2005" or "Programs from 2004", else empty. */
+  years: string;
+  status: string;
+  /** Five or more programs, a published history or a large place on the map. */
+  major: boolean;
 };
-export type IndexProject = {
-  id?: number | string;
-  name?: string;
-  label?: string;
-  category?: string;
-  data?: { operator?: { name?: string }; category?: string; facilities?: IndexFacility[] };
-};
-export type FacilitiesIndex = { source: string; view: 'index'; projects: Record<string, IndexProject> };
+export type OperatorsList = { api_version: number; total: number; items: OperatorListItem[] };
 
 /** kop/v1/state/<slug> (the parts the app lists) */
 export type StateTile = {

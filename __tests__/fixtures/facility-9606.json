@@ -441,6 +441,7 @@
             }
         ],
         "more": 0,
+        "violations": [],
         "page_url": "https://example.test/fl-reports/"
     },
     "documents": {

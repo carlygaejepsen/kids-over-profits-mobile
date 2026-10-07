@@ -1,7 +1,7 @@
 import { Image } from 'expo-image';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
-import type { FacilityPayload } from '@/api/types';
+import type { Era, FacilityPayload, LawsuitRow, MemorialRow } from '@/api/types';
 import { colors } from '@/theme/colors';
 import { radius, spacing, type } from '@/theme/typography';
 import {
@@ -14,20 +14,97 @@ import {
   useOpenLink,
   type TimelineItem,
 } from '../site';
-import { homeRows, violationsOf, type SectionProps } from './model';
-import { Lead, LimitedTimeline, card } from './parts';
+import { ERA_KINDS, eraCount, erasOf, homeRows, staffRows, violationsOf, type SectionProps, type Violation } from './model';
+import { Lead, Limited, LimitedTimeline, SubHead, card } from './parts';
+import { StaffRowView } from './PeopleSections';
 
-export function ErasSection({ f, onLayoutY }: SectionProps & { f: FacilityPayload }) {
-  const list = f.eras?.list ?? [];
-  if (!list.length) return null;
+/** One death, as the memorial list and a name's section draw it. */
+function MemorialItem({ m, f }: { m: MemorialRow; f: FacilityPayload }) {
+  const open = useOpenLink();
   return (
-    <SectionBlock id="eras" title="Names over the years" icon="book" items={list} onLayoutY={onLayoutY}
-      renderItem={(e) => {
-        const operators = Array.isArray(e.operators) ? (e.operators as string[]).join(', ') : '';
-        const meta = [e.years, operators].filter(Boolean).join(' | ');
-        return <HubListRow title={`As ${e.name}`} meta={meta} url={typeof e.url === 'string' ? e.url : undefined} />;
-      }}>
-      <Lead>The website sorts each name’s records by year.</Lead>
+    <EdgeRow
+      kind="death"
+      title={m.name}
+      meta={[m.age ? `age ${m.age}` : '', m.date_label || m.date, m.cause]}
+      body={m.program && m.program !== f.name ? m.program : undefined}
+      sources={[{ url: m.source_url, cite: m.source_name }]}
+      onPress={m.kop_url || f.memorial_url ? () => open(m.kop_url || f.memorial_url) : undefined}
+    />
+  );
+}
+
+function ViolationItem({ v }: { v: Violation }) {
+  return (
+    <FindingCard
+      severity={v.category === 'death' || v.category === 'sexual_abuse' ? 'grave' : v.severe ? 'severe' : 'other'}
+      tag={v.label}
+      date={v.date_label ? `Inspected ${v.date_label}` : undefined}
+      quote={v.short || v.excerpt || ''}
+      url={v.source_url}
+    />
+  );
+}
+
+function LawsuitItem({ l }: { l: LawsuitRow }) {
+  return (
+    <EdgeRow
+      kind="lawsuit"
+      title={l.case_name}
+      meta={[l.case_number, l.court, l.year, l.status]}
+      body={[l.outcome ? `Outcome: ${l.outcome}` : '', l.summary].filter(Boolean).join('\n\n') || undefined}
+    />
+  );
+}
+
+const timeline = (items: FacilityPayload['incidents']): TimelineItem[] =>
+  items.map((i) => ({ when: i.when, kind: i.kind, text: i.text, sources: [i, ...(i.also ?? [])] }));
+
+/**
+ * A renamed program's page: one section per name, earliest first ("As Copper Canyon Academy"), each holding
+ * what is dated to its years, the other name's record included, as the website cuts the page.
+ */
+export function ErasSection({ f, onLayoutY }: SectionProps & { f: FacilityPayload }) {
+  const eras = erasOf(f);
+  if (!eras.length) return null;
+  return (
+    <>
+      {eras.map((era) => (
+        <EraSection key={era.id} era={era} f={f} onLayoutY={onLayoutY} />
+      ))}
+    </>
+  );
+}
+
+function EraSection({ era, f, onLayoutY }: SectionProps & { era: Era; f: FacilityPayload }) {
+  const open = useOpenLink();
+  const meta = [era.years, (era.operators ?? []).join(', ')].filter(Boolean).join(' | ');
+  const kinds = ERA_KINDS.filter((k) => eraCount(era, k.kind) > 0);
+  return (
+    <SectionBlock id={era.id} title={`As ${era.name}`} icon="book" onLayoutY={onLayoutY}>
+      {meta ? <Lead>{meta}</Lead> : null}
+      {era.url ? <HubListRow title="The record kept under this name" onPress={() => open(era.url)} /> : null}
+      {kinds.length ? (
+        kinds.map(({ kind, label }, i) => (
+          <View key={kind} style={styles.eraPart}>
+            <SubHead first={i === 0}>{label}</SubHead>
+            {kind === 'memorials' ? (
+              <Limited items={era.memorials} render={(m) => <MemorialItem m={m} f={f} />} />
+            ) : kind === 'violations' ? (
+              <Limited items={era.violations as Violation[]} render={(v) => <ViolationItem v={v} />} />
+            ) : kind === 'lawsuits' ? (
+              <Limited items={era.lawsuits} render={(l) => <LawsuitItem l={l} />} />
+            ) : kind === 'incidents' ? (
+              <LimitedTimeline items={timeline(era.incidents)} />
+            ) : kind === 'news' ? (
+              <Limited items={era.news} limit={4} render={(n) => <RecordNewsCard item={n} />} />
+            ) : (
+              <Limited items={staffRows(era.staff)} limit={6} render={(row, j) => <StaffRowView row={row} index={j} />} />
+            )}
+          </View>
+        ))
+      ) : (
+        <Lead>Nothing on record is dated to these years yet.</Lead>
+      )}
     </SectionBlock>
   );
 }
@@ -53,56 +130,28 @@ export function HomesSection({ f, onLayoutY }: SectionProps & { f: FacilityPaylo
 }
 
 export function MemorialsSection({ f, onLayoutY }: SectionProps & { f: FacilityPayload }) {
-  const open = useOpenLink();
   return (
     <SectionBlock id="memorials" title="Deaths on record" icon="candle" tone="grave" items={f.memorials} onLayoutY={onLayoutY}
-      renderItem={(m) => (
-        <EdgeRow
-          kind="death"
-          title={m.name}
-          meta={[m.age ? `age ${m.age}` : '', m.date_label || m.date, m.cause]}
-          body={m.program && m.program !== f.name ? m.program : undefined}
-          sources={[{ url: m.source_url, cite: m.source_name }]}
-          onPress={m.kop_url || f.memorial_url ? () => open(m.kop_url || f.memorial_url) : undefined}
-        />
-      )}
-    />
+      renderItem={(m) => <MemorialItem m={m} f={f} />} />
   );
 }
 
 export function ViolationsSection({ f, onLayoutY }: SectionProps & { f: FacilityPayload }) {
   return (
     <SectionBlock id="violations" title="Serious violations" icon="alert-triangle" tone="grave" items={violationsOf(f)} onLayoutY={onLayoutY}
-      renderItem={(v) => (
-        <FindingCard
-          severity={v.category === 'death' || v.category === 'sexual_abuse' ? 'grave' : v.severe ? 'severe' : 'other'}
-          tag={v.label}
-          date={v.date_label ? `Inspected ${v.date_label}` : undefined}
-          quote={v.short || v.excerpt || ''}
-          url={v.source_url}
-        />
-      )}
-    />
+      renderItem={(v) => <ViolationItem v={v} />} />
   );
 }
 
 export function LawsuitsSection({ f, onLayoutY }: SectionProps & { f: FacilityPayload }) {
   return (
     <SectionBlock id="lawsuits" title="Lawsuits" icon="scale" items={f.lawsuits} onLayoutY={onLayoutY}
-      renderItem={(l) => (
-        <EdgeRow
-          kind="lawsuit"
-          title={l.case_name}
-          meta={[l.case_number, l.court, l.year, l.status]}
-          body={[l.outcome ? `Outcome: ${l.outcome}` : '', l.summary].filter(Boolean).join('\n\n') || undefined}
-        />
-      )}
-    />
+      renderItem={(l) => <LawsuitItem l={l} />} />
   );
 }
 
 export function IncidentsSection({ f, onLayoutY }: SectionProps & { f: FacilityPayload }) {
-  const items: TimelineItem[] = f.incidents.map((i) => ({ when: i.when, kind: i.kind, text: i.text, sources: [i, ...(i.also ?? [])] }));
+  const items = timeline(f.incidents);
   if (!items.length) return null;
   return (
     <SectionBlock id="incidents" title="Incidents on record" icon="siren" count={items.length} onLayoutY={onLayoutY}>
@@ -156,6 +205,7 @@ export function SiblingsSection({ f, onLayoutY }: SectionProps & { f: FacilityPa
 }
 
 const styles = StyleSheet.create({
+  eraPart: { gap: spacing.sm },
   video: { ...card, overflow: 'hidden' },
   pressed: { backgroundColor: colors.sand },
   thumb: { width: '100%', aspectRatio: 16 / 9, backgroundColor: colors.sand, borderTopLeftRadius: radius.tile, borderTopRightRadius: radius.tile },

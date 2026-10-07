@@ -274,7 +274,8 @@
             "type": "expose",
             "summary": "This Associated Press investigation uncovers a \"shadow orphanage system\" where adopted children are disproportionately placed in for-profit residential treatment facilities. These institutions often market themselves to families by misusing the diagnosis of Reactive Attachment Disorder to justify expensive and unregulated \"tough-love\" programs.\n\nRather than finding support, many children experience systemic abuse, isolation, and neglect in environments focused on profit margins. The report emphasizes that these institutional settings often cause more harm than healing, failing the vulnerable children they were meant to protect.",
             "image": null,
-            "about": "facility"
+            "about": "facility",
+            "aside": false
         },
         {
             "id": 439,
@@ -286,7 +287,8 @@
             "type": "lawsuit",
             "summary": "The parents of 17-year-old Biruk Silvers have filed a lawsuit against Discovery Ranch Academy in Utah, alleging that negligence by staff led to their son’s death in November 2024. Biruk had shared suicidal thoughts with his psychiatrist and disclosed to a therapist that he had engaged in a dangerous behavior involving oxygen deprivation. Despite these warnings, staff allowed him to be alone and failed to restrict access to potentially harmful items, including a belt.\n\nA state investigation found that Discovery Ranch violated its own suicide prevention policies, failed to create a care plan, and did not provide adequate supervision. The facility was fined but remains licensed.\n\nThe lawsuit also names the University of Utah, which employs Biruk’s psychiatrist, and Pilcrow Advisors, the educational consulting company that recommended the program. The family says they raised concerns about Biruk’s well-being in the days before his death but were told not to withdraw him from the program.",
             "image": null,
-            "about": "facility"
+            "about": "facility",
+            "aside": false
         },
         {
             "id": 429,
@@ -298,7 +300,8 @@
             "type": "expose",
             "summary": "Parents of teens who died in Utah treatment facilities spoke to lawmakers in support of SB297, a bill to strengthen oversight of the troubled teen industry. Dean Goodridge described how his daughter Taylor died at Diamond Ranch Academy after staff failed to get her medical help for a treatable infection. Katy Silvers said her son Biruk died by suicide at Discovery Ranch after telling his therapist he had a detailed plan. The program never informed his family. Both parents said their children could have been saved if someone had acted.\n\nSB297 would fund an independent ombudsman to investigate complaints and create an advisory board to review whether facilities are admitting youth they are equipped to serve. Primary Children’s Hospital reported treating 169 out-of-state children from Utah programs in 2024, leading to a shortage of beds for local kids. The average stay for those out-of-state youth was 30 percent longer. One child lived in the hospital for five months, blocking care for 22 Utah patients. Although some families defended the programs, the Senate Judiciary Committee voted unanimously to move the bill forward.",
             "image": null,
-            "about": "facility"
+            "about": "facility",
+            "aside": false
         }
     ],
     "history": null,

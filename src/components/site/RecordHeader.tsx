@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { colors, statusColor } from '@/theme/colors';
 import { radius, spacing, type } from '@/theme/typography';
 import { dense } from './metrics';
+import { InlineSources, type Cite } from './Source';
 
 /** The record's status as the site's pill: dark text on a soft fill, never white on an accent. */
 export function StatusPill({ status }: { status?: string | null }) {
@@ -21,11 +22,14 @@ export function StatusPill({ status }: { status?: string | null }) {
   );
 }
 
+/** One alias line; the website hangs its sources after the "Formerly" line (fact_sources.formerly). */
+export type AliasLine = string | { text: string; sources?: Cite[] };
+
 export type RecordHeaderProps = {
   eyebrow?: string;
   title: string;
   /** "Formerly X", "Also known as Y": one italic line each. */
-  aliases?: string[];
+  aliases?: AliasLine[];
   place?: string;
   status?: string | null;
   children?: ReactNode;
@@ -33,13 +37,18 @@ export type RecordHeaderProps = {
 
 /** Eyebrow, title, alias lines, place, status, then the 3 px teal rule with space under it. */
 export function RecordHeader({ eyebrow, title, aliases, place, status, children }: RecordHeaderProps) {
-  const names = (aliases ?? []).filter(Boolean);
+  const names = (aliases ?? [])
+    .map((a) => (typeof a === 'string' ? { text: a, sources: undefined } : a))
+    .filter((a) => a.text);
   return (
     <View style={styles.header}>
       {eyebrow ? <Text {...dense} style={styles.eyebrow}>{eyebrow}</Text> : null}
       <Text accessibilityRole="header" style={styles.title}>{title}</Text>
       {names.map((a, i) => (
-        <Text key={`${a}-${i}`} style={styles.alias}>{a}</Text>
+        <Text key={`${a.text}-${i}`} style={styles.alias}>
+          {a.text}
+          <InlineSources items={a.sources} />
+        </Text>
       ))}
       {place ? <Text style={styles.place}>{place}</Text> : null}
       {status ? <StatusPill status={status} /> : null}

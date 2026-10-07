@@ -2,9 +2,9 @@ import { fireEvent, render, screen } from '@testing-library/react-native';
 import fs from 'node:fs';
 import path from 'node:path';
 
-import type { FacilitiesIndex, NewsFeed, SuggestResponse } from '@/api/types';
+import type { NewsFeed, OperatorsList, SuggestResponse } from '@/api/types';
 import AboutScreen from '@/app/(tabs)/about';
-import CompaniesScreen from '@/app/(tabs)/companies';
+import CompaniesScreen, { describe as describeCompany } from '@/app/(tabs)/companies';
 import SearchScreen from '@/app/(tabs)/index';
 import NewsScreen from '@/app/(tabs)/news';
 import PlacesScreen from '@/app/(tabs)/places';
@@ -17,17 +17,17 @@ jest.mock('@/api/queries', () => ({
   useSuggest: jest.fn(),
   useGlobalSearch: jest.fn(),
   useNews: jest.fn(),
-  useFacilitiesIndex: jest.fn(),
+  useOperators: jest.fn(),
 }));
 
 const queries = jest.requireMock('@/api/queries');
 const news: NewsFeed = require('./fixtures/news.json');
 
-/** The screenshot fixture for the companies index. */
-function readIndex(): FacilitiesIndex {
-  return JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'scripts', 'shot-fixtures', 'index.json'), 'utf8'));
+/** kop/v1/operators, as scripts/test-mobile-api.php --dump writes it (also the screenshot fixture). */
+function readOperators(): OperatorsList {
+  return JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'scripts', 'shot-fixtures', 'operators.json'), 'utf8'));
 }
-const index = readIndex();
+const operators = readOperators();
 
 const suggest: SuggestResponse = {
   query: 'falcon',
@@ -51,7 +51,7 @@ beforeEach(() => {
     fetchNextPage: jest.fn(),
     refetch: jest.fn(),
   });
-  queries.useFacilitiesIndex.mockReturnValue({ data: index, isLoading: false, isError: false, refetch: jest.fn() });
+  queries.useOperators.mockReturnValue({ data: operators, isLoading: false, isError: false, refetch: jest.fn() });
 });
 
 describe('Search tab', () => {
@@ -103,31 +103,40 @@ describe('Places tab', () => {
 });
 
 describe('Companies tab', () => {
-  const companies = Object.values(index.projects).filter((p) => p.category === 'companies');
+  const companies = [...operators.items].sort((a, b) => a.name.localeCompare(b.name));
 
-  it('draws a tile for every company with its program count', async () => {
+  it('draws a tile for each company with its program count', async () => {
     await render(<CompaniesScreen />);
     expect(screen.getByText('Parent companies')).toBeTruthy();
-    expect(companies.length).toBeGreaterThan(0);
-    for (const c of companies) {
-      expect(screen.getByText(c.data!.operator!.name!)).toBeTruthy();
-      const n = c.data!.facilities!.length;
-      expect(screen.getAllByText(`${n} ${n === 1 ? 'program' : 'programs'}`).length).toBeGreaterThan(0);
+    expect(screen.getByText(`${companies.length} companies`)).toBeTruthy();
+    // The list draws its first screens at once and the rest on scroll.
+    for (const c of companies.slice(0, 8)) {
+      expect(screen.getByText(c.name)).toBeTruthy();
+      expect(screen.getAllByText(`${c.programs} ${c.programs === 1 ? 'program' : 'programs'}`).length).toBeGreaterThan(0);
     }
   });
 
   it('has an alphabet row with a button for the first letter of each company', async () => {
     await render(<CompaniesScreen />);
     for (const c of companies) {
-      expect(screen.getByLabelText(`Jump to ${c.data!.operator!.name!.charAt(0).toUpperCase()}`)).toBeTruthy();
+      const first = c.name.charAt(0).toUpperCase();
+      expect(screen.getByLabelText(`Jump to ${first >= 'A' && first <= 'Z' ? first : '#'}`)).toBeTruthy();
     }
   });
 
-  it('opens a company by name', async () => {
+  it('opens a company by its page slug', async () => {
     await render(<CompaniesScreen />);
-    const name = companies[0].data!.operator!.name!;
-    await fireEvent.press(screen.getByLabelText(new RegExp(`^${name}\\.`)));
-    expect(mockPush).toHaveBeenCalledWith(`/operator/by-name?name=${encodeURIComponent(name)}`);
+    const c = companies[0];
+    await fireEvent.press(screen.getByLabelText(`${c.name}. ${describeCompany(c)}. ${c.programs} ${c.programs === 1 ? 'program' : 'programs'}`));
+    expect(mockPush).toHaveBeenCalledWith(`/operator/${c.slug}`);
+  });
+
+  it('says where the programs are, in words', () => {
+    expect(describeCompany({ places: ['UT', 'AZ'], years: '' })).toBe('Utah, Arizona');
+    expect(describeCompany({ places: ['UT', 'AZ', 'ID'], years: '' })).toBe('3 states');
+    expect(describeCompany({ places: ['UT', 'Costa Rica', 'ID'], years: '' })).toBe('3 places');
+    expect(describeCompany({ places: ['Samoa'], years: '' })).toBe('Samoa');
+    expect(describeCompany({ places: [], years: 'Founded 2005' })).toBe('Founded 2005');
   });
 });
 

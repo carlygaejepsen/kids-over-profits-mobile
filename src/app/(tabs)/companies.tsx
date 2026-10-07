@@ -3,8 +3,8 @@ import { useMemo, useRef, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { useFacilitiesIndex } from '@/api/queries';
-import type { IndexFacility } from '@/api/types';
+import { useOperators } from '@/api/queries';
+import type { OperatorListItem } from '@/api/types';
 import { CompanyTile, HubHeader } from '@/components/site';
 import { AlphabetBar } from '@/components/tabs/AlphabetBar';
 import { Note } from '@/components/tabs/Note';
@@ -15,42 +15,34 @@ import { stateByCode } from '@/data/states';
 import { colors } from '@/theme/colors';
 import { spacing } from '@/theme/typography';
 
-type Company = { key: string; name: string; line: string; count: number; letter: string };
+type Company = { key: string; slug: string; name: string; line: string; count: number; letter: string };
 
 const letterOf = (name: string) => {
   const c = name.trim().charAt(0).toUpperCase();
   return c >= 'A' && c <= 'Z' ? c : '#';
 };
 
-/** Where a company's programs are ("Arizona, Utah", "5 states"), else the span of their years. */
-function describe(facilities: IndexFacility[]): string {
-  const places = [...new Set(facilities.map((f) => (f.state ?? '').trim()).filter(Boolean))].map((s) => stateByCode(s)?.name ?? s);
+/** Where a company's programs are ("Arizona, Utah", "5 places"), else its years ("Founded 2005"). */
+export function describe(c: Pick<OperatorListItem, 'places' | 'years'>): string {
+  const places = c.places.map((p) => stateByCode(p)?.name ?? p);
   if (places.length && places.length <= 2) return places.join(', ');
-  if (places.length) return `${places.length} states`;
-  const years = facilities
-    .map((f) => f.operatingPeriod?.yearsOfOperation ?? f.yearsOfOperation ?? '')
-    .flatMap((y) => y.match(/\d{4}/g) ?? [])
-    .map(Number);
-  return years.length ? `${Math.min(...years)}–${Math.max(...years)}` : '';
+  if (places.length) return places.every((p, i) => stateByCode(c.places[i])) ? `${places.length} states` : `${places.length} places`;
+  return c.years;
 }
 
 export default function CompaniesScreen() {
   const router = useRouter();
   const list = useRef<FlatList<Company | null>>(null);
   const [filter, setFilter] = useState('');
-  const index = useFacilitiesIndex();
+  const index = useOperators();
 
-  const companies = useMemo<Company[]>(() => {
-    const projects = index.data?.projects ?? {};
-    return Object.entries(projects)
-      .filter(([, p]) => (p.category ?? p.data?.category) === 'companies')
-      .map(([key, p]) => {
-        const name = (p.data?.operator?.name as string | undefined) || p.name || p.label || key;
-        const facilities = p.data?.facilities ?? [];
-        return { key, name, line: describe(facilities), count: facilities.length, letter: letterOf(name) };
-      })
-      .sort((a, b) => a.name.localeCompare(b.name));
-  }, [index.data]);
+  const companies = useMemo<Company[]>(
+    () =>
+      (index.data?.items ?? [])
+        .map((c) => ({ key: String(c.id), slug: c.slug, name: c.name, line: describe(c), count: c.programs, letter: letterOf(c.name) }))
+        .sort((a, b) => a.name.localeCompare(b.name)),
+    [index.data],
+  );
 
   const shown = companies.filter((c) => c.name.toLowerCase().includes(filter.trim().toLowerCase()));
   // Two columns: an odd last company gets an empty cell so its tile keeps the column width.
@@ -106,7 +98,7 @@ export default function CompaniesScreen() {
                   name={item.name}
                   line={item.line}
                   programs={item.count}
-                  onPress={() => router.push(`/operator/by-name?name=${encodeURIComponent(item.name)}` as Href)}
+                  onPress={() => router.push(`/operator/${encodeURIComponent(item.slug)}` as Href)}
                 />
               ) : null}
             </View>

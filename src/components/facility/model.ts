@@ -1,4 +1,4 @@
-import type { FacilityPayload, Sibling, StaffEntry } from '@/api/types';
+import type { Era, EraKind, FacilityPayload, Sibling, StaffEntry } from '@/api/types';
 import type { Tone } from '@/theme/colors';
 import type { IconName } from '../Icon';
 
@@ -90,16 +90,57 @@ export function homeRows(f: FacilityPayload): { isProgram: boolean; homes: { id:
   };
 }
 
+/** A renamed program's names, earliest first; empty when the page is not cut. */
+export const erasOf = (f: FacilityPayload): Era[] => f.eras?.list ?? [];
+
+/**
+ * The page the plain sections draw: on a renamed program's page each name's section holds what is dated to
+ * its years (another name's record included), so the plain sections keep only what no name took (eras.rest),
+ * as the website's template does.
+ */
+export function pageView(f: FacilityPayload): FacilityPayload {
+  const rest = f.eras?.rest;
+  if (!erasOf(f).length || !rest) return f;
+  return {
+    ...f,
+    memorials: rest.memorials ?? [],
+    lawsuits: rest.lawsuits ?? [],
+    incidents: rest.incidents ?? [],
+    news: rest.news ?? [],
+    staff: rest.staff ?? {},
+    inspections: f.inspections ? { ...f.inspections, violations: rest.violations ?? [] } : f.inspections,
+  };
+}
+
+/** The kinds a name's section lists, in the website's order, with their headings. */
+export const ERA_KINDS: { kind: EraKind; label: string; icon: IconName }[] = [
+  { kind: 'memorials', label: 'Deaths on record', icon: 'candle' },
+  { kind: 'violations', label: 'Serious violations', icon: 'alert-triangle' },
+  { kind: 'lawsuits', label: 'Lawsuits', icon: 'scale' },
+  { kind: 'incidents', label: 'Incidents on record', icon: 'siren' },
+  { kind: 'news', label: 'News coverage', icon: 'newspaper' },
+  { kind: 'staff', label: 'Staff', icon: 'users' },
+];
+
+export const eraCount = (era: Era, kind: EraKind) =>
+  kind === 'staff' ? staffRows(era.staff).length : (era[kind] as unknown[] | undefined)?.length ?? 0;
+
+/** Where a stat tile jumps: its own section, or on a renamed program's page the first name that has the kind. */
+export function tileAnchor(f: FacilityPayload, kind: string): string {
+  const era = erasOf(f).find((e) => (ERA_KINDS.some((k) => k.kind === kind) ? eraCount(e, kind as EraKind) > 0 : false));
+  return era ? era.id : kind;
+}
+
 export type SectionDef = { id: string; label: string };
 
 /** The sections this record has, in page order, with the short names the jump pills use. */
-export function presentSections(f: FacilityPayload): SectionDef[] {
+export function presentSections(page: FacilityPayload): SectionDef[] {
+  const f = pageView(page);
   const homes = homeRows(f);
   const forum = f.forum;
   const forumHas = !!(forum && (forum.incidents?.length || forum.leads?.length || forum.links?.length));
   const staff = staffRows(f.staff);
   const all: [boolean, string, string][] = [
-    [!!f.eras?.list?.length, 'eras', 'Names'],
     [homes.homes.length > 0, 'homes', homes.isProgram ? 'Homes' : 'Other homes'],
     [f.memorials.length > 0, 'memorials', 'Deaths on record'],
     [violationsOf(f).length > 0, 'violations', 'Serious violations'],
@@ -118,22 +159,26 @@ export function presentSections(f: FacilityPayload): SectionDef[] {
     [f.siblings.length > 0, 'related', 'Same operator'],
     [f.profile_links.length > 0 || f.resource_links.length > 0, 'resources', 'Materials and links'],
   ];
-  return all.filter((s) => s[0]).map(([, id, label]) => ({ id, label }));
+  const names = erasOf(f).map((e) => ({ id: e.id, label: `As ${e.name}` }));
+  return [...names, ...all.filter((s) => s[0]).map(([, id, label]) => ({ id, label }))];
 }
 
 /** The record in numbers, worst first (template: $kop_fp_tiles). */
 export function statTiles(f: FacilityPayload): {
   key: string; icon: IconName; count: number; singular: string; plural: string; tone: Tone;
 }[] {
+  // A renamed program counts the whole page, every name's section and the rest (eras.totals).
+  const t = erasOf(f).length ? f.eras?.totals ?? {} : {};
+  const n = (kind: EraKind, own: number) => t[kind] ?? own;
   return [
-    { key: 'memorials', icon: 'candle', count: f.memorials.length, singular: 'death on record', plural: 'deaths on record', tone: 'grave' },
+    { key: 'memorials', icon: 'candle', count: n('memorials', f.memorials.length), singular: 'death on record', plural: 'deaths on record', tone: 'grave' },
     {
-      key: 'violations', icon: 'alert-triangle', count: violationsOf(f).length,
+      key: 'violations', icon: 'alert-triangle', count: n('violations', violationsOf(f).length),
       singular: 'serious violation confirmed by inspectors', plural: 'serious violations confirmed by inspectors', tone: 'grave',
     },
-    { key: 'lawsuits', icon: 'scale', count: f.lawsuits.length, singular: 'lawsuit', plural: 'lawsuits', tone: 'warn' },
-    { key: 'incidents', icon: 'siren', count: f.incidents.length, singular: 'incident on record', plural: 'incidents on record', tone: 'warn' },
-    { key: 'news', icon: 'newspaper', count: f.news.length, singular: 'news article', plural: 'news articles', tone: 'info' },
-    { key: 'staff', icon: 'users', count: staffRows(f.staff).length, singular: 'staff member named', plural: 'staff members named', tone: 'info' },
+    { key: 'lawsuits', icon: 'scale', count: n('lawsuits', f.lawsuits.length), singular: 'lawsuit', plural: 'lawsuits', tone: 'warn' },
+    { key: 'incidents', icon: 'siren', count: n('incidents', f.incidents.length), singular: 'incident on record', plural: 'incidents on record', tone: 'warn' },
+    { key: 'news', icon: 'newspaper', count: n('news', f.news.length), singular: 'news article', plural: 'news articles', tone: 'info' },
+    { key: 'staff', icon: 'users', count: n('staff', staffRows(f.staff).length), singular: 'staff member named', plural: 'staff members named', tone: 'info' },
   ];
 }

@@ -1,4 +1,4 @@
-export { RecordHeader, StatusPill, type RecordHeaderProps } from './RecordHeader';
+export { RecordHeader, StatusPill, type AliasLine, type RecordHeaderProps } from './RecordHeader';
 export { StatTiles, JumpPills, type StatTile, type JumpItem } from './StatTiles';
 export { SectionBlock, type SectionBlockProps } from './Section';
 export { GlanceBox, type GlanceRow } from './GlanceBox';

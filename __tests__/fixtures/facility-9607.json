@@ -201,20 +201,20 @@
     "staff": {
         "administrator": [
             {
-                "text": "Leslie Budd (Director (2008, Woodbury Reports), left)",
+                "text": "Leslie Budd (Director (2008 ), left)",
                 "source": "Woodbury Reports, Dec 2008",
                 "cite": "Woodbury Reports, December 2008 (#172), p. 21",
                 "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1208.pdf#page=21",
                 "name": "Leslie Budd",
-                "role": "Director (2008, Woodbury Reports), left",
+                "role": "Director (2008), left",
                 "personId": 1,
                 "career": []
             },
             {
                 "text": "Brian Pace (Executive Director (2016))",
-                "source": "Network map",
-                "cite": "Kids Over Profits network map",
-                "url": "https://example.test/network-map/#open=brian-pace",
+                "source": "",
+                "cite": "",
+                "url": "",
                 "name": "Brian Pace",
                 "role": "Executive Director (2016)",
                 "career": [
@@ -253,9 +253,9 @@
             },
             {
                 "text": "David Allred (Executive director)",
-                "source": "Network map",
-                "cite": "Kids Over Profits network map",
-                "url": "https://example.test/network-map/#open=david-allred",
+                "source": "",
+                "cite": "",
+                "url": "",
                 "name": "David Allred",
                 "role": "Executive director",
                 "career": [
@@ -277,12 +277,12 @@
         ],
         "notableStaff": [
             {
-                "text": "Bobbie Jensen (Admissions, Business Development and Marketing, Admissions (2009-2010, Woodbury Reports)). Previously: Staff - Cinnamon Hills Youth Crisis Center (2001); Admissions Director - Sunrise Academy (2007); Admissions Director - Sunrise RTC (before 2008); Assistant Admissions Director - Centers for Adolescent Recovery and Education (CARE) (2008) [joined 2008-12-15]; Marketing and Admissions - CARE Schools (2010); later Admissions Director, Admissions - Expedition Therapy (2012) [joined 2012]",
+                "text": "Bobbie Jensen (Admissions, Business Development and Marketing, Admissions (2009-2010 )). Previously: Staff - Cinnamon Hills Youth Crisis Center (2001); Admissions Director - Sunrise Academy (2007); Admissions Director - Sunrise RTC (before 2008); Assistant Admissions Director - Centers for Adolescent Recovery and Education (CARE) (2008) [joined 2008-12-15]; Marketing and Admissions - CARE Schools (2010); later Admissions Director, Admissions - Expedition Therapy (2012) [joined 2012]",
                 "source": "Woodbury Reports, Oct 2010",
                 "cite": "Woodbury Reports, October 2010, p. 2",
                 "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1010.pdf#page=2",
                 "name": "Bobbie Jensen",
-                "role": "Admissions, Business Development and Marketing, Admissions (2009-2010, Woodbury Reports)",
+                "role": "Admissions, Business Development and Marketing, Admissions (2009-2010)",
                 "personId": 2,
                 "career": [
                     {
@@ -324,40 +324,40 @@
                 ]
             },
             {
-                "text": "Karen Slack (Admissions (2007, Woodbury Reports))",
+                "text": "Karen Slack (Admissions (2007 ))",
                 "source": "Woodbury Reports, Jul 2007",
                 "cite": "Woodbury Reports, July 2007 (#155), p. 21",
                 "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-0707.pdf#page=21",
                 "name": "Karen Slack",
-                "role": "Admissions (2007, Woodbury Reports)",
+                "role": "Admissions (2007)",
                 "personId": 3,
                 "career": []
             },
             {
-                "text": "Stephan C. Barrick (Staff (2012, Woodbury Reports))",
+                "text": "Stephan C. Barrick (Staff (2012 ))",
                 "source": "Woodbury Reports, Dec 2012",
                 "cite": "Woodbury Reports, December 2012, p. 1",
                 "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1212.pdf#page=1",
                 "name": "Stephan C. Barrick",
-                "role": "Staff (2012, Woodbury Reports)",
+                "role": "Staff (2012)",
                 "personId": 4,
                 "career": []
             },
             {
-                "text": "Carolle Bell (Clinical Director (2008, Woodbury Reports))",
+                "text": "Carolle Bell (Clinical Director (2008 ))",
                 "source": "Woodbury Reports, Dec 2008",
                 "cite": "Woodbury Reports, December 2008 (#172), p. 21",
                 "url": "https://kidsoverprofits.org/wp-content/uploads/2024/12/woodbury-1208.pdf#page=21",
                 "name": "Carolle Bell",
-                "role": "Clinical Director (2008, Woodbury Reports)",
+                "role": "Clinical Director (2008)",
                 "personId": 5,
                 "career": []
             },
             {
                 "text": "Amber Austin (Director of Admissions (2016))",
-                "source": "Network map",
-                "cite": "Kids Over Profits network map",
-                "url": "https://example.test/network-map/#open=amber-austin",
+                "source": "",
+                "cite": "",
+                "url": "",
                 "name": "Amber Austin",
                 "role": "Director of Admissions (2016)",
                 "career": [
@@ -372,9 +372,9 @@
             },
             {
                 "text": "Kathy Ruiz (Therapist)",
-                "source": "Network map",
-                "cite": "Kids Over Profits network map",
-                "url": "https://example.test/network-map/#open=kathy-ruiz",
+                "source": "",
+                "cite": "",
+                "url": "",
                 "name": "Kathy Ruiz",
                 "role": "Therapist",
                 "career": [
@@ -395,9 +395,9 @@
             },
             {
                 "text": "Oscar Fakahua (Director of campus culture)",
-                "source": "Network map",
-                "cite": "Kids Over Profits network map",
-                "url": "https://example.test/network-map/#open=oscar-fakahua",
+                "source": "",
+                "cite": "",
+                "url": "",
                 "name": "Oscar Fakahua",
                 "role": "Director of campus culture",
                 "career": [
@@ -418,9 +418,9 @@
             },
             {
                 "text": "Salesi \"Nale\" Misinale Fakahua (Campus culture director)",
-                "source": "Network map",
-                "cite": "Kids Over Profits network map",
-                "url": "https://example.test/network-map/#open=salesi-nale-misinale-fakahua",
+                "source": "",
+                "cite": "",
+                "url": "",
                 "name": "Salesi \"Nale\" Misinale Fakahua",
                 "role": "Campus culture director",
                 "career": [
@@ -441,9 +441,9 @@
             },
             {
                 "text": "Steve Barrick (Therapist)",
-                "source": "Network map",
-                "cite": "Kids Over Profits network map",
-                "url": "https://example.test/network-map/#open=steve-barrick",
+                "source": "",
+                "cite": "",
+                "url": "",
                 "name": "Steve Barrick",
                 "role": "Therapist",
                 "career": [
@@ -657,7 +657,21 @@
             "type": "closure",
             "summary": "California has ceased funding residential treatment placements for adopted foster youth in other states, closing what advocates termed a dangerous loophole. The decision follows revelations that hundreds of children were sent to facilities with histories of violations, including several since-shuttered programs.\n\nAt least 676 adoptees were placed in out-of-state centers since 2020, with many attending problematic facilities. Among them were Sequel Youth and Family Services programs like Iowa’s Clarinda Academy and Utah’s Red Rock Canyon School, both closed after abuse scandals. Other placements included Utah’s Havenwood Academy, disciplined for improper restraints, and Cinnamon Hills Youth Crisis Center, sanctioned for excessive punishments. Three Points Ranch ceased operations in 2025 following violations, while White River Academy continues accepting California-funded youth under existing contracts.",
             "image": null,
-            "link_type": "mentioned"
+            "link_type": "mentioned",
+            "aside": false
+        },
+        {
+            "id": 1085,
+            "title": "Charges: Staff member at Utah behavioral center showed pictures of naked husband to minors (2021-03-11)",
+            "outlet": "kjzz.com",
+            "date": "2021-03-11",
+            "date_label": "Mar 11, 2021",
+            "url": "https://kjzz.com/news/chargstaff-member-at-utah-behavioral-center-showed-pictures-of-her-naked-husband-to-minors",
+            "type": "general",
+            "summary": "",
+            "image": null,
+            "link_type": "mentioned",
+            "aside": false
         },
         {
             "id": 725,
@@ -669,7 +683,8 @@
             "type": "arrest",
             "summary": "A staff member at Falcon Ridge Ranch Academy in Utah was arrested and charged with multiple counts of sexual battery and dealing harmful material to a minor. According to charging documents, the employee showed explicit photos to four minor students and subjected them to inappropriate physical contact.",
             "image": null,
-            "link_type": "mentioned"
+            "link_type": "mentioned",
+            "aside": false
         },
         {
             "id": 1079,
@@ -681,7 +696,8 @@
             "type": "event",
             "summary": "In April 2020, 16-year‑old Cornelius Frederick was restrained by staff at Lakeside Academy in Kalamazoo, Michigan, and later received chest compressions while unresponsive. He suffered cardiac arrest and died two days later; three staff members have been charged with involuntary manslaughter and child abuse.",
             "image": null,
-            "link_type": "mentioned"
+            "link_type": "mentioned",
+            "aside": false
         },
         {
             "id": 624,
@@ -693,7 +709,8 @@
             "type": "closure",
             "summary": "Sequel Youth and Family Services announced the voluntary closure of Red Rock Canyon School in St. George, Utah, following multiple state and county investigations into allegations of physical and sexual abuse, safety violations, and a reported student riot resulting in arrests. The parent company also announced the upcoming closure of a sister institution, Mount Pleasant Academy, while maintaining the decision was unrelated.",
             "image": null,
-            "link_type": "mentioned"
+            "link_type": "mentioned",
+            "aside": false
         },
         {
             "id": 708,
@@ -705,7 +722,8 @@
             "type": "closure",
             "summary": "Sequel Youth and Family Services announced the closure of Mount Pleasant Academy following the closure announcement of Red Rock Canyon School, both located in Utah. The facilities faced intense scrutiny, regulatory threats, and police investigations involving allegations of staff misconduct, sexual misconduct, and physical abuse.",
             "image": null,
-            "link_type": "mentioned"
+            "link_type": "mentioned",
+            "aside": false
         },
         {
             "id": 1084,
@@ -717,7 +735,8 @@
             "type": "general",
             "summary": "",
             "image": null,
-            "link_type": "mentioned"
+            "link_type": "mentioned",
+            "aside": false
         }
     ],
     "inspections": null,

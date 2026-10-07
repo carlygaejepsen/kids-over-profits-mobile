@@ -37,6 +37,10 @@ const noBuild = args.includes('--no-build');
 const SCREENS = [
   { name: 'facility-9607', path: '/facility/9607' },
   { name: 'facility-9605', path: '/facility/9605' },
+  { name: 'facility-12155', path: '/facility/12155' }, // a renamed program: one section per name
+  { name: 'facility-100284', path: '/facility/100284' }, // a program of 34 homes
+  { name: 'facility-9758', path: '/facility/9758' }, // one of those homes
+  { name: 'facility-10371', path: '/facility/10371' }, // incidents and the forum block
   { name: 'operator-1', path: '/operator/1' },
   { name: 'place-utah', path: '/place/utah' },
   { name: 'companies', path: '/companies' },
@@ -69,8 +73,8 @@ function fixtureFor(apiPath, search) {
     case 'state':
     case 'country':
       return shot('state-utah.json');
-    case 'facilities':
-      return search.includes('view=index') ? shot('index.json') : null;
+    case 'operators':
+      return shot('operators.json');
     default:
       return null;
   }

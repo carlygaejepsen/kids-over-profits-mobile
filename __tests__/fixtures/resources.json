@@ -1,0 +1,506 @@
+{
+    "api_version": 1,
+    "url": "https://example.test/resources/",
+    "total": 46,
+    "groups": [
+        {
+            "heading": "If you need help right now",
+            "intro": "Free, confidential and open around the clock.",
+            "entries": [
+                {
+                    "name": "988 Suicide and Crisis Lifeline",
+                    "url": "https://988lifeline.org/",
+                    "page": "",
+                    "contact": "Call or text 988",
+                    "note": "For anyone in crisis, not only someone who is suicidal.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Crisis Text Line",
+                    "url": "https://www.crisistextline.org/",
+                    "page": "",
+                    "contact": "Text HOME to 741741",
+                    "note": "Trained counsellors by text, if a call is not safe or possible.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "The Trevor Project",
+                    "url": "https://www.thetrevorproject.org/get-help/",
+                    "page": "",
+                    "contact": "Call 1-866-488-7386, or text START to 678-678",
+                    "note": "Crisis support for LGBTQ young people.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Trans Lifeline",
+                    "url": "https://translifeline.org/",
+                    "page": "",
+                    "contact": "Call 1-877-565-8860",
+                    "note": "Peer support run by trans people. It does not call the police on a caller.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "National Runaway Safeline",
+                    "url": "https://www.1800runaway.org/",
+                    "page": "",
+                    "contact": "Call or text 1-800-786-2929",
+                    "note": "For a young person who has run, is thinking about it, or has been thrown out.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "RAINN National Sexual Assault Hotline",
+                    "url": "https://hotline.rainn.org/",
+                    "page": "",
+                    "contact": "Call 1-800-656-4673",
+                    "note": "Sexual assault support, including assault that happened years ago.",
+                    "archived": false,
+                    "links": []
+                }
+            ]
+        },
+        {
+            "heading": "Reporting abuse in a program",
+            "intro": "A report can go to more than one place at once, and usually should. The bodies that can act are different in every state, and they do not talk to each other reliably.",
+            "entries": [
+                {
+                    "name": "Where to report, state by state",
+                    "url": "https://example.test/report-abuse/",
+                    "page": "report-abuse",
+                    "contact": "",
+                    "note": "Every state and DC: the board that holds the therapist's licence, the agency that licenses the program, the legal and law enforcement channels, and the oversight bodies with a right to investigate. Each entry says what that body can actually do, whether it takes an anonymous report, and the day somebody last checked the number.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Childhelp National Child Abuse Hotline",
+                    "url": "https://childhelphotline.org/",
+                    "page": "",
+                    "contact": "Call or text 1-800-422-4453",
+                    "note": "Counselors around the clock. They will talk through what happened and work out which state agency takes the report, if you would rather start there than with a form.",
+                    "archived": false,
+                    "links": []
+                }
+            ]
+        },
+        {
+            "heading": "For families: alternatives to a placement",
+            "intro": "Care that keeps a young person at home or with family, instead of sending them away.",
+            "entries": [
+                {
+                    "name": "Wraparound basics",
+                    "url": "https://nwi.pdx.edu/wraparound-basics/",
+                    "page": "",
+                    "contact": "",
+                    "note": "The National Wraparound Initiative at Portland State University on wraparound: a team built around the young person and family, working in the community rather than in a facility.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Kinship care facts",
+                    "url": "https://achservices.org/what-to-expect-when-you-werent-expecting/kinship-care-facts/",
+                    "page": "",
+                    "contact": "",
+                    "note": "ACH Child and Family Services on placing a child with relatives, and why children do better there than with strangers.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Unsilenced: safer alternatives",
+                    "url": "https://www.unsilenced.org/safe-treatment/",
+                    "page": "",
+                    "contact": "",
+                    "note": "Evidence-based treatment for young people with mental health needs, and what to look for in it.",
+                    "archived": false,
+                    "links": []
+                }
+            ]
+        },
+        {
+            "heading": "Taking legal action",
+            "intro": "What a survivor needs to know before looking for a lawyer.",
+            "entries": [
+                {
+                    "name": "A Survivor's Guide to Legal Action Against Troubled Teen Industry Programs",
+                    "url": "https://kidsoverprofits.org/wp-content/uploads/2024/08/Survivors-Guide-to-Legal-Action-Against-Troubled-Teen-Industry-Programs.pdf",
+                    "page": "",
+                    "contact": "",
+                    "note": "By Shannon Saul. Statutes of limitation, what evidence matters, and what to expect. PDF.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Five Facts About the Troubled Teen Industry",
+                    "url": "https://www.americanbar.org/groups/litigation/resources/newsletters/childrens-rights/five-facts-about-troubled-teen-industry/",
+                    "page": "",
+                    "contact": "",
+                    "note": "The American Bar Association, for a lawyer who has not worked one of these cases before.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "ABA Resolution 605: the Troubled Teen Industry and Institutional Child Abuse",
+                    "url": "https://www.americanbar.org/groups/litigation/resources/newsletters/childrens-rights/resolution-605/",
+                    "page": "",
+                    "contact": "",
+                    "note": "The American Bar Association's 2023 policy backing the Stop Institutional Child Abuse Act and laws against abusive practices in youth residential programs.",
+                    "archived": false,
+                    "links": []
+                }
+            ]
+        },
+        {
+            "heading": "Survivor support",
+            "intro": "Places survivors talk to each other. All of them are run by survivors.",
+            "entries": [
+                {
+                    "name": "Survivors Unrestrained",
+                    "url": "https://survivorsunrestrained.org/",
+                    "page": "",
+                    "contact": "Support groups on Zoom, Tuesdays and Thursdays at 7 PM Eastern",
+                    "note": "Peer support run by survivors, for survivors. Non-survivors are asked not to attend.",
+                    "archived": false,
+                    "links": [
+                        {
+                            "label": "Tuesday Zoom link",
+                            "url": "https://zoom.us/j/91523602861?pwd=AHbDTaTFhnqdnRkdpi70mDTbrKMG0T.1"
+                        },
+                        {
+                            "label": "Thursday Zoom link",
+                            "url": "https://zoom.us/j/95881522258?pwd=AxWkZL5HfkQqOxJtmbcmhVxbVNUEAX.1"
+                        }
+                    ]
+                },
+                {
+                    "name": "The TTI Survivor Community",
+                    "url": "https://www.facebook.com/groups/forsurvivorsbysurvivors/",
+                    "page": "",
+                    "contact": "",
+                    "note": "Facebook group, for survivors by survivors.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Survivorland",
+                    "url": "https://www.facebook.com/groups/ttisurvivorland",
+                    "page": "",
+                    "contact": "",
+                    "note": "Facebook group.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "WWASP Survivors",
+                    "url": "https://www.facebook.com/groups/wwaspsurvivors",
+                    "page": "",
+                    "contact": "",
+                    "note": "Facebook group for survivors of the WWASP programs.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Survivors Unrestrained group",
+                    "url": "https://www.facebook.com/groups/958743149118428",
+                    "page": "",
+                    "contact": "",
+                    "note": "Facebook group.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "r/troubledteens",
+                    "url": "https://www.reddit.com/r/troubledteens/",
+                    "page": "",
+                    "contact": "",
+                    "note": "The subreddit. Most of the program research on this site started there.",
+                    "archived": false,
+                    "links": []
+                }
+            ]
+        },
+        {
+            "heading": "Advocacy organisations",
+            "intro": "Groups working on legislation, oversight and public pressure.",
+            "entries": [
+                {
+                    "name": "Unsilenced",
+                    "url": "https://unsilenced.org",
+                    "page": "",
+                    "contact": "",
+                    "note": "Litigation support, policy work and survivor advocacy.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Breaking Code Silence",
+                    "url": "https://www.breakingcodesilence.org",
+                    "page": "",
+                    "contact": "",
+                    "note": "Research, awareness campaigns and survivor storytelling.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Institutional Child Abuse Prevention and Advocacy (ICAPA) Network",
+                    "url": "https://icapanetwork.org/",
+                    "page": "",
+                    "contact": "",
+                    "note": "Coalition work across institutional settings, not only the teen industry.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Project Silent No More",
+                    "url": "https://silentnomoretti.wixsite.com/my-site",
+                    "page": "",
+                    "contact": "",
+                    "note": "Survivor-led advocacy.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "New Beginnings Girls Academy Survivors",
+                    "url": "https://www.newbeginningsgirlsacademy.com/",
+                    "page": "",
+                    "contact": "",
+                    "note": "Survivors of one program, organised.",
+                    "archived": false,
+                    "links": []
+                }
+            ]
+        },
+        {
+            "heading": "Research and reading",
+            "intro": "Where the documented history of the industry is kept.",
+            "entries": [
+                {
+                    "name": "Troubled Teens Wiki",
+                    "url": "https://www.reddit.com/r/troubledteens/wiki/index/",
+                    "page": "",
+                    "contact": "",
+                    "note": "Program-by-program entries written and sourced by survivors.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Surviving Straight Inc.",
+                    "url": "https://survivingstraightinc.com/",
+                    "page": "",
+                    "contact": "",
+                    "note": "The record of Straight, Inc. and the programs that came out of it.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "WWASP Survivors",
+                    "url": "https://wwaspsurvivors.com/",
+                    "page": "",
+                    "contact": "",
+                    "note": "Documents and testimony from the WWASP network.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "SCIAD",
+                    "url": "https://web.archive.org/web/20221007171605/https://www.sciad.net/",
+                    "page": "",
+                    "contact": "",
+                    "note": "The Survivors of Institutional Abuse database. The site has been down since November 2024; this is the last snapshot.",
+                    "archived": true,
+                    "links": []
+                }
+            ]
+        },
+        {
+            "heading": "Art, film and memoir",
+            "intro": "Survivor work that reaches people a report does not.",
+            "entries": [
+                {
+                    "name": "Joe vs Elan School",
+                    "url": "http://elan.school",
+                    "page": "",
+                    "contact": "",
+                    "note": "Joe Nobody's webcomic about the Elan School, drawn from his own placement.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "The Program: Cons, Cults and Kidnapping",
+                    "url": "https://www.netflix.com/tudum/articles/the-program-cons-cults-kidnapping-release-date-trailer-news",
+                    "page": "",
+                    "contact": "",
+                    "note": "Katherine Kubler's documentary series about the Academy at Ivy Ridge.",
+                    "archived": false,
+                    "links": []
+                }
+            ]
+        },
+        {
+            "heading": "Survivors of individual programs",
+            "intro": "Group accounts kept by the survivors of one program. Useful if you are researching that program, or looking for the people who were there with you.",
+            "entries": [
+                {
+                    "name": "Elevations RTC Survivors",
+                    "url": "https://www.instagram.com/elevationsrtc/",
+                    "page": "",
+                    "contact": "",
+                    "note": "Instagram.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Spring Ridge Academy Survivors",
+                    "url": "https://www.instagram.com/breakingcodesilencesra/",
+                    "page": "",
+                    "contact": "",
+                    "note": "Instagram.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Maple Lake Academy Survivors",
+                    "url": "https://www.instagram.com/maple_lake_academy_survivors",
+                    "page": "",
+                    "contact": "",
+                    "note": "Instagram.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "La Europa Academy Survivors",
+                    "url": "https://www.instagram.com/laeuropaacademy",
+                    "page": "",
+                    "contact": "",
+                    "note": "Instagram.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Montana Academy Survivors",
+                    "url": "https://www.instagram.com/montana.academy.survivors",
+                    "page": "",
+                    "contact": "",
+                    "note": "Instagram.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Cedar Ridge and Makana Leadership Academy Survivors",
+                    "url": "https://www.instagram.com/makanacedarridgesurvivors/",
+                    "page": "",
+                    "contact": "",
+                    "note": "Instagram.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Catalyst RTC Survivors",
+                    "url": "https://www.instagram.com/catalystrtc",
+                    "page": "",
+                    "contact": "",
+                    "note": "Instagram.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "Re-Creation Retreat Past Peers",
+                    "url": "https://www.instagram.com/pastpeers",
+                    "page": "",
+                    "contact": "",
+                    "note": "Instagram.",
+                    "archived": false,
+                    "links": [
+                        {
+                            "label": "Also on Facebook",
+                            "url": "https://www.facebook.com/profile.php?id=61568768994728"
+                        }
+                    ]
+                },
+                {
+                    "name": "Positive Peer Cult",
+                    "url": "https://www.facebook.com/people/Positivepeercult/61582626375371/",
+                    "page": "",
+                    "contact": "",
+                    "note": "Facebook. Survivors of programs run on Positive Peer Culture, rather than of one program.",
+                    "archived": false,
+                    "links": [
+                        {
+                            "label": "Also on TikTok",
+                            "url": "https://www.tiktok.com/@positivepeercult_"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "Survivors telling their own stories",
+            "intro": "Individual survivors who post about what happened to them.",
+            "entries": [
+                {
+                    "name": "@uwunisom",
+                    "url": "https://www.tiktok.com/@uwunisom",
+                    "page": "",
+                    "contact": "",
+                    "note": "TikTok.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "@whatkyrakept",
+                    "url": "https://www.tiktok.com/@whatkyrakept",
+                    "page": "",
+                    "contact": "",
+                    "note": "TikTok.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "@trailseasoning",
+                    "url": "https://www.tiktok.com/@trailseasoning",
+                    "page": "",
+                    "contact": "",
+                    "note": "TikTok.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "@this.is.me.surviving2",
+                    "url": "https://www.tiktok.com/@this.is.me.surviving2",
+                    "page": "",
+                    "contact": "",
+                    "note": "TikTok.",
+                    "archived": false,
+                    "links": []
+                },
+                {
+                    "name": "@exposterchild",
+                    "url": "https://www.tiktok.com/@exposterchild",
+                    "page": "",
+                    "contact": "",
+                    "note": "TikTok.",
+                    "archived": false,
+                    "links": []
+                }
+            ]
+        },
+        {
+            "heading": "Petitions",
+            "intro": "Open campaigns you can sign.",
+            "entries": [
+                {
+                    "name": "Investigate the death of Taylor Goodridge at Diamond Ranch Academy",
+                    "url": "https://www.change.org/p/justice-for-taylor-goodridge-ag-garland-investigate-her-death-at-diamond-ranch-academy",
+                    "page": "",
+                    "contact": "",
+                    "note": "Addressed to the U.S. Attorney General.",
+                    "archived": false,
+                    "links": []
+                }
+            ]
+        }
+    ]
+}

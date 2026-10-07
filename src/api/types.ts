@@ -321,6 +321,23 @@ export type OperatorListItem = {
 };
 export type OperatorsList = { api_version: number; total: number; items: OperatorListItem[] };
 
+/** kop/v1/resources: the /resources/ page's list (inc/resources-list.php, kop_resources_groups()). */
+export type ResourceEntry = {
+  name: string;
+  /** '' for a phone-only entry. */
+  url: string;
+  /** A page on the site ('report-abuse', 'tti-data-submission'), '' for an outside link. */
+  page: string;
+  /** "Call or text 988", printed in bold. */
+  contact: string;
+  note: string;
+  /** The live site is gone; the link is a snapshot. */
+  archived: boolean;
+  links: { label: string; url: string }[];
+};
+export type ResourceGroup = { heading: string; intro: string; entries: ResourceEntry[] };
+export type ResourcesPayload = { api_version: number; url: string; total: number; groups: ResourceGroup[] };
+
 /** kop/v1/state/<slug> (the parts the app lists) */
 export type StateTile = {
   name: string;

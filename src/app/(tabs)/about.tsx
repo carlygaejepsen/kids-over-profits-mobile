@@ -28,6 +28,11 @@ export default function AboutScreen() {
       </Text>
 
       <View style={styles.block}>
+        <HubListRow
+          title="Resources"
+          meta="Crisis lines, survivor support, advocacy and further reading."
+          onPress={() => router.push('/resources')}
+        />
         <NoticeBox variant="reporting" title="Report abuse">
           <Text style={type.body}>Where to report an abusive program or therapist, state by state.</Text>
           <Button label="Find where to report" icon="external" onPress={open('/report-abuse/')} style={styles.button} />

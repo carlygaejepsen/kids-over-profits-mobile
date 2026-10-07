@@ -54,7 +54,16 @@ export default function SearchScreen() {
       />
 
       {short ? (
-        <Note>Type at least three letters to search.</Note>
+        <>
+          <Note>Type at least three letters to search.</Note>
+          <View style={styles.help}>
+            <HubListRow
+              title="Need help now? Resources"
+              meta="Crisis lines, where to report, survivor support."
+              onPress={() => router.push('/resources')}
+            />
+          </View>
+        </>
       ) : suggest.isLoading ? (
         <Loading label="Searching" />
       ) : suggest.isError ? (
@@ -108,4 +117,5 @@ export default function SearchScreen() {
 const styles = StyleSheet.create({
   results: { gap: spacing.sm + 2, marginTop: spacing.sm },
   more: { marginTop: spacing.lg },
+  help: { marginTop: spacing.lg },
 });

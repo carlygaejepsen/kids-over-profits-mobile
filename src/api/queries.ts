@@ -9,6 +9,7 @@ import type {
   NewsQuery,
   OperatorPayload,
   OperatorsList,
+  ResourcesPayload,
   StatePage,
   SuggestResponse,
 } from './types';
@@ -104,6 +105,15 @@ export function useOperators() {
   return useQuery({
     queryKey: ['operators'],
     queryFn: ({ signal }) => fetchJson<OperatorsList>('operators', undefined, signal),
+    staleTime: HOUR,
+  });
+}
+
+/** The /resources/ page's list: crisis lines, where to report, support. */
+export function useResources() {
+  return useQuery({
+    queryKey: ['resources'],
+    queryFn: ({ signal }) => fetchJson<ResourcesPayload>('resources', undefined, signal),
     staleTime: HOUR,
   });
 }

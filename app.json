@@ -10,8 +10,12 @@
     "ios": {
       "bundleIdentifier": "org.kidsoverprofits.app",
       "supportsTablet": true,
-      "associatedDomains": ["applinks:kidsoverprofits.org"],
-      "infoPlist": { "ITSAppUsesNonExemptEncryption": false }
+      "associatedDomains": [
+        "applinks:kidsoverprofits.org"
+      ],
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "org.kidsoverprofits.app",
@@ -27,22 +31,95 @@
           "action": "VIEW",
           "autoVerify": true,
           "data": [
-            { "scheme": "https", "host": "kidsoverprofits.org", "pathPrefix": "/facility/" },
-            { "scheme": "https", "host": "kidsoverprofits.org", "pathPrefix": "/operator/" },
-            { "scheme": "https", "host": "kidsoverprofits.org", "pathPrefix": "/news/" },
-            { "scheme": "https", "host": "kidsoverprofits.org", "pathPrefix": "/state/" }
+            {
+              "scheme": "https",
+              "host": "kidsoverprofits.org",
+              "pathPrefix": "/facility/"
+            },
+            {
+              "scheme": "https",
+              "host": "kidsoverprofits.org",
+              "pathPrefix": "/operator/"
+            },
+            {
+              "scheme": "https",
+              "host": "kidsoverprofits.org",
+              "pathPrefix": "/news/"
+            },
+            {
+              "scheme": "https",
+              "host": "kidsoverprofits.org",
+              "pathPrefix": "/state/"
+            }
           ],
-          "category": ["BROWSABLE", "DEFAULT"]
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
         }
       ]
     },
-    "web": { "output": "static", "favicon": "./assets/images/favicon.png" },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
     "plugins": [
       "expo-router",
-      ["expo-splash-screen", { "backgroundColor": "#000435", "image": "./assets/images/splash-icon.png", "imageWidth": 120 }],
-      ["expo-sharing", { "android": { "enabled": true, "singleShareMimeTypes": ["text/plain"] }, "ios": { "enabled": true, "activationRule": { "supportsText": true, "supportsWebUrlWithMaxCount": 1 } } }],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#000435",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 120
+        }
+      ],
+      [
+        "expo-sharing",
+        {
+          "android": {
+            "enabled": true,
+            "singleShareMimeTypes": [
+              "text/plain"
+            ]
+          },
+          "ios": {
+            "enabled": true,
+            "activationRule": {
+              "supportsText": true,
+              "supportsWebUrlWithMaxCount": 1
+            }
+          }
+        }
+      ],
       "expo-secure-store"
     ],
-    "experiments": { "typedRoutes": true, "reactCompiler": true }
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "build": {
+          "experimental": {
+            "ios": {
+              "appExtensions": [
+                {
+                  "targetName": "expo-sharing-extension",
+                  "bundleIdentifier": "org.kidsoverprofits.app.expo-sharing-extension",
+                  "entitlements": {
+                    "com.apple.security.application-groups": [
+                      "group.org.kidsoverprofits.app"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "projectId": "a8bc39ac-3f4a-4e69-ba87-3d5e649d7580"
+      }
+    },
+    "owner": "kidsoverprofits"
   }
 }

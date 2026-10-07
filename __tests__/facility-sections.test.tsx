@@ -191,3 +191,23 @@ describe('sources on the alias lines', () => {
     expect(screen.getAllByLabelText(/^source: r\/troubledteens wiki/).length).toBeGreaterThan(0);
   });
 });
+
+describe('materials and links: what the project holds, as on the website', () => {
+  it('lists the held materials under their groups, with their details, before the links', async () => {
+    await show(provo);
+    expect(provo.resources.length).toBeGreaterThan(0);
+    for (const more of screen.queryAllByLabelText(/^Show \d+ more$/)) await fireEvent.press(more);
+    expect(screen.getByText(/^Materials the project holds for this facility/)).toBeTruthy();
+    for (const g of new Set(provo.resources.map((r) => r.group))) expect(screen.getAllByText(g).length).toBeGreaterThan(0);
+    for (const r of provo.resources) {
+      expect(screen.getAllByText(r.label).length).toBeGreaterThan(0);
+      if (r.detail) expect(screen.getAllByText(r.detail).length).toBeGreaterThan(0);
+    }
+  });
+
+  it('has the section and its jump pill even with no links at all', async () => {
+    const heldOnly = { ...provo, profile_links: [], resource_links: [] };
+    await show(heldOnly);
+    expect(screen.getByLabelText('Jump to Materials and links')).toBeTruthy();
+  });
+});

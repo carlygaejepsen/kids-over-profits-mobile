@@ -161,6 +161,9 @@ export type SeriousFinding = {
 
 export type Sibling = { name: string; place: string; status: string; url: string };
 
+/** A kind of material the project holds for the record, not online (kop_facility_pages_resources_held()). */
+export type HeldResource = { label: string; group: string; detail: string };
+
 export type ResourceLinkGroup = { kind: string; label: string; links: Link[] };
 
 /** What one name of a renamed program holds, its own record's and the other names' (inc/facility-eras.php). */
@@ -226,7 +229,7 @@ export type FacilityPayload = {
   forum: { incidents?: Incident[]; leads?: string[]; links?: { url: string; label: string }[] } | null;
   videos: { provider: string; id: string; title: string; url: string; source: string; thumb: string }[];
   profile_links: Link[];
-  resources: unknown;
+  resources: HeldResource[];
   resource_links: ResourceLinkGroup[];
   news: NewsItem[];
   lawsuits: LawsuitRow[];

@@ -157,6 +157,7 @@ export function presentSections(page: FacilityPayload): SectionDef[] {
     [f.notes.length > 0 || f.field_notes.length > 0, 'notes', 'Research notes'],
     [f.wiki.length > 0, 'wiki', 'Wiki entries'],
     [f.siblings.length > 0, 'related', 'Same operator'],
+    [(page.network?.links.length ?? 0) > 0, 'network', 'Connections'],
     [f.resources.length > 0 || f.profile_links.length > 0 || f.resource_links.length > 0, 'resources', 'Materials and links'],
   ];
   const names = erasOf(f).map((e) => ({ id: e.id, label: `As ${e.name}` }));

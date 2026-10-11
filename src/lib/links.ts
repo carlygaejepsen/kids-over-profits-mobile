@@ -4,6 +4,7 @@ import { Platform } from 'react-native';
 
 import { SITE } from '@/api/client';
 import { docKindOf } from './docs';
+import { openFromMapUrl } from './mapPage';
 
 export type Resolved = { kind: 'route'; href: Href } | { kind: 'web'; url: string };
 
@@ -56,6 +57,11 @@ export function resolveLink(raw: string | null | undefined, platform: string = P
       const [, kind, slug] = page;
       if (url.hash === '#documents') return { kind: 'route', href: { pathname: '/documents/[slug]', params: { slug, kind } } as Href };
       return { kind: 'route', href: `/${kind}/${slug}` as Href };
+    }
+    // The network map is the Map tab; "#open=<node>" opens it on that name.
+    if (url.pathname.replace(/\/?$/, '/') === '/network-map/') {
+      const open = openFromMapUrl(url.hash);
+      return { kind: 'route', href: (open ? { pathname: '/map', params: { open } } : '/map') as Href };
     }
     if (url.pathname.startsWith('/wp-content/') && docKindOf(url.pathname) !== 'other') {
       return { kind: 'route', href: docHref(url.toString()) };

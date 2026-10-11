@@ -1497,5 +1497,6 @@
     "documents": {
         "folder_id": 3114,
         "url": "https://example.test/facility/ascent-wilderness-program-id/#documents"
-    }
+    },
+    "network": null
 }

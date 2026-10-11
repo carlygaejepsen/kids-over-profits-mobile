@@ -789,5 +789,39 @@
     "documents": {
         "folder_id": 0,
         "url": ""
+    },
+    "network": {
+        "node": "canyon-state-academy",
+        "name": "Canyon State Academy",
+        "map_url": "https://example.test/network-map/#open=canyon-state-academy",
+        "links": [
+            {
+                "node": "brian-heath",
+                "name": "Brian Heath",
+                "kind": "person",
+                "group": "People",
+                "role": "director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "james-bednark",
+                "name": "James Bednark",
+                "kind": "person",
+                "group": "People",
+                "role": "president",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "rite-of-passage-inc",
+                "name": "Rite of Passage, Inc",
+                "kind": "parent",
+                "group": "Ownership",
+                "role": "",
+                "relation": "",
+                "url": "https://example.test/operator/rite-of-passage-inc/"
+            }
+        ]
     }
 }

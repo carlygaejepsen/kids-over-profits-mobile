@@ -1167,5 +1167,93 @@
     "documents": {
         "folder_id": 0,
         "url": ""
+    },
+    "network": {
+        "node": "rebekah-home-for-girls",
+        "name": "Rebekah Home for Girls",
+        "map_url": "https://example.test/network-map/#open=rebekah-home-for-girls",
+        "links": [
+            {
+                "node": "betty-wills",
+                "name": "Betty Wills",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "charles-crumb",
+                "name": "Charles Crumb",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "george-w-bush",
+                "name": "George W Bush",
+                "kind": "person",
+                "group": "People",
+                "role": "endorsed (as Governor of Texas; 1997 accreditation)",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "herman-fountain",
+                "name": "Herman Fountain",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "lester-roloff",
+                "name": "Lester Roloff",
+                "kind": "person",
+                "group": "People",
+                "role": "founder",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "new-beginnings-girls-academy",
+                "name": "New Beginnings Girls' Academy",
+                "kind": "facility",
+                "group": "Names",
+                "role": "Earlier name",
+                "relation": "formerly",
+                "url": "https://example.test/facility/new-beginnings-girls-academy-mo/"
+            },
+            {
+                "node": "rev-bobby-ray-papa-wills",
+                "name": "Rev Bobby Ray \"Papa\" Wills",
+                "kind": "person",
+                "group": "People",
+                "role": "operator",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "rev-wiley-cameron",
+                "name": "Rev. Wiley Cameron",
+                "kind": "person",
+                "group": "People",
+                "role": "COO",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "victory-christian-academy",
+                "name": "Victory Christian Academy",
+                "kind": "facility",
+                "group": "Ownership",
+                "role": "transferred clients",
+                "relation": "",
+                "url": "https://example.test/facility/victory-christian-academy-ca/"
+            }
+        ]
     }
 }

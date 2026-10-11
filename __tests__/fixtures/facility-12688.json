@@ -350,5 +350,30 @@
     "documents": {
         "folder_id": 0,
         "url": ""
+    },
+    "network": {
+        "node": "acadia-montana",
+        "name": "Acadia Montana",
+        "map_url": "https://example.test/network-map/#open=acadia-montana",
+        "links": [
+            {
+                "node": "acadia-healthcare",
+                "name": "Acadia Healthcare",
+                "kind": "parent",
+                "group": "Ownership",
+                "role": "past operator",
+                "relation": "",
+                "url": "https://example.test/operator/acadia-healthcare/"
+            },
+            {
+                "node": "rivendell-of-montana-childrens-comprehensive-services-kids-behavioral-health-of-montana",
+                "name": "Rivendell of Montana, Children's Comprehensive Services, Kids Behavioral Health of Montana",
+                "kind": "facility",
+                "group": "Names",
+                "role": "Earlier name",
+                "relation": "formerly",
+                "url": ""
+            }
+        ]
     }
 }

@@ -1,13 +1,15 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import fs from 'node:fs';
 import path from 'node:path';
 
 import type { NewsFeed, OperatorsList, SuggestResponse } from '@/api/types';
-import AboutScreen from '@/app/(tabs)/about';
+import AboutScreen from '@/app/about';
 import CompaniesScreen, { describe as describeCompany } from '@/app/(tabs)/companies';
-import SearchScreen from '@/app/(tabs)/index';
+import HomeScreen, { HOME_NEWS } from '@/app/(tabs)/index';
 import NewsScreen from '@/app/(tabs)/news';
 import PlacesScreen from '@/app/(tabs)/places';
+import { rememberRecent, resetRecentForTests } from '@/lib/recent';
 
 const mockPush = jest.fn();
 jest.mock('expo-router', () => ({ useRouter: () => ({ push: mockPush }) }));
@@ -37,8 +39,10 @@ const suggest: SuggestResponse = {
   ],
 };
 
-beforeEach(() => {
+beforeEach(async () => {
   mockPush.mockClear();
+  await AsyncStorage.clear();
+  resetRecentForTests();
   queries.useSuggest.mockReturnValue({ data: suggest, isLoading: false, isError: false });
   queries.useGlobalSearch.mockReturnValue({ data: undefined, isLoading: false, isError: false });
   queries.useNews.mockReturnValue({
@@ -54,11 +58,38 @@ beforeEach(() => {
   queries.useOperators.mockReturnValue({ data: operators, isLoading: false, isError: false, refetch: jest.fn() });
 });
 
-describe('Search tab', () => {
-  it('asks for three letters, then lists programs with their former-name hint', async () => {
-    await render(<SearchScreen />);
+describe('Home tab', () => {
+  it('opens on search, the ways in, the newest news and the help box', async () => {
+    await render(<HomeScreen />);
     expect(screen.getByText('Find a program')).toBeTruthy();
-    expect(screen.getByText('Type at least three letters to search.')).toBeTruthy();
+    expect(screen.queryByText('Type at least three letters to search.')).toBeNull();
+    for (const label of ['Network map', 'Companies', 'States', 'News', 'Send a tip', 'About']) expect(screen.getByText(label)).toBeTruthy();
+    for (const item of news.items.slice(0, HOME_NEWS)) expect(screen.getByText(item.title)).toBeTruthy();
+    expect(screen.queryByText(news.items[HOME_NEWS].title)).toBeNull();
+    expect(screen.getByText('Need help now?')).toBeTruthy();
+    await fireEvent.press(screen.getByLabelText('Network map. Who ran what, and who owns it'));
+    expect(mockPush).toHaveBeenCalledWith('/map');
+    await fireEvent.press(screen.getByLabelText('Resources'));
+    expect(mockPush).toHaveBeenCalledWith('/resources');
+  });
+
+  it('lists what this reader opened last, kept on the phone, and clears it', async () => {
+    await rememberRecent({ kind: 'facility', slug: 'falcon-ridge-ranch-ut', name: 'Falcon Ridge Ranch', place: 'Virgin, Utah' });
+    await rememberRecent({ kind: 'operator', slug: 'uhs', name: 'Universal Health Services', place: 'Company, 40 programs' });
+    await render(<HomeScreen />);
+    expect(await screen.findByText('You looked at recently')).toBeTruthy();
+    const rows = screen.getAllByText(/^(Universal Health Services|Falcon Ridge Ranch)$/).map((n) => n.props.children);
+    expect(rows).toEqual(['Universal Health Services', 'Falcon Ridge Ranch']);
+    await fireEvent.press(screen.getByLabelText('Falcon Ridge Ranch. Virgin, Utah'));
+    expect(mockPush).toHaveBeenCalledWith('/facility/falcon-ridge-ranch-ut');
+    await fireEvent.press(screen.getByLabelText('Clear this list'));
+    expect(screen.queryByText('You looked at recently')).toBeNull();
+  });
+
+  it('asks for three letters, then lists programs with their former-name hint', async () => {
+    await render(<HomeScreen />);
+    await fireEvent.changeText(screen.getByLabelText('Search facilities by name, including former names'), 'fa');
+    expect(await screen.findByText('Type at least three letters to search.')).toBeTruthy();
     await fireEvent.changeText(screen.getByLabelText('Search facilities by name, including former names'), 'falcon');
     expect(await screen.findByText('Falcon Ridge Academy')).toBeTruthy();
     expect(screen.getByText('Falcon Ridge Ranch')).toBeTruthy();
@@ -69,7 +100,7 @@ describe('Search tab', () => {
   });
 
   it('offers the site-wide search once there is a query', async () => {
-    await render(<SearchScreen />);
+    await render(<HomeScreen />);
     await fireEvent.changeText(screen.getByLabelText('Search facilities by name, including former names'), 'falcon');
     await fireEvent.press(await screen.findByText('Search news, lawsuits and records too'));
     expect(queries.useGlobalSearch).toHaveBeenLastCalledWith('falcon', true);

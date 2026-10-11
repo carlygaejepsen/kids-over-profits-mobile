@@ -1212,5 +1212,6 @@
     "documents": {
         "folder_id": 5638,
         "url": "https://example.test/facility/copper-canyon-academy-az/#documents"
-    }
+    },
+    "network": null
 }

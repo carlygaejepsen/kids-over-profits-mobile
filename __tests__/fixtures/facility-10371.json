@@ -3196,5 +3196,336 @@
     "documents": {
         "folder_id": 50,
         "url": "https://example.test/facility/provo-canyon-school-ut/#documents"
+    },
+    "network": {
+        "node": "provo-canyon-school",
+        "name": "Provo Canyon School",
+        "map_url": "https://example.test/network-map/#open=provo-canyon-school",
+        "links": [
+            {
+                "node": "academy-at-canyon-creek",
+                "name": "Academy at Canyon Creek",
+                "kind": "facility",
+                "group": "Acquisitions",
+                "role": "Acquired by this program (acquired)",
+                "relation": "acquired",
+                "url": "https://example.test/facility/academy-at-canyon-creek-ut/"
+            },
+            {
+                "node": "adam-mclain",
+                "name": "Adam Mclain",
+                "kind": "person",
+                "group": "People",
+                "role": "CEO",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "barry-woodward",
+                "name": "Barry Woodward",
+                "kind": "person",
+                "group": "People",
+                "role": "CEO",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "brent-charles-hall",
+                "name": "Brent Charles Hall",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "brent-esplin",
+                "name": "Brent Esplin",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "charter-medical-corporation",
+                "name": "Charter Medical Corporation",
+                "kind": "person",
+                "group": "People",
+                "role": "owner",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "copper-hills-youth-center",
+                "name": "Copper Hills Youth Center",
+                "kind": "facility",
+                "group": "Other staff",
+                "role": "staff moved",
+                "relation": "",
+                "url": "https://example.test/facility/copper-hills-youth-center-ut/"
+            },
+            {
+                "node": "dave-blackwell",
+                "name": "Dave Blackwell",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "denise-westman",
+                "name": "Denise Westman",
+                "kind": "person",
+                "group": "People",
+                "role": "Midwest regional director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "discovery-ranch",
+                "name": "Discovery Ranch",
+                "kind": "facility",
+                "group": "Other staff",
+                "role": "staff moved",
+                "relation": "",
+                "url": "https://example.test/discovery-ranch/"
+            },
+            {
+                "node": "drew-hirsch",
+                "name": "Drew Hirsch",
+                "kind": "person",
+                "group": "People",
+                "role": "clinical supervisor",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "eric-fawson",
+                "name": "Eric Fawson",
+                "kind": "person",
+                "group": "People",
+                "role": "therapist",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "eugene-thorn",
+                "name": "Eugene Thorn",
+                "kind": "person",
+                "group": "People",
+                "role": "co-owner",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "jack-williams",
+                "name": "Jack Williams",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "jeff-scott",
+                "name": "Jeff Scott",
+                "kind": "person",
+                "group": "People",
+                "role": "therapist",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "jeff-smith",
+                "name": "Jeff Smith",
+                "kind": "person",
+                "group": "People",
+                "role": "CEO",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "jerry-spanos",
+                "name": "Jerry Spanos",
+                "kind": "person",
+                "group": "People",
+                "role": "therapist",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "jordan-killpack",
+                "name": "Jordan Killpack",
+                "kind": "person",
+                "group": "People",
+                "role": "therapist",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "karr-farnsworth",
+                "name": "Karr Farnsworth",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "kelly-corey",
+                "name": "Kelly Corey",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "ken-huey",
+                "name": "Ken Huey",
+                "kind": "person",
+                "group": "People",
+                "role": "business director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "kreg-gillman",
+                "name": "Kreg Gillman",
+                "kind": "person",
+                "group": "People",
+                "role": "CEO",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "larry-carter",
+                "name": "Larry Carter",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "mike-naylor",
+                "name": "Mike Naylor",
+                "kind": "person",
+                "group": "People",
+                "role": "",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "natalie-stark",
+                "name": "Natalie Stark",
+                "kind": "person",
+                "group": "People",
+                "role": "",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "nick-pakidko",
+                "name": "Nick Pakidko",
+                "kind": "person",
+                "group": "People",
+                "role": "academic director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "provo-canyon-school-springville-campus",
+                "name": "Provo Canyon School Springville Campus",
+                "kind": "facility",
+                "group": "Ownership",
+                "role": "",
+                "relation": "",
+                "url": "https://example.test/facility/uhs-of-provo-canyon-springville-campus-ut/"
+            },
+            {
+                "node": "rachel-steinberg",
+                "name": "Rachel Steinberg",
+                "kind": "person",
+                "group": "People",
+                "role": "clinician",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "robert-b-lichfield",
+                "name": "Robert B. Lichfield",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "robert-crist",
+                "name": "Robert Crist",
+                "kind": "person",
+                "group": "People",
+                "role": "cofounder / medical director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "ron-s-tuinei",
+                "name": "Ron S. Tuinei",
+                "kind": "person",
+                "group": "People",
+                "role": "administrator",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "sam-hill",
+                "name": "Sam Hill",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "tere-snodgrass",
+                "name": "Tere Snodgrass",
+                "kind": "person",
+                "group": "People",
+                "role": "",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "universal-health-services",
+                "name": "Universal Health Services",
+                "kind": "parent",
+                "group": "Acquisitions",
+                "role": "Acquired this program (acquired)",
+                "relation": "acquired by",
+                "url": "https://example.test/operator/universal-health-services/"
+            },
+            {
+                "node": "wade-taylor",
+                "name": "Wade Taylor",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "wwasps",
+                "name": "WWASPS",
+                "kind": "parent",
+                "group": "Ownership",
+                "role": "precursor to WWASPS",
+                "relation": "",
+                "url": "https://example.test/operator/world-wide-association-of-specialty-programs-and-schools/"
+            }
+        ]
     }
 }

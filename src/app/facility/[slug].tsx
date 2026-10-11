@@ -1,10 +1,11 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
-import { useCallback, useRef } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { useFacility } from '@/api/queries';
 import type { FacilityPayload } from '@/api/types';
+import { ConnectionsSection } from '@/components/facility/ConnectionsSection';
 import { FacilityFooter, ReportingNotice } from '@/components/facility/Footer';
 import { Glance } from '@/components/facility/Glance';
 import { HeaderBlock, Summary } from '@/components/facility/HeaderBlock';
@@ -20,6 +21,7 @@ import { DocumentsSection, ForumSection, NotesSection, TestimonySection, WikiSec
 import { ErrorState, Loading } from '@/components/ui';
 import { JumpPills, StatTiles } from '@/components/site';
 import { colors } from '@/theme/colors';
+import { rememberRecent } from '@/lib/recent';
 import { gutter, maxContentWidth, spacing } from '@/theme/typography';
 
 function FacilityBody({ f }: { f: FacilityPayload }) {
@@ -66,6 +68,7 @@ function FacilityBody({ f }: { f: FacilityPayload }) {
             <NotesSection {...p} />
             <WikiSection {...p} />
             <SiblingsSection {...p} />
+            <ConnectionsSection {...p} />
             <ResourcesSection {...p} />
           </View>
           <ReportingNotice f={f} />
@@ -80,6 +83,10 @@ export default function FacilityScreen() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
   const query = useFacility(slug);
   const name = query.data?.name;
+  const f = query.data;
+  useEffect(() => {
+    if (f?.name) void rememberRecent({ kind: 'facility', slug: f.slug || slug, name: f.name, place: f.place });
+  }, [f, slug]);
 
   return (
     <>

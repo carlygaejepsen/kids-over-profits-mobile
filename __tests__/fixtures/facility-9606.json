@@ -447,5 +447,6 @@
     "documents": {
         "folder_id": 0,
         "url": ""
-    }
+    },
+    "network": null
 }

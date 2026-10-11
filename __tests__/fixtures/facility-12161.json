@@ -802,5 +802,165 @@
     "documents": {
         "folder_id": 198,
         "url": "https://example.test/facility/sedona-sky-academy-az/#documents"
+    },
+    "network": {
+        "node": "copper-canyon-academy",
+        "name": "Copper Canyon Academy",
+        "map_url": "https://example.test/network-map/#open=copper-canyon-academy",
+        "links": [
+            {
+                "node": "aspen-education-group",
+                "name": "Aspen Education Group",
+                "kind": "parent",
+                "group": "Ownership",
+                "role": "past operator",
+                "relation": "",
+                "url": "https://example.test/facility/aspen-education-group/"
+            },
+            {
+                "node": "belle-shook",
+                "name": "Belle Shook",
+                "kind": "person",
+                "group": "People",
+                "role": "therapist",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "betsy-warren",
+                "name": "Betsy Warren",
+                "kind": "person",
+                "group": "People",
+                "role": "executive director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "darren-prince",
+                "name": "Darren Prince",
+                "kind": "person",
+                "group": "People",
+                "role": "cofounder",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "family-help-wellness",
+                "name": "Family Help & Wellness",
+                "kind": "parent",
+                "group": "Ownership",
+                "role": "operator",
+                "relation": "",
+                "url": "https://example.test/operator/family-help-wellness/"
+            },
+            {
+                "node": "fotu-soliai",
+                "name": "Fotu Soliai",
+                "kind": "person",
+                "group": "People",
+                "role": "exec director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "josh-white",
+                "name": "Josh White",
+                "kind": "person",
+                "group": "People",
+                "role": "program director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "linda-cathcart",
+                "name": "Linda Cathcart",
+                "kind": "person",
+                "group": "People",
+                "role": "counseling director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "maureen-white",
+                "name": "Maureen White",
+                "kind": "person",
+                "group": "People",
+                "role": "workshop leader",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "patty-bowman",
+                "name": "Patty Bowman",
+                "kind": "person",
+                "group": "People",
+                "role": "founder",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "paul-ravenscraft",
+                "name": "Paul Ravenscraft",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "paul-taylor",
+                "name": "Paul Taylor",
+                "kind": "person",
+                "group": "People",
+                "role": "administrator",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "sequoia-smith",
+                "name": "Sequoia Smith",
+                "kind": "person",
+                "group": "People",
+                "role": "",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "sonja-fullwood",
+                "name": "Sonja Fullwood",
+                "kind": "person",
+                "group": "People",
+                "role": "therapist",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "tammy-behrmann",
+                "name": "Tammy Behrmann",
+                "kind": "person",
+                "group": "People",
+                "role": "administrator",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "tammy-prince-behrman",
+                "name": "Tammy Prince Behrman",
+                "kind": "person",
+                "group": "People",
+                "role": "cofounder; cofounder / owner",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "tracy-edwards",
+                "name": "Tracy Edwards",
+                "kind": "person",
+                "group": "People",
+                "role": "administrator",
+                "relation": "",
+                "url": ""
+            }
+        ]
     }
 }

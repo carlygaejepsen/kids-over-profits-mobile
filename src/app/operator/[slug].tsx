@@ -1,5 +1,5 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
-import type { ReactNode } from 'react';
+import { useEffect, type ReactNode } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { useOperator, useOperatorByName } from '@/api/queries';
@@ -17,6 +17,8 @@ import {
 import { aliasLines, glanceRows, placeLine, sectionsOf, statTiles } from '@/components/operator/model';
 import { GlanceBox, JumpPills, RecordHeader, StatTiles } from '@/components/site';
 import { ErrorState, Loading, OpenOnSite } from '@/components/ui';
+import { slugFromUrl } from '@/lib/links';
+import { rememberRecent } from '@/lib/recent';
 import { spacing, type } from '@/theme/typography';
 
 const SECTIONS: Record<string, (props: { o: OperatorPayload }) => ReactNode> = {
@@ -71,6 +73,14 @@ export default function OperatorScreen() {
   const bySlug = useOperator(byName ? undefined : slug);
   const byNameQuery = useOperatorByName(byName ? name : undefined);
   const query = byName ? byNameQuery : bySlug;
+  const o = query.data;
+  useEffect(() => {
+    const key = o ? slugFromUrl(o.url) : '';
+    if (o && key) {
+      const n = o.facilities?.length ?? 0;
+      void rememberRecent({ kind: 'operator', slug: key, name: o.name, place: n ? `Company, ${n} ${n === 1 ? 'program' : 'programs'}` : 'Company' });
+    }
+  }, [o]);
 
   return (
     <>

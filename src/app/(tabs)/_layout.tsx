@@ -35,12 +35,12 @@ export default function TabsLayout() {
         },
         tabBarLabelStyle: { fontSize: 12, lineHeight: 16, fontWeight: '600' },
       }}>
-      <Tabs.Screen name="index" options={tab('Search', 'search')} />
+      <Tabs.Screen name="index" options={tab('Home', 'home')} />
       <Tabs.Screen name="news" options={tab('News', 'newspaper')} />
+      <Tabs.Screen name="map" options={{ ...tab('Map', 'shuffle'), title: 'Network map', tabBarLabel: 'Map' }} />
       <Tabs.Screen name="places" options={tab('Places', 'map-pin')} />
       <Tabs.Screen name="companies" options={tab('Companies', 'building')} />
       <Tabs.Screen name="send" options={tab('Send', 'send')} />
-      <Tabs.Screen name="about" options={tab('About', 'info')} />
     </Tabs>
   );
 }

@@ -743,5 +743,102 @@
     "documents": {
         "folder_id": 237,
         "url": "https://example.test/facility/falcon-ridge-ranch-ut/#documents"
+    },
+    "network": {
+        "node": "falcon-ridge-ranch",
+        "name": "Falcon Ridge Ranch",
+        "map_url": "https://example.test/network-map/#open=falcon-ridge-ranch",
+        "links": [
+            {
+                "node": "amber-austin",
+                "name": "Amber Austin",
+                "kind": "person",
+                "group": "People",
+                "role": "Director of Admissions (2016)",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "bobbie-jensen",
+                "name": "Bobbie Jensen",
+                "kind": "person",
+                "group": "People",
+                "role": "staff",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "brian-pace",
+                "name": "Brian Pace",
+                "kind": "person",
+                "group": "People",
+                "role": "Executive Director (2016)",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "david-allred",
+                "name": "David Allred",
+                "kind": "person",
+                "group": "People",
+                "role": "executive director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "kathy-ruiz",
+                "name": "Kathy Ruiz",
+                "kind": "person",
+                "group": "People",
+                "role": "therapist",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "oscar-fakahua",
+                "name": "Oscar Fakahua",
+                "kind": "person",
+                "group": "People",
+                "role": "director of campus culture",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "rite-of-passage-inc",
+                "name": "Rite of Passage, Inc",
+                "kind": "parent",
+                "group": "Acquisitions",
+                "role": "Acquired this program (acquired)",
+                "relation": "acquired by",
+                "url": "https://example.test/operator/rite-of-passage-inc/"
+            },
+            {
+                "node": "salesi-nale-misinale-fakahua",
+                "name": "Salesi \"Nale\" Misinale Fakahua",
+                "kind": "person",
+                "group": "People",
+                "role": "campus culture director",
+                "relation": "",
+                "url": ""
+            },
+            {
+                "node": "sequel-youth-and-family-services",
+                "name": "Sequel Youth and Family Services",
+                "kind": "parent",
+                "group": "Ownership",
+                "role": "",
+                "relation": "",
+                "url": "https://example.test/operator/sequel-tsi/"
+            },
+            {
+                "node": "steve-barrick",
+                "name": "Steve Barrick",
+                "kind": "person",
+                "group": "People",
+                "role": "Therapist",
+                "relation": "",
+                "url": ""
+            }
+        ]
     }
 }

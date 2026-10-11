@@ -898,5 +898,6 @@
     "documents": {
         "folder_id": 3917,
         "url": "https://example.test/facility/newport-academy-ca/#documents"
-    }
+    },
+    "network": null
 }

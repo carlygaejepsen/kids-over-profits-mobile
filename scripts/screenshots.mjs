@@ -44,6 +44,7 @@ const SCREENS = [
   { name: 'operator-1', path: '/operator/1' },
   { name: 'place-utah', path: '/place/utah' },
   { name: 'companies', path: '/companies' },
+  { name: 'home', path: '/' },
   { name: 'search', path: '/', type: 'falcon' },
   { name: 'news', path: '/news' },
   { name: 'about', path: '/about' },

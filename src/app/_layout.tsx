@@ -41,6 +41,7 @@ export default function RootLayout() {
             <Stack.Screen name="doc" options={{ title: 'Document' }} />
             <Stack.Screen name="reviewer" options={{ title: 'Reviewer sign-in' }} />
             <Stack.Screen name="resources" options={{ title: 'Resources' }} />
+            <Stack.Screen name="about" options={{ title: 'About' }} />
           </Stack>
           <ShareIntentHandler />
           <DisclaimerGate />

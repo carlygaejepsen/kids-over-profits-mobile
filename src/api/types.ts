@@ -238,6 +238,8 @@ export type FacilityPayload = {
   wiki: { id: number; title: string; place: string; organization: string; type: string; years: string }[];
   inspections: FacilityInspections | null;
   documents: { folder_id: number; url: string };
+  /** The facility's names on the network map (inc/mobile-api.php kop_mobile_facility_network()); null when the map does not draw it. */
+  network?: FacilityNetwork | null;
   updated_at: string;
   updated_label: string;
   news_url: string;
@@ -293,6 +295,22 @@ export type OperatorPayload = {
   history: { status: string; paragraphs: string[]; sources: { label: string; url: string }[] } | null;
   documents: { folder_id: number; program_total: number; url: string };
 };
+
+/** One name the map ties to a facility. `group` is the website's Network heading; people are 'People'. */
+export type NetworkLink = {
+  node: string;
+  name: string;
+  /** person, facility, parent, association, government, church, other */
+  kind: string;
+  group: string;
+  role: string;
+  /** became / formerly (renames), acquired / acquired by, or '' */
+  relation: string;
+  /** The name's own page (facility or company), or ''. */
+  url: string;
+};
+
+export type FacilityNetwork = { node: string; name: string; map_url: string; links: NetworkLink[] };
 
 /** kop/v1/facility-suggest */
 export type SuggestItem = { id?: number; name: string; place: string; status: string; hint: string; url?: string };

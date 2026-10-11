@@ -1,19 +1,21 @@
-import { useRouter } from 'expo-router';
+import { useRouter, type Href } from 'expo-router';
 import { openBrowserAsync } from 'expo-web-browser';
 import { useState } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 import { SITE } from '@/api/client';
-import { useGlobalSearch, useSuggest } from '@/api/queries';
+import { useGlobalSearch, useNews, useSuggest } from '@/api/queries';
+import { Shortcuts, type Shortcut } from '@/components/home/Shortcuts';
 import type { IconName } from '@/components/Icon';
-import { Button, DirectoryFacilityRow, HubHeader, HubListRow, SectionBlock } from '@/components/site';
+import { Button, DirectoryFacilityRow, HubBox, HubHeader, HubListRow, SectionBlock } from '@/components/site';
 import { Note } from '@/components/tabs/Note';
 import { SearchField } from '@/components/tabs/SearchField';
 import { TabPage } from '@/components/tabs/TabPage';
 import { useDebounced } from '@/components/tabs/useDebounced';
 import { ErrorState, Loading } from '@/components/ui';
 import { openLink } from '@/lib/links';
-import { spacing } from '@/theme/typography';
+import { clearRecent, useRecent } from '@/lib/recent';
+import { spacing, type } from '@/theme/typography';
 
 /** The icon of each site-wide result group; anything else gets a document. */
 const GROUP_ICONS: Record<string, IconName> = {
@@ -25,7 +27,71 @@ const GROUP_ICONS: Record<string, IconName> = {
   places: 'map-pin',
 };
 
-export default function SearchScreen() {
+/** Articles the home screen shows before "All news". */
+export const HOME_NEWS = 3;
+
+/** What the app opens on: search, then the ways in, the newest news and what this reader opened last. */
+function HomeContent() {
+  const router = useRouter();
+  const go = (href: string) => router.push(href as Href);
+  const news = useNews();
+  const recent = useRecent();
+  const latest = (news.data?.pages[0]?.items ?? []).slice(0, HOME_NEWS);
+
+  const shortcuts: Shortcut[] = [
+    { key: 'map', label: 'Network map', meta: 'Who ran what, and who owns it', icon: 'shuffle', onPress: () => go('/map') },
+    { key: 'companies', label: 'Companies', meta: 'Parent companies and their programs', icon: 'building', onPress: () => go('/companies') },
+    { key: 'places', label: 'States', meta: 'Programs and reports by state', icon: 'map-pin', onPress: () => go('/places') },
+    { key: 'news', label: 'News', meta: 'Articles and ongoing stories', icon: 'newspaper', onPress: () => go('/news') },
+    { key: 'send', label: 'Send a tip', meta: 'An article, lawsuit or correction', icon: 'send', onPress: () => go('/send') },
+    { key: 'about', label: 'About', meta: 'Who we are, how the data works', icon: 'info', onPress: () => go('/about') },
+  ];
+
+  return (
+    <View style={styles.home}>
+      <Shortcuts items={shortcuts} />
+
+      <SectionBlock id="news" title="Latest news" icon="newspaper">
+        {news.isLoading ? (
+          <Loading label="Loading the news" />
+        ) : news.isError ? (
+          <ErrorState message={(news.error as Error).message} onRetry={() => news.refetch()} />
+        ) : (
+          <View style={styles.list}>
+            {latest.map((item) => (
+              <HubListRow
+                key={item.id}
+                title={item.title}
+                meta={[item.outlet, item.date_label].filter(Boolean).join(' · ')}
+                onPress={() => void openLink(item.url, (href) => router.push(href))}
+              />
+            ))}
+            <Button variant="secondary" label="All news" icon="newspaper" onPress={() => go('/news')} />
+          </View>
+        )}
+      </SectionBlock>
+
+      {recent.length ? (
+        <SectionBlock id="recent" title="You looked at recently" icon="eye">
+          <View style={styles.list}>
+            {recent.map((r) => (
+              <HubListRow key={`${r.kind}-${r.slug}`} title={r.name} meta={r.place} onPress={() => go(`/${r.kind}/${r.slug}`)} />
+            ))}
+            <Text style={styles.private}>Kept on this phone only.</Text>
+            <Button variant="secondary" label="Clear this list" icon="x" onPress={() => void clearRecent()} />
+          </View>
+        </SectionBlock>
+      ) : null}
+
+      <HubBox title="Need help now?" tone="orange">
+        <Text style={type.body}>Crisis lines, where to report abuse in a program, and survivor support.</Text>
+        <Button label="Resources" icon="lifebuoy" onPress={() => go('/resources')} />
+      </HubBox>
+    </View>
+  );
+}
+
+export default function HomeScreen() {
   const router = useRouter();
   const [text, setText] = useState('');
   const [more, setMore] = useState(false);
@@ -39,7 +105,7 @@ export default function SearchScreen() {
   return (
     <TabPage>
       <HubHeader
-        eyebrow="Search the database"
+        eyebrow="Kids Over Profits"
         title="Find a program"
         standfirst="Search by name, including former and other names."
       />
@@ -55,14 +121,8 @@ export default function SearchScreen() {
 
       {short ? (
         <>
-          <Note>Type at least three letters to search.</Note>
-          <View style={styles.help}>
-            <HubListRow
-              title="Need help now? Resources"
-              meta="Crisis lines, where to report, survivor support."
-              onPress={() => router.push('/resources')}
-            />
-          </View>
+          {text.trim() ? <Note>Type at least three letters to search.</Note> : null}
+          <HomeContent />
         </>
       ) : suggest.isLoading ? (
         <Loading label="Searching" />
@@ -115,7 +175,9 @@ export default function SearchScreen() {
 }
 
 const styles = StyleSheet.create({
+  home: { gap: spacing.lg, marginTop: spacing.md },
+  list: { gap: spacing.sm },
+  private: { ...type.meta },
   results: { gap: spacing.sm + 2, marginTop: spacing.sm },
   more: { marginTop: spacing.lg },
-  help: { marginTop: spacing.lg },
 });

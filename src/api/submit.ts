@@ -137,7 +137,7 @@ export function buildCheckRequest(
 
 type Json = Record<string, unknown>;
 
-async function send(spec: RequestSpec, fetchImpl: typeof fetch): Promise<{ status: number; ok: boolean; body: Json } | { network: string }> {
+export async function send(spec: RequestSpec, fetchImpl: typeof fetch): Promise<{ status: number; ok: boolean; body: Json } | { network: string }> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
   try {

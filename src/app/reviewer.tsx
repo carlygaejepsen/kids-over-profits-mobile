@@ -5,6 +5,7 @@ import { testCredentials } from '@/api/submit';
 import { Field, FormSection as Section, Notice } from '@/components/form';
 import { Button, HubHeader } from '@/components/site';
 import { TabPage } from '@/components/tabs/TabPage';
+import { clearAdminSession } from '@/lib/adminSession';
 import { clearCredentials, saveCredentials, useCredentials } from '@/lib/credentials';
 import { spacing, type } from '@/theme/typography';
 
@@ -55,6 +56,7 @@ export default function ReviewerScreen() {
 
   const signOut = async () => {
     await clearCredentials();
+    await clearAdminSession();
     setUsername('');
     setPassword('');
     await reload();

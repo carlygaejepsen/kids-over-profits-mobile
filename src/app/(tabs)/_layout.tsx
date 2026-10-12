@@ -2,7 +2,9 @@ import { Tabs } from 'expo-router/js-tabs';
 import type { ColorValue } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { useAdminTools } from '@/api/admin';
 import { Icon, type IconName } from '@/components/Icon';
+import { useCredentials } from '@/lib/credentials';
 import { colors } from '@/theme/colors';
 
 const tab = (title: string, icon: IconName) => ({
@@ -16,6 +18,9 @@ const TAB_BAR_HEIGHT = 70;
 
 export default function TabsLayout() {
   const insets = useSafeAreaInsets();
+  // The Admin tab appears only once the site has said the saved login is an administrator's.
+  const { creds } = useCredentials();
+  const admin = !!useAdminTools(creds).data;
   return (
     <Tabs
       screenOptions={{
@@ -41,6 +46,7 @@ export default function TabsLayout() {
       <Tabs.Screen name="places" options={tab('Places', 'map-pin')} />
       <Tabs.Screen name="companies" options={tab('Companies', 'building')} />
       <Tabs.Screen name="send" options={tab('Send', 'send')} />
+      <Tabs.Screen name="admin" options={{ ...tab('Admin', 'wrench'), href: admin ? undefined : null }} />
     </Tabs>
   );
 }

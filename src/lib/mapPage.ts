@@ -50,10 +50,13 @@ export const HIDE_SELECTORS = [
   '.kop-network__donate',
   '.kop-bug-report-link',
   '#addtoany',
+  // Signed in through admin mode, the map page would also draw WordPress's admin bar.
+  '#wpadminbar',
 ];
 
 export const MAP_CSS = `${HIDE_SELECTORS.join(',')}{display:none!important}
 html,body{background:#fff!important}
+html{margin-top:0!important}
 #wrapper,#inner-wrap,.content-container,.site-container,.content-area,.content-wrap{margin:0!important;padding:0!important;max-width:none!important;background:#fff!important}
 .kop-network{padding:8px 8px 0!important;margin:0!important;box-shadow:none!important;border-radius:0!important}`;
 

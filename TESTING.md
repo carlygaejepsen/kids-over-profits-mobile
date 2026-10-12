@@ -13,6 +13,11 @@ npm install
 
 ## 2. Open the app on your phone
 
+**The quick way:** double-click **KOP app on phone** on the desktop. It does step 1 (and `npm install`
+only when the package list changed), starts Expo, and when Expo stops offers T to retry over the
+internet. Lost the shortcut? `powershell -ExecutionPolicy Bypass -File scripts\make-phone-shortcut.ps1`.
+The steps it runs, by hand:
+
 1. On the phone, install **Expo Go** from the App Store or Google Play (once; keep it updated, the app needs SDK 57).
 2. On the PC:
    ```powershell

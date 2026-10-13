@@ -100,3 +100,24 @@ npx eas-cli@latest build --profile preview --platform android
 
 It prints a link to an APK you can install on an Android phone. Sharing a link *into* the app from
 another app only works in a build like this, not in Expo Go.
+
+## Updating an installed build without reinstalling (EAS Update)
+
+An installed build (made after `expo-updates` was added) fetches new code by itself. To send the
+newest code to every phone with a preview build:
+
+```powershell
+git pull
+npx eas-cli@latest update --channel preview --environment preview --message "what changed"
+```
+
+On the phone, close the app fully (swipe it away), open it, wait a few seconds, then close and open
+it once more. The first open downloads the update and the second one runs it.
+
+A new build is still needed (`eas build`, then install it) when:
+- a package with native code was added or upgraded, or the Expo SDK was upgraded;
+- `app.json` changed in a way that affects the build (icons, permissions, plugins, links);
+- `version` in `app.json` was raised (updates only reach builds of the same version).
+
+Builds from the `production` profile listen on the `production` channel instead: publish with
+`--channel production --environment production`.

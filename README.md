@@ -101,6 +101,11 @@ npx eas-cli@latest build --profile production --platform all
 npx eas-cli@latest submit --platform all
 ```
 
+Installed builds get JavaScript and asset changes over the air (EAS Update, `expo-updates`): each build profile listens on the
+channel of the same name (`eas.json`), and an update reaches builds with the same `version` (`runtimeVersion` policy
+`appVersion`). Publish with `npx eas-cli@latest update --channel preview --environment preview --message "..."`.
+Native changes (new native packages, SDK upgrades, plugin or permission changes) need a new build. Steps in TESTING.md.
+
 You need an Expo account. Publishing needs an Apple Developer Program membership (99 USD a year) and a Google Play developer account (25 USD once). Universal links need the site to serve `/.well-known/apple-app-site-association` and `assetlinks.json`; the `kidsoverprofits://` scheme works without them.
 
 ## Licence

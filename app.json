@@ -120,6 +120,12 @@
         "projectId": "a8bc39ac-3f4a-4e69-ba87-3d5e649d7580"
       }
     },
-    "owner": "kidsoverprofits"
+    "owner": "kidsoverprofits",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a8bc39ac-3f4a-4e69-ba87-3d5e649d7580"
+    }
   }
 }

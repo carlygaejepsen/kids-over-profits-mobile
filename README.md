@@ -20,7 +20,7 @@ A facility screen shows everything the website page shows. Every record has an "
 ## What is left to do
 
 The open work, in order, and the steps that need the owner's accounts and devices, are in section 3.14 and the
-"Mobile app" part of section 2 of the theme repo's [docs/PLAN.md](https://github.com/carlygaejepsen/Kids-Over-Profits/blob/main/docs/PLAN.md).
+"Mobile app" part of section 2 of the theme repo's [docs/PLAN.md](https://github.com/kidsoverprofits/Kids-Over-Profits/blob/main/docs/PLAN.md).
 Update it in the same commit as the work it tracks.
 
 ## Send to KOP
@@ -57,7 +57,7 @@ All data is public and read live from the site's REST API at `https://kidsoverpr
 | `state/<slug>`, `country/<slug>` | A state or country page |
 | `operators` | The list of companies |
 
-The first three are in the theme repo, [`inc/mobile-api.php`](https://github.com/carlygaejepsen/Kids-Over-Profits). They copy named keys only, so private columns (who submitted an article, reviewer notes) never reach the app.
+The first three are in the theme repo, [`inc/mobile-api.php`](https://github.com/kidsoverprofits/Kids-Over-Profits). They copy named keys only, so private columns (who submitted an article, reviewer notes) never reach the app.
 
 ## Run it
 

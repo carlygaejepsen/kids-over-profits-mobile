@@ -4,6 +4,7 @@ import { openBrowserAsync } from 'expo-web-browser';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { SITE } from '@/api/client';
+import { DonateBox } from '@/components/Donate';
 import { Button, HubHeader, HubListRow, NoticeBox } from '@/components/site';
 import { DISCLAIMER_PARAGRAPHS } from '@/components/tabs/disclaimerText';
 import { TabPage } from '@/components/tabs/TabPage';
@@ -42,6 +43,8 @@ export default function AboutScreen() {
         <Text style={type.body}>Add or correct a facility, news story, lawsuit or survivor account.</Text>
         <Button variant="secondary" label="Open the form" icon="external" onPress={open('/tti-data-submission/')} style={styles.button} />
       </View>
+
+      <DonateBox />
 
       <Text accessibilityRole="header" style={type.heading}>Before you rely on a record</Text>
       <View style={styles.paragraphs}>

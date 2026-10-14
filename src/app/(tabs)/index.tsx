@@ -5,6 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { SITE } from '@/api/client';
 import { useGlobalSearch, useNews, useSuggest } from '@/api/queries';
+import { DonateBox } from '@/components/Donate';
 import { Shortcuts, type Shortcut } from '@/components/home/Shortcuts';
 import type { IconName } from '@/components/Icon';
 import { Button, DirectoryFacilityRow, HubBox, HubHeader, HubListRow, SectionBlock } from '@/components/site';
@@ -87,6 +88,8 @@ function HomeContent() {
         <Text style={type.body}>Crisis lines, where to report abuse in a program, and survivor support.</Text>
         <Button label="Resources" icon="lifebuoy" onPress={() => go('/resources')} />
       </HubBox>
+
+      <DonateBox />
     </View>
   );
 }

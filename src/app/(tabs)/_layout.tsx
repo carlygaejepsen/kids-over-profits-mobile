@@ -3,6 +3,7 @@ import type { ColorValue } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useAdminTools } from '@/api/admin';
+import { HeaderDonateButton } from '@/components/Donate';
 import { Icon, type IconName } from '@/components/Icon';
 import { useCredentials } from '@/lib/credentials';
 import { colors } from '@/theme/colors';
@@ -40,7 +41,7 @@ export default function TabsLayout() {
         },
         tabBarLabelStyle: { fontSize: 12, lineHeight: 16, fontWeight: '600' },
       }}>
-      <Tabs.Screen name="index" options={tab('Home', 'home')} />
+      <Tabs.Screen name="index" options={{ ...tab('Home', 'home'), headerRight: () => <HeaderDonateButton /> }} />
       <Tabs.Screen name="news" options={tab('News', 'newspaper')} />
       <Tabs.Screen name="map" options={{ ...tab('Map', 'shuffle'), title: 'Network map', tabBarLabel: 'Map' }} />
       <Tabs.Screen name="places" options={tab('Places', 'map-pin')} />

@@ -4,11 +4,12 @@ import { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { SITE } from '@/api/client';
-import { useGlobalSearch, useNews, useSuggest } from '@/api/queries';
+import { SUGGEST_MIN, useAppSuggest, useGlobalSearch, useNews } from '@/api/queries';
 import { DonateBox } from '@/components/Donate';
 import { Shortcuts, type Shortcut } from '@/components/home/Shortcuts';
 import type { IconName } from '@/components/Icon';
-import { Button, DirectoryFacilityRow, HubBox, HubHeader, HubListRow, SectionBlock } from '@/components/site';
+import { Button, HubBox, HubHeader, HubListRow, SectionBlock } from '@/components/site';
+import { SuggestionList, suggestionHref } from '@/components/Suggestions';
 import { Note } from '@/components/tabs/Note';
 import { SearchField } from '@/components/tabs/SearchField';
 import { TabPage } from '@/components/tabs/TabPage';
@@ -98,10 +99,10 @@ export default function HomeScreen() {
   const router = useRouter();
   const [text, setText] = useState('');
   const [more, setMore] = useState(false);
-  const q = useDebounced(text, 300);
-  const suggest = useSuggest(q);
+  const q = useDebounced(text, 250);
+  const suggest = useAppSuggest(q);
   const global = useGlobalSearch(q, more);
-  const short = q.trim().length < 3;
+  const short = q.trim().length < SUGGEST_MIN;
   const items = suggest.data?.items ?? [];
   const go = (url: string) => openLink(url, (href) => router.push(href));
 
@@ -110,7 +111,7 @@ export default function HomeScreen() {
       <HubHeader
         eyebrow="Kids Over Profits"
         title="Find a program"
-        standfirst="Search by name, including former and other names."
+        standfirst="Search programs and companies by name, including former and other names."
       />
       <SearchField
         value={text}
@@ -118,13 +119,13 @@ export default function HomeScreen() {
           setText(t);
           setMore(false);
         }}
-        placeholder="Search a facility or its old name"
-        label="Search facilities by name, including former names"
+        placeholder="A program, a company, or an old name"
+        label="Search programs and companies by name, including former names"
       />
 
       {short ? (
         <>
-          {text.trim() ? <Note>Type at least three letters to search.</Note> : null}
+          {text.trim() ? <Note>Type at least two letters to search.</Note> : null}
           <HomeContent />
         </>
       ) : suggest.isLoading ? (
@@ -132,24 +133,22 @@ export default function HomeScreen() {
       ) : suggest.isError ? (
         <ErrorState message={(suggest.error as Error).message} onRetry={() => suggest.refetch()} />
       ) : items.length === 0 ? (
-        <Note>{`No facility matches "${q.trim()}".`}</Note>
+        <Note>{`No program or company matches "${q.trim()}".`}</Note>
       ) : (
         <View style={styles.results}>
-          <Note>{`${items.length} ${items.length === 1 ? 'program' : 'programs'}`}</Note>
-          {items.map((item, i) => (
-            <DirectoryFacilityRow
-              key={`${item.id ?? item.name}-${i}`}
-              name={item.name}
-              hint={item.hint}
-              place={item.place}
-              status={item.status}
-              onPress={() => (item.url ? go(item.url) : openBrowserAsync(`${SITE}/?s=${encodeURIComponent(item.name)}`))}
-            />
-          ))}
+          <SuggestionList
+            items={items}
+            onPick={(item) => {
+              const href = suggestionHref(item);
+              if (href) router.push(href);
+              else if (item.url) void go(item.url);
+              else void openBrowserAsync(`${SITE}/?s=${encodeURIComponent(item.name)}`);
+            }}
+          />
         </View>
       )}
 
-      {!short && !suggest.isLoading ? (
+      {q.trim().length >= 3 && !suggest.isLoading ? (
         <View style={styles.more}>
           {!more ? (
             <Button variant="secondary" label="Search news, lawsuits and records too" icon="search" onPress={() => setMore(true)} />

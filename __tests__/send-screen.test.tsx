@@ -12,7 +12,7 @@ jest.mock('expo-router', () => ({
 jest.mock('expo-constants', () => ({ __esModule: true, default: { expoConfig: { version: '1.2.3' } } }));
 jest.mock('expo-clipboard', () => ({ getStringAsync: jest.fn().mockResolvedValue('') }));
 jest.mock('@tanstack/react-query', () => ({ useQuery: () => ({ data: undefined }) }));
-jest.mock('@/api/queries', () => ({ useSuggest: () => ({ data: { items: [] } }) }));
+jest.mock('@/api/queries', () => ({ useSuggest: () => ({ data: { items: [] } }), useAppSuggest: () => ({ data: { items: [] } }) }));
 jest.mock('@/lib/credentials', () => ({
   useCredentials: () => ({ creds: null, ready: true, reload: jest.fn() }),
   saveCredentials: jest.fn(),

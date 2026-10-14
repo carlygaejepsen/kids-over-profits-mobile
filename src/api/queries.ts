@@ -2,6 +2,7 @@ import { keepPreviousData, useInfiniteQuery, useQuery } from '@tanstack/react-qu
 
 import { fetchJson } from './client';
 import type {
+  AppSuggestResponse,
   DocumentsPayload,
   FacilityPayload,
   GlobalSearchResponse,
@@ -11,6 +12,7 @@ import type {
   OperatorsList,
   ResourcesPayload,
   StatePage,
+  SuggestKind,
   SuggestResponse,
 } from './types';
 
@@ -80,6 +82,22 @@ export function useSuggest(q: string) {
     placeholderData: keepPreviousData,
   });
 }
+
+/** Suggestions as you type: facilities and/or companies by any of their names, from 2 letters. */
+export function useAppSuggest(q: string, kinds: SuggestKind[] = ['facility', 'operator'], limit = 8) {
+  const phrase = q.trim();
+  const k = kinds.join(',');
+  return useQuery({
+    queryKey: ['app-suggest', k, limit, phrase.toLowerCase()],
+    queryFn: ({ signal }) => fetchJson<AppSuggestResponse>('mobile/suggest', { q: phrase, kinds: k, limit }, signal),
+    enabled: phrase.length >= SUGGEST_MIN && k.length > 0,
+    staleTime: 5 * 60 * 1000,
+    placeholderData: keepPreviousData,
+  });
+}
+
+/** Letters typed before suggestions start. */
+export const SUGGEST_MIN = 2;
 
 export function useGlobalSearch(q: string, enabled: boolean) {
   const phrase = q.trim();

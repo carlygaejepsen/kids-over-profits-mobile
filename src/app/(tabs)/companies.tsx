@@ -3,12 +3,14 @@ import { useMemo, useRef, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { useOperators } from '@/api/queries';
+import { useAppSuggest, useOperators } from '@/api/queries';
 import type { OperatorListItem } from '@/api/types';
 import { CompanyTile, HubHeader } from '@/components/site';
+import { SuggestionList, suggestionHref } from '@/components/Suggestions';
 import { AlphabetBar } from '@/components/tabs/AlphabetBar';
 import { Note } from '@/components/tabs/Note';
 import { SearchField } from '@/components/tabs/SearchField';
+import { useDebounced } from '@/components/tabs/useDebounced';
 import { pageColumn } from '@/components/tabs/TabPage';
 import { ErrorState, Loading } from '@/components/ui';
 import { stateByCode } from '@/data/states';
@@ -35,6 +37,9 @@ export default function CompaniesScreen() {
   const list = useRef<FlatList<Company | null>>(null);
   const [filter, setFilter] = useState('');
   const index = useOperators();
+  // The list filters by the name shown; the server also finds companies by a past or other name.
+  const typed = useDebounced(filter, 250);
+  const byOtherName = useAppSuggest(typed, ['operator'], 6);
 
   const companies = useMemo<Company[]>(
     () =>
@@ -49,6 +54,8 @@ export default function CompaniesScreen() {
   const cells: (Company | null)[] = shown.length % 2 ? [...shown, null] : shown;
   const letters = [...new Set(shown.map((c) => c.letter))];
   const total = companies.length;
+  const listed = new Set(shown.map((c) => c.slug));
+  const extra = filter.trim() ? (byOtherName.data?.items ?? []).filter((i) => i.slug && !listed.has(i.slug)) : [];
   const count = `${shown.length === total ? '' : `${shown.length} of `}${total} ${total === 1 ? 'company' : 'companies'}`;
 
   const jump = (letter: string) => {
@@ -64,7 +71,19 @@ export default function CompaniesScreen() {
         standfirst="The companies that own and run troubled teen programs."
         counts={total ? [count] : []}
       />
-      <SearchField value={filter} onChangeText={setFilter} placeholder="Filter companies" label="Filter the list of companies" />
+      <SearchField value={filter} onChangeText={setFilter} placeholder="Filter companies, or an old name" label="Filter the list of companies, including former names" />
+      {extra.length ? (
+        <View style={styles.extra}>
+          <Note>Also matching, by another name</Note>
+          <SuggestionList
+            items={extra}
+            onPick={(item) => {
+              const href = suggestionHref(item);
+              if (href) router.push(href);
+            }}
+          />
+        </View>
+      ) : null}
     </View>
   );
 
@@ -84,7 +103,7 @@ export default function CompaniesScreen() {
           columnWrapperStyle={styles.columns}
           ItemSeparatorComponent={Gap}
           ListHeaderComponent={header}
-          ListEmptyComponent={<Note>No company matches.</Note>}
+          ListEmptyComponent={extra.length ? null : <Note>No company matches.</Note>}
           keyboardShouldPersistTaps="handled"
           onScrollToIndexFailed={(info) => {
             list.current?.scrollToOffset({ offset: info.averageItemLength * info.index, animated: true });
@@ -115,6 +134,7 @@ const Gap = () => <View style={styles.gap} />;
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.white },
   header: { marginBottom: spacing.md },
+  extra: { marginTop: spacing.md, gap: spacing.xs },
   columns: { gap: spacing.md - 4 },
   cell: { flex: 1, minWidth: 0 },
   tile: { flex: 1 },

@@ -316,6 +316,24 @@ export type FacilityNetwork = { node: string; name: string; map_url: string; lin
 export type SuggestItem = { id?: number; name: string; place: string; status: string; hint: string; url?: string };
 export type SuggestResponse = { query: string; items: SuggestItem[] };
 
+/**
+ * kop/v1/mobile/suggest (kop_mobile_suggest()): facilities and companies matching by a current, past or other
+ * name. `hint` says which other name matched ("Formerly X"); `slug` opens the app's own screen ('' when the
+ * record has no page). Facilities come first.
+ */
+export type SuggestKind = 'facility' | 'operator';
+export type AppSuggestItem = {
+  kind: SuggestKind;
+  id: number;
+  name: string;
+  hint: string;
+  place: string;
+  status: string;
+  slug: string;
+  url: string;
+};
+export type AppSuggestResponse = { query: string; items: AppSuggestItem[] };
+
 /** kop/v1/global-search */
 export type GlobalSearchItem = { title: string; url: string; meta?: string };
 export type GlobalSearchGroup = { key: string; label: string; items: GlobalSearchItem[] };

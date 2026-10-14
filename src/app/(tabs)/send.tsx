@@ -7,7 +7,7 @@ import { StyleSheet, Text } from 'react-native';
 
 import { checkDuplicate, emptyDraft, isLinkType, submitDraft } from '@/api/submit';
 import type { SubmitDraft, SubmitOutcome, SubmitType } from '@/api/types';
-import { CheckRow, Choice, FacilityPicker, Field, FormSection as Section, Notice } from '@/components/form';
+import { CheckRow, Choice, CompanyField, FacilityPicker, Field, FormSection as Section, Notice } from '@/components/form';
 import { Button, HubHeader } from '@/components/site';
 import { TabPage } from '@/components/tabs/TabPage';
 import { classifyUrl, type ClassifyFields } from '@/lib/classify';
@@ -331,7 +331,7 @@ export default function SendScreen() {
           <Field label="City" value={d.city} onChangeText={(t) => set('city', t)} autoCapitalize="words" />
           <Field label="State" value={d.state} onChangeText={(t) => set('state', t.toUpperCase().slice(0, 2))} maxLength={2} placeholder="UT" hint="Two-letter code." autoCapitalize="none" />
           <Field label="Country" value={d.country} onChangeText={(t) => set('country', t)} hint="If it is not in the United States." autoCapitalize="words" />
-          <Field label="Company or operator" value={d.operator} onChangeText={(t) => set('operator', t)} autoCapitalize="words" />
+          <CompanyField label="Company or operator" value={d.operator} onChangeText={(t) => set('operator', t)} />
           <Field label="Type of program" value={d.program_type} onChangeText={(t) => set('program_type', t)} hint="For example wilderness, residential treatment or boarding school." />
           <Field label="Year opened" value={d.start_year} onChangeText={(t) => set('start_year', t)} keyboardType="number-pad" maxLength={4} />
           <Field label="Year closed" value={d.end_year} onChangeText={(t) => set('end_year', t)} keyboardType="number-pad" maxLength={4} />

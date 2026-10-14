@@ -3,7 +3,7 @@ import { fireEvent, render, screen } from '@testing-library/react-native';
 import fs from 'node:fs';
 import path from 'node:path';
 
-import type { NewsFeed, OperatorsList, SuggestResponse } from '@/api/types';
+import type { AppSuggestResponse, NewsFeed, OperatorsList } from '@/api/types';
 import AboutScreen from '@/app/about';
 import CompaniesScreen, { describe as describeCompany } from '@/app/(tabs)/companies';
 import HomeScreen, { HOME_NEWS } from '@/app/(tabs)/index';
@@ -16,7 +16,8 @@ jest.mock('expo-router', () => ({ useRouter: () => ({ push: mockPush }) }));
 jest.mock('expo-constants', () => ({ __esModule: true, default: { expoConfig: { version: '1.2.3' } } }));
 jest.mock('expo-web-browser', () => ({ openBrowserAsync: jest.fn() }));
 jest.mock('@/api/queries', () => ({
-  useSuggest: jest.fn(),
+  SUGGEST_MIN: 2,
+  useAppSuggest: jest.fn(),
   useGlobalSearch: jest.fn(),
   useNews: jest.fn(),
   useOperators: jest.fn(),
@@ -31,11 +32,12 @@ function readOperators(): OperatorsList {
 }
 const operators = readOperators();
 
-const suggest: SuggestResponse = {
+const suggest: AppSuggestResponse = {
   query: 'falcon',
   items: [
-    { id: 9607, name: 'Falcon Ridge Ranch', place: 'Virgin, Utah', status: 'Open', hint: '', url: 'https://kidsoverprofits.org/facility/falcon-ridge-ranch-ut/' },
-    { id: 8234, name: 'Falcon Ridge Academy', place: 'Escalante, Utah', status: 'Closed', hint: 'Formerly Falcon Ridge Ranch (1998–2020)', url: 'https://kidsoverprofits.org/facility/falcon-ridge-academy-ut/' },
+    { kind: 'facility', id: 9607, name: 'Falcon Ridge Ranch', place: 'Virgin, Utah', status: 'Open', hint: '', slug: 'falcon-ridge-ranch-ut', url: 'https://kidsoverprofits.org/facility/falcon-ridge-ranch-ut/' },
+    { kind: 'facility', id: 8234, name: 'Falcon Ridge Academy', place: 'Escalante, Utah', status: 'Closed', hint: 'Formerly Falcon Ridge Ranch (1998–2020)', slug: 'falcon-ridge-academy-ut', url: 'https://kidsoverprofits.org/facility/falcon-ridge-academy-ut/' },
+    { kind: 'operator', id: 77, name: 'Falcon Holdings', place: '2 programs', status: '', hint: 'Formerly Falcon Group', slug: 'falcon-holdings', url: 'https://kidsoverprofits.org/operator/falcon-holdings/' },
   ],
 };
 
@@ -43,7 +45,7 @@ beforeEach(async () => {
   mockPush.mockClear();
   await AsyncStorage.clear();
   resetRecentForTests();
-  queries.useSuggest.mockReturnValue({ data: suggest, isLoading: false, isError: false });
+  queries.useAppSuggest.mockReturnValue({ data: suggest, isLoading: false, isError: false });
   queries.useGlobalSearch.mockReturnValue({ data: undefined, isLoading: false, isError: false });
   queries.useNews.mockReturnValue({
     data: { pages: [news] },
@@ -62,7 +64,7 @@ describe('Home tab', () => {
   it('opens on search, the ways in, the newest news and the help box', async () => {
     await render(<HomeScreen />);
     expect(screen.getByText('Find a program')).toBeTruthy();
-    expect(screen.queryByText('Type at least three letters to search.')).toBeNull();
+    expect(screen.queryByText('Type at least two letters to search.')).toBeNull();
     for (const label of ['Network map', 'Companies', 'States', 'News', 'Send a tip', 'About']) expect(screen.getByText(label)).toBeTruthy();
     for (const item of news.items.slice(0, HOME_NEWS)) expect(screen.getByText(item.title)).toBeTruthy();
     expect(screen.queryByText(news.items[HOME_NEWS].title)).toBeNull();
@@ -86,22 +88,26 @@ describe('Home tab', () => {
     expect(screen.queryByText('You looked at recently')).toBeNull();
   });
 
-  it('asks for three letters, then lists programs with their former-name hint', async () => {
+  it('asks for two letters, then suggests programs and companies with their former-name hint', async () => {
     await render(<HomeScreen />);
-    await fireEvent.changeText(screen.getByLabelText('Search facilities by name, including former names'), 'fa');
-    expect(await screen.findByText('Type at least three letters to search.')).toBeTruthy();
-    await fireEvent.changeText(screen.getByLabelText('Search facilities by name, including former names'), 'falcon');
+    await fireEvent.changeText(screen.getByLabelText('Search programs and companies by name, including former names'), 'f');
+    expect(await screen.findByText('Type at least two letters to search.')).toBeTruthy();
+    await fireEvent.changeText(screen.getByLabelText('Search programs and companies by name, including former names'), 'falcon');
     expect(await screen.findByText('Falcon Ridge Academy')).toBeTruthy();
     expect(screen.getByText('Falcon Ridge Ranch')).toBeTruthy();
     expect(screen.getByText('Formerly Falcon Ridge Ranch (1998–2020)')).toBeTruthy();
-    expect(screen.getByText('Escalante, Utah')).toBeTruthy();
-    await fireEvent.press(screen.getByLabelText(/^Falcon Ridge Academy\. Formerly/));
+    expect(screen.getByText('Escalante, Utah · Closed')).toBeTruthy();
+    expect(screen.getAllByText('Facility')).toHaveLength(2);
+    expect(screen.getByText('Company')).toBeTruthy();
+    await fireEvent.press(screen.getByLabelText(/^Facility\. Falcon Ridge Academy\. Formerly/));
     expect(mockPush).toHaveBeenCalledWith('/facility/falcon-ridge-academy-ut');
+    await fireEvent.press(screen.getByLabelText(/^Company\. Falcon Holdings\. Formerly Falcon Group/));
+    expect(mockPush).toHaveBeenCalledWith('/operator/falcon-holdings');
   });
 
   it('offers the site-wide search once there is a query', async () => {
     await render(<HomeScreen />);
-    await fireEvent.changeText(screen.getByLabelText('Search facilities by name, including former names'), 'falcon');
+    await fireEvent.changeText(screen.getByLabelText('Search programs and companies by name, including former names'), 'falcon');
     await fireEvent.press(await screen.findByText('Search news, lawsuits and records too'));
     expect(queries.useGlobalSearch).toHaveBeenLastCalledWith('falcon', true);
   });
@@ -160,6 +166,18 @@ describe('Companies tab', () => {
     const c = companies[0];
     await fireEvent.press(screen.getByLabelText(`${c.name}. ${describeCompany(c)}. ${c.programs} ${c.programs === 1 ? 'program' : 'programs'}`));
     expect(mockPush).toHaveBeenCalledWith(`/operator/${c.slug}`);
+  });
+
+  it('adds companies found by another name, and opens one', async () => {
+    const other = suggest.items.filter((i) => i.kind === 'operator');
+    queries.useAppSuggest.mockReturnValue({ data: { query: 'falcon', items: other }, isLoading: false, isError: false });
+    await render(<CompaniesScreen />);
+    expect(screen.queryByText('Also matching, by another name')).toBeNull();
+    await fireEvent.changeText(screen.getByLabelText('Filter the list of companies, including former names'), 'falcon');
+    expect(await screen.findByText('Also matching, by another name')).toBeTruthy();
+    expect(queries.useAppSuggest).toHaveBeenCalledWith(expect.any(String), ['operator'], 6);
+    await fireEvent.press(screen.getByLabelText(/^Company\. Falcon Holdings\./));
+    expect(mockPush).toHaveBeenCalledWith('/operator/falcon-holdings');
   });
 
   it('says where the programs are, in words', () => {

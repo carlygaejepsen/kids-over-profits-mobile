@@ -1,11 +1,13 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View, type KeyboardTypeOptions } from 'react-native';
 
-import { useSuggest } from '@/api/queries';
+import { useAppSuggest, useSuggest } from '@/api/queries';
 import { colors } from '@/theme/colors';
 import { radius, spacing, touchTarget, type } from '@/theme/typography';
 import { Icon } from './Icon';
 import { NoticeBox } from './site';
+import { SuggestionList } from './Suggestions';
+import { useDebounced } from './tabs/useDebounced';
 
 /** A form section: the site's heading over a mint rule, then its fields. */
 export function FormSection({ title, children }: { title: string; children: ReactNode }) {
@@ -129,6 +131,35 @@ export function Notice({ kind, title, children }: { kind: 'info' | 'ok' | 'warn'
       style={[styles.notice, ok ? styles.noticeOk : styles.noticeError]}>
       {title ? <Text accessibilityRole="header" style={[styles.noticeTitle, { color: ok ? colors.midnight : colors.coralPinkInk }]}>{title}</Text> : null}
       {body}
+    </View>
+  );
+}
+
+/** A company name, typed or picked from the companies on the site (any of their names). */
+export function CompanyField({ label, value, onChangeText }: { label: string; value: string; onChangeText: (t: string) => void }) {
+  const [open, setOpen] = useState(false);
+  const q = useDebounced(open ? value : '', 250);
+  const suggest = useAppSuggest(q, ['operator'], 5);
+  const items = open ? (suggest.data?.items ?? []).filter((i) => i.name.toLowerCase() !== value.trim().toLowerCase()) : [];
+  return (
+    <View style={styles.field}>
+      <Field
+        label={label}
+        value={value}
+        hint="Pick a company on the site, or leave the name as typed."
+        autoCapitalize="words"
+        onChangeText={(t) => {
+          setOpen(true);
+          onChangeText(t);
+        }}
+      />
+      <SuggestionList
+        items={items}
+        onPick={(it) => {
+          setOpen(false);
+          onChangeText(it.name);
+        }}
+      />
     </View>
   );
 }

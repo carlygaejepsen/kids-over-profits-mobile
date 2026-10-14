@@ -10,6 +10,7 @@ import { connectionsLayout, DRAW_MAX, shortLabel } from '@/components/facility/C
 import { presentSections } from '@/components/facility/model';
 import { resolveLink } from '@/lib/links';
 import { HIDE_SELECTORS, isMapPage, MAP_CSS, mapUrl, openFromMapUrl, openScript } from '@/lib/mapPage';
+import { BACK_SCRIPT, BUTTONS, kindWord, MAP_BRIDGE, openNodeScript, parseMessage, pressScript, searchScript } from '@/lib/mapBridge';
 
 const mockPush = jest.fn();
 const mockFacility: { current: FacilityPayload } = { current: require('./fixtures/facility-10371.json') };
@@ -59,6 +60,43 @@ describe('the Map tab page', () => {
       href: { pathname: '/map', params: { open: 'provo-canyon-school' } },
     });
     expect(resolveLink('https://kidsoverprofits.org/network-map/')).toEqual({ kind: 'route', href: '/map' });
+  });
+});
+
+describe("the Map tab's own controls (src/lib/mapBridge.ts)", () => {
+  it('gives the map the whole screen: the words above it, its toolbar and its stage buttons are hidden', () => {
+    for (const sel of ['.kop-network__standfirst', '.kop-network__tally', '.kop-network__editorial', '.kop-network__toolbar', '.kop-network__zoom', '#kop-network-fullscreen', '#kop-network-filters-toggle']) {
+      expect(HIDE_SELECTORS).toContain(sel);
+    }
+    // The trail stays: it is what Back walks.
+    expect(HIDE_SELECTORS).not.toContain('#kop-network-chain');
+    expect(MAP_CSS).toContain('.kop-app-handle');
+  });
+
+  it('is a script the web view can run', () => {
+    expect(() => new Function(MAP_BRIDGE)).not.toThrow();
+    for (const js of [BACK_SCRIPT, pressScript('fit'), searchScript('provo'), openNodeScript('a"b')]) expect(() => new Function(js)).not.toThrow();
+  });
+
+  it("presses the site's own buttons, by id", () => {
+    expect(pressScript('zoomIn')).toContain(JSON.stringify(BUTTONS.zoomIn));
+    expect(BUTTONS.wholeMap).toBe('kop-network-whole-map');
+    expect(searchScript('Provo "Canyon"')).toContain(JSON.stringify('Provo "Canyon"'));
+  });
+
+  it('reads the state and the search answers the page posts, and ignores anything else', () => {
+    expect(parseMessage('nope')).toBeNull();
+    expect(parseMessage('{"type":"other"}')).toBeNull();
+    expect(
+      parseMessage(JSON.stringify({ type: 'state', ready: true, trail: [{ id: 'provo-canyon-school', name: 'Provo Canyon School' }, { nope: 1 }], key: true, hash: '#open=provo-canyon-school' })),
+    ).toEqual({ type: 'state', ready: true, trail: [{ id: 'provo-canyon-school', name: 'Provo Canyon School' }], key: true, list: false, timeline: false, drawer: false, hash: '#open=provo-canyon-school' });
+    expect(parseMessage(JSON.stringify({ type: 'results', q: 'copper', items: [{ id: 'sedona-sky', name: 'Sedona Sky Academy', kind: 'facility', via: 'Copper Canyon Academy', viaKind: 'past' }] }))).toEqual({
+      type: 'results',
+      q: 'copper',
+      items: [{ id: 'sedona-sky', name: 'Sedona Sky Academy', kind: 'facility', via: 'Copper Canyon Academy', viaKind: 'past' }],
+    });
+    expect(kindWord('parent')).toBe('Company');
+    expect(kindWord('facility')).toBe('Program');
   });
 });
 
